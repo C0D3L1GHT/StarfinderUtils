@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { JSDOM } = jsdom;
 
+// This returns Promise { Pending }, not true or false
 async function newsFeedDateHasChanged(){
   try{
     const response = await fetch('https://www.aonsrd.com/');
@@ -37,7 +38,8 @@ function getRaceListFileDate(){
   }
 }
 
-async function scrapeRaces(){    
+async function scrapeRaces(){  
+  console.log(!newsFeedDateHasChanged()); 
   if(!newsFeedDateHasChanged()){
 	console.log("no new races!");
     return;
@@ -49,7 +51,6 @@ async function scrapeRaces(){
         const raceElements = dom.window.document.getElementById('ctl00_MainContent_AllRacesList');
         let raceList = raceElements.getElementsByTagName("a");
 
-        console.log("updating file!");
         for(let i = 0; i < raceList.length; i++){
           fs.appendFile('RaceList.txt', raceList[i].textContent+'\n', (err) => {
             if (err) throw err;
@@ -80,11 +81,19 @@ async function getRandomRace(){
   }
   //window.alert(allRaces.length);
   var index = Math.floor(Math.random()*allRaces.length);
-  console.log(index);
+  //console.log(index);
   console.log(allRaces[index]);
   
+  //document.getElementById('NPC').innerHTML = "HI!";//allRaces[index];
+  
+  //window.alert('!');
   //update RaceList file based on aonsrd webpage date
   scrapeRaces();
 }
-
 getRandomRace();
+
+
+/*window.onload = function() {
+    var btn = document.getElementById("NPC_btn");
+    btn.onclick = getRandomRace;
+}*/

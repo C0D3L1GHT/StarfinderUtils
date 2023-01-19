@@ -2,19 +2,25 @@
 <html>
   <head>
     <title>StarfinderScripts</title>
+	<script src="CharacterScraper.js"></script>
   </head>
   <body>
     <h1>Click a button to generate an NPC, a planet, or equipment</h1>
-	<p1>random NPC</p1>
-    <button onclick="getRandomRace()">Random NPC</button>
+	
+	<p id="NPC">Random NPC</p>
+	
+    <script src="CharacterScraper.js"></script>
+	<button id="NPC_btn" onClick="getRandomRace()">Random NPC</button>
+	<script> getRandomRace(); </script>
+	<!--
 	<br>
     <p2>random Planet</p2>
 	<button onclick="function2()">Random Planet</button>
 	<br>
     <p3>random Equipment</p3>
 	<button onclick="function3()">Random Equipment</button>
-    <script src="CharacterScraper.js"></script>
     <script src="function2.js"></script>
     <script src="function3.js"></script>
+	-->
   </body>
 </html>
