@@ -1,4516 +1,1704 @@
-10/12/22 11:15 PM P
-Android
-Lashunta
-Human
-Kasatha
-Vesk
-Shirren
-Ysoki
-Aasimar
+1/15/23 10:16 PM PS
+ Android
+ Lashunta
+ Kasatha
+ Human
+ Shirren
+ Vesk
+ Ysoki
+ Dwarf
+ Elf
+ Gnome
+ Half-Elf
+ Halfling
+ Half-Orc
+Aasimar*
+Alkainan
 Amrantah
 Anassanoi
 Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Kasatha
-Lashunta
-Android
-Shirren
-Vesk
-Ysoki
-Aasimar
-Anassanoi
-Astrazoan
-Astriapi
-Human
-Amrantah
-Barathu (Early Stage)
-Bantrid
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Grippli
-Gray
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Kasatha
-Human
-Lashunta
-Shirren
-Vesk
-Ysoki
-Aasimar
-Amrantah
-Anassanoi
-Astrazoan
-Astriapi
-Barathu (Early Stage)
-Bantrid
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Gathol
-Ganzi
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Lashunta
-Kasatha
-Vesk
-Ysoki
-Aasimar
-Amrantah
-Shirren
-Anassanoi
-Human
-Astrazoan
-Astriapi
-Bantrid
-Bolida
-Bear (Uplifted)
-Borai
-Brakim
-Barathu (Early Stage)
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Hanakan
-Half-Orc
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Ramiyel
-Psacynoid
-Raxilite
-Quorlu
-Reptoid
-Samsaran
-Sarcesian
-Ryphorian
-Scyphozoan
-Selamid
-Screedreep
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Sazaron
-Sylph
-Telia
-Tiefling
-Svartalfar
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Trinir
-Varculak
-Varratana
-Verthani
-Urog
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Human
-Lashunta
-Kasatha
-Shirren
-Vesk
-Ysoki
-Aasimar
-Amrantah
-Anassanoi
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Damai
-Copaxi
-Dessamar imago
-Dessamar instar
-Draelik
-Dragonkin
-Dromada
-Dirindi
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Ganzi
-Formian
-Ghibrani
-Ghoran
-Gnoll
-Gathol
-Goblin (Space)
-Gosclaw
-Gnome
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ikeshti
-Ijtikri
-Ilthisarian
-Ifrit
-Izalguun
-Jububnan
-Kaa-leki
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Ixtangi
-Morlamaw
-Kalo
-Neskinti
-Orc
-Moyishuu
-Oread
-Nuar
-Osharu
-Psacynoid
-Phentomite
-Pahtra
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Quorlu
-Screedreep
-Selamid
-Scyphozoan
-Sazaron
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Sylph
-Telia
-Tiefling
-Svartalfar
-Trinir
-Tromlin Hardshell
-Trox
-Tromlin Bloodseeker
-Tryziarka
-Undine
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Wrikreechee
-Urog
-Woioko
-Worlanisi
-Android
-Human
-Kasatha
-Lashunta
-Shirren
-Vesk
-Ysoki
-Amrantah
-Astrazoan
-Anassanoi
-Bantrid
-Astriapi
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Aasimar
-Brenneri
-Borai
-Contemplative
-Cephalume
-Copaxi
-Dessamar imago
-Damai
-Dessamar instar
-Brakim
-Dromada
-Dragonkin
-Dwarf
-Dirindi
-Elebrian
-Drow
-Embri
-Elf
-Endiffian
-Espraksa
-Draelik
-Entu Colony
-Entu Symbiote
-Formian
-Ghibrani
-Ferran
-Gnoll
-Ghoran
-Gosclaw
-Gray
-Goblin (Space)
-Gnome
-Grippli
-Haan
-Half-Elf
-Hadrogaan
-Hanakan
-Halfling
-Half-Orc
-Hobgoblin
-Gathol
-Hortus
-Ijtikri
-Ganzi
-Huitz’plina
-Ilthisarian
-Ikeshti
-Ixtangi
-Ifrit
-Kaa-leki
-Jububnan
-Kanabo
-Kalo
-Kayal
-Izalguun
-Khizar
-Kish
-Kitsune
-Kiirinta
-Megalonyxa
-Maraquoi
-Morlamaw
-Moyishuu
-Orc
-Kobold
-Nuar
-Oread
-Neskinti
-Osharu
-Ramiyel
-Phentomite
-Quorlu
-Psacynoid
-Pahtra
-Samsaran
-Reptoid
-Raxilite
-Sarcesian
-Ryphorian
-Screedreep
-Sazaron
-Scyphozoan
-Selamid
-Seprevoi
-Shatori
-Shakalta
-Shimreen
-Skittermander
-Shobhad
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Tiefling
-Sylph
-Telia
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Tryziarka
-Witchwyrd
-Undine
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Kasatha
-Lashunta
-Ysoki
-Aasimar
-Amrantah
-Anassanoi
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Shirren
-Cephalume
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Vesk
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Sarcesian
-Ryphorian
-Samsaran
-Sazaron
-Screedreep
-Seprevoi
-Shakalta
-Selamid
-Scyphozoan
-Shimreen
-Shatori
-Skittermander
-Shobhad
-Spathinae
-Strix
-Stellifera
-SRO
-Suli
-Sylph
-Svartalfar
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Human
-Undine
-Contemplative
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Woioko
-Witchwyrd
-Worlanisi
-Urog
-Varculak
-Wrikreechee
-Android
-Lashunta
-Vesk
-Human
-Kasatha
-Aasimar
-Amrantah
-Anassanoi
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Ysoki
-Shirren
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Ferran
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Formian
-Khizar
-Kiirinta
-Gray
-Kayal
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Kitsune
-Oread
-Kish
-Osharu
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Selamid
-Stellifera
-Suli
-Svartalfar
-Sylph
-Telia
-Strix
-Tiefling
-Trinir
-Tromlin Hardshell
-Tromlin Bloodseeker
-Trox
-Tryziarka
-Undine
-Varculak
-Urog
-Verthani
-Varratana
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Pahtra
-Android
-Human
-Lashunta
-Vesk
-Shirren
-Ysoki
-Kasatha
-Aasimar
-Amrantah
-Anassanoi
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Astrazoan
-Ferran
-Formian
-Espraksa
-Gathol
-Ghibrani
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Ganzi
-Kalo
-Kaa-leki
-Ghoran
-Kiirinta
-Khizar
-Kayal
-Kish
-Megalonyxa
-Kitsune
-Morlamaw
-Jububnan
-Moyishuu
-Maraquoi
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Kanabo
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Urog
-Undine
-Varculak
-Vilderaro
-Verthani
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Kobold
-Samsaran
-Varratana
-Android
-Lashunta
-Shirren
-Kasatha
-Vesk
-Ysoki
-Aasimar
-Amrantah
-Human
-Anassanoi
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kitsune
-Kish
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Human
-Android
-Vesk
-Kasatha
-Lashunta
-Aasimar
-Ysoki
-Amrantah
-Anassanoi
-Astriapi
-Astrazoan
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Borai
-Shirren
-Bolida
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Draelik
-Dirindi
-Dragonkin
-Dwarf
-Dromada
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Formian
-Drow
-Gathol
-Ganzi
-Entu Symbiote
-Espraksa
-Ghibrani
-Ghoran
-Gnome
-Gnoll
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Hadrogaan
-Haan
-Ferran
-Half-Elf
-Halfling
-Half-Orc
-Hobgoblin
-Hortus
-Huitz’plina
-Ijtikri
-Ifrit
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Hanakan
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Wrikreechee
-Woioko
-Worlanisi
-Android
-Human
-Lashunta
-Shirren
-Vesk
-Aasimar
-Amrantah
-Anassanoi
-Astrazoan
-Astriapi
-Barathu (Early Stage)
-Bantrid
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Kasatha
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Ganzi
-Formian
-Gathol
-Ghibrani
-Ghoran
-Gnome
-Gnoll
-Goblin (Space)
-Gray
-Haan
-Gosclaw
-Grippli
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hortus
-Hobgoblin
-Huitz’plina
-Ijtikri
-Ilthisarian
-Ifrit
-Ikeshti
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kayal
-Kanabo
-Khizar
-Kish
-Kobold
-Kiirinta
-Kitsune
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Ysoki
-Neskinti
-Orc
-Nuar
-Oread
-Pahtra
-Psacynoid
-Osharu
-Phentomite
-Quorlu
-Ramiyel
-Cephalume
-Ryphorian
-Reptoid
-Sarcesian
-Samsaran
-Raxilite
-Scyphozoan
-Seprevoi
-Screedreep
-Selamid
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-Stellifera
-Sazaron
-Suli
-Strix
-Svartalfar
-SRO
-Sylph
-Trinir
-Tiefling
-Trox
-Tromlin Hardshell
-Tromlin Bloodseeker
-Undine
-Urog
-Tryziarka
-Varratana
-Verthani
-Vilderaro
-Varculak
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Telia
-Android
-Human
-Kasatha
-Lashunta
-Shirren
-Ysoki
-Aasimar
-Amrantah
-Anassanoi
-Vesk
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Dragonkin
-Draelik
-Dromada
-Dwarf
-Drow
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnome
-Goblin (Space)
-Gnoll
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ikeshti
-Ijtikri
-Ilthisarian
-Ixtangi
-Izalguun
-Kalo
-Jububnan
-Kanabo
-Kaa-leki
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Lashunta
-Kasatha
-Shirren
-Vesk
-Ysoki
-Aasimar
-Amrantah
-Human
-Anassanoi
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Dirindi
-Damai
-Dessamar imago
-Dessamar instar
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Telia
-Trinir
-Sylph
-Tromlin Bloodseeker
-Tiefling
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Lashunta
-Kasatha
-Shirren
-Ysoki
-Aasimar
-Human
-Amrantah
-Anassanoi
-Vesk
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Borai
-Bolida
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dromada
-Dragonkin
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Espraksa
-Entu Symbiote
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Haan
-Grippli
-Hadrogaan
-Halfling
-Half-Elf
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kanabo
-Kalo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Morlamaw
-Megalonyxa
-Moyishuu
-Nuar
-Neskinti
-Pahtra
-Osharu
-Orc
-Oread
-Phentomite
-Quorlu
-Ramiyel
-Raxilite
-Psacynoid
-Samsaran
-Ryphorian
-Reptoid
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Lashunta
-Shirren
-Vesk
-Ysoki
-Aasimar
-Amrantah
-Anassanoi
-Astrazoan
-Kasatha
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Human
-Brakim
-Borai
-Cephalume
-Brenneri
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Espraksa
-Entu Symbiote
-Ferran
-Formian
-Gathol
-Ganzi
-Ghibrani
-Gnoll
-Gnome
-Ghoran
-Goblin (Space)
-Gosclaw
-Gray
-Hadrogaan
-Haan
-Halfling
-Grippli
-Half-Orc
-Hanakan
-Half-Elf
-Huitz’plina
-Hobgoblin
-Ifrit
-Hortus
-Ijtikri
-Ikeshti
-Ixtangi
-Ilthisarian
-Izalguun
-Jububnan
-Kalo
-Kaa-leki
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Morlamaw
-Moyishuu
-Megalonyxa
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Quorlu
-Psacynoid
-Ramiyel
-Ryphorian
-Reptoid
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Raxilite
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Human
-Kasatha
-Lashunta
-Ysoki
-Shirren
-Amrantah
-Aasimar
-Vesk
-Anassanoi
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Nuar
-Neskinti
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Worlanisi
-Wrikreechee
-Woioko
-Kasatha
-Human
-Android
-Ysoki
-Vesk
-Shirren
-Aasimar
-Amrantah
-Anassanoi
-Astrazoan
-Astriapi
-Bantrid
-Bear (Uplifted)
-Barathu (Early Stage)
-Bolida
-Borai
-Brenneri
-Brakim
-Contemplative
-Copaxi
-Dessamar imago
-Dessamar instar
-Cephalume
-Damai
-Dirindi
-Dragonkin
-Draelik
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Endiffian
-Embri
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Ghoran
-Ghibrani
-Gathol
-Gnoll
-Goblin (Space)
-Gnome
-Gosclaw
-Gray
-Grippli
-Haan
-Halfling
-Half-Orc
-Half-Elf
-Lashunta
-Hobgoblin
-Hortus
-Hanakan
-Huitz’plina
-Ijtikri
-Ifrit
-Ikeshti
-Ilthisarian
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Ixtangi
-Pahtra
-Izalguun
-Hadrogaan
-Psacynoid
-Phentomite
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shimreen
-Shatori
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Woioko
-Witchwyrd
-Wrikreechee
-Worlanisi
-Sazaron
-Screedreep
-Android
-Human
-Kasatha
-Lashunta
-Shirren
-Vesk
-Ysoki
-Aasimar
-Amrantah
-Anassanoi
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Ferran
-Espraksa
-Ganzi
-Formian
-Gathol
-Ghibrani
-Ghoran
-Gnome
-Gnoll
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Ramiyel
-Quorlu
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Wrikreechee
-Worlanisi
-Android
-Lashunta
-Kasatha
-Human
-Ysoki
-Aasimar
-Anassanoi
-Amrantah
-Shirren
-Astrazoan
-Vesk
-Astriapi
-Barathu (Early Stage)
-Bear (Uplifted)
-Bantrid
-Borai
-Bolida
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Damai
-Copaxi
-Dessamar imago
-Dessamar instar
-Dirindi
-Dragonkin
-Draelik
-Dromada
-Drow
-Dwarf
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gray
-Gosclaw
-Grippli
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Kiirinta
-Khizar
-Kitsune
-Kish
-Kobold
-Megalonyxa
-Maraquoi
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-SRO
-Spathinae
-Stellifera
-Strix
-Suli
-Sylph
-Svartalfar
-Telia
-Trinir
-Tiefling
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Vilderaro
-Vlaka
-Verthani
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Kasatha
-Human
-Lashunta
-Shirren
-Vesk
-Ysoki
-Aasimar
-Amrantah
-Anassanoi
-Astrazoan
-Bantrid
-Astriapi
-Barathu (Early Stage)
-Bolida
-Bear (Uplifted)
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Dromada
-Dragonkin
-Drow
-Draelik
-Elebrian
-Elf
-Embri
-Endiffian
-Entu Colony
-Entu Symbiote
-Ferran
-Espraksa
-Ganzi
-Dwarf
-Gathol
-Ghibrani
-Ghoran
-Formian
-Gnome
-Goblin (Space)
-Gnoll
-Gray
-Grippli
-Haan
-Gosclaw
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ilthisarian
-Izalguun
-Jububnan
-Ikeshti
-Ixtangi
-Kalo
-Kaa-leki
-Kanabo
-Kayal
-Khizar
-Kish
-Kitsune
-Kiirinta
-Kobold
-Maraquoi
-Moyishuu
-Megalonyxa
-Neskinti
-Morlamaw
-Orc
-Osharu
-Pahtra
-Phentomite
-Nuar
-Oread
-Psacynoid
-Raxilite
-Reptoid
-Quorlu
-Ramiyel
-Ryphorian
-Sazaron
-Samsaran
-Screedreep
-Seprevoi
-Scyphozoan
-Sarcesian
-Shatori
-Selamid
-Shimreen
-Shakalta
-Shobhad
-Spathinae
-Skittermander
-SRO
-Suli
-Stellifera
-Strix
-Svartalfar
-Sylph
-Telia
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varratana
-Tiefling
-Verthani
-Vlaka
-Witchwyrd
-Worlanisi
-Woioko
-Wrikreechee
-Vilderaro
-Varculak
-Android
-Lashunta
-Human
-Shirren
-Ysoki
-Kasatha
-Vesk
-Aasimar
-Anassanoi
-Amrantah
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar instar
-Dirindi
-Dessamar imago
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elf
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
 Gathol
 Ghibrani
-Gnoll
-Ghoran
-Gnome
+Ghoran*
+Gnoll*
 Goblin (Space)
 Gosclaw
 Gray
-Grippli
+Grippli*
 Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hobgoblin
-Hanakan
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Hortus
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Ixtangi
-Ifrit
-Izalguun
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
-Jububnan
+ Kalo
 Kanabo
-Kalo
 Kayal
-Khizar
-Kiirinta
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Morlamaw
-Moyishuu
+Moyishuu*
 Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
+ Nuar
+Morlamaw*
+Orc*
+Oread*
+ Pahtra
+Phentomite*
+Prismeni
 Psacynoid
-Quorlu
+Osharu*
 Ramiyel
-Raxilite
+Raxilite*
+ Ryphorian
 Reptoid
-Ryphorian
 Samsaran
-Sarcesian
-Sazaron
-Screedreep
+Quorlu*
+Sazaron*
+Screedreep*
 Scyphozoan
 Selamid
 Seprevoi
 Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
+Shatori*
+Shimreen*
+ Sarcesian
+ Shobhad
+ Skittermander
+Spathinae*
 SRO
 Stellifera
-Strix
-Suli
+Strix*
+Suli*
 Svartalfar
-Sylph
-Telia
-Tiefling
+Sylph*
+Telia*
+Tiefling*
 Trinir
 Tromlin Bloodseeker
 Tromlin Hardshell
-Trox
+Trox*
 Tryziarka
-Undine
+Undine*
 Urog
 Varculak
+Varratana*
+ Verthani
 Vilderaro
-Verthani
-Varratana
-Vlaka
-Witchwyrd
-Worlanisi
-Wrikreechee
+ Vlaka
+ Witchwyrd
 Woioko
-Android
-Lashunta
-Kasatha
-Vesk
-Shirren
-Aasimar
-Ysoki
+Worlanisi
+Wrikreechee*
+ Android
+ Kasatha
+ Human
+ Shirren
+ Lashunta
+ Vesk
+ Elf
+ Ysoki
+ Gnome
+ Dwarf
+ Half-Elf
+ Halfling
+ Half-Orc
+Aasimar*
+Alkainan
 Amrantah
 Anassanoi
-Human
 Astrazoan
-Astriapi
-Bantrid
-Bear (Uplifted)
-Bolida
-Barathu (Early Stage)
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Dwarf
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
+Espraksa*
 Ferran
-Espraksa
-Formian
+ Formian
 Ganzi
+Gathol
 Ghibrani
-Ghoran
-Gnoll
-Gnome
+Ghoran*
+Gnoll*
 Goblin (Space)
 Gosclaw
 Gray
+Grippli*
 Haan
-Grippli
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Ifrit
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
-Kalo
+ Kalo
 Kanabo
 Kayal
-Khizar
-Kiirinta
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Morlamaw
-Moyishuu
+Morlamaw*
+Moyishuu*
 Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Phentomite*
+Prismeni
 Psacynoid
-Quorlu
+Quorlu*
 Ramiyel
-Raxilite
+Raxilite*
 Reptoid
-Ryphorian
+ Ryphorian
 Samsaran
-Sarcesian
-Sazaron
-Screedreep
+ Sarcesian
+Sazaron*
+Screedreep*
 Scyphozoan
 Selamid
 Seprevoi
 Shakalta
-Shatori
-Shimreen
-Skittermander
-Spathinae
+Shatori*
+Shimreen*
+ Shobhad
+ Skittermander
+Spathinae*
 SRO
 Stellifera
-Strix
-Suli
+Strix*
+Suli*
 Svartalfar
-Sylph
-Telia
-Tiefling
+Sylph*
+Telia*
+Tiefling*
 Trinir
 Tromlin Bloodseeker
 Tromlin Hardshell
-Trox
+Trox*
 Tryziarka
-Undine
+Undine*
 Urog
 Varculak
-Varratana
-Verthani
+Varratana*
+ Verthani
 Vilderaro
-Vlaka
-Witchwyrd
+ Vlaka
+ Witchwyrd
 Woioko
 Worlanisi
-Wrikreechee
-Gathol
-Shobhad
-Human
-Kasatha
-Vesk
-Aasimar
-Ysoki
-Anassanoi
-Shirren
+Wrikreechee*
+ Human
+ Android
+ Lashunta
+ Kasatha
+ Shirren
+ Vesk
+ Ysoki
+ Dwarf
+ Elf
+ Gnome
+ Half-Elf
+ Halfling
+ Half-Orc
+Aasimar*
+Alkainan
 Amrantah
+Anassanoi
 Astrazoan
-Astriapi
-Barathu (Early Stage)
-Bantrid
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Lashunta
-Android
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
-Gathol
 Ghibrani
-Ghoran
-Gnoll
-Gnome
+Gathol
+Ghoran*
+Gnoll*
 Goblin (Space)
-Gosclaw
 Gray
-Grippli
+Gosclaw
+Grippli*
+Hadrogaan*
+Hanakan*
+Hobgoblin*
 Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
+Hortus*
 Huitz’plina
-Ifrit
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
-Kalo
+ Kalo
 Kanabo
 Kayal
-Khizar
-Kiirinta
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Morlamaw
-Moyishuu
+Morlamaw*
+Moyishuu*
 Neskinti
-Nuar
-Orc
-Osharu
-Pahtra
-Phentomite
-Oread
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Phentomite*
+Prismeni
 Psacynoid
+Quorlu*
+Ramiyel
+Raxilite*
 Reptoid
-Ryphorian
+ Ryphorian
 Samsaran
-Sarcesian
-Sazaron
-Screedreep
+ Sarcesian
+Sazaron*
+Screedreep*
 Scyphozoan
 Selamid
 Seprevoi
 Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
+Shatori*
+Shimreen*
+ Shobhad
+ Skittermander
+Spathinae*
 SRO
 Stellifera
-Strix
-Suli
+Strix*
+Suli*
 Svartalfar
-Sylph
-Telia
-Tiefling
+Sylph*
+Telia*
+Tiefling*
 Trinir
 Tromlin Bloodseeker
 Tromlin Hardshell
-Trox
+Trox*
 Tryziarka
-Undine
+Undine*
 Urog
 Varculak
-Varratana
-Verthani
+Varratana*
+ Verthani
 Vilderaro
-Vlaka
-Witchwyrd
+ Vlaka
+ Witchwyrd
 Woioko
 Worlanisi
-Wrikreechee
-Quorlu
-Ramiyel
-Raxilite
-Android
-Lashunta
-Human
-Shirren
-Vesk
-Ysoki
-Kasatha
+Wrikreechee*
+ Android
+ Lashunta
+ Kasatha
+ Shirren
+ Vesk
+ Dwarf
+ Human
+ Ysoki
+ Elf
+ Half-Elf
+ Gnome
+ Half-Orc
+Aasimar*
+Alkainan
 Amrantah
 Anassanoi
-Aasimar
 Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Damai
-Copaxi
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
+ Halfling
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
+Ghibrani
 Ganzi
 Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
+Ghoran*
+Gnoll*
+Gray
 Goblin (Space)
 Gosclaw
-Gray
-Grippli
 Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Ifrit
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
+ Izalguun
+Grippli*
+Jububnan*
 Kaa-leki
-Kalo
+Ixtangi*
 Kanabo
 Kayal
-Khizar
-Kiirinta
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
+Kobold*
+Kitsune*
+ Maraquoi
+ Kalo
 Megalonyxa
-Morlamaw
-Moyishuu
+ Nuar
+Orc*
+Osharu*
 Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
+Oread*
+ Pahtra
+Prismeni
 Psacynoid
-Quorlu
+Quorlu*
 Ramiyel
-Raxilite
+Raxilite*
+ Ryphorian
+Phentomite*
 Reptoid
-Ryphorian
 Samsaran
-Sarcesian
-Sazaron
-Screedreep
+Morlamaw*
+ Sarcesian
+Screedreep*
 Scyphozoan
-Selamid
 Seprevoi
+Selamid
 Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
+Moyishuu*
+Shatori*
+Shimreen*
+Sazaron*
+ Skittermander
+Spathinae*
+ Shobhad
 Stellifera
-Strix
-Suli
+Suli*
+Strix*
 Svartalfar
-Sylph
-Telia
-Tiefling
+Sylph*
+Telia*
+Tiefling*
 Trinir
-Tromlin Bloodseeker
 Tromlin Hardshell
-Trox
+SRO
 Tryziarka
-Undine
+Trox*
+Undine*
 Urog
 Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
+Tromlin Bloodseeker
+ Vlaka
+Varratana*
 Woioko
+ Verthani
+ Witchwyrd
 Worlanisi
-Wrikreechee
-Android
-Human
-Kasatha
-Vesk
-Ysoki
-Aasimar
+Wrikreechee*
+Vilderaro
+ Android
+ Lashunta
+ Human
+ Kasatha
+ Shirren
+ Vesk
+ Ysoki
+ Elf
+ Dwarf
+ Gnome
+ Half-Elf
+ Halfling
+ Half-Orc
+Aasimar*
+Alkainan
 Amrantah
 Anassanoi
 Astrazoan
-Lashunta
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
+Astriapi*
+Barathu (Early Stage)*
+Bantrid*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+ Draelik
+Dirindi*
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
 Gathol
 Ghibrani
-Ghoran
-Gnoll
+Ghoran*
+Gnoll*
 Goblin (Space)
-Gray
-Gnome
 Gosclaw
-Grippli
+Gray
+Grippli*
 Haan
-Halfling
-Half-Orc
-Half-Elf
-Hadrogaan
-Hobgoblin
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Hanakan
-Hortus
-Ifrit
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Ixtangi
-Jububnan
-Izalguun
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
+ Kalo
 Kanabo
-Khizar
-Kalo
 Kayal
-Kiirinta
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
-Morlamaw
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Moyishuu
-Nuar
-Oread
+Morlamaw*
+Moyishuu*
 Neskinti
-Orc
-Osharu
-Pahtra
-Phentomite
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Phentomite*
+Prismeni
 Psacynoid
-Shirren
-Raxilite
-Quorlu
+Quorlu*
 Ramiyel
+Raxilite*
 Reptoid
+ Ryphorian
 Samsaran
-Ryphorian
-Sarcesian
-Sazaron
+ Sarcesian
+Sazaron*
+Screedreep*
 Scyphozoan
 Selamid
 Seprevoi
 Shakalta
-Shimreen
-Shatori
-Shobhad
-Skittermander
+Shatori*
+Shimreen*
+ Shobhad
+ Skittermander
+Spathinae*
 SRO
-Spathinae
 Stellifera
-Strix
+Strix*
+Suli*
 Svartalfar
-Sylph
-Tiefling
-Telia
-Tromlin Bloodseeker
-Screedreep
+Sylph*
+Telia*
+Tiefling*
 Trinir
+Tromlin Bloodseeker
 Tromlin Hardshell
+Trox*
 Tryziarka
-Undine
-Trox
-Varculak
-Verthani
+Undine*
 Urog
-Varratana
+Varculak
+Varratana*
+ Verthani
 Vilderaro
-Vlaka
-Witchwyrd
+ Vlaka
+ Witchwyrd
 Woioko
 Worlanisi
-Wrikreechee
-Suli
-Kasatha
-Human
-Android
-Shirren
-Ysoki
-Lashunta
+Wrikreechee*
+ Kasatha
+ Lashunta
+ Android
+ Vesk
+ Human
+ Shirren
+ Elf
+ Dwarf
+ Ysoki
+ Gnome
+ Half-Elf
+ Halfling
+ Half-Orc
+Aasimar*
+Alkainan
 Amrantah
 Anassanoi
-Vesk
-Aasimar
 Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
 Gathol
 Ghibrani
-Ghoran
-Gnoll
-Gnome
+Ghoran*
+Gnoll*
 Goblin (Space)
 Gosclaw
 Gray
-Grippli
+Grippli*
 Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Ifrit
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Hortus
-Ixtangi
-Izalguun
-Jububnan
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
-Kalo
+ Kalo
 Kanabo
 Kayal
-Khizar
-Kiirinta
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Morlamaw
-Moyishuu
+Morlamaw*
+Moyishuu*
 Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Phentomite*
+Prismeni
 Psacynoid
-Quorlu
+Quorlu*
 Ramiyel
-Raxilite
+Raxilite*
 Reptoid
-Ryphorian
+ Ryphorian
 Samsaran
-Sarcesian
-Sazaron
-Screedreep
+ Sarcesian
+Sazaron*
+Screedreep*
 Scyphozoan
 Selamid
 Seprevoi
 Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
+Shatori*
+Shimreen*
+ Shobhad
+ Skittermander
+Spathinae*
 SRO
 Stellifera
-Strix
-Suli
+Strix*
+Suli*
 Svartalfar
-Sylph
-Telia
-Tiefling
+Sylph*
+Telia*
+Tiefling*
 Trinir
 Tromlin Bloodseeker
 Tromlin Hardshell
-Trox
+Trox*
 Tryziarka
-Undine
+Undine*
 Urog
 Varculak
-Varratana
-Verthani
+Varratana*
+ Verthani
 Vilderaro
-Vlaka
-Witchwyrd
+ Vlaka
+ Witchwyrd
 Woioko
 Worlanisi
-Wrikreechee
-Android
-Lashunta
-Shirren
-Ysoki
-Vesk
-Aasimar
+Wrikreechee*
+ Android
+ Lashunta
+ Kasatha
+ Shirren
+ Human
+ Vesk
+ Ysoki
+ Dwarf
+ Elf
+ Gnome
+ Half-Elf
+ Halfling
+ Half-Orc
+Aasimar*
+Alkainan
 Amrantah
-Human
 Anassanoi
-Astriapi
-Kasatha
-Bantrid
-Barathu (Early Stage)
-Bolida
 Astrazoan
-Borai
-Brakim
-Bear (Uplifted)
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar instar
-Draelik
-Dirindi
-Dragonkin
-Dessamar imago
-Dwarf
-Drow
-Dromada
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
 Gathol
 Ghibrani
+Ghoran*
+Gnoll*
 Goblin (Space)
-Gnoll
-Gnome
 Gosclaw
 Gray
-Grippli
-Hadrogaan
-Half-Elf
-Ghoran
-Halfling
+Grippli*
 Haan
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Ifrit
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
-Kalo
+ Kalo
 Kanabo
 Kayal
-Khizar
-Kiirinta
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Morlamaw
-Moyishuu
-Nuar
+Morlamaw*
+Moyishuu*
 Neskinti
-Osharu
-Orc
-Pahtra
-Phentomite
-Oread
-Quorlu
-Ramiyel
-Raxilite
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Phentomite*
+Prismeni
 Psacynoid
-Reptoid
-Ryphorian
+Quorlu*
+Ramiyel
+Raxilite*
+ Ryphorian
 Samsaran
-Sarcesian
-Sazaron
-Screedreep
+ Sarcesian
+Sazaron*
+Screedreep*
+Reptoid
 Scyphozoan
-Seprevoi
 Selamid
+Seprevoi
 Shakalta
-Shobhad
-Skittermander
+Shimreen*
+Shatori*
+ Shobhad
+ Skittermander
+Spathinae*
 SRO
 Stellifera
-Strix
-Spathinae
-Suli
-Shatori
-Shimreen
+Strix*
+Suli*
 Svartalfar
-Sylph
-Telia
-Tiefling
+Sylph*
+Telia*
+Tiefling*
 Trinir
 Tromlin Bloodseeker
 Tromlin Hardshell
-Trox
+Trox*
 Tryziarka
-Undine
+Undine*
+Urog
 Varculak
-Varratana
-Verthani
+Varratana*
+ Verthani
 Vilderaro
-Vlaka
-Witchwyrd
+ Vlaka
+ Witchwyrd
 Woioko
 Worlanisi
-Wrikreechee
-Urog
-Android
-Lashunta
-Human
-Kasatha
-Shirren
-Vesk
-Aasimar
-Ysoki
+Wrikreechee*
+ Human
+ Android
+ Kasatha
+ Vesk
+ Shirren
+ Ysoki
+ Lashunta
+ Dwarf
+ Elf
+ Gnome
+ Half-Elf
+ Halfling
+ Half-Orc
+Aasimar*
+Alkainan
 Amrantah
 Anassanoi
 Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Damai
-Copaxi
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
 Gathol
 Ghibrani
-Ghoran
-Gnoll
-Gnome
+Ghoran*
+Gnoll*
 Goblin (Space)
 Gosclaw
 Gray
-Grippli
+Grippli*
 Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Ifrit
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
-Kalo
+ Kalo
 Kanabo
 Kayal
-Khizar
-Kiirinta
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Morlamaw
-Moyishuu
+Morlamaw*
+Moyishuu*
 Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Phentomite*
+Prismeni
 Psacynoid
-Quorlu
+Quorlu*
 Ramiyel
-Raxilite
+Raxilite*
 Reptoid
-Ryphorian
+ Ryphorian
 Samsaran
-Sarcesian
-Sazaron
-Screedreep
+ Sarcesian
+Sazaron*
+Screedreep*
 Scyphozoan
 Selamid
 Seprevoi
 Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
+Shatori*
+Shimreen*
+ Shobhad
+ Skittermander
+Spathinae*
 SRO
 Stellifera
-Strix
-Suli
+Strix*
+Suli*
 Svartalfar
-Sylph
-Telia
-Tiefling
+Sylph*
+Telia*
+Tiefling*
 Trinir
 Tromlin Bloodseeker
 Tromlin Hardshell
-Trox
+Trox*
 Tryziarka
-Undine
+Undine*
 Urog
 Varculak
-Varratana
-Verthani
+Varratana*
+ Verthani
 Vilderaro
-Vlaka
-Witchwyrd
+ Vlaka
+ Witchwyrd
 Woioko
 Worlanisi
-Wrikreechee
-Kasatha
-Lashunta
-Shirren
-Vesk
-Ysoki
-Aasimar
-Amrantah
-Anassanoi
-Android
-Human
-Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Elebrian
-Drow
-Dwarf
-Elf
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Ferran
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnoll
-Gnome
-Goblin (Space)
-Gosclaw
-Gray
-Grippli
-Embri
-Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Ifrit
-Ijtikri
-Ikeshti
-Ilthisarian
-Ixtangi
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Kanabo
-Kayal
-Khizar
-Kiirinta
-Kish
-Kitsune
-Kobold
-Maraquoi
-Megalonyxa
-Morlamaw
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
-Psacynoid
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sarcesian
-Sazaron
-Screedreep
-Scyphozoan
-Selamid
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-SRO
-Stellifera
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Tromlin Hardshell
-Trox
-Tryziarka
-Undine
-Urog
-Varculak
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Woioko
-Worlanisi
-Wrikreechee
-Android
-Human
-Kasatha
-Lashunta
-Shirren
-Vesk
-Ysoki
-Aasimar
+Wrikreechee*
+ Kasatha
+ Lashunta
+ Shirren
+ Dwarf
+ Ysoki
+ Vesk
+ Elf
+ Gnome
+ Half-Elf
+ Halfling
+ Android
+Aasimar*
+Alkainan
 Amrantah
 Anassanoi
 Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
+ Human
+ Half-Orc
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar instar*
+Dessamar imago*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
 Gathol
 Ghibrani
-Ghoran
-Gnoll
-Gnome
+Ghoran*
+Gnoll*
 Goblin (Space)
 Gosclaw
 Gray
-Grippli
+Grippli*
 Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Ifrit
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Ixtangi
-Jububnan
-Izalguun
-Kalo
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
+ Kalo
 Kanabo
-Kiirinta
-Kish
-Khizar
 Kayal
-Kitsune
-Kobold
+Khizar*
+Kiirinta*
+Kish
+Kitsune*
+Kobold*
+ Maraquoi
+Morlamaw*
 Megalonyxa
-Morlamaw
-Maraquoi
-Moyishuu
+Moyishuu*
 Neskinti
-Oread
-Osharu
-Nuar
-Orc
-Phentomite
-Ramiyel
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Prismeni
+Phentomite*
 Psacynoid
-Raxilite
+Quorlu*
+Raxilite*
+Ramiyel
 Reptoid
-Ryphorian
+ Ryphorian
 Samsaran
-Sarcesian
-Sazaron
-Screedreep
+ Sarcesian
+Sazaron*
+Screedreep*
 Scyphozoan
 Selamid
 Seprevoi
 Shakalta
-Bear (Uplifted)
-Shobhad
-Skittermander
-Spathinae
-SRO
+Shatori*
+Shimreen*
+ Skittermander
+Spathinae*
 Stellifera
-Strix
-Shatori
+SRO
+Strix*
+Suli*
+Sylph*
+Telia*
 Svartalfar
-Sylph
-Telia
-Quorlu
-Tiefling
-Pahtra
+Tiefling*
+Trinir
+ Shobhad
 Tromlin Bloodseeker
 Tromlin Hardshell
-Trinir
-Undine
+Trox*
+Undine*
 Tryziarka
 Urog
-Varratana
 Varculak
-Verthani
-Vlaka
+Varratana*
+ Verthani
 Vilderaro
-Witchwyrd
-Trox
-Shimreen
-Suli
-Wrikreechee
+ Vlaka
+ Witchwyrd
 Woioko
 Worlanisi
-Android
-Lashunta
-Shirren
-Vesk
-Ysoki
-Kasatha
-Amrantah
-Anassanoi
-Human
-Astrazoan
-Bantrid
-Astriapi
-Barathu (Early Stage)
-Bear (Uplifted)
-Aasimar
-Borai
-Bolida
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
-Elebrian
-Embri
-Elf
-Endiffian
-Entu Colony
-Entu Symbiote
-Espraksa
-Formian
-Ganzi
-Gathol
-Ghibrani
-Ghoran
-Gnome
-Gnoll
-Goblin (Space)
-Gray
-Ferran
-Gosclaw
-Hadrogaan
-Grippli
-Halfling
-Haan
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
-Huitz’plina
-Half-Elf
-Ifrit
-Ijtikri
-Ixtangi
-Ilthisarian
-Izalguun
-Jububnan
-Kaa-leki
-Kalo
-Ikeshti
-Khizar
-Kanabo
-Kiirinta
-Kish
-Kitsune
-Maraquoi
-Kobold
-Megalonyxa
-Moyishuu
-Neskinti
-Kayal
-Morlamaw
-Oread
-Nuar
-Osharu
-Pahtra
-Phentomite
-Quorlu
-Orc
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Samsaran
-Sazaron
-Sarcesian
-Screedreep
-Psacynoid
-Scyphozoan
-Seprevoi
-Shakalta
-Shatori
-Shimreen
-Skittermander
-Selamid
-Spathinae
-SRO
-Shobhad
-Strix
-Suli
-Svartalfar
-Sylph
-Telia
-Tiefling
-Trinir
-Tromlin Bloodseeker
-Trox
-Tromlin Hardshell
-Tryziarka
-Undine
-Urog
-Stellifera
-Varratana
-Verthani
-Vilderaro
-Vlaka
-Witchwyrd
-Varculak
-Worlanisi
-Woioko
-Wrikreechee
-Human
-Lashunta
-Shirren
-Vesk
-Ysoki
-Aasimar
+Wrikreechee*
+ Android
+ Human
+ Kasatha
+ Lashunta
+ Shirren
+ Vesk
+ Ysoki
+ Dwarf
+ Elf
+ Gnome
+ Half-Elf
+ Halfling
+ Half-Orc
+Aasimar*
+Alkainan
 Amrantah
 Anassanoi
 Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Android
-Bear (Uplifted)
-Kasatha
-Borai
-Brakim
-Bolida
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
 Gathol
 Ghibrani
-Ghoran
-Gnoll
-Gnome
+Ghoran*
+Gnoll*
 Goblin (Space)
 Gosclaw
-Grippli
-Haan
 Gray
-Halfling
-Hadrogaan
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
+Grippli*
+Haan
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Half-Elf
-Ikeshti
+Ifrit*
 Ijtikri
+ Ikeshti
 Ilthisarian
-Ifrit
-Ixtangi
-Izalguun
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
-Jububnan
-Kalo
+ Kalo
 Kanabo
 Kayal
-Khizar
-Kiirinta
-Kitsune
+Khizar*
+Kiirinta*
 Kish
-Kobold
-Maraquoi
-Moyishuu
-Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Psacynoid
-Phentomite
-Morlamaw
-Quorlu
-Ramiyel
-Raxilite
-Reptoid
-Ryphorian
-Sazaron
-Pahtra
-Samsaran
-Scyphozoan
-Screedreep
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Sarcesian
+Morlamaw*
+Moyishuu*
+Neskinti
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Phentomite*
+Prismeni
+Psacynoid
+Quorlu*
+Ramiyel
+Raxilite*
+Reptoid
+ Ryphorian
+Samsaran
+ Sarcesian
+Sazaron*
+Screedreep*
+Scyphozoan
 Selamid
-Shakalta
 Seprevoi
-Shimreen
-Shobhad
-Skittermander
-Spathinae
-Stellifera
+Shakalta
+Shatori*
+Shimreen*
+ Shobhad
+Spathinae*
+ Skittermander
 SRO
-Strix
+Stellifera
+Strix*
+Suli*
 Svartalfar
-Suli
-Shatori
-Sylph
-Tiefling
+Sylph*
+Telia*
+Tiefling*
 Trinir
-Telia
-Tromlin Hardshell
-Trox
-Tryziarka
 Tromlin Bloodseeker
-Undine
-Varculak
-Varratana
+Tromlin Hardshell
+Trox*
+Tryziarka
+Undine*
 Urog
-Vlaka
-Verthani
-Wrikreechee
-Witchwyrd
-Worlanisi
+Varculak
+Varratana*
+ Verthani
 Vilderaro
+ Vlaka
+ Witchwyrd
 Woioko
-Android
-Lashunta
-Human
-Shirren
-Vesk
-Kasatha
-Ysoki
-Aasimar
+Worlanisi
+Wrikreechee*
+ Android
+ Kasatha
+ Human
+ Lashunta
+ Shirren
+ Ysoki
+ Dwarf
+ Vesk
+ Elf
+ Halfling
+ Half-Orc
+ Gnome
+ Half-Elf
+Aasimar*
+Alkainan
 Amrantah
 Anassanoi
 Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Damai
-Dessamar imago
-Dessamar instar
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
-Gathol
 Ghibrani
-Ghoran
-Gnoll
-Gnome
+Gathol
+Ghoran*
+Gnoll*
 Goblin (Space)
 Gosclaw
 Gray
+Grippli*
 Haan
-Grippli
-Halfling
-Half-Elf
-Half-Orc
-Hadrogaan
-Hanakan
-Hobgoblin
-Hortus
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Ifrit
+Ifrit*
 Ijtikri
-Ikeshti
+ Ikeshti
 Ilthisarian
-Ixtangi
-Jububnan
-Izalguun
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
-Kalo
-Kayal
+ Kalo
 Kanabo
-Khizar
-Kiirinta
+Kayal
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Morlamaw
-Moyishuu
+Morlamaw*
+Moyishuu*
 Neskinti
-Nuar
-Orc
-Osharu
-Oread
-Pahtra
-Phentomite
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Phentomite*
+Prismeni
 Psacynoid
-Raxilite
+Quorlu*
 Ramiyel
-Quorlu
+Raxilite*
 Reptoid
+ Ryphorian
 Samsaran
-Ryphorian
-Sarcesian
-Sazaron
-Screedreep
+ Sarcesian
+Sazaron*
+Screedreep*
 Scyphozoan
 Selamid
-Shakalta
 Seprevoi
-Shatori
-Shimreen
-Shobhad
-Skittermander
+Shakalta
+Shatori*
+Shimreen*
+ Shobhad
+ Skittermander
+Spathinae*
 SRO
-Spathinae
 Stellifera
-Strix
+Strix*
+Suli*
 Svartalfar
-Suli
-Telia
-Tiefling
+Sylph*
+Telia*
+Tiefling*
 Trinir
-Sylph
 Tromlin Bloodseeker
 Tromlin Hardshell
-Trox
-Undine
+Trox*
+Tryziarka
+Undine*
 Urog
 Varculak
+Varratana*
+ Verthani
 Vilderaro
-Varratana
-Verthani
-Vlaka
-Witchwyrd
+ Vlaka
+ Witchwyrd
 Woioko
-Tryziarka
-Wrikreechee
 Worlanisi
-Human
-Android
-Shirren
-Ysoki
-Lashunta
-Aasimar
-Kasatha
+Wrikreechee*
+ Human
+ Android
+ Lashunta
+ Shirren
+ Kasatha
+ Vesk
+ Ysoki
+ Elf
+ Dwarf
+ Half-Elf
+ Half-Orc
+ Gnome
+ Halfling
+Aasimar*
 Amrantah
+Alkainan
 Anassanoi
 Astrazoan
-Astriapi
-Bantrid
-Barathu (Early Stage)
-Bear (Uplifted)
-Bolida
-Borai
-Brakim
-Vesk
-Brenneri
-Cephalume
-Contemplative
-Copaxi
-Dessamar instar
-Damai
-Dirindi
-Draelik
-Dragonkin
-Dromada
-Drow
-Dwarf
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Bolida*
+Borai*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Dragonkin
+ Draelik
+Dromada*
+Drow*
 Elebrian
-Elf
 Embri
 Endiffian
 Entu Colony
 Entu Symbiote
-Espraksa
+Espraksa*
 Ferran
-Formian
+ Formian
 Ganzi
 Gathol
 Ghibrani
-Ghoran
-Gnoll
-Gnome
+Ghoran*
+Gnoll*
 Goblin (Space)
 Gosclaw
 Gray
-Grippli
+Grippli*
 Haan
-Hadrogaan
-Half-Elf
-Halfling
-Half-Orc
-Hanakan
-Hobgoblin
-Hortus
+Hadrogaan*
+Hanakan*
+Hobgoblin*
+Hortus*
 Huitz’plina
-Ifrit
-Ikeshti
-Dessamar imago
+Ifrit*
+Ijtikri
+ Ikeshti
 Ilthisarian
-Izalguun
-Ixtangi
-Jububnan
+Ixtangi*
+ Izalguun
+Jububnan*
 Kaa-leki
-Kalo
+ Kalo
 Kanabo
 Kayal
-Khizar
-Kiirinta
+Khizar*
+Kiirinta*
 Kish
-Kitsune
-Kobold
-Maraquoi
+Kitsune*
+Kobold*
+ Maraquoi
 Megalonyxa
-Morlamaw
-Moyishuu
+Morlamaw*
+Moyishuu*
 Neskinti
-Nuar
-Orc
-Oread
-Osharu
-Pahtra
-Phentomite
+ Nuar
+Orc*
+Oread*
+Osharu*
+ Pahtra
+Phentomite*
+Prismeni
 Psacynoid
-Quorlu
+Quorlu*
 Ramiyel
-Raxilite
+Raxilite*
 Reptoid
-Ryphorian
+ Ryphorian
 Samsaran
-Sarcesian
-Sazaron
-Screedreep
+ Sarcesian
+Sazaron*
+Screedreep*
 Scyphozoan
 Selamid
 Seprevoi
 Shakalta
-Shatori
-Shimreen
-Shobhad
-Skittermander
-Spathinae
+Shatori*
+Shimreen*
+ Shobhad
+ Skittermander
+Spathinae*
 SRO
 Stellifera
-Strix
-Suli
+Strix*
+Suli*
 Svartalfar
-Sylph
-Telia
-Tiefling
-Ijtikri
-Trox
+Sylph*
+Telia*
+Tiefling*
+Trinir
 Tromlin Bloodseeker
-Undine
+Tromlin Hardshell
+Trox*
+Tryziarka
+Undine*
 Urog
 Varculak
-Varratana
+Varratana*
+ Verthani
 Vilderaro
-Vlaka
-Verthani
-Witchwyrd
-Tryziarka
-Worlanisi
-Trinir
-Wrikreechee
+ Vlaka
+ Witchwyrd
 Woioko
+Worlanisi
+Wrikreechee*
+ Android
+ Kasatha
+ Human
+ Lashunta
+ Shirren
+ Vesk
+ Ysoki
+ Dwarf
+ Elf
+ Gnome
+ Half-Elf
+ Halfling
+ Half-Orc
+Aasimar*
+Alkainan
+Amrantah
+Anassanoi
+Astrazoan
+Astriapi*
+Bantrid*
+Barathu (Early Stage)*
+Bear (Uplifted)*
+Borai*
+Bolida*
+Brakim*
+Brenneri*
+Cephalume*
+Contemplative*
+ Copaxi
+Damai*
+Dessamar imago*
+Dessamar instar*
+Dirindi*
+ Draelik
+ Dragonkin
+Dromada*
+Drow*
+Elebrian
+Embri
+Endiffian
+Entu Colony
+Entu Symbiote
+Espraksa*
+Ferran
+ Formian
+Ganzi
+Gathol
+Ghibrani
+Ghoran*
+Gnoll*
+Goblin (Space)
+Gosclaw
+Gray
+Grippli*
+Hadrogaan*
+Haan
+Hanakan*
+Hobgoblin*
+Hortus*
+Huitz’plina
+Ifrit*
+Ijtikri
+ Ikeshti
+Ilthisarian
+Ixtangi*
+ Izalguun
+Jububnan*
+Kaa-leki
+ Kalo
+Kanabo
+Kayal
+Kiirinta*
+Khizar*
+Kish
+Kitsune*
+Kobold*
+ Maraquoi
+Megalonyxa
+Morlamaw*
+Moyishuu*
+Neskinti
+ Nuar
+Osharu*
+Orc*
+Oread*
+ Pahtra
+Phentomite*
+Prismeni
+Psacynoid
+Quorlu*
+Ramiyel
+Raxilite*
+Reptoid
+Samsaran
+ Ryphorian
+ Sarcesian
+Sazaron*
+Screedreep*
+Scyphozoan
+Selamid
+Shakalta
+Seprevoi
+Shatori*
+Shimreen*
+ Shobhad
+ Skittermander
+Spathinae*
+SRO
+Stellifera
+Strix*
+Suli*
+Svartalfar
+Sylph*
+Telia*
+Tiefling*
+Trinir
+Tromlin Bloodseeker
 Tromlin Hardshell
+Trox*
+Tryziarka
+Undine*
+Urog
+Varculak
+Varratana*
+ Verthani
+Vilderaro
+ Vlaka
+ Witchwyrd
+Woioko
+Worlanisi
+Wrikreechee*

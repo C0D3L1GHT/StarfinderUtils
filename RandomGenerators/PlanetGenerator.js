@@ -1,4 +1,3 @@
-
 const world_type_list = ["Terrestrial", "Gas giant", "Irregular", "Satellite", "Asteroid", "Colony ship", "Space station"];
 const gravity_list = ["Standard", "Zero gravity", "Low", "High", "Extreme"]
 const atmosphere_list = ["Normal", "None", "Thin", "Thick", "Corrosive or Toxic"]
@@ -10,23 +9,21 @@ const settlement_gov_list = ["Anarchy", "Autocracy", "Council", "Magocracy", "Mi
 const settlement_qual_list = ["Academic", "Bureaucratic", "Cultured", "Devout", "Financial Center", "Insular", "Notorious", "Polluted"]
 
 function GeneratePlanet(){
-  //console.log(allRaces[Math.floor(Math.random()*allRaces.length)].textContent);
-
-  console.log("World Type:      " + GenWorldType());
-  console.log("Gravity:         " + GenGravity());
-  console.log("Atmosphere:      " + GenAtmopshere());
+  document.getElementById("planetInfo").innerHTML =  "World Type:      " + GenWorldType()+"<br />";
+  document.getElementById("planetInfo").innerHTML += "Gravity:         " + GenGravity()+"<br />";
+  document.getElementById("planetInfo").innerHTML += "Atmosphere:      " + GenAtmopshere()+"<br />";
   var dThree = rollRange(3);
   for(let i = 1; i <= dThree; i++){
-    console.log("   Biome: " + GenBiome());
+    document.getElementById("planetInfo").innerHTML +="   Biome: " + GenBiome()+"<br />";
   }
-  console.log("Accord:          " + GenTriadAttributes());
-  console.log("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
-  console.log("Magic Level:     " + GenTriadAttributes());
-  console.log("Religion Level:  " + GenTriadAttributes());
-  console.log("Tech Level:      " + GenTriadAttributes());
+  document.getElementById("planetInfo").innerHTML += "Accord:          " + GenTriadAttributes()+"<br />";
+  document.getElementById("planetInfo").innerHTML += "Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality()+"<br />";
+  document.getElementById("planetInfo").innerHTML += "Magic Level:     " + GenTriadAttributes()+"<br />";
+  document.getElementById("planetInfo").innerHTML += "Religion Level:  " + GenTriadAttributes()+"<br />";
+  document.getElementById("planetInfo").innerHTML += "Tech Level:      " + GenTriadAttributes()+"<br />";
   var dThree = rollRange(3);
   for(let i = 1; i <= dThree; i++){
-    console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
+    document.getElementById("planetInfo").innerHTML += "   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov()+"<br />";
   }
 }
 
@@ -114,7 +111,7 @@ function isThreat(){
   return Math.random() >= 0.5 ? "Roll Initiative!" : "all clear";
 }
 
-GeneratePlanet()
+/*GeneratePlanet()
 console.log("\n\n");
 GeneratePlanet()
 console.log("\n\n");
@@ -126,3 +123,4 @@ GeneratePlanet()
 console.log("\n\n");
 GeneratePlanet()
 console.log("\n\n");
+*/

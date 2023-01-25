@@ -39,7 +39,6 @@ function getRaceListFileDate(){
 }
 
 async function scrapeRaces(){  
-  console.log(!newsFeedDateHasChanged()); 
   if(!newsFeedDateHasChanged()){
 	console.log("no new races!");
     return;
@@ -48,18 +47,24 @@ async function scrapeRaces(){
         const response = await fetch('https://www.aonsrd.com/Races.aspx?ItemName=All');
         const text = await response.text();
         const dom = await new JSDOM(text);
-        const raceElements = dom.window.document.getElementById('ctl00_MainContent_AllRacesList');
-        let raceList = raceElements.getElementsByTagName("a");
-
-        for(let i = 0; i < raceList.length; i++){
-          fs.appendFile('RaceList.txt', raceList[i].textContent+'\n', (err) => {
-            if (err) throw err;
-          })
-        }
-        return raceList;
+        const coreRaces   = dom.window.document.getElementById('ctl00_MainContent_GridViewRacesCore').getElementsByTagName("a");
+		const legacyRaces = dom.window.document.getElementById('ctl00_MainContent_GridViewRacesCoreLegacy').getElementsByTagName("a");
+        const otherRaces  = dom.window.document.getElementById('ctl00_MainContent_GridViewRacesOther').getElementsByTagName("a");
+        
+		addListToRaceListFile(coreRaces);
+		addListToRaceListFile(legacyRaces);
+		addListToRaceListFile(otherRaces);
       }catch(err){
         console.log(err);
       }
+    }
+}
+
+function addListToRaceListFile(raceList){
+	for(let i = 0; i < raceList.length; i++){
+      fs.appendFile('RaceList.txt', raceList[i].text+'\n', (err) => {
+        if (err) throw err;
+      })
     }
 }
 
@@ -79,21 +84,9 @@ async function getRandomRace(){
   if(allRaces.length == 0){
     allRaces = await scrapeRaces();
   }
-  //window.alert(allRaces.length);
   var index = Math.floor(Math.random()*allRaces.length);
   //console.log(index);
-  console.log(allRaces[index]);
-  
-  //document.getElementById('NPC').innerHTML = "HI!";//allRaces[index];
-  
-  //window.alert('!');
-  //update RaceList file based on aonsrd webpage date
+  document.getElementById("NPCInfo").innerHTML = allRaces[index]+"<br />";
   scrapeRaces();
 }
 getRandomRace();
-
-
-/*window.onload = function() {
-    var btn = document.getElementById("NPC_btn");
-    btn.onclick = getRandomRace;
-}*/
