@@ -1,18 +1,19 @@
 const fs = require('fs');
 const path = require('path');
+const randomRace = require('./RaceScraper.js');
 
-const NPC_NAMES    = [""]
+const NAME_LENGTH  = 8
 const NPC_RACE     = "Human"
 const NPC_ATTITUDE = ["hostile", "unfriendly", "indifferent", "friendly", "helpful"];
 const NPC_QUIRK    = "Ends Sentences with 'You know?' a lot"
 
-function generateNPC(){
-	//TODO: Generate a name somehow
-    console.log(rollAttitude()+" "+NPC_RACE+" that "+quirk);
-}
-
 function generateName(){
-    //TODO: implement this somehow
+   let ret = '';
+   for(let i = 0; i < NAME_LENGTH; i++){
+      const random = Math.floor(Math.random() * 27);
+      ret += String.fromCharCode(97 + random);
+   };
+   return ret;
 }
 
 function rollAttitude(){
@@ -21,7 +22,7 @@ function rollAttitude(){
 
 function getQuirksListFile(){
 	try {
-       var data = fs.readFileSync("./QuirksList.txt", { encoding: 'utf8', flag: 'r' });
+       var data = fs.readFileSync("./QuirkList.txt", { encoding: 'utf8', flag: 'r' });
        var ret = data.split('\n');
        return ret;
   } catch (e) {
@@ -30,10 +31,30 @@ function getQuirksListFile(){
   }
 }
 
-async function rollQuirk(){
+function getEmotionsListFile(){
+	try {
+       var data = fs.readFileSync("./EmotionList.txt", { encoding: 'utf8', flag: 'r' });
+       var ret = data.split('\n');
+       return ret;
+  } catch (e) {
+       console.log(e);
+       return [];
+  }
+}
+
+async function generateNPC(){
+	
    let allQuirks = await getQuirksListFile();
-   var index = Math.floor(Math.random()*allQuirks.length);
-   return allQuirks[index];
+   var qIndex = Math.floor(Math.random()*allQuirks.length);
+   var quirk = allQuirks[qIndex];
+   
+   let allFeelings = await getEmotionsListFile();
+   var fIndex = Math.floor(Math.random()*allFeelings.length);
+   var feeling = allFeelings[fIndex];
+   
+   var race = await randomRace.getRandomRace();
+   var ret = generateName()+", a "+rollAttitude()+" "+race+" feeling "+feeling+" who "+quirk;
+   console.log(ret);
 }
 
 function rollRange(r){

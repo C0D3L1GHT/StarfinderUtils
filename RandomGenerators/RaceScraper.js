@@ -4,7 +4,6 @@ const fs = require('fs');
 const path = require('path');
 const { JSDOM } = jsdom;
 
-// This returns Promise { Pending }, not true or false
 async function newsFeedDateHasChanged(){
   try{
     const response = await fetch('https://www.aonsrd.com/');
@@ -13,7 +12,7 @@ async function newsFeedDateHasChanged(){
     const mainPage = dom.window.document.getElementById('ctl00_MainContent_MainNewsFeed');
     let newPageDate = mainPage.textContent.slice(0,19);
     oldPageDate = getRaceListFileDate();
-	//console.log(oldPageDate+"\n"+newPageDate);
+	//console.log(oldPageDate+" vs\n"+newPageDate);
     if(newPageDate != oldPageDate){
 		fs.writeFile('RaceList.txt', newPageDate+"\n", (err) => {
         if (err) throw err;
@@ -39,8 +38,9 @@ function getRaceListFileDate(){
 }
 
 async function scrapeRaces(){  
-  if(!newsFeedDateHasChanged()){
-	console.log("no new races!");
+  var listChanged = await newsFeedDateHasChanged();
+  if(!listChanged){
+	//console.log("no new races!");
     return;
   }else{
     try{
@@ -54,6 +54,7 @@ async function scrapeRaces(){
 		addListToRaceListFile(coreRaces);
 		addListToRaceListFile(legacyRaces);
 		addListToRaceListFile(otherRaces);
+		console.log("\n\nupdated race page!");
       }catch(err){
         console.log(err);
       }
@@ -62,7 +63,11 @@ async function scrapeRaces(){
 
 function addListToRaceListFile(raceList){
 	for(let i = 0; i < raceList.length; i++){
-      fs.appendFile('RaceList.txt', raceList[i].text+'\n', (err) => {
+		var str2add = raceList[i].text;
+	  str2add = str2add.replace('*', '');
+	  if(str2add[0] == ' ')
+		  str2add = str2add.slice(1, str2add.length);
+      fs.appendFile('RaceList.txt', str2add+'\n', (err) => {
         if (err) throw err;
       })
     }
@@ -79,14 +84,16 @@ function getRaceListFile() {
   }
 }
 
-async function getRandomRace(){
-  let allRaces = await getRaceListFile();
-  if(allRaces.length == 0){
-    allRaces = await scrapeRaces();
-  }
-  var index = Math.floor(Math.random()*allRaces.length);
-  //console.log(index);
-  document.getElementById("NPCInfo").innerHTML = allRaces[index]+"<br />";
-  scrapeRaces();
+module.exports = {
+	getRandomRace: async function getRandomRace(){
+	  let allRaces = await getRaceListFile();
+	  if(allRaces.length == 0){
+		allRaces = await scrapeRaces();
+	  }
+	  var index = Math.floor(Math.random()*allRaces.length);
+	  return allRaces[index];
+	  //document.getElementById("NPCInfo").innerHTML = allRaces[index]+"<br />";
+	  scrapeRaces();
+	}
 }
-getRandomRace();
+scrapeRaces();

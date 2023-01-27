@@ -9,21 +9,21 @@ const settlement_gov_list = ["Anarchy", "Autocracy", "Council", "Magocracy", "Mi
 const settlement_qual_list = ["Academic", "Bureaucratic", "Cultured", "Devout", "Financial Center", "Insular", "Notorious", "Polluted"]
 
 function GeneratePlanet(){
-  document.getElementById("planetInfo").innerHTML =  "World Type:      " + GenWorldType()+"<br />";
-  document.getElementById("planetInfo").innerHTML += "Gravity:         " + GenGravity()+"<br />";
-  document.getElementById("planetInfo").innerHTML += "Atmosphere:      " + GenAtmopshere()+"<br />";
+  console.log( "World Type:      " + GenWorldType());
+  console.log("Gravity:         " + GenGravity());
+  console.log("Atmosphere:      " + GenAtmopshere());
   var dThree = rollRange(3);
   for(let i = 1; i <= dThree; i++){
-    document.getElementById("planetInfo").innerHTML +="   Biome: " + GenBiome()+"<br />";
+    console.log("   Biome: " + GenBiome());
   }
-  document.getElementById("planetInfo").innerHTML += "Accord:          " + GenTriadAttributes()+"<br />";
-  document.getElementById("planetInfo").innerHTML += "Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality()+"<br />";
-  document.getElementById("planetInfo").innerHTML += "Magic Level:     " + GenTriadAttributes()+"<br />";
-  document.getElementById("planetInfo").innerHTML += "Religion Level:  " + GenTriadAttributes()+"<br />";
-  document.getElementById("planetInfo").innerHTML += "Tech Level:      " + GenTriadAttributes()+"<br />";
+  console.log("Accord:          " + GenTriadAttributes());
+  console.log("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
+  console.log("Magic Level:     " + GenTriadAttributes());
+  console.log("Religion Level:  " + GenTriadAttributes());
+  console.log("Tech Level:      " + GenTriadAttributes());
   var dThree = rollRange(3);
   for(let i = 1; i <= dThree; i++){
-    document.getElementById("planetInfo").innerHTML += "   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov()+"<br />";
+    console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
 }
 
@@ -111,9 +111,10 @@ function isThreat(){
   return Math.random() >= 0.5 ? "Roll Initiative!" : "all clear";
 }
 
-/*GeneratePlanet()
 console.log("\n\n");
 GeneratePlanet()
+console.log("\n\n");
+/*GeneratePlanet()
 console.log("\n\n");
 GeneratePlanet()
 console.log("\n\n");
