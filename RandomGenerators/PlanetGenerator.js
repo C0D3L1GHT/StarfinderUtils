@@ -8,6 +8,7 @@ const align_morality_list = ["Evil", "Neutral", "Good"]
 const settlement_gov_list = ["Anarchy", "Autocracy", "Council", "Magocracy", "Military", "Oligarchy", "Secret Syndicate", "Plutocracy", "Utopia"]
 const settlement_qual_list = ["Academic", "Bureaucratic", "Cultured", "Devout", "Financial Center", "Insular", "Notorious", "Polluted"]
 
+//TODO: roll planetary anomaly
 function GeneratePlanet(){
   console.log( "World Type:      " + GenWorldType());
   console.log("Gravity:         " + GenGravity());

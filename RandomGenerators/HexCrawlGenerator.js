@@ -1,3 +1,4 @@
+var perlin = require('perlin-noise');
 const hexMap = ["          _____         _____         _____         _____         _____         _____                 ",
                 "         /-----\\       /-----\\       /-----\\       /-----\\       /-----\\       /-----\\          ",
                 "   _____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____    ",
@@ -38,60 +39,61 @@ const hexMap = ["          _____         _____         _____         _____      
                 " \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/ ",
                 "  \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/  "];
 		   
-// element 0 in the array is the required 
+// element 0 in the array is the required actions
 var hexploration_stats = {
-	Airborne:     [1, 17, '\u2601'],//works //Assumes a fly (airborne or space) or swim (aquatic) speed
-    Aquatic:      [1, 14, '\u26EC'],//works //Assumes a fly (airborne or space) or swim (aquatic) speed
-    Arctic:       [2, 17, '\u2744'], //works
-    Desert:       [2, 17, '\u263C'], //works
+	Airborne:     [1, 17, '\u2601'],//Assumes a fly (airborne or space) or swim (aquatic) speed
+    Aquatic:      [1, 14, '\u26EC'],//Assumes a fly (airborne or space) or swim (aquatic) speed
+    Arctic:       [2, 17, '\u2744'],
+    Desert:       [2, 17, '\u263C'],
     Forest:       [3, 12, 'T'],
     Marsh:        [2, 12, '%'],
-    Mountain:     [2, 16, '\u26F0'], //works
+    Mountain:     [2, 16, '\u26F0'],
     Plains:       [1, 16, 's'],
-    Space:        [1, 17, '\u2605'], //works //Assumes a fly (airborne or space) or swim (aquatic) speed
+    Space:        [1, 17, '\u2605'],//Assumes a fly (airborne or space) or swim (aquatic) speed
     Subterranean: [2, 16, 'C'],
-    Urban:        [1, 10, '\u220F'], //works
+    Urban:        [1, 10, '\u220F'],
     Weird:        [2, 14, '?'],
 }
 
-const BLOCK_SIZE = 6
+const ROW_LENGTH = 14
+const COL_LENGTH = 10
 
 function generateHexMap(worldBiomes){
 	// determine the block size for the world biomes randomly within a range
-	populateMap(worldBiomes,BLOCK_SIZE);
+	populateMap(worldBiomes);
 }
 
-function populateMap(biomelist, blockSize){
+function populateMap(biomelist){
 	var counter = 1;
 	var letter   = 97;
 	var newHexMap = hexMap;
 	
-	for(var i = 0; i < biomelist.length; i++){
-		var row = rollRange(8);
-		var col = rollRange(12);
+	var p = perlin.generatePerlinNoise(ROW_LENGTH, COL_LENGTH)
 	
-		if(getHexBiome(row,col) == "/*******\\")
-			setHexBiome(row,col,biomelist[i])
-		else
-			i--;
-		
+	for(var i = 0; i < p.length; i++){
+		p[i] = Math.floor(p[i] * biomelist.length) + 1;
+	}
+	
+	var counter = 0;
+	for(var i = 1; i < COL_LENGTH; i++){
+		for(var j = 1; j < ROW_LENGTH; j++){
+			setHexBiome(i,j,biomelist[p[counter]-1]);
+			counter++;
+		}
+		counter++;
 	}
 	
 	newHexMap.forEach(function(line) {
+		if(line[4] == '-' || line[10] == '-' && counter > 1){// if we are in a line that needs coords and we have already made 1st pass
+			counter = 1;
+			letter++;
+		}
 		while(line.includes('-') || line.includes('#')){
 			//add coordinates to map
 			//TODO: refactor the coordinate system to make sense
-			line = line.replace("\-----\\", "\ "+counter.toString()+"."+String.fromCharCode(letter)+" \\");
+			line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+"."+counter.toString()+" \\");
 			line = line.replace("\#######/", "\  "+rollLandmark()+"    /");
-			if(counter >= 9){
-				counter = 1;
-				letter++;
-			}else
-				counter++;
-		
-		    // when adding a block, roll to determine if an encounter is there
-		
-		    // if no encounter, add nothing, add small settlement, add dungeon
+			counter++;
 		}
 		console.log(line);
 	});	
@@ -102,13 +104,24 @@ function populateMap(biomelist, blockSize){
 function rollLandmark(){
 	var landmark = rollRange(20);
 	
-	if(landmark > 9 && landmark < 12)//should actually be based on biome's monster DC
-		return "!"
-	
+	if(landmark >= 1 && landmark <= 3)
+		return "r" //ruins
+	if(landmark >= 4 && landmark <= 6)
+		return "c"//5RD, lair, etc
+	if(landmark >= 7 && landmark <= 9)
+		return "^"//natural formation
+	if(landmark >= 10 && landmark <= 11)//should actually be based on biome's monster DC
+		return "!"//monster
+	if(landmark >= 12 && landmark <= 14)
+		return "X"
+	if(landmark >= 15 && landmark <= 16)
+		return "$"//settlement
+	if(landmark == 17)
+		return "%"//magic or tech
+	if(landmark >= 18 && landmark <= 20)
+		return "&"	
 	return ' '
 }
-
-
 
 function getHexBiome(row, col){
 		
@@ -182,46 +195,7 @@ function setHexBiome(row, col, str){
 		mapRow = row*4
 	}       
 	
-	switch(str){
-		case "Airborne":
-			biomeStr = hexploration_stats.Airborne[2]; 
-			break;
-		case "Aquatic":
-			biomeStr = hexploration_stats.Aquatic[2];
-			break;
-		case "Arctic":
-			biomeStr = hexploration_stats.Arctic[2];
-			break;
-		case "Desert":
-			biomeStr = hexploration_stats.Desert[2];
-			break;
-		case "Forest":
-			biomeStr = hexploration_stats.Forest[2];
-			break;
-		case "Marsh":
-			biomeStr = hexploration_stats.Marsh[2];
-			break;
-		case "Mountain":
-			biomeStr = hexploration_stats.Mountain[2];
-			break;
-		case "Plains":
-			biomeStr = hexploration_stats.Plains[2];
-			break;
-		case "Space":
-			biomeStr = hexploration_stats.Space[2];
-			break;
-		case "Subterranean":
-			biomeStr = hexploration_stats.Subterranean[2];
-			break;
-		case "Urban":
-			biomeStr = hexploration_stats.Urban[2];
-			break;
-		case "Weird":
-			biomeStr = hexploration_stats.Weird[2];
-			break;
-	}
-	
-	biomeStr = "/   "+biomeStr+"   \\"
+	biomeStr = "/   "+stringToBiome(str,2)+"   \\"
 	switch (col){
 		case 1:
 			hexMap[mapRow] = hexMap[mapRow].substring(0,1)+biomeStr+hexMap[mapRow].substring(10);
@@ -265,10 +239,57 @@ function setHexBiome(row, col, str){
 	}
 }
 
+function propagateBiome(row,col,seed, bias){
+	// create array of adjacent strings
+	// if bias is not zero
+	// iterate through array and set their biome to seed value
+	// when each is set to biome, call tihs method again on
+}
 
+function stringToBiome(str, num){
+	switch(str){
+		case "Airborne":
+			return hexploration_stats.Airborne[num]; 
+			break;
+		case "Aquatic":
+			return hexploration_stats.Aquatic[num];
+			break;
+		case "Arctic":
+			return hexploration_stats.Arctic[num];
+			break;
+		case "Desert":
+			return hexploration_stats.Desert[num];
+			break;
+		case "Forest":
+			return hexploration_stats.Forest[num];
+			break;
+		case "Marsh":
+			return hexploration_stats.Marsh[num];
+			break;
+		case "Mountain":
+			return hexploration_stats.Mountain[num];
+			break;
+		case "Plains":
+			return hexploration_stats.Plains[num];
+			break;
+		case "Space":
+			return hexploration_stats.Space[num];
+			break;
+		case "Subterranean":
+			return hexploration_stats.Subterranean[num];
+			break;
+		case "Urban":
+			return hexploration_stats.Urban[num];
+			break;
+		case "Weird":
+			return hexploration_stats.Weird[num];
+			break;
+	}
+}
 
 function rollRange(r){
     return Math.floor(Math.random() * r) + 1;
 }
 //["Airborne","Aquatic","Arctic","Desert","Forest","Marsh","Mountain","Plains","Space","Subterranean","Urban","Weird"]
-generateHexMap(["Airborne","Aquatic"]);
+generateHexMap(["Aquatic","Forest","Mountain","Plains"]);
+
