@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const world_type_list = ["Terrestrial", "Gas giant", "Irregular", "Satellite", "Asteroid", "Colony ship", "Space station"];
 const gravity_list = ["Standard", "Zero gravity", "Low", "High", "Extreme"]
 const atmosphere_list = ["Normal", "None", "Thin", "Thick", "Corrosive or Toxic"]
@@ -8,8 +10,8 @@ const align_morality_list = ["Evil", "Neutral", "Good"]
 const settlement_gov_list = ["Anarchy", "Autocracy", "Council", "Magocracy", "Military", "Oligarchy", "Secret Syndicate", "Plutocracy", "Utopia"]
 const settlement_qual_list = ["Academic", "Bureaucratic", "Cultured", "Devout", "Financial Center", "Insular", "Notorious", "Polluted"]
 
-//TODO: roll planetary anomaly
-function GeneratePlanet(){
+async function GeneratePlanet(){
+  var anomaly = await GenAnomaly();//This is here because otherwise the code adds newlines in the printout for some reason
   console.log( "World Type:      " + GenWorldType());
   console.log("Gravity:         " + GenGravity());
   console.log("Atmosphere:      " + GenAtmopshere());
@@ -22,6 +24,7 @@ function GeneratePlanet(){
   console.log("Magic Level:     " + GenTriadAttributes());
   console.log("Religion Level:  " + GenTriadAttributes());
   console.log("Tech Level:      " + GenTriadAttributes());
+  console.log("Anomaly:         " + anomaly);
   var dThree = rollRange(3);
   for(let i = 1; i <= dThree; i++){
     console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
@@ -104,12 +107,25 @@ function GenSettlementQual(){
   return settlement_qual_list[dSeven-1];
 }
 
-function rollRange(r){
-  return Math.floor(Math.random() * r) + 1;
+async function GenAnomaly(){
+	anomaly_list = await ScrapeAnomalyList()
+	var dTwenty = rollRange(20)
+	return anomaly_list[dTwenty-1]; 
 }
 
-function isThreat(){
-  return Math.random() >= 0.5 ? "Roll Initiative!" : "all clear";
+async function ScrapeAnomalyList(){
+	try {
+       var data = fs.readFileSync("./AnomalyList.txt", { encoding: 'utf8', flag: 'r' });
+       var ret = data.split('\n');
+       return ret;
+  } catch (e) {
+       console.log(e);
+       return [];
+  }
+}
+
+function rollRange(r){
+  return Math.floor(Math.random() * r) + 1;
 }
 
 console.log("\n\n");
