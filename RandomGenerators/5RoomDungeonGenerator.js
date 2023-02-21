@@ -1,4 +1,4 @@
-
+//Add loot table (ammo, creds, lore, equipment)
 const Layout = {
 	One:    "[][][][]\n         []",
 	Two:    "[][][][]\n      []",
