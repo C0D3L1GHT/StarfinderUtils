@@ -1,99 +1,99 @@
 1/15/23 10:16 PM PS
-Vocal Modulator (1)
-Prosthetic Limb, Standard (1)
-Weapon Learning Subroutine, Basic (1)
-Hideaway Limb, Standard (1)
-Society Subdermal Graft, Single (1)
-Respiration Compounder (1)
-Voice Amplifier (1)
-Charge Palm (1)
-Anosmatic Shunt (1)
-Datajack, Standard (2)
-Haptic Database (2)
-Bronchial Valves (2)
-Spinal Struts, Minimal (3)
-Pheromap, Basic (3)
-Lightvision Shades (2)
-Prosthetic Limb, Storage (3)
-Thruster Heels (3)
-Retinal Reflectors (3)
-Optical Laser, Azimuth (3)
-Darkvision Capacitors, Standard (3)
-Fortified Feet (4)
-Speed Suspension, Minimal (4)
-Inner Gyros (4)
-Threshold Buffer, Mk 1 (4)
-Voice Encoder, Primal (4)
-Weaponized Prosthesis, Mk 1 (4)
-Emotional Regulator (4)
-Datajack, High-Density (5)
-Pheromap, Advanced (5)
-Wide-Spectrum Ocular Implant (5)
-Solar Overload Conduit, Mk 1 (5)
-Bionic Knee (5)
-Antitoxin Membrane (5)
-Dermal Plating, Mk 1 (5)
-Hideaway Limb, Quickdraw (5)
-Force Matrix, Mk 1 (5)
-Cardiac Accelerator (6)
-Detoxifier, Standard (5)
-Adaptive Fingerprints (6)
-Weapon Learning Subroutine, Advanced (6)
-Biosynthetic Nanites, Mk 1 (6)
-X-Legs, Basic (6)
-Spinal Struts, Standard (6)
-Nanite Tempograft, Mk 1 (6)
-Echolocators, Reactive (6)
-Limning Palm (7)
-Polarizing Palm (7)
-Shortwave Receiver-Transmitter (7)
-Partitioned Personality Module (7)
-Dermal Plating, Mk 2 (7)
-Illusion Refractor (7)
-Optical Laser, Corona (7)
-Datajack, Accelerated (8)
-Starship Neural Link (8)
-Recoil Stabilizer (8)
-Speed Suspension, Standard (8)
-Darkvision Capacitors, Advanced (8)
-Adrenal Booster (8)
-Weaponized Prosthesis, Mk 2 (8)
-Nanite Tempograft, Mk 2 (8)
-Threshold Buffer, Mk 2 (9)
-Disquieting Nanites (8)
-Biosynthetic Nanites, Mk 2 (9)
-Dermal Plating, Mk 3 (9)
-Solar Overload Conduit, Mk 2 (10)
-Echolocators, Active (9)
-Spinal Struts, Reinforced (10)
-Soft-Light Holoframe (10)
-Cybernetic Arm, Single (11)
-Refraction Shell (11)
-Artificial Third Eye (10)
-Optical Laser, Aphelion (11)
-Force Matrix, Mk 2 (11)
-Voice Encoder, Sophisticate (11)
-Speed Suspension, Complete (12)
-Linguistic Capacitor (12)
-Thorgothrel Armature (11)
-Tremor Soles (12)
-Nanite Tempograft, Mk 3 (12)
-X-Legs, Climbing (12)
-Detoxifier, Enhanced (12)
-Biosynthetic Nanites, Mk 3 (13)
-Dermal Plating, Mk 4 (12)
-Darkvision Capacitors, Long-Range (13)
-Conductive Carrier (13)
-Echolocators, Enhanced (13)
-Cybernetic Arm, Dual (14)
-Polyhand (14)
-Dermal Plating, Mk 5 (14)
-Threshold Buffer, Mk 3 (15)
-Solar Overload Conduit, Mk 3 (15)
-Cerebral backup (18)
-Dermal Plating, Mk 6 (16)
-Force Matrix, Mk 3 (17)
-Optical Laser, Parallax (15)
-Detoxifier, Elite (19)
-Dermal Plating, Mk 7 (19)
-Optical Laser, Zenith (19)
+Prosthetic Limb, Standard {1}
+Vocal Modulator {1}
+Voice Amplifier {1}
+Respiration Compounder {1}
+Society Subdermal Graft, Single {1}
+Hideaway Limb, Standard {1}
+Weapon Learning Subroutine, Basic {1}
+Anosmatic Shunt {1}
+Charge Palm {1}
+Haptic Database {2}
+Lightvision Shades {2}
+Datajack, Standard {2}
+Bronchial Valves {2}
+Thruster Heels {3}
+Spinal Struts, Minimal {3}
+Pheromap, Basic {3}
+Retinal Reflectors {3}
+Prosthetic Limb, Storage {3}
+Optical Laser, Azimuth {3}
+Darkvision Capacitors, Standard {3}
+Fortified Feet {4}
+Speed Suspension, Minimal {4}
+Inner Gyros {4}
+Threshold Buffer, Mk 1 {4}
+Emotional Regulator {4}
+Weaponized Prosthesis, Mk 1 {4}
+Voice Encoder, Primal {4}
+Datajack, High-Density {5}
+Solar Overload Conduit, Mk 1 {5}
+Bionic Knee {5}
+Pheromap, Advanced {5}
+Wide-Spectrum Ocular Implant {5}
+Antitoxin Membrane {5}
+Dermal Plating, Mk 1 {5}
+Hideaway Limb, Quickdraw {5}
+Detoxifier, Standard {5}
+Cardiac Accelerator {6}
+Adaptive Fingerprints {6}
+Spinal Struts, Standard {6}
+Force Matrix, Mk 1 {5}
+X-Legs, Basic {6}
+Biosynthetic Nanites, Mk 1 {6}
+Nanite Tempograft, Mk 1 {6}
+Polarizing Palm {7}
+Shortwave Receiver-Transmitter {7}
+Limning Palm {7}
+Partitioned Personality Module {7}
+Dermal Plating, Mk 2 {7}
+Illusion Refractor {7}
+Optical Laser, Corona {7}
+Starship Neural Link {8}
+Datajack, Accelerated {8}
+Recoil Stabilizer {8}
+Speed Suspension, Standard {8}
+Adrenal Booster {8}
+Darkvision Capacitors, Advanced {8}
+Weaponized Prosthesis, Mk 2 {8}
+Disquieting Nanites {8}
+Nanite Tempograft, Mk 2 {8}
+Threshold Buffer, Mk 2 {9}
+Biosynthetic Nanites, Mk 2 {9}
+Echolocators, Active {9}
+Dermal Plating, Mk 3 {9}
+Solar Overload Conduit, Mk 2 {10}
+Weapon Learning Subroutine, Advanced {6}
+Spinal Struts, Reinforced {10}
+Artificial Third Eye {10}
+Soft-Light Holoframe {10}
+Cybernetic Arm, Single {11}
+Refraction Shell {11}
+Thorgothrel Armature {11}
+Optical Laser, Aphelion {11}
+Force Matrix, Mk 2 {11}
+Echolocators, Reactive {6}
+Voice Encoder, Sophisticate {11}
+Speed Suspension, Complete {12}
+Linguistic Capacitor {12}
+X-Legs, Climbing {12}
+Nanite Tempograft, Mk 3 {12}
+Tremor Soles {12}
+Detoxifier, Enhanced {12}
+Dermal Plating, Mk 4 {12}
+Darkvision Capacitors, Long-Range {13}
+Biosynthetic Nanites, Mk 3 {13}
+Echolocators, Enhanced {13}
+Conductive Carrier {13}
+Polyhand {14}
+Cybernetic Arm, Dual {14}
+Dermal Plating, Mk 5 {14}
+Threshold Buffer, Mk 3 {15}
+Optical Laser, Parallax {15}
+Solar Overload Conduit, Mk 3 {15}
+Dermal Plating, Mk 6 {16}
+Force Matrix, Mk 3 {17}
+Cerebral backup {18}
+Detoxifier, Elite {19}
+Dermal Plating, Mk 7 {19}
+Optical Laser, Zenith {19}

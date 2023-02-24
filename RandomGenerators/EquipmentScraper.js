@@ -65,7 +65,7 @@ async function scrapeInfoAndAddToFile(textFile, pageLink, tableName, levelIndex)
 				var name  = table.children[i].children[0].textContent;//i+dataStart-1
 				var level = table.children[i].children[levelIndex].textContent;
 				//console.log(name + " (" + level + ")");
-				list.push(name + " (" + level + ")");
+			list.push(name + " {" + level + "}");
 			}
 			addListToFile(list, textFile);
 		}catch(err){
@@ -153,7 +153,7 @@ async function getAllEquipmentByLevel(fileName, lvl){
 	allEquipment = await getListFile(fileName);
 	
 	for(var i = 0; i < allEquipment.length; i++){
-		if (allEquipment[i].includes("("+lvl+")"))
+		if (allEquipment[i].includes("{"+lvl+"}"))
 			allEquipmentbyLevel.push(allEquipment[i]);
 	}
 	return allEquipmentbyLevel;
@@ -174,8 +174,65 @@ async function getRandomEquipmentByLevel(equipmentType, lvl){
 	if (equipmentType == "HybridItem") equipmentByLevel = await getAllEquipmentByLevel("./HybridItemList.txt",lvl);
 	
 	var index = Math.floor(Math.random()*equipmentByLevel.length);
-	console.log(equipmentByLevel[index]);
+	//console.log(equipmentByLevel[index]);
 	return equipmentByLevel[index];
+}
+
+async function rollLootPool(lvl, diff, tacAmount, tacChance, itemAmount, itemChance){
+	var pool = [];
+	
+	if (lvl - diff == 0){
+		console.log("lower the diff");
+		return;
+	}
+	
+	var level;
+	
+	for(var i = 0; i < rollRange(6); i++){
+		level = Math.floor(Math.random() * ((lvl + diff) - (lvl - diff)) + (lvl - diff));
+		pool.push("consumable: "+await getRandomEquipmentByLevel("Consumable", level));
+	}
+	
+	for(var i = 0; i < rollRange(tacAmount); i++){
+		var tacIncluded = rollRange(100) <= tacChance;
+		level = Math.floor(Math.random() * ((lvl + diff) - (lvl - diff)) + (lvl - diff));
+		
+		if (tacIncluded){
+			var tacType = rollRange(3);
+			if(tacType == 1)
+				pool.push("armor: " + await getRandomEquipmentByLevel("Armor", level));
+			if(tacType == 2)
+				pool.push("weapon: " + await getRandomEquipmentByLevel("Weapon", level));
+			if(tacType == 3)
+				pool.push("shield: " + await getRandomEquipmentByLevel("Shield", level));
+		}
+	}
+	
+	for(var i = 0; i < rollRange(itemAmount); i++){
+		var itemIncluded = rollRange(100) <= tacChance;
+		level = Math.floor(Math.random() * ((lvl + diff) - (lvl - diff)) + (lvl - diff));
+	
+		if(itemIncluded){
+			var itemType = rollRange(4);
+			if(itemType == 1)
+				pool.push("augment: " + await getRandomEquipmentByLevel("Augment", level));
+			if(itemType == 2)
+				pool.push("magicItem: " + await getRandomEquipmentByLevel("MagicItem", level));
+			if(itemType == 3)
+				pool.push("techItem: " + await getRandomEquipmentByLevel("TechItem", level));
+			if(itemType == 4)
+				pool.push("hybridItem: " + await getRandomEquipmentByLevel("HybridItem", level));
+		}
+	
+	}
+	
+	for(var i = 0; i < pool.length; i++)
+		console.log(pool[i]);
+	return pool
+}
+
+function rollRange(r){
+    return Math.floor(Math.random() * r) + 1;
 }
 
 function addListToFile(list, fileName){
@@ -191,18 +248,61 @@ function addListToFile(list, fileName){
 }
 
 module.exports = {
-	//TODO: add getRandomEquipments here
+	rollLootPool: async function rollLootPool(lvl, diff, consumableAmount, tacAmount, tacChance, itemAmount, itemChance){
+		var pool = [];
+		pool.push("loot:");
+	
+		if (lvl - diff == 0){
+			console.log("lower the diff");
+			return;	
+		}
+	
+		var level;
+	
+		for(var i = 0; i < rollRange(consumableAmount); i++){
+			level = Math.floor(Math.random() * ((lvl + diff) - (lvl - diff)) + (lvl - diff));
+			pool.push("consumable: "+await getRandomEquipmentByLevel("Consumable", level));
+		}
+	
+		for(var i = 0; i < rollRange(tacAmount); i++){
+			var tacIncluded = rollRange(100) <= tacChance;
+			level = Math.floor(Math.random() * ((lvl + diff) - (lvl - diff)) + (lvl - diff));
+		
+			if (tacIncluded){
+				var tacType = rollRange(3);
+				if(tacType == 1)
+					pool.push("armor: " + await getRandomEquipmentByLevel("Armor", level));
+				if(tacType == 2)
+					pool.push("weapon: " + await getRandomEquipmentByLevel("Weapon", level));
+				if(tacType == 3)
+					pool.push("shield: " + await getRandomEquipmentByLevel("Shield", level));
+			}
+		}
+	
+		for(var i = 0; i < rollRange(itemAmount); i++){
+			var itemIncluded = rollRange(100) <= tacChance;
+			level = Math.floor(Math.random() * ((lvl + diff) - (lvl - diff)) + (lvl - diff));
+		
+			if(itemIncluded){
+				var itemType = rollRange(4);
+				if(itemType == 1)
+					pool.push("augment: " + await getRandomEquipmentByLevel("Augment", level));
+				if(itemType == 2)
+					pool.push("magicItem: " + await getRandomEquipmentByLevel("MagicItem", level));
+				if(itemType == 3)
+					pool.push("techItem: " + await getRandomEquipmentByLevel("TechItem", level));
+				if(itemType == 4)
+					pool.push("hybridItem: " + await getRandomEquipmentByLevel("HybridItem", level));
+			}		
+		}
+	
+		//for(var i = 0; i < pool.length; i++)
+		//	console.log(pool[i]);
+		return pool
+	}
+	
 }
+ 
+//rollLootPool(5, 2, 2, 30, 2, 30);
 
-getRandomEquipmentByLevel("Armor", 1);
-getRandomEquipmentByLevel("Weapon", 1);
-getRandomEquipmentByLevel("Shield", 1);
-getRandomEquipmentByLevel("Consumable", 1);
-getRandomEquipmentByLevel("Augment", 1);
-getRandomEquipmentByLevel("MagicItem", 1);
-getRandomEquipmentByLevel("TechItem", 1);
-getRandomEquipmentByLevel("HybridItem", 1);
 
-//getRandomShieldByLevel(1);
-//getRandomArmorByLevel(1);
-//getRandomWeaponByLevel(1);

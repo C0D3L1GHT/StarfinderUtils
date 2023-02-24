@@ -1,4 +1,7 @@
 var perlin = require('perlin-noise');
+const random5RD = require('./5RoomDungeonGenerator.js');
+const randomLoot = require('./EquipmentScraper.js');
+
 const hexMap = ["          _____         _____         _____         _____         _____         _____                 ",
                 "         /-----\\       /-----\\       /-----\\       /-----\\       /-----\\       /-----\\          ",
                 "   _____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____    ",
@@ -55,15 +58,17 @@ var hexploration_stats = {
     Weird:        [2, 14, '?'],
 }
 
+var travelGuide = [];
+
 const ROW_LENGTH = 14
 const COL_LENGTH = 10
 
-function generateHexMap(worldBiomes){
+async function generateHexMap(worldBiomes){
 	// determine the block size for the world biomes randomly within a range
 	populateMap(worldBiomes);
 }
 
-function populateMap(biomelist){
+async function populateMap(biomelist){
 	var counter = 1;
 	var letter   = 97;
 	var newHexMap = hexMap;
@@ -74,7 +79,7 @@ function populateMap(biomelist){
 		p[i] = Math.floor(p[i] * biomelist.length) + 1;
 	}
 	
-	var counter = 0;
+	counter = 0;
 	for(var i = 1; i < COL_LENGTH; i++){
 		for(var j = 1; j < ROW_LENGTH; j++){
 			setHexBiome(i,j,biomelist[p[counter]-1]);
@@ -83,17 +88,40 @@ function populateMap(biomelist){
 		counter++;
 	}
 	
-	newHexMap.forEach(function(line) {
-		if(line[4] == '-' || line[10] == '-' && counter > 1){// if we are in a line that needs coords and we have already made 1st pass
-			counter = 1;
-			letter++;
-		}
+	counter = 1;
+	newHexMap.forEach(function(line, index) {
+		if(line[4] == '-') counter = 1;
+		if (index > 1 && line.includes('-')) letter++;
+		if(line[10] == '-')	counter = 2;
+		
 		while(line.includes('-') || line.includes('#')){
-			//add coordinates to map
-			//TODO: refactor the coordinate system to make sense
-			line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+"."+counter.toString()+" \\");
-			line = line.replace("\#######/", "\  "+rollLandmark()+"    /");
-			counter++;
+			//extract coordinates for landmarks
+			var coordStr = ""	
+			var coordLetter = letter-1;
+			var coordCounter = counter;
+			if(letterIsUpRow(String.fromCharCode(letter))){ 
+				if(coordCounter > 1)
+					coordCounter--;
+				// if(coordCounter < 12)
+					// coordCounter = 12;
+			}else{
+				if(coordCounter < 13)
+					coordCounter++;
+			}
+			if(String.fromCharCode(letter) == 'r' && line[12] == ' '){
+				 coordLetter = letter;
+				 coordCounter = coordCounter - 14
+			}
+			if(coordCounter < 10) coordStr = String.fromCharCode(coordLetter)+"0"+(coordCounter).toString();
+			else coordStr = String.fromCharCode(coordLetter)+""+(coordCounter).toString();
+			if (counter < 10){
+				line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+"0"+counter.toString()+" \\");
+			}
+			else{
+				line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+""+counter.toString()+" \\");
+			}
+			line = line.replace("\#######/", "\   "+rollLandmark(coordStr)+"   /");
+			counter += 2;
 		}
 		console.log(line);
 	});	
@@ -101,25 +129,66 @@ function populateMap(biomelist){
 	return newHexMap;
 }
 
-function rollLandmark(){
+function letterIsUpRow(c){
+	//var ret = (c == 'a' || c == 'c' || c == 'e' || c == 'g' || c == 'i' || c == 'k' || c == 'm' || c == 'o' ||c == 'q')
+	//console.log(c+" "+ret);
+	return c == 'a' || c == 'c' || c == 'e' || c == 'g' || c == 'i' || c == 'k' || c == 'm' || c == 'o' ||c == 'q';
+}
+
+async function printLandmarkData(coord, landmark){
+	if(landmark == "r"){
+		var RT = await randomLoot.rollLootPool(2,1,3,1,10,2,25);
+		RT.unshift("\n"+coord);
+		for(var i = 0; i < RT.length; i++)
+			console.log(RT[i]);
+	}
+	if(landmark == "c"){
+		var RD = await random5RD.generate5RD(5,3,5,2,10,4,50);
+		RD.unshift("\n"+coord);
+		for(var i = 0; i < RD.length; i++)
+			console.log(RD[i]);
+	}
+	if(landmark == "%"){
+		var RT = await randomLoot.rollLootPool(5,0,0,1,30,2,90);
+		RT.unshift("\n"+coord);
+		for(var i = 0; i < RT.length; i++)
+			console.log(RT[i]);
+	}
+}
+
+function rollLandmark(coord){
 	var landmark = rollRange(20);
 	
-	if(landmark >= 1 && landmark <= 3)
+	if(landmark >= 1 && landmark <= 3){
+		printLandmarkData(coord, "r");
 		return "r" //ruins
-	if(landmark >= 4 && landmark <= 6)
+	}
+	if(landmark >= 4 && landmark <= 6){
+		printLandmarkData(coord, "c");
 		return "c"//5RD, lair, etc
-	if(landmark >= 7 && landmark <= 9)
+	}
+	if(landmark >= 7 && landmark <= 9){
+		//skill challenge
 		return "^"//natural formation
-	if(landmark >= 10 && landmark <= 11)//should actually be based on biome's monster DC
+	}
+	if(landmark >= 10 && landmark <= 11){//should actually be based on biome's monster DC
+		//TODO: rollMonster
 		return "!"//monster
-	if(landmark >= 12 && landmark <= 14)
-		return "X"
-	if(landmark >= 15 && landmark <= 16)
+	}
+	if(landmark >= 12 && landmark <= 14){
+		return "X"//campsite
+	}
+	if(landmark >= 15 && landmark <= 16){
 		return "$"//settlement
-	if(landmark == 17)
+	}
+	if(landmark == 17){
+		printLandmarkData(coord, "%");
 		return "%"//magic or tech
-	if(landmark >= 18 && landmark <= 20)
-		return "&"	
+	}
+	if(landmark >= 18 && landmark <= 20){
+		//skill challenge
+		return "&"//unusual
+	}
 	return ' '
 }
 
@@ -237,13 +306,6 @@ function setHexBiome(row, col, str){
 			hexMap[mapRow] = hexMap[mapRow].substring(0,85)+biomeStr+hexMap[mapRow].substring(94);
 			break;	
 	}
-}
-
-function propagateBiome(row,col,seed, bias){
-	// create array of adjacent strings
-	// if bias is not zero
-	// iterate through array and set their biome to seed value
-	// when each is set to biome, call tihs method again on
 }
 
 function stringToBiome(str, num){

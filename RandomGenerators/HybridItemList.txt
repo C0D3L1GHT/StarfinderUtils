@@ -1,230 +1,230 @@
 1/15/23 10:16 PM PS
-Cleanliness Circuits (1)
-Attablossom (1)
-Dust Goggles (1)
-Instant Ground (1)
-Locus Comm (1)
-Kvashbark Cartography Kit (1)
-Plant Shield Amulet (1)
-Planar Flare (1)
-Shotalashu Saddle (1)
-Sweet Dreambot (1)
-Starstone Compass (1)
-Thermal Regulator (1)
-Absolute Compass, Mk 1 (1)
-Defensive Threads, Mk 1 (1)
-Sense Silk, Mk 1 (1)
-Software Imp, Tier 1 (1)
-Phaserod (2)
-Earrings of Dampening, Mk 1 (2)
-Empathic Depiction, Portrait (2)
-Mask of Scrambling, Mk 1 (2)
-Metal Nitro, Silver (2)
-Mindlink Circlet, Mk 1 (2)
-Shadowstaff, Lesser (2)
-Proton Snare, Mk I (2)
-Alluvion Theodolite (3)
-Book of Predilections (3)
-Deoxy Pellet (3)
-Everlength Rope (2)
-Intonation Pendant (3)
-Motion-Detection Badge (3)
-Redundancy Belt (3)
-Extra Seat (3)
-Suspension Pill (3)
-Animistic Tools, Mk 1 (3)
-Starlight Flute (3)
-Instant Vehicle, Basic Enercycle (3)
-Instant Vehicle, Exploration Buggy (3)
-Instant Vehicle, Torpedo Minisub (3)
-Hivejack, Mk 1 (3)
-Mind Memory Chip, Mk 1 (3)
-Null-space Kennel, Mk 1 (3)
-Software Imp, Tier 2 (3)
-Wetware Bug, Mk 1 (3)
-Animated Trapsmith's Tools (4)
-Drain Grenade (4)
-Efficient Bandolier (4)
-Lightning Gatherer (4)
-Gravitic Modulator (4)
-Psychic Booster (4)
-Static Glider (4)
-Mindshield Circlet, Basic (3)
-Computer Idol, Mk 1 (4)
-Ablative Insulation, Mk 1 (4)
-Creator Capsule, Mk 1 (4)
-Empathic Depiction, Bust (4)
-Fearmonger, Mk 1 (4)
-Prescient Lenses, Mk 1 (4)
-Sense Silk, Mk 2 (4)
-Vital Seed, Beast (4)
-Absolute Compass, Mk 2 (4)
-Telespectrum Circlet, Mk 1 (4)
-Digital Harrow Deck (5)
-Everlatch Rope (5)
-Fung-eye Goggles (5)
-Astral Transponder (5)
-Current Generator, Mk 1 (5)
-Emergency Life Shell, Mk 1 (5)
-Swarm Battery (5)
-Instant Vehicle, Ultralight Turboglider (5)
-Mnemonic Editor, Mk 1 (5)
-Mask of Scrambling, Mk 2 (5)
-Proton Snare, Mk II (5)
-Universal Solvent, Basic (5)
-Software Imp, Tier 3 (5)
-Null-Space Tumor (5)
-Null-Space Chamber, Mk 1 (5)
-Darkwater Grenade (6)
-Immobilizer (6)
-Phase Detector (6)
-Face Replicator (6)
-Metal Nitro, Gold (6)
-Empathic Depiction, Statue (6)
-Tactokinesis Gloves (6)
-Scrambler Gloves, Mk 1 (6)
-Ancestor Drone (7)
-Autopsic Scanner (7)
-Holding Gloves, Mk 1 (6)
-Mi-Go Hollowskin (7)
-Wetware Bug, Mk 2 (6)
-Motospheres (pack of 4) (7)
-Breath-Stealer Mask (7)
-Earrings of Dampening, Mk 2 (7)
-Animistic Tools, Mk 2 (7)
-Matter Converter, Mk I (7)
-Mindshield Circlet, Mk 1 (7)
-Retrieval Charms, Mk 1 (7)
-Null-space Kennel, Mk 2 (7)
-Software Imp, Tier 4 (7)
-Advanced Aspis Badge (8)
-Allegiance Collar (8)
-Dimensional Fetters (8)
-Dromada Clutch (8)
-Defensive Threads, Mk 2 (7)
-Mi-Go Brain Cylinder (8)
-Staff of Nuclear Vengeance (8)
-Vampiric Charger (8)
-Void Projector (8)
-Ablative Insulation, Mk 2 (8)
-Computer Idol, Mk 2 (8)
-Creator Capsule, Mk 2 (8)
-Fearmonger, Mk 2 (8)
-Emergency Life Shell, Mk 2 (8)
-Instant Vehicle, All-Terrain Transport (8)
-Instant Vehicle, Pump-Jet Sub (8)
-Kinetic Converter, Mk 1 (8)
-Mind Memory Chip, Mk 2 (8)
-Mindlink Circlet, Mk 2 (8)
-Memory Crypt (8)
-Shadowstaff, Standard (8)
-Adjudicator's Eye (9)
-Telekinetic Gloves (9)
-Entropy Gloves (9)
-Sense Silk, Mk 3 (8)
-Null-Space Chamber, Mk 2 (9)
-Captive-Star Amulet, Red Dwarf (9)
-Mask of Scrambling, Mk 3 (9)
-Hivejack, Mk 2 (9)
-Proton Snare, Mk III (9)
-Soul Projector, Arriver (9)
-Universal Solvent, Concentrated (9)
-Wetware Bug, Mk 3 (9)
-Prescient Lenses, Mk 2 (9)
-Antipathy Unit (10)
-Software Imp, Tier 5 (9)
-Necrotic Mantle (10)
-Earthbound Anklets (10)
-Queller (10)
-Swarm Programmer Pill (10)
-Telelocator (10)
-Void Dust (10)
-Current Generator, Mk 2 (10)
-Metal Nitro, Platinum (10)
-Mnemonic Editor, Mk 2 (10)
-Scrambler Gloves, Mk 2 (10)
-Telespectrum Circlet, Mk 2 (10)
-Remote Surveyor (10)
-Adaptive Swarm Mask (11)
-Infiltration Assistant (11)
-Void Hag Robe (11)
-Animistic Tools, Mk 3 (11)
-Mindshield Circlet, Mk 2 (11)
-Null-space Kennel, Mk 3 (11)
-Proton Snare, Mk IV (11)
-Retrieval Charms, Mk 2 (11)
-Software Imp, Tier 6 (11)
-Vital Seed, Zeolite (10)
-Mind Scour (12)
-Psychic Resonator (12)
-Mind Guardian (12)
-Ablative Insulation, Mk 3 (12)
-Computer Idol, Mk 3 (12)
-Creator Capsule, Mk 3 (12)
-Earrings of Dampening, Mk 3 (12)
-Emergency Life Shell, Mk 3 (12)
-Runeworm (12)
-Fearmonger, Mk 3 (12)
-Matter Converter, Mk II (12)
-Kinetic Converter, Mk 2 (12)
-Eyes of Rhean (13)
-Eoxian Wrackstaff (13)
-Felnar (13)
-Captive-Star Amulet, Magnetar (13)
-Mask of Scrambling, Mk 4 (13)
-Software Imp, Tier 7 (13)
-Universal Solvent, Forte (13)
-Null-Space Chamber, Mk 3 (13)
-Dimensional Modulator (14)
-Entanglement Belt (Pair) (14)
-Quantum Processor (14)
-Consciousness Transfer Unit (14)
-Metal Nitro, Star (14)
-Mind Memory Chip, Mk 3 (14)
-Mindlink Circlet, Mk 3 (14)
-Holding Gloves, Mk 2 (12)
-Scrambler Gloves, Mk 3 (14)
-Erasure Worm (15)
-Besmaran Rose (15)
-Prescient Lenses, Mk 3 (14)
-Current Generator, Mk 3 (15)
-Mindshield Circlet, Mk 3 (15)
-Null-space Kennel, Mk 4 (15)
-Mnemonic Editor, Mk 3 (15)
-Retrieval Charms, Mk 3 (15)
-Software Imp, Tier 8 (15)
-Soul Projector, Returner (15)
-Hivejack, Mk 3 (15)
-Life Fluid Hypopen (16)
-Transplanar Gluon Blade, Ethereal (15)
-Interplanar Comm Unit, Inner Sphere (16)
-Vali Water (16)
-Proton Snare, Mk V (16)
-Rel-Battery, Mk 1 (16)
-Captive-Star Amulet, Pulsar (17)
-Domination Visor (17)
-Telespectrum Circlet, Mk 3 (16)
-Kinetic Converter, Mk 3 (16)
-Null-Space Chamber, Mk 4 (17)
-Rel-Battery, Mk 2 (17)
-Software Imp, Tier 9 (17)
-Matter Converter, Mk III (17)
-Vital Seed, Regrower (17)
-Universal Solvent, Regia (17)
-Transplanar Gluon Blade, Astral (18)
-Rel-Battery, Mk 3 (18)
-Rel-State Generator (19)
-Mind Memory Chip, Mk 4 (19)
-Energy-Matter Gateway (19)
-Retrieval Charms, Mk 4 (19)
-Mindshield Circlet, Mk 4 (19)
-Software Imp, Tier 10 (19)
-Quantum Pad (20)
-Transposition Key (20)
-Interplanar Comm Unit, Outer Sphere (20)
-Mnemonic Editor, Mk 4 (20)
-Rel-Battery, Mk 5 (20)
-Proton Snare, Mk VI (20)
-Rel-Battery, Mk 4 (19)
-Transplanar Gluon Blade, Shadow (20)
-Soul Projector, Awakener (20)
+Dust Goggles {1}
+Attablossom {1}
+Instant Ground {1}
+Locus Comm {1}
+Planar Flare {1}
+Cleanliness Circuits {1}
+Kvashbark Cartography Kit {1}
+Shotalashu Saddle {1}
+Plant Shield Amulet {1}
+Thermal Regulator {1}
+Absolute Compass, Mk 1 {1}
+Starstone Compass {1}
+Sweet Dreambot {1}
+Defensive Threads, Mk 1 {1}
+Sense Silk, Mk 1 {1}
+Software Imp, Tier 1 {1}
+Everlength Rope {2}
+Phaserod {2}
+Earrings of Dampening, Mk 1 {2}
+Mask of Scrambling, Mk 1 {2}
+Empathic Depiction, Portrait {2}
+Mindlink Circlet, Mk 1 {2}
+Shadowstaff, Lesser {2}
+Proton Snare, Mk I {2}
+Metal Nitro, Silver {2}
+Alluvion Theodolite {3}
+Deoxy Pellet {3}
+Book of Predilections {3}
+Extra Seat {3}
+Intonation Pendant {3}
+Motion-Detection Badge {3}
+Starlight Flute {3}
+Animistic Tools, Mk 1 {3}
+Redundancy Belt {3}
+Suspension Pill {3}
+Hivejack, Mk 1 {3}
+Instant Vehicle, Exploration Buggy {3}
+Instant Vehicle, Torpedo Minisub {3}
+Instant Vehicle, Basic Enercycle {3}
+Mind Memory Chip, Mk 1 {3}
+Mindshield Circlet, Basic {3}
+Software Imp, Tier 2 {3}
+Wetware Bug, Mk 1 {3}
+Animated Trapsmith's Tools {4}
+Drain Grenade {4}
+Efficient Bandolier {4}
+Lightning Gatherer {4}
+Null-space Kennel, Mk 1 {3}
+Gravitic Modulator {4}
+Psychic Booster {4}
+Ablative Insulation, Mk 1 {4}
+Absolute Compass, Mk 2 {4}
+Computer Idol, Mk 1 {4}
+Creator Capsule, Mk 1 {4}
+Empathic Depiction, Bust {4}
+Prescient Lenses, Mk 1 {4}
+Static Glider {4}
+Sense Silk, Mk 2 {4}
+Telespectrum Circlet, Mk 1 {4}
+Fearmonger, Mk 1 {4}
+Vital Seed, Beast {4}
+Astral Transponder {5}
+Digital Harrow Deck {5}
+Fung-eye Goggles {5}
+Everlatch Rope {5}
+Swarm Battery {5}
+Current Generator, Mk 1 {5}
+Emergency Life Shell, Mk 1 {5}
+Instant Vehicle, Ultralight Turboglider {5}
+Mask of Scrambling, Mk 2 {5}
+Mnemonic Editor, Mk 1 {5}
+Proton Snare, Mk II {5}
+Null-Space Chamber, Mk 1 {5}
+Software Imp, Tier 3 {5}
+Universal Solvent, Basic {5}
+Darkwater Grenade {6}
+Face Replicator {6}
+Immobilizer {6}
+Phase Detector {6}
+Tactokinesis Gloves {6}
+Empathic Depiction, Statue {6}
+Metal Nitro, Gold {6}
+Holding Gloves, Mk 1 {6}
+Scrambler Gloves, Mk 1 {6}
+Wetware Bug, Mk 2 {6}
+Null-Space Tumor {5}
+Autopsic Scanner {7}
+Breath-Stealer Mask {7}
+Mi-Go Hollowskin {7}
+Motospheres (pack of 4) {7}
+Animistic Tools, Mk 2 {7}
+Defensive Threads, Mk 2 {7}
+Matter Converter, Mk I {7}
+Earrings of Dampening, Mk 2 {7}
+Mindshield Circlet, Mk 1 {7}
+Null-space Kennel, Mk 2 {7}
+Retrieval Charms, Mk 1 {7}
+Software Imp, Tier 4 {7}
+Advanced Aspis Badge {8}
+Allegiance Collar {8}
+Dimensional Fetters {8}
+Dromada Clutch {8}
+Ancestor Drone {7}
+Mi-Go Brain Cylinder {8}
+Memory Crypt {8}
+Void Projector {8}
+Ablative Insulation, Mk 2 {8}
+Computer Idol, Mk 2 {8}
+Staff of Nuclear Vengeance {8}
+Creator Capsule, Mk 2 {8}
+Emergency Life Shell, Mk 2 {8}
+Fearmonger, Mk 2 {8}
+Instant Vehicle, All-Terrain Transport {8}
+Instant Vehicle, Pump-Jet Sub {8}
+Kinetic Converter, Mk 1 {8}
+Mind Memory Chip, Mk 2 {8}
+Mindlink Circlet, Mk 2 {8}
+Vampiric Charger {8}
+Shadowstaff, Standard {8}
+Entropy Gloves {9}
+Adjudicator's Eye {9}
+Sense Silk, Mk 3 {8}
+Captive-Star Amulet, Red Dwarf {9}
+Hivejack, Mk 2 {9}
+Mask of Scrambling, Mk 3 {9}
+Null-Space Chamber, Mk 2 {9}
+Prescient Lenses, Mk 2 {9}
+Telekinetic Gloves {9}
+Software Imp, Tier 5 {9}
+Soul Projector, Arriver {9}
+Universal Solvent, Concentrated {9}
+Antipathy Unit {10}
+Proton Snare, Mk III {9}
+Earthbound Anklets {10}
+Necrotic Mantle {10}
+Wetware Bug, Mk 3 {9}
+Queller {10}
+Remote Surveyor {10}
+Void Dust {10}
+Telelocator {10}
+Current Generator, Mk 2 {10}
+Metal Nitro, Platinum {10}
+Mnemonic Editor, Mk 2 {10}
+Scrambler Gloves, Mk 2 {10}
+Telespectrum Circlet, Mk 2 {10}
+Swarm Programmer Pill {10}
+Vital Seed, Zeolite {10}
+Infiltration Assistant {11}
+Void Hag Robe {11}
+Animistic Tools, Mk 3 {11}
+Mindshield Circlet, Mk 2 {11}
+Null-space Kennel, Mk 3 {11}
+Proton Snare, Mk IV {11}
+Retrieval Charms, Mk 2 {11}
+Software Imp, Tier 6 {11}
+Adaptive Swarm Mask {11}
+Mind Scour {12}
+Psychic Resonator {12}
+Mind Guardian {12}
+Ablative Insulation, Mk 3 {12}
+Computer Idol, Mk 3 {12}
+Creator Capsule, Mk 3 {12}
+Earrings of Dampening, Mk 3 {12}
+Emergency Life Shell, Mk 3 {12}
+Fearmonger, Mk 3 {12}
+Holding Gloves, Mk 2 {12}
+Matter Converter, Mk II {12}
+Runeworm {12}
+Eoxian Wrackstaff {13}
+Eyes of Rhean {13}
+Captive-Star Amulet, Magnetar {13}
+Kinetic Converter, Mk 2 {12}
+Felnar {13}
+Mask of Scrambling, Mk 4 {13}
+Software Imp, Tier 7 {13}
+Consciousness Transfer Unit {14}
+Universal Solvent, Forte {13}
+Null-Space Chamber, Mk 3 {13}
+Quantum Processor {14}
+Dimensional Modulator {14}
+Mind Memory Chip, Mk 3 {14}
+Entanglement Belt (Pair) {14}
+Mindlink Circlet, Mk 3 {14}
+Prescient Lenses, Mk 3 {14}
+Scrambler Gloves, Mk 3 {14}
+Erasure Worm {15}
+Besmaran Rose {15}
+Current Generator, Mk 3 {15}
+Mindshield Circlet, Mk 3 {15}
+Metal Nitro, Star {14}
+Mnemonic Editor, Mk 3 {15}
+Null-space Kennel, Mk 4 {15}
+Retrieval Charms, Mk 3 {15}
+Software Imp, Tier 8 {15}
+Soul Projector, Returner {15}
+Transplanar Gluon Blade, Ethereal {15}
+Life Fluid Hypopen {16}
+Hivejack, Mk 3 {15}
+Interplanar Comm Unit, Inner Sphere {16}
+Kinetic Converter, Mk 3 {16}
+Rel-Battery, Mk 1 {16}
+Proton Snare, Mk V {16}
+Telespectrum Circlet, Mk 3 {16}
+Domination Visor {17}
+Captive-Star Amulet, Pulsar {17}
+Vali Water {16}
+Rel-Battery, Mk 2 {17}
+Null-Space Chamber, Mk 4 {17}
+Software Imp, Tier 9 {17}
+Universal Solvent, Regia {17}
+Rel-Battery, Mk 3 {18}
+Matter Converter, Mk III {17}
+Energy-Matter Gateway {19}
+Rel-State Generator {19}
+Transplanar Gluon Blade, Astral {18}
+Mind Memory Chip, Mk 4 {19}
+Rel-Battery, Mk 4 {19}
+Mindshield Circlet, Mk 4 {19}
+Retrieval Charms, Mk 4 {19}
+Software Imp, Tier 10 {19}
+Quantum Pad {20}
+Transposition Key {20}
+Interplanar Comm Unit, Outer Sphere {20}
+Mnemonic Editor, Mk 4 {20}
+Vital Seed, Regrower {17}
+Rel-Battery, Mk 5 {20}
+Transplanar Gluon Blade, Shadow {20}
+Proton Snare, Mk VI {20}
+Soul Projector, Awakener {20}

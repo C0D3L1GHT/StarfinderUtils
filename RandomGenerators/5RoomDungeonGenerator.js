@@ -1,4 +1,6 @@
 //Add loot table (ammo, creds, lore, equipment)
+const randomLoot = require('./EquipmentScraper.js');
+
 const Layout = {
 	One:    "[][][][]\n         []",
 	Two:    "[][][][]\n      []",
@@ -21,16 +23,19 @@ const listFour  = ["Treasure", "Weapons", "Narrative Beat", "Heal", "Lore", "Spe
 const listFive  = ["Combat", "Boss", "Stealth", "Spawn", "Outmatched", "Injury"]
 const listSix   = ["Roleplay", "Dispute", "Revelation", "Twist", "Escape", "Death"]
 
-function generate5RD(){
-console.log("\n\n");
-var layout = rollLayout();
-var rooms = roll5Rooms();
-layout = addNumbersToLayout(layout, Object.values(rooms))
+async function generate5RD(lvl, diff, tacAmount, tacChance, itemAmount, itemChance){
+	console.log("\n\n");
+	var layout = rollLayout();
+	var rooms = roll5Rooms();
+	layout = addNumbersToLayout(layout, Object.values(rooms))
 
-console.log(layout);
-for(var room in rooms)
-    console.log(room + " : " + rooms[room]);
-console.log("\n\n");
+	console.log(layout);
+	for(var room in rooms)
+		console.log(room + " : " + rooms[room]);
+	console.log("\n\n");
+	
+	console.log("loot:");
+	var loot = await randomLoot.rollLootPool(lvl, diff, tacAmount, tacChance, itemAmount, itemChance);
 }
 
 function addNumbersToLayout(layout, roomNums){
@@ -154,8 +159,33 @@ function rollLayout(){
   }
 }
 
+module.exports = {
+	generate5RD: async function generate5RD(lvl, diff, consumableAmount, tacAmount, tacChance, itemAmount, itemChance){
+		var dungeon = []
+		//console.log("\n\n");
+		//dungeon.push("\n");
+		var layout = rollLayout();
+		var rooms = roll5Rooms();
+		layout = addNumbersToLayout(layout, Object.values(rooms))
+
+		//console.log(layout);
+		dungeon.push(layout);
+		for(var room in rooms){
+			//console.log(room + " : " + rooms[room]);
+			dungeon.push(room + " : " + rooms[room]);
+		}
+		//console.log("\n\n");
+		dungeon.push("\n");
+		
+		var loot = await randomLoot.rollLootPool(lvl, diff, consumableAmount, tacAmount, tacChance, itemAmount, itemChance);
+		for(l of loot)
+			dungeon.push(l);
+		return dungeon;
+	}
+}
+
 function rollRange(r){
     return Math.floor(Math.random() * r) + 1;
 }
 
-generate5RD();
+//generate5RD();
