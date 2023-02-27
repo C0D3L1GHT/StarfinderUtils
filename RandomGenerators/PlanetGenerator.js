@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const randomMap = require('./HexCrawlGenerator.js');
+
 const world_type_list = ["Terrestrial", "Gas giant", "Irregular", "Satellite", "Asteroid", "Colony ship", "Space station"];
 const gravity_list = ["Standard", "Zero gravity", "Low", "High", "Extreme"]
 const atmosphere_list = ["Normal", "None", "Thin", "Thick", "Corrosive or Toxic"]
@@ -16,8 +18,11 @@ async function GeneratePlanet(){
   console.log("Gravity:         " + GenGravity());
   console.log("Atmosphere:      " + GenAtmopshere());
   var dThree = rollRange(3);
+  var biomeList = [];
   for(let i = 1; i <= dThree; i++){
-    console.log("   Biome: " + GenBiome());
+	  var biome = GenBiome();
+	  biomeList.push(biome);
+      console.log("   Biome: " + biome);
   }
   console.log("Accord:          " + GenTriadAttributes());
   console.log("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
@@ -29,6 +34,8 @@ async function GeneratePlanet(){
   for(let i = 1; i <= dThree; i++){
     console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
+  console.log("\n\n")
+  randomMap.populateMap(biomeList)
 }
 
 function GenWorldType(){

@@ -1,25 +1,80 @@
-Aerial devil
-Air wysp
-Ashypsozoan
-Baykok
-Cloud ray
-Dinosaur, pterosaur
-Electrovore
-Elemental, greater air
-Elemental, lightning
-Fulmivar
-Gloomwing
-Irokiroi
-Mucilaginous cloud
-Muotta
-Niaq
-Psychic abomination
-Quantum slime
-Radiation drake
-Rauzhant
-Shantak
-Sharpwing
-Skreesire
-Sky fisher
-Swarm antecursor
-Swarm xersk
+Anacite Wingbot	{0.5}
+Anacite Dustar {1}
+Anacite, Monitor {3}
+Anacite, Sentry {3}
+Anacite Ambassador {6}
+Anacite Quantifier {6}
+Anacite Laborer {7}
+Anacite Predator Drone {10}
+Aerial devil  {2}
+Astriapi Defender {1}
+Astriapi Warden {6}
+Air Wysp {2}
+Air Wysp Conductor {8}
+Azata, tritidair {8}
+Ashypsozoan {10}
+Barathu {5}
+Baykok {9}
+Contemplative {2}
+Contemplative Mentor {18}
+Cloud Skate {6}
+Cloud Ray {13}
+Dessamar, imago {1}
+Dessamar Theurgist {6}
+Dinosaur, pterosaur {3}
+Dragon, horacalcum {15}
+Electrovore {2}
+Electrovore Colony Troop {9}
+Dragon, silver {14}
+Elemental, greater air {9}
+Dragonkin {9}
+Lightning Elemental, Tiny {0.3}
+Lightning Elemental, Small {1}
+Lightning Elemental, Medium {3}
+Lightning Elemental, Large {5}
+Lightning Elemental, Huge {7}
+Lightning Elemental, Greater {9}
+Lightning Elemental, Elder {11}
+Dreamer {8}
+Fulmivar {11}
+Espraksa {0.5}
+Espraksa Performer {4}
+Gloomwing {4}
+Genie, djinni {5}
+Irokiroi {5}
+Irokiroi, Oshirokiroi {12}
+Genie, janni {4}
+Mucilaginous cloud {5}
+Dragon, green {11}
+Muotta {2}
+Haan {3}
+Haan Combat Pilot {7}
+Niaq {6}
+Haeshi-shaa, Haeshi form {12}
+Haeshi-shaa, Shaa form {16}
+Psychic abomination {11}
+Kiirinta Guard {3}
+Kiirinta Shaman {6}
+Quantum slime {15}
+Albedo Lucandrian {3}
+Perigean Lucandrian {9}
+Radiation drake, Slasher {4}
+Radiation drake, Adult {9}
+Mi-go {6}
+Mi-go, High Priest {11}
+Rauzhant {6}
+Muneen {11}
+Shantak {8}
+Necrovite {13}
+Sharpwing {8}
+Phentomite {0.5}
+Phentomite Bridger {6}
+Skreeling Skreesire {3}
+Skreesire {7}
+Planar scion, sylph {2}
+Sky fisher {5}
+Spathinae Guard {1}
+Spathinae Explorer {11}
+Swarm antecursor{3}
+Strix {6}
+Swarm xersk {16}

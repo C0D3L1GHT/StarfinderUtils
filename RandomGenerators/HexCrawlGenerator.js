@@ -41,6 +41,8 @@ const hexMap = ["          _____         _____         _____         _____      
                 " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
                 " \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/ ",
                 "  \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/  "];
+				
+const hexMapAbstract = [['a02'],[],[],[]];
 		   
 // element 0 in the array is the required actions
 var hexploration_stats = {
@@ -57,8 +59,6 @@ var hexploration_stats = {
     Urban:        [1, 10, '\u220F'],
     Weird:        [2, 14, '?'],
 }
-
-var travelGuide = [];
 
 const ROW_LENGTH = 14
 const COL_LENGTH = 10
@@ -96,44 +96,24 @@ async function populateMap(biomelist){
 		
 		while(line.includes('-') || line.includes('#')){
 			//extract coordinates for landmarks
-			var coordStr = ""	
-			var coordLetter = letter-1;
-			var coordCounter = counter;
-			if(letterIsUpRow(String.fromCharCode(letter))){ 
-				if(coordCounter > 1)
-					coordCounter--;
-				// if(coordCounter < 12)
-					// coordCounter = 12;
-			}else{
-				if(coordCounter < 13)
-					coordCounter++;
-			}
-			if(String.fromCharCode(letter) == 'r' && line[12] == ' '){
-				 coordLetter = letter;
-				 coordCounter = coordCounter - 14
-			}
-			if(coordCounter < 10) coordStr = String.fromCharCode(coordLetter)+"0"+(coordCounter).toString();
-			else coordStr = String.fromCharCode(coordLetter)+""+(coordCounter).toString();
 			if (counter < 10){
 				line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+"0"+counter.toString()+" \\");
 			}
 			else{
 				line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+""+counter.toString()+" \\");
 			}
-			line = line.replace("\#######/", "\   "+rollLandmark(coordStr)+"   /");
+			line = line.replace("\#######/", "\   "+rollLandmark(getHexCoord(index, line.indexOf("\#######/")))+"   /");
 			counter += 2;
 		}
 		console.log(line);
 	});	
-	
 	return newHexMap;
 }
 
-function letterIsUpRow(c){
-	//var ret = (c == 'a' || c == 'c' || c == 'e' || c == 'g' || c == 'i' || c == 'k' || c == 'm' || c == 'o' ||c == 'q')
-	//console.log(c+" "+ret);
-	return c == 'a' || c == 'c' || c == 'e' || c == 'g' || c == 'i' || c == 'k' || c == 'm' || c == 'o' ||c == 'q';
-}
+// function letterIsUpRow(c){
+	// inverting this because line parsers flip upRows to downRows and vice versa 
+	// return (c == 'a' || c == 'c' || c == 'e' || c == 'g' || c == 'i' || c == 'k' || c == 'm' || c == 'o' ||c == 'q');
+// }
 
 async function printLandmarkData(coord, landmark){
 	if(landmark == "r"){
@@ -157,6 +137,8 @@ async function printLandmarkData(coord, landmark){
 }
 
 function rollLandmark(coord){
+	if (coord.length == 0)
+		return ' ';
 	var landmark = rollRange(20);
 	
 	if(landmark >= 1 && landmark <= 3){
@@ -189,7 +171,115 @@ function rollLandmark(coord){
 		//skill challenge
 		return "&"//unusual
 	}
-	return ' '
+	return ' ';
+}
+
+function getHexCoord(row, col){
+	var ret = "";
+	if(row < 2 || col < 0)
+		return ret;
+	
+	switch (row){
+		case 3:
+			ret += "a";
+			break;
+		case 5:
+			ret += "b";
+			break;
+		case 7:
+			ret += "c";
+			break;
+		case 9:
+			ret += "d";
+			break;
+		case 11:
+			ret += "e";
+			break;
+		case 13:
+			ret += "f";
+			break;
+		case 15:
+			ret += "g";
+			break;
+		case 17:
+			ret += "h";
+			break;
+		case 19:
+			ret += "i";
+			break;
+		case 21:
+			ret += "j";
+			break;
+		case 23:
+			ret += "k";
+			break;
+		case 25:
+			ret += "l";
+			break;
+		case 27:
+			ret += "m";
+			break;
+		case 29:
+			ret += "n";
+			break;
+		case 31:
+			ret += "o";
+			break;
+		case 33:
+			ret += "p";
+			break;
+		case 35:
+			ret += "q";
+			break;
+		case 37:
+			ret += "r";
+			break;
+		default:
+			ret += "";
+	}
+	
+	switch (col){
+		case 2:
+			ret += "01"
+			break;
+		case 9:
+			ret += "02"
+			break;
+		case 16:
+			ret += "03"
+			break;
+		case 23:
+			ret += "04"
+			break;
+		case 30:
+			ret += "05"
+			break;
+		case 37:
+			ret += "06"
+			break;
+		case 44:
+			ret += "07"
+			break;
+		case 51:
+			ret += "08"
+			break;
+		case 58:
+			ret += "09"
+			break;
+		case 65:
+			ret += "10"
+			break;
+		case 72:
+			ret += "11"
+			break;
+		case 79:
+			ret += "12"
+			break;
+		case 86:
+			ret += "13"
+			break;
+	}
+	return ret;
 }
 
 function getHexBiome(row, col){
@@ -352,6 +442,50 @@ function stringToBiome(str, num){
 function rollRange(r){
     return Math.floor(Math.random() * r) + 1;
 }
+
+module.exports = {
+	populateMap: async function populateMap(biomelist){
+		var counter = 1;
+		var letter   = 97;
+		var newHexMap = hexMap;
+		
+		var p = perlin.generatePerlinNoise(ROW_LENGTH, COL_LENGTH)
+		
+		for(var i = 0; i < p.length; i++){
+			p[i] = Math.floor(p[i] * biomelist.length) + 1;
+		}
+		
+		counter = 0;
+		for(var i = 1; i < COL_LENGTH; i++){
+			for(var j = 1; j < ROW_LENGTH; j++){
+				setHexBiome(i,j,biomelist[p[counter]-1]);
+				counter++;
+			}
+			counter++;
+		}
+		
+		counter = 1;
+		newHexMap.forEach(function(line, index) {
+			if(line[4] == '-') counter = 1;
+			if (index > 1 && line.includes('-')) letter++;
+			if(line[10] == '-')	counter = 2;
+			
+			while(line.includes('-') || line.includes('#')){
+				//extract coordinates for landmarks
+				if (counter < 10){
+					line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+"0"+counter.toString()+" \\");
+				}
+				else{
+					line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+""+counter.toString()+" \\");
+				}
+				line = line.replace("\#######/", "\   "+rollLandmark(getHexCoord(index, line.indexOf("\#######/")))+"   /");
+				counter += 2;
+			}
+			console.log(line);
+		});	
+		return newHexMap;
+	}
+}
 //["Airborne","Aquatic","Arctic","Desert","Forest","Marsh","Mountain","Plains","Space","Subterranean","Urban","Weird"]
-generateHexMap(["Aquatic","Forest","Mountain","Plains"]);
+//generateHexMap(["Aquatic","Forest","Mountain","Plains"]);
 
