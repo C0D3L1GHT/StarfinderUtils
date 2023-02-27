@@ -1,0 +1,57 @@
+Anacite Wingbot	{0.5}
+Anacite Dustar {1}
+Anacite, Monitor {3}
+Anacite, Sentry {3}
+Anacite Ambassador {6}
+Anacite Quantifier {6}
+Anacite Laborer {7}
+Anacite Predator Drone {10}
+Apari Constituent {2}
+Apari {7}
+Angel, barachius
+Assembly ooze
+Cerebric fungus
+Bloodbrother
+Corpsefolk
+Demon, pluprex
+Dragon, blue
+Dinosaur
+Dragon, copper
+Elemental, air
+Embri
+Flayer leech
+Ghoran
+Golem, nanotech
+Giant, moon
+Haeshi-shaa
+Giant, stone
+Hashukayak
+Herd animal, plains
+Izalguun
+Hesper
+Maraquoi
+Jubsnuth
+Nuar
+Khefak
+Osharu
+Living apocalypse
+Pahtra
+Magmin
+Quorlu
+Moonflower
+Ryphorian
+Nyssholora
+Scyphozoan
+Predator, plains
+Spathinae
+Robot, assassin
+Raxilite
+Robot, siege
+Trox
+Scavenger slime
+Verthani
+Valnarum
+Vlaka
+Velstrac, anchorite
+Witchwyrd
+Void palm

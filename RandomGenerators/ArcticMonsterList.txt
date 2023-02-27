@@ -75,7 +75,7 @@ Shimreen Warrior {5}
 Shimreen Worker {1}
 Shantak {8}
 Shobhad {4}
-Shobhad {7}
+Shobhad Warleader {7}
 Sharpwing {8}
 Uplifted bear avenger {4}
 Uplifted bear Constellate {7}

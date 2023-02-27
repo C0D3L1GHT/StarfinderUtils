@@ -1,4 +1,4 @@
-Anacite Wingbot	{0.5}
+Anacite Wingbot {0.5}
 Anacite Dustar {1}
 Anacite, Monitor {3}
 Anacite, Sentry {3}
@@ -6,7 +6,7 @@ Anacite Ambassador {6}
 Anacite Quantifier {6}
 Anacite Laborer {7}
 Anacite Predator Drone {10}
-Aerial devil  {2}
+Aerial devil {2}
 Astriapi Defender {1}
 Astriapi Warden {6}
 Air Wysp {2}

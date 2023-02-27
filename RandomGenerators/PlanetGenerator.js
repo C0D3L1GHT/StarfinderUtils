@@ -12,9 +12,13 @@ const align_morality_list = ["Evil", "Neutral", "Good"]
 const settlement_gov_list = ["Anarchy", "Autocracy", "Council", "Magocracy", "Military", "Oligarchy", "Secret Syndicate", "Plutocracy", "Utopia"]
 const settlement_qual_list = ["Academic", "Bureaucratic", "Cultured", "Devout", "Financial Center", "Insular", "Notorious", "Polluted"]
 
+//TODO: add clues and mysteries that have answers on other planets in the list
+//TODO: make system generator
+//TODO: make sector generator
+//TODO: add other planet types (moon, black hole, megastructures)
 async function GeneratePlanet(){
   var anomaly = await GenAnomaly();//This is here because otherwise the code adds newlines in the printout for some reason
-  console.log( "World Type:      " + GenWorldType());
+  console.log("World Type:      " + GenWorldType());
   console.log("Gravity:         " + GenGravity());
   console.log("Atmosphere:      " + GenAtmopshere());
   var dThree = rollRange(3);

@@ -1,50 +1,89 @@
-Bolida
-Acrochor
-Contemplative
-Crest-eater
-Dragon, abysium
-Dinosaur, dromaeosaurid
-Dragon, gold
-Dinosaur, thyreophoran
-Dragonkin
-Dust manta
-Endiffian
-Electrovore
-Formian
-Elemental, earth
-Ghibrani, husk
-Ellicoth
-Giant, sun
-Herd animal, desert
-Haan
-Mephit, radiation
-Ihonva
-Moonflower
-Ikeshti
-Mountain eel
-Iztheptar
-Predator, desert
-Kasatha
-Rageshkor, rock
-Oracle of Oras
-Robot, mining
-Planar scion, suli
-Salamander
-Quorlu
-Scavenger slime
-Reptoid
-Solar wisp
-Ryphorian
-Spookfish swarm
-Shirren
-Supenga
-Shobhad
-Synapse worm
-Strix
-Thermophilic ooze
-Urog
-Veolisk
-Witchwyrd
-Void palm
-Ysoki
-Wysp, fire
+Bolida Miner {2}
+Bolida Overseer {8}
+Acrochor {8}
+Contemplative {2}
+Contemplative Mentor {18}
+Crest-eater {4}
+Dragon, abysium {15}
+Dinosaur, dromaeosaurid {3}
+Dragon, gold {11}
+Dinosaur, thyreophoran {6}
+Dragonkin {9}
+Dust manta {6}
+Dust manta monarch {12}
+Endiffian {3}
+Electrovore {2}
+Electrovore colony troop {9}
+Formian Worker {0.5}
+Formian Warrior {3}
+Formian Taskmaster {7}
+Formian Mymarch {10}
+Formian Queen {17}
+Earth Elemental, Tiny {0.3}
+Earth Elemental, Small {1}
+Earth Elemental, Medium {3}
+Earth Elemental, Large {5}
+Earth Elemental, Huge {7}
+Earth Elemental, Greater {9}
+Earth Elemental, Elder {11} 
+Ghibrani, husk {3}
+Ellicoth {9}
+Giant, sun {15}
+Desert Herd animal, Small {0.3}
+Desert Herd animal, Medium {0.5}
+Desert Herd animal, Large {2}
+Desert Herd animal, Huge {4}
+Desert Herd animal, Gargantuan {6}
+Desert Herd animal, Colossal {8}
+Haan {3}
+Haan Combat Pilot {7}
+Mephit, radiation {3}
+Ihonva {4}
+Moonflower {4}
+Moonflower titan {16}
+Ikeshti Brood Minder {2}
+Ikeshti Rivener {5}
+Mountain eel {6}
+Iztheptar {6}
+Desert Predator, Small {0.3}
+Desert Predator, Swarm {2}
+Desert Predator, Medium {1}
+Desert Predator, Large {4}
+Desert Predator, Huge {7}
+Desert Predator, Gargantuan {10}
+Desert Predator, Colossal {13} 
+Kasatha Free Captain {4}
+Mahadatori {19}
+Rageshkor, rock {12}
+Oracle of Oras {13}
+Robot, mining {9}
+Planar scion, suli {1}
+Salamander {6}
+Quorlu {2}
+Quorlu Sapper {9}
+Scavenger slime {9}
+Reptoid {1}
+Reptoid Master {6}
+Juvenile Solar Wisp {5}
+Mature Solar Wisp {9} 
+Ryphorian technician {1}
+Ryphorian skyfire pilot {5}
+Spookfish swarm {16}
+Shirren Cult Leader {8}
+Shirren Detective {5}
+Shirren Songtwisted {5}
+Supenga Pup {5}
+Supenga Titan {15}
+Shobhad {4}
+Shobhad Warleader {7}
+Synapse worm {2}
+Strix {6}
+Thermophilic ooze {3}
+Urog {3}
+Veolisk {6}
+Witchwyrd {6}
+Void palm {7}
+Ysoki Mercenary Technomancer {8}
+Ysoki Gang Pusher {2}
+Fire Wysp {2}
+Fire Wysp Conductor {8} 
