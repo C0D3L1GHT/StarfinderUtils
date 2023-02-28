@@ -39,6 +39,13 @@ Dreamer {8}
 Fulmivar {11}
 Espraksa {0.5}
 Espraksa Performer {4}
+Air Elemental, Tiny {0.3}
+Air Elemental, Small {1}
+Air Elemental, Medium {3}
+Air Elemental, Large {5}
+Air Elemental, Huge {7}
+Air Elemental, Greater {9}
+Air Elemental, Elder {11}
 Gloomwing {4}
 Genie, djinni {5}
 Irokiroi {5}

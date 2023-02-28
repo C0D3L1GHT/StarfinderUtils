@@ -62,7 +62,6 @@ Raxilite Bioengineer {4}
 Troll Polyp {3}
 Troll {5}
 Quantum Troll {6}
-Void Troll {14}
 Spathinae Guard {1}
 Spathinae Explorer {11}
 Veolisk {6}

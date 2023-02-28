@@ -71,6 +71,8 @@ Shobhad Warleader {7}
 Rageshkor, rock {12}
 Skittermander {2}
 Skittermander Whelp {0.3}
+Stridermander {3}
+Stridermander Tyrant {10}
 Scavenger slime {9}
 Trox {2}
 Trox Defensor {9}

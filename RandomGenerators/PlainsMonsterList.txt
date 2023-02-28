@@ -8,50 +8,92 @@ Anacite Laborer {7}
 Anacite Predator Drone {10}
 Apari Constituent {2}
 Apari {7}
-Angel, barachius
-Assembly ooze
-Cerebric fungus
-Bloodbrother
-Corpsefolk
-Demon, pluprex
-Dragon, blue
-Dinosaur
-Dragon, copper
-Elemental, air
-Embri
-Flayer leech
-Ghoran
-Golem, nanotech
-Giant, moon
-Haeshi-shaa
-Giant, stone
-Hashukayak
-Herd animal, plains
-Izalguun
-Hesper
-Maraquoi
-Jubsnuth
-Nuar
-Khefak
-Osharu
-Living apocalypse
-Pahtra
-Magmin
-Quorlu
-Moonflower
-Ryphorian
-Nyssholora
-Scyphozoan
-Predator, plains
-Spathinae
-Robot, assassin
-Raxilite
-Robot, siege
-Trox
-Scavenger slime
-Verthani
-Valnarum
-Vlaka
-Velstrac, anchorite
-Witchwyrd
-Void palm
+Angel, barachius {7}
+Assembly ooze {1}
+Cerebric fungus {3}
+Bloodbrother {7}
+Corpsefolk Operative {3}
+Corpsefolk Marine {7}
+Demon, pluprex {13}
+Dragon, blue {11}
+Dinosaur, Weydanasaurus {5}
+Dinosaur, Dromaeosaurid {3}
+Dinosaur, Sauropod {10}
+Dinosaur, Theropod {9}
+Dinosaur, Thyreophoran {6}
+Dinosaur, Ceratopsid {8}
+Dragon, copper {11}
+Air Elemental, Tiny {0.3}
+Air Elemental, Small {1}
+Air Elemental, Medium {3}
+Air Elemental, Large {5}
+Air Elemental, Huge {7}
+Air Elemental, Greater {9}
+Air Elemental, Elder {11} 
+Embri {3}
+Embri Speaker {10}
+Flayer leech {4}
+Flayer leech effigy {15}
+Ghoran World-Tamer {1}
+Ghoran Flora-Shaper {6} 
+Golem, nanotech {14}
+Moon Giant {15} 
+Haeshi-shaa, Haeshi form {12}
+Haeshi-shaa, Shaa form {16}
+Stone Giant {15}
+Hashukayak {5}
+Plains Herd animal, Small {0.3}
+Plains Herd animal, Medium {0.5}
+Plains Herd animal, Large {2}
+Plains Herd animal, Huge {4}
+Plains Herd animal, Gargantuan {6}
+Plains Herd animal, Colossal {8}
+Izalguun Hunter {4}
+Izalguun Healer {8}
+Hesper {2}
+Maraquoi Hunter {0.5}
+Maraquoi Shaman {8}
+Jubsnuth {9}
+Nuar Enforcer {4}
+Nuar Specialist {8}
+Khefak {0.3}
+Thasteron Khefak {3}
+Osharu {0.5}
+Osharu Headteacher {8}
+Living apocalypse  {20}
+Pahtra Inquisitive {2}
+Pahtra Stalker {6}
+Magmin {3}
+Quorlu {2}
+Quorlu Sapper {9}
+Moonflower {8}
+Moonflower Titan {16}
+Ryphorian technician {1}
+Ryphorian skyfire pilot {5}
+Juvenile Nyssholora {4}
+Adult Nyssholora {11}
+Scyphozoan {3}
+Plains Predator, Small {0.3}
+Plains Predator, Swarm {2}
+Plains Predator, Medium {1}
+Plains Predator, Large {4}
+Plains Predator, Huge {7}
+Plains Predator, Gargantuan {10}
+Plains Predator, Colossal {13}
+Spathinae Guard {1}
+Spathinae Explorer {11}
+Assassin Robot {9}
+Raxilite Researcher {0.5}
+Raxilite Bioengineer {4}
+Siege Robot {15}
+Trox {2}
+Trox Defensor {9}
+Scavenger slime {9}
+Verthani Aether Pilot {2}
+Verthani Pure One {9} 
+Valnarum {8}
+Vlaka Tracker {2}
+Vlaka Handler {6}
+Anchorite Velstrac {4}
+Witchwyrd {6}
+Void palm {7}

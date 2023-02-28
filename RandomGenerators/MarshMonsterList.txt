@@ -95,7 +95,6 @@ Vesk Mercenary Rookie {6}
 Troll Polyp {3}
 Troll {5}
 Quantum Troll {6}
-Void Troll {14}
 Vilderaro {5}
 Vracinea {4}
 Wrikreechee {3}
