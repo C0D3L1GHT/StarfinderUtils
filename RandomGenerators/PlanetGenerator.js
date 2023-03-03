@@ -12,6 +12,8 @@ const align_morality_list = ["Evil", "Neutral", "Good"]
 const settlement_gov_list = ["Anarchy", "Autocracy", "Council", "Magocracy", "Military", "Oligarchy", "Secret Syndicate", "Plutocracy", "Utopia"]
 const settlement_qual_list = ["Academic", "Bureaucratic", "Cultured", "Devout", "Financial Center", "Insular", "Notorious", "Polluted"]
 
+const PLANET_LEVEL = 3;
+
 //TODO: add clues and mysteries that have answers on other planets in the list
 //TODO: make system generator
 //TODO: make sector generator
@@ -39,7 +41,7 @@ async function GeneratePlanet(){
     console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   console.log("\n\n")
-  randomMap.populateMap(biomeList)
+  randomMap.populateMap(biomeList);
 }
 
 function GenWorldType(){

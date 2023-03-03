@@ -1,6 +1,24 @@
 var perlin = require('perlin-noise');
 const random5RD = require('./5RoomDungeonGenerator.js');
 const randomLoot = require('./EquipmentScraper.js');
+const randomMonsters = require('./MonsterListGenerator.js');
+
+var averageLevel = 1;
+var levelDiff	 = 2;
+
+function setAverageLevel(lvl){
+	if(lvl < 20 && lvl > 0.3)
+		averageLevel= lvl;
+	else
+		console.log("Averge level outside scope");
+}
+
+function setLevelDiff(diff){
+	if(averageLevel - diff < 20 && averageLevel - diff > -1 )
+		levelDiff = diff;
+	else
+		console.log("Level difference outside scope")
+}
 
 const hexMap = ["          _____         _____         _____         _____         _____         _____                 ",
                 "         /-----\\       /-----\\       /-----\\       /-----\\       /-----\\       /-----\\          ",
@@ -41,8 +59,6 @@ const hexMap = ["          _____         _____         _____         _____      
                 " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
                 " \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/ ",
                 "  \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/  "];
-				
-const hexMapAbstract = [['a02'],[],[],[]];
 		   
 // element 0 in the array is the required actions
 var hexploration_stats = {
@@ -110,29 +126,43 @@ async function populateMap(biomelist){
 	return newHexMap;
 }
 
-// function letterIsUpRow(c){
-	// inverting this because line parsers flip upRows to downRows and vice versa 
-	// return (c == 'a' || c == 'c' || c == 'e' || c == 'g' || c == 'i' || c == 'k' || c == 'm' || c == 'o' ||c == 'q');
-// }
-
 async function printLandmarkData(coord, landmark){
+	var levelCrit = rollRange(100);
+	if(levelCrit == 100){
+		averageLevel = 20;
+		levelDiff = 0;
+	}
+	if(averageLevel == 1)
+		levelDiff = 0;
 	if(landmark == "r"){
-		var RT = await randomLoot.rollLootPool(2,1,3,1,10,2,25);
+		if(averageLevel == 1)
+			averageLevel = 2;
+		var RT = await randomLoot.rollLootPool(averageLevel-1,levelDiff,3,1,10,2,25);
 		RT.unshift("\n"+coord);
-		for(var i = 0; i < RT.length; i++)
-			console.log(RT[i]);
+		// for(var i = 0; i < RT.length; i++)
+			// console.log(RT[i]);
 	}
 	if(landmark == "c"){
-		var RD = await random5RD.generate5RD(5,3,5,2,10,4,50);
+		var RD = await random5RD.generate5RD(averageLevel,levelDiff,5,2,10,4,50);
 		RD.unshift("\n"+coord);
 		for(var i = 0; i < RD.length; i++)
-			console.log(RD[i]);
+		    console.log(RD[i]); 
 	}
 	if(landmark == "%"){
-		var RT = await randomLoot.rollLootPool(5,0,0,1,30,2,90);
+		var RT = await randomLoot.rollLootPool(averageLevel,levelDiff,0,1,30,2,90);
 		RT.unshift("\n"+coord);
 		for(var i = 0; i < RT.length; i++)
-			console.log(RT[i]);
+		    console.log(RT[i]);
+	}
+	if(landmark == "!"){
+		var RM = await randomMonsters.generateMonsters(getHexBiome(coord), averageLevel, levelDiff);
+		RM.unshift("\n"+coord);
+		for(var i = 0; i < RM.length; i++)
+			console.log(RM[i]);
+		
+		// var RT = await randomLoot.rollLootPool(averageLevel,levelDiff,0,1,30,2,90);
+		// for(var i = 0; i < RT.length; i++)
+		    // console.log(RT[i]);
 	}
 }
 
@@ -154,7 +184,7 @@ function rollLandmark(coord){
 		return "^"//natural formation
 	}
 	if(landmark >= 10 && landmark <= 11){//should actually be based on biome's monster DC
-		//TODO: rollMonster
+		printLandmarkData(coord, "!");
 		return "!"//monster
 	}
 	if(landmark >= 12 && landmark <= 14){
@@ -282,61 +312,122 @@ function getHexCoord(row, col){
 	return ret;
 }
 
-function getHexBiome(row, col){
-		
-	var mapRow;
-	var ret = ""
+function getHexBiome(coord){		
+	var ret = "";
+	var row = coord.substring(0,1);
+	var col = coord.substring(1);
+	var biomeRow = 0;
+	var biomeCol = 0;
 	
-	if(col % 2 == 0){
-		if(row == 1)
-			mapRow = 2;
-		else
-			mapRow = (row*4)-2
-	}else{
-		mapRow = row*4
+	//console.log(row + " " + col);
+	
+	switch(row){
+		case 'a':
+			biomeRow = 2;
+			break;
+		case 'b':
+			biomeRow = 4;
+			break;
+		case 'c':
+			biomeRow = 6;
+			break;
+		case 'd':
+			biomeRow = 8;
+			break;
+		case 'e':
+			biomeRow = 10;
+			break;
+		case 'f':
+			biomeRow = 12;
+			break;
+		case 'g':
+			biomeRow = 14;
+			break;
+		case 'h':
+			biomeRow = 16;
+			break;
+		case 'i':
+			biomeRow = 18;
+			break;
+		case 'j':
+			biomeRow = 20;
+			break;
+		case 'k':
+			biomeRow = 22;
+			break;
+		case 'l':
+			biomeRow = 24;
+			break;
+		case 'm':
+			biomeRow = 26;
+			break;
+		case 'n':
+			biomeRow = 28;
+			break;
+		case 'o':
+			biomeRow = 30;
+			break;
+		case 'p':
+			biomeRow = 32;
+			break;
+		case 'q':
+			biomeRow = 34;
+			break;
+		case 'r':
+			biomeRow = 36;
+			break;
 	}
 	
 	switch (col){
-		case 1:
-			ret = hexMap[mapRow].substring(1,10);
+		case '01':
+			biomeCol = 5;
 			break;
-		case 2:
-			ret = hexMap[mapRow].substring(8,17);
+		case '02':
+			biomeCol = 12;
 			break;
-		case 3:
-			ret = hexMap[mapRow].substring(15,24);
+		case '03':
+			biomeCol = 19;
 			break;
-		case 4:
-			ret = hexMap[mapRow].substring(22,31);
+		case '04':
+			biomeCol = 26;
 			break;
-		case 5:
-			ret = hexMap[mapRow].substring(29,38);
+		case '05':
+			biomeCol = 33;
 			break;
-		case 6:
-			ret = hexMap[mapRow].substring(36,45);
+		case '06':
+			biomeCol = 40;
 			break;
-		case 7:
-			ret = hexMap[mapRow].substring(43,52);
+		case '07':
+			biomeCol = 47;
 			break;
-		case 8:
-			ret = hexMap[mapRow].substring(50,59);
+		case '08':
+			biomeCol = 54;
 			break;
-		case 9:
-			ret = hexMap[mapRow].substring(57,66);
+		case '09':
+			biomeCol = 61;
 			break;
-		case 10:
-			ret = hexMap[mapRow].substring(64,73);
+		case '10':
+			biomeCol = 68;
 			break;
-		case 11:
-			ret = hexMap[mapRow].substring(71,80);
+		case '11':
+			biomeCol = 75;
 			break;
-		case 12:
-			ret = hexMap[mapRow].substring(78,87);
+		case '12':
+			biomeCol = 82;
 			break;
-		case 13:
-			ret = hexMap[mapRow].substring(85,95);
+		case '13':
+			biomeCol = 89;
 			break;
 	}
+	
+	var coordSymbol = hexMap[biomeRow].substring(biomeCol, biomeCol + 1);
+	
+	for (let item in hexploration_stats) {
+		if (isNaN(Number(item)) && coordSymbol == hexploration_stats[item][2]) {
+			ret = item;
+		}
+	}
+	
 	return ret;
 }
 
@@ -487,5 +578,5 @@ module.exports = {
 	}
 }
 //["Airborne","Aquatic","Arctic","Desert","Forest","Marsh","Mountain","Plains","Space","Subterranean","Urban","Weird"]
-//generateHexMap(["Aquatic","Forest","Mountain","Plains"]);
+generateHexMap(["Aquatic","Forest","Mountain","Plains"]);
 
