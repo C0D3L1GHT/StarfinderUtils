@@ -1,5 +1,6 @@
 //Add loot table (ammo, creds, lore, equipment)
 const randomLoot = require('./EquipmentScraper.js');
+const randomMonsters = require('./MonsterListGenerator.js');
 
 const Layout = {
 	One:    "[][][][]\n         []",
@@ -160,7 +161,7 @@ function rollLayout(){
 }
 
 module.exports = {
-	generate5RD: async function generate5RD(lvl, diff, consumableAmount, tacAmount, tacChance, itemAmount, itemChance){
+	generate5RD: async function generate5RD(biome, lvl, consumableAmount, tacAmount, tacChance, itemAmount, itemChance){
 		var dungeon = []
 		//console.log("\n\n");
 		//dungeon.push("\n");
@@ -177,9 +178,16 @@ module.exports = {
 		//console.log("\n\n");
 		dungeon.push("\n");
 		
-		var loot = await randomLoot.rollLootPool(lvl, diff, consumableAmount, tacAmount, tacChance, itemAmount, itemChance);
+		var monsters = await randomMonsters.generateMonsters(biome, lvl);
+		for(m of monsters)
+			dungeon.push(m);
+		
+		dungeon.push("\n");
+		
+		var loot = await randomLoot.rollLootPool(lvl, consumableAmount, tacAmount, tacChance, itemAmount, itemChance);
 		for(l of loot)
 			dungeon.push(l);
+		
 		return dungeon;
 	}
 }

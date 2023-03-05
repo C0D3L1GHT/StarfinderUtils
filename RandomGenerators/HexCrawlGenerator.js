@@ -4,7 +4,7 @@ const randomLoot = require('./EquipmentScraper.js');
 const randomMonsters = require('./MonsterListGenerator.js');
 
 var averageLevel = 1;
-var levelDiff	 = 2;
+var levelDiff	 = 0;
 
 function setAverageLevel(lvl){
 	if(lvl < 20 && lvl > 0.3)
@@ -79,8 +79,9 @@ var hexploration_stats = {
 const ROW_LENGTH = 14
 const COL_LENGTH = 10
 
-async function generateHexMap(worldBiomes){
-	// determine the block size for the world biomes randomly within a range
+async function generateHexMap(worldBiomes, averageLvl, lvlDiff){
+	averageLevel = averageLvl;
+	levelDiff = lvlDiff;	
 	populateMap(worldBiomes);
 }
 
@@ -127,42 +128,43 @@ async function populateMap(biomelist){
 }
 
 async function printLandmarkData(coord, landmark){
-	var levelCrit = rollRange(100);
-	if(levelCrit == 100){
+	var levelCrit = rollRange(500);
+	if(levelCrit == 1){
 		averageLevel = 20;
 		levelDiff = 0;
 	}
 	if(averageLevel == 1)
 		levelDiff = 0;
+	
+	var level = Math.floor(Math.random() * ((averageLevel + levelDiff) - (averageLevel - levelDiff)) + (averageLevel - levelDiff));
+	
+	if(level < 1) level = 1;
+	if(level > 20) level = 20;
+	
 	if(landmark == "r"){
-		if(averageLevel == 1)
-			averageLevel = 2;
-		var RT = await randomLoot.rollLootPool(averageLevel-1,levelDiff,3,1,10,2,25);
+		var RT = await randomLoot.rollLootPool(level,3,1,10,2,25);
 		RT.unshift("\n"+coord);
-		// for(var i = 0; i < RT.length; i++)
-			// console.log(RT[i]);
+		for(var i = 0; i < RT.length; i++)
+			console.log(RT[i]);
 	}
 	if(landmark == "c"){
-		var RD = await random5RD.generate5RD(averageLevel,levelDiff,5,2,10,4,50);
+		var RD = await random5RD.generate5RD(getHexBiome(coord),level,5,2,10,4,50);
 		RD.unshift("\n"+coord);
 		for(var i = 0; i < RD.length; i++)
 		    console.log(RD[i]); 
 	}
 	if(landmark == "%"){
-		var RT = await randomLoot.rollLootPool(averageLevel,levelDiff,0,1,30,2,90);
+		var RT = await randomLoot.rollLootPool(level,0,1,30,2,90);
 		RT.unshift("\n"+coord);
 		for(var i = 0; i < RT.length; i++)
 		    console.log(RT[i]);
 	}
 	if(landmark == "!"){
-		var RM = await randomMonsters.generateMonsters(getHexBiome(coord), averageLevel, levelDiff);
+		var RM = await randomMonsters.generateMonsters(getHexBiome(coord), level);
 		RM.unshift("\n"+coord);
+		console.log()
 		for(var i = 0; i < RM.length; i++)
 			console.log(RM[i]);
-		
-		// var RT = await randomLoot.rollLootPool(averageLevel,levelDiff,0,1,30,2,90);
-		// for(var i = 0; i < RT.length; i++)
-		    // console.log(RT[i]);
 	}
 }
 
@@ -535,48 +537,12 @@ function rollRange(r){
 }
 
 module.exports = {
-	populateMap: async function populateMap(biomelist){
-		var counter = 1;
-		var letter   = 97;
-		var newHexMap = hexMap;
-		
-		var p = perlin.generatePerlinNoise(ROW_LENGTH, COL_LENGTH)
-		
-		for(var i = 0; i < p.length; i++){
-			p[i] = Math.floor(p[i] * biomelist.length) + 1;
-		}
-		
-		counter = 0;
-		for(var i = 1; i < COL_LENGTH; i++){
-			for(var j = 1; j < ROW_LENGTH; j++){
-				setHexBiome(i,j,biomelist[p[counter]-1]);
-				counter++;
-			}
-			counter++;
-		}
-		
-		counter = 1;
-		newHexMap.forEach(function(line, index) {
-			if(line[4] == '-') counter = 1;
-			if (index > 1 && line.includes('-')) letter++;
-			if(line[10] == '-')	counter = 2;
-			
-			while(line.includes('-') || line.includes('#')){
-				//extract coordinates for landmarks
-				if (counter < 10){
-					line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+"0"+counter.toString()+" \\");
-				}
-				else{
-					line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+""+counter.toString()+" \\");
-				}
-				line = line.replace("\#######/", "\   "+rollLandmark(getHexCoord(index, line.indexOf("\#######/")))+"   /");
-				counter += 2;
-			}
-			console.log(line);
-		});	
-		return newHexMap;
+	populateMap: async function generateHexMap(worldBiomes, averageLvl, lvlDiff){
+		averageLevel = averageLvl;
+		levelDiff = lvlDiff;	
+		populateMap(worldBiomes);
 	}
 }
 //["Airborne","Aquatic","Arctic","Desert","Forest","Marsh","Mountain","Plains","Space","Subterranean","Urban","Weird"]
-generateHexMap(["Aquatic","Forest","Mountain","Plains"]);
+//generateHexMap(["Aquatic","Forest","Mountain","Plains"],8,0);
 

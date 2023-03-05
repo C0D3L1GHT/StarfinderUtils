@@ -57,8 +57,6 @@ const WEALTH_TABLE = new Map([
 	[20, 782000]]
 );
 
-var maxLevel = 0;
-
 function getListFile(fileName){
   try {
     var data = fs.readFileSync(fileName, { encoding: 'utf8', flag: 'r' });
@@ -103,14 +101,13 @@ async function getRandomMonsterByBiomeAndLevel(biome, lvl){
 	return monsterByLevel[index];
 }
 
-async function rollMonsterPool(biome, lvl, diff){
-	if(lvl > maxLevel)
-		maxLevel = lvl;
+async function rollMonsterPool(biome, lvl){
 	var pool = [];	
 	var xp_budget = XP_TABLE.get(lvl);
+	var wealth = WEALTH_TABLE.get(lvl);
 	var xp_total  = 0;
 	
-	pool.push("Monsters:");
+	pool.push("Monsters:" + " (CR" + lvl + ")");
 	
 	while(xp_total < xp_budget){
 		//pick random monster at level, 1 below level, or 2 below level
@@ -136,6 +133,12 @@ async function rollMonsterPool(biome, lvl, diff){
 			nextMonsterLevel = 1;
 		}
 		var nextMonster = await getRandomMonsterByBiomeAndLevel(biome, nextMonsterLevel);
+		
+		while(nextMonster == undefined){
+			nextMonsterLevel--;
+			nextMonster = await getRandomMonsterByBiomeAndLevel(biome, nextMonsterLevel);
+		}
+		
 		//get the xp amount for the new monster
 		var nextMonsterXP = XP_TABLE.get(parseFloat(nextMonster.substring(nextMonster.indexOf("{")+1,nextMonster.lastIndexOf("}"))));
 		//if xp total + new monster level <= xp budget for encounter
@@ -158,8 +161,8 @@ async function rollMonsterPool(biome, lvl, diff){
 		}
 	}
 	
-	pool.push("XP total: " + xp_total);
-	pool.push("Wealth total: " + WEALTH_TABLE.get(maxLevel))
+	pool.push("XP total: " + xp_total + "/" + xp_budget);
+	pool.push("Wealth total: " + wealth + " Credits/UPBs");
 	
 	for(var i = 0; i < pool.length; i++)
 		console.log(pool[i]);
@@ -167,14 +170,13 @@ async function rollMonsterPool(biome, lvl, diff){
 }
 
 module.exports = {
-	generateMonsters: async function rollMonsterPool(biome, lvl, diff){
-		if(lvl > maxLevel)
-			maxLevel = lvl;
+	generateMonsters: async function rollMonsterPool(biome, lvl){
 		var pool = [];	
 		var xp_budget = XP_TABLE.get(lvl);
+		var wealth = WEALTH_TABLE.get(lvl);
 		var xp_total  = 0;
 		
-		pool.push("Monsters:");
+		pool.push("Monsters:" + " (CR" + lvl + ")");
 		
 		while(xp_total < xp_budget){
 			//pick random monster at level, 1 below level, or 2 below level
@@ -200,6 +202,12 @@ module.exports = {
 				nextMonsterLevel = 1;
 			}
 			var nextMonster = await getRandomMonsterByBiomeAndLevel(biome, nextMonsterLevel);
+			
+			while(nextMonster == undefined){
+				nextMonsterLevel--;
+				nextMonster = await getRandomMonsterByBiomeAndLevel(biome, nextMonsterLevel);
+			}
+			
 			//get the xp amount for the new monster
 			var nextMonsterXP = XP_TABLE.get(parseFloat(nextMonster.substring(nextMonster.indexOf("{")+1,nextMonster.lastIndexOf("}"))));
 			//if xp total + new monster level <= xp budget for encounter
@@ -222,8 +230,8 @@ module.exports = {
 			}
 		}
 		
-		pool.push("XP total: " + xp_total);
-		pool.push("Wealth total: " + WEALTH_TABLE.get(maxLevel) + " Credits/UPBs")
+		pool.push("XP total: " + xp_total + "/" + xp_budget);
+		pool.push("Wealth total: " + wealth + " Credits/UPBs");
 		
 		// for(var i = 0; i < pool.length; i++)
 			// console.log(pool[i]);
@@ -236,4 +244,4 @@ function rollRange(r){
   return Math.floor(Math.random() * r) + 1;
 }
 
-//rollMonsterPool("Airborne", 1, 2);
+//rollMonsterPool("Airborne", 3);

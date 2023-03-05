@@ -41,7 +41,7 @@ async function GeneratePlanet(){
     console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   console.log("\n\n")
-  randomMap.populateMap(biomeList);
+  randomMap.populateMap(biomeList,10,10);
 }
 
 function GenWorldType(){
