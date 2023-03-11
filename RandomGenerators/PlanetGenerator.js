@@ -17,7 +17,7 @@ const PLANET_LEVEL = 3;
 //TODO: add clues and mysteries that have answers on other planets in the list
 //TODO: make system generator
 //TODO: make sector generator
-//TODO: add other planet types (moon, black hole, megastructures)
+//TODO: add other planet types (moon, black hole, Fold Gate Station, Machine World)
 async function GeneratePlanet(){
   var anomaly = await GenAnomaly();//This is here because otherwise the code adds newlines in the printout for some reason
   console.log("World Type:      " + GenWorldType());

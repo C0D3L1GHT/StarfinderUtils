@@ -1,0 +1,67 @@
+******************HIGH-MAGIC ADVENTURE HOOKS******************
+() () Rebels claim that a government uses magic to pacify the populace.
+() () The magic holding this improbable world together starts to fade.
+() () Xenodruids seek to merge with a verdant planet’s world-mind.
+() () A world that once created pleasurable illusions for tourists has gone bad, trapping people beneath the surface.
+() () When an oracle used to choose government ministers picks a pariah, officials want to suppress the truth.
+() () A crime syndicate hides on a mystical world that erases their enemies’ memories. The devoured memories feed a supernatural evil.
+() () Efforts to extract a magic ore are disrupting the world’s magical balance.
+() () Intense magical fields disrupt advanced technology, causing them to cease functioning—even in orbit—and endangering visiting starships.
+() () Smugglers actively defy a magocracy’s restrictions on magical exports.
+() () On a planet tied to the First World, a bizarre stairway leads into an extradimensional space of unknown depth.
+() () Xenobiologists believe the world they’re surveying is a bundle of eggs of a massive magical beast and seek to preserve this new life.
+() () A vengeful exile has unleashed an extraplanar bioagent that burns out spellcasters’ nerves.
+() () Genies war over a world at a nexus of the Elemental Planes.
+() () A world’s people live out of phase with the Material Plane. They believe recent arrivals are ghosts.
+() () Unpredictable magical effects on an uninhabited world call for surveying and taming before colonization.
+() () A malevolent entity is drawn to a world that spawns planar portals.
+() () Diminutive, hive-minded sapient creatures magically manipulate their world in misguided, dangerous attempts to communicate with visitors.
+() () A grieving mystic uses enchanted bombs to ignite magical currents and turn back time, releasing unintended effects.
+() () When a notorious raider snatches a magic stone from a remote world, a curse follows their flight across the galaxy.
+() () A mighty being, such as a void dragon, consumes magical creatures, forces, and items to become a “death god.” They have a loyal cult.
+
+******************MEDIUM-MAGIC ADVENTURE HOOKS******************
+() () To pursue magical research, an organization needs help in establishing a planetary presence despite danger or resistance.
+() () A grimoire found in an ancient ruin contains a dangerous ritual to accelerate or dampen a world’s magic.
+() () An experiment in nascent emotion magic goes awry, contagiously amplifying darker emotions in the populace and threatening pandemonium.
+() () Previously unknown magical creatures emerge from underground, endangering surface dwellers who might resort to weapons of mass destruction.
+() () Natural leylines are shifting, causing changes in the geography of magic and heralding a return to lost glory or an oncoming doom.
+() () Talavet’s followers find sealed legendary gates on several worlds. The locks require the help of Nyarlathotep’s faithful to open.
+() () Entertainers enhance performances with minor magic, hoping to strike it rich before the damage the magic inflicts catches up with them.
+() () Several murderous rampages and premature deaths can be traced to a magic item merchant whose wares empower a ghastly artifact.
+() () A patron needs to transport an antique blade that has healing powers and attracts unwanted attention from across the galaxy.
+() () Priests of non-good deities have fallen prey to something. Is it a divine punisher, an enemy god’s avenger, or a creature feeding on magic?
+() () A faction of witchwarpers wants to meld realities on a planetary scale.
+() () Despite a cover-up, investigation reveals a serial killer’s targets are government agents mutated by magic.
+() () A corporation wants to raid another’s magical research facility, claiming ethical violations. The magic could afford either corporation a monopoly.
+() () Infants are being born with magical powers. Does this new pattern suggest a change in magic, sinister meddling, or both?
+() () A shapechanger invents magical identity verification, which some shapechangers violently oppose and authorities threaten to abuse.
+() () A recent spate of supernatural disasters can be traced to a secret site tapped into the world’s magical energies.
+() () Entitled magnates fund studies of transferring magic powers. A breakthrough comes at the cost of innocent lives.
+() () Warlords or powerful monsters vie for a rare place of power or an artifact, unconcerned for who or what they harm.
+() () The guardian of a magical place wants to discover why a starship crashed there, unleashing magical radiation.
+() () An acolyte disappears after claiming the priesthood’s traditional power comes from a source other than their god.
+
+******************LOW-MAGIC ADVENTURE HOOKS******************
+() () Legend says magic is locked in leylines that also imprison a powerful entity. A radical group decides to test this theory.
+() () Explorers discover natural features that keep magic low on an inhabited world. Some want magic set free; others fear this change.
+() () Fugitives manipulate magic and the beliefs of a world’s people to hide and keep their enemies at bay.
+() () Archaeologists uncover evidence that magic wasn’t always low.
+() () Conspiracy theorists ambush leaders that they suspect hoard magic.
+() () All of a world’s magic goes to protect it from a nearby black hole. A greedy conqueror threatens this stability.
+() () Histories claim that the use of magic attracts fiendish attention, but heretics want to test the doctrine.
+() () The world absorbs magic without diminishing the effects, making learning (though not using) it difficult. Where’s this energy going?
+() () Members of an age-old order hunt mages and suppress magic use. Enemies and the authorities believe the order hides a secret.
+() () The first spellcasters have appeared among low-magic people. This “sign” has been interpreted in more bad ways than good.
+() () A potent, spacefaring extraterrestrial tours low-magic worlds. Some say it’s searching, and others claim it’s changing things. Why?
+() () Magic-starved monsters prey upon a planet’s population.
+() () Infamous warriors who carry eldritch heirlooms have answered a psychic call to gather on a low-magic world.
+() () A scrupulous authority figure wants help freeing a prisoner to aid them in uncovering the shocking reasons for the world’s low magic.
+() () Eco- and mago-fascists believe low magic is a state of imbalance and releases a transmutation agent to set magic free.
+() () Those suffering from magical maladies flock to a facility that suppresses magic.
+() () A wealthy expatriate wants to recover cultural relics from a planet ravaged by nonmagical war and full of environmental hazards.
+() () Leaders have duped a world’s people for generations with fake magical displays.
+() () Extraplanar forces have begun to gather on a low-magic world.
+() () An astrophysicist has discovered the world’s magic is being siphoned into a local star.
+
+NOTES: magic level also can determine spell effectiveness

@@ -24,20 +24,39 @@ const listFour  = ["Treasure", "Weapons", "Narrative Beat", "Heal", "Lore", "Spe
 const listFive  = ["Combat", "Boss", "Stealth", "Spawn", "Outmatched", "Injury"]
 const listSix   = ["Roleplay", "Dispute", "Revelation", "Twist", "Escape", "Death"]
 
-async function generate5RD(lvl, diff, tacAmount, tacChance, itemAmount, itemChance){
-	console.log("\n\n");
-	var layout = rollLayout();
-	var rooms = roll5Rooms();
-	layout = addNumbersToLayout(layout, Object.values(rooms))
+async function generate5RD(biome, lvl, consumableAmount, tacAmount, tacChance, itemAmount, itemChance){
+		var dungeon = []
+		//console.log("\n\n");
+		//dungeon.push("\n");
+		var layout = rollLayout();
+		var rooms = roll5Rooms();
+		layout = addNumbersToLayout(layout, Object.values(rooms))
 
-	console.log(layout);
-	for(var room in rooms)
-		console.log(room + " : " + rooms[room]);
-	console.log("\n\n");
-	
-	console.log("loot:");
-	var loot = await randomLoot.rollLootPool(lvl, diff, tacAmount, tacChance, itemAmount, itemChance);
-}
+		//console.log(layout);
+		dungeon.push(layout);
+		for(var room in rooms){
+			//console.log(room + " : " + rooms[room]);
+			dungeon.push(room + " : " + rooms[room]);
+		}
+		//console.log("\n\n");
+		dungeon.push("\n");
+		
+		var monsters = await randomMonsters.generateMonsters(biome, lvl);
+		for(m of monsters)
+			dungeon.push(m);
+		
+		dungeon.push("\n");
+		
+		var loot = await randomLoot.rollLootPool(lvl, consumableAmount, tacAmount, tacChance, itemAmount, itemChance);
+		for(l of loot)
+			dungeon.push(l);
+		
+		
+		for (d of dungeon)
+			console.log(d);
+		
+		return dungeon;
+	}
 
 function addNumbersToLayout(layout, roomNums){
 	var squares = layout.split('');
@@ -196,4 +215,4 @@ function rollRange(r){
     return Math.floor(Math.random() * r) + 1;
 }
 
-//generate5RD();
+generate5RD("Weird", 3, 4, 2, 50, 1, 50);

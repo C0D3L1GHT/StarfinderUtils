@@ -18,3 +18,104 @@ Corrupts Technology
 Corrupts Magic
 Gaia World
 Dead World
+
+Abandoned Colony
+Alien Ruins 
+Altered Humanity
+Anarchists 
+Anthropomorphs
+//Area 51 
+Badlands World 
+Battleground 
+Beastmasters 
+Bubble Cities 
+Cheap Life 
+Civil War 
+Cold War 
+Colonized Population 
+Cultural Power 
+Cybercommunists 
+Cyborgs 
+Cyclical Doom 
+Desert World 
+Doomed World 
+Dying Race 
+Eugenic Cult 
+Exchange Consulate 
+Fallen Hegemon 
+Feral World 
+Flying Cities 
+Forbidden Tech/Magic 
+Former Warriors 
+Freak Geology 
+Freak Weather 
+Friendly Foe 
+Gold Rush 
+Great Work 
+Hatred 
+Heavy Industry 
+Heavy Mining
+Hivemind 
+Holy War 
+Hostile Biosphere 
+Hostile Space 
+Immortals 
+Local Specialty 
+Local Tech 
+Major Spaceyard 
+Mandarinate 
+Mandate Base 
+Maneaters 
+Megacorps 
+Mercenaries 
+Minimal Contact 
+Misandry/Misogyny 
+Night World 
+Nomads 
+Oceanic World 
+Out of Contact 
+Outpost World 
+Perimeter Agency 
+Pilgrimage Site 
+Pleasure World 
+Police State 
+Post-Scarcity 
+Preceptor Archive 
+Pretech Cultists 
+Primitive Aliens 
+Prison Planet 
+Psionics Academy 
+Psionics Fear 
+Psionics Worship 
+Quarantined World 
+Radioactive World 
+Refugees 
+Regional Hegemon 
+Restrictive Laws 
+Revanchists 
+Revolutionaries 
+Rigid Culture
+Rising Hegemon
+Ritual Combat
+Robots
+Seagoing Cities
+Sealed Menace
+Secret Masters
+Sectarians
+Seismic Instability
+Shackled World
+Societal Despair
+Sole Supplier
+Taboo Treasure
+Terraform Failure
+Theocracy
+Tomb World
+Trade Hub
+Tyranny
+Superintellgent AI
+Urbanized Surface
+Utopia
+Warlords
+Xenophiles
+Xenophobes
+Zombies
