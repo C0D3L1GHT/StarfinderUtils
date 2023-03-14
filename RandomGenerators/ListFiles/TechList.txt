@@ -1,0 +1,43 @@
+High_Technology
+Algorithmic Leader
+Artificial Gravity
+ClarkeTech
+Clones
+Digital Demi-plane
+Machine World
+Mad Science
+Nanite Virus
+Organic Tech
+Powerful AI
+Robot Uprising
+Uploaded People
+Von Neumann Probes
+
+Medium_Technology
+Alien Message
+Colony World
+Crashed Space Probe
+Hates AI
+Hates Biotech
+Hates FTL
+Hidden High Tech
+Mass Space Emigration
+Organic Tech Only
+Space Debris Field
+Space Tourism
+Starship Racers
+
+Low_Technology
+Anti Tech God
+Cargo Cult
+EMP Field
+Gaia World
+Gifted Tech
+Hates Technology
+Pre Industrial Spaceflight
+Scavenged Tech
+Stone Age Spaceflight
+Tech Eating Nanomachines
+Techno-mimic Fauna
+Techno-mimic Flora
+Technology Collapse

@@ -12,15 +12,24 @@ const align_morality_list = ["Evil", "Neutral", "Good"]
 const settlement_gov_list = ["Anarchy", "Autocracy", "Council", "Magocracy", "Military", "Oligarchy", "Secret Syndicate", "Plutocracy", "Utopia"]
 const settlement_qual_list = ["Academic", "Bureaucratic", "Cultured", "Devout", "Financial Center", "Insular", "Notorious", "Polluted"]
 
+
+/*********************************************************/
 const PLANET_LEVEL = 3;
+const PLANET_DIFF  = 3;
+/*********************************************************/
 
 //TODO: add clues and mysteries that have answers on other planets in the list
 //TODO: make system generator
 //TODO: make sector generator
 //TODO: add other planet types (moon, black hole, Fold Gate Station, Machine World)
 async function GeneratePlanet(){
-  var anomaly = await GenAnomaly();//This is here because otherwise the code adds newlines in the printout for some reason
+  var biomeAnomalies = await GenBiomeAnomaly();
+  var nextbiomeAnomaly = await GenBiomeAnomaly();
+  while(biomeAnomalies == nextbiomeAnomaly)
+	  nextbiomeAnomaly = await GenBiomeAnomaly();
+  biomeAnomalies += ", " + nextbiomeAnomaly;
   console.log("World Type:      " + GenWorldType());
+  console.log("   Anomalies: " + biomeAnomalies);
   console.log("Gravity:         " + GenGravity());
   console.log("Atmosphere:      " + GenAtmopshere());
   var dThree = rollRange(3);
@@ -30,18 +39,22 @@ async function GeneratePlanet(){
 	  biomeList.push(biome);
       console.log("   Biome: " + biome);
   }
-  console.log("Accord:          " + GenTriadAttributes());
+  
+  var accord     = await GenTriadAttributes("Accord");
+  var magic      = await GenTriadAttributes("Magic");
+  var religion   = await GenTriadAttributes("Religion");
+  var technology = await GenTriadAttributes("Technology");
+  console.log("Accord:          " + accord);
+  console.log("Magic Level:     " + magic);
+  console.log("Religion Level:  " + religion);
+  console.log("Tech Level:      " + technology);
   console.log("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
-  console.log("Magic Level:     " + GenTriadAttributes());
-  console.log("Religion Level:  " + GenTriadAttributes());
-  console.log("Tech Level:      " + GenTriadAttributes());
-  console.log("Anomaly:         " + anomaly);
   var dThree = rollRange(3);
   for(let i = 1; i <= dThree; i++){
     console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
-  console.log("\n\n")
-  randomMap.populateMap(biomeList,10,10);
+  //console.log("\n\n")
+  //randomMap.populateMap(biomeList,10,10);
 }
 
 function GenWorldType(){
@@ -95,9 +108,10 @@ function GenBiome(){
   return biome_list[dTwelve-1];
 }
 
-function GenTriadAttributes(){
+async function GenTriadAttributes(level){
   var dThree = rollRange(3);
-  return triad_list[dThree-1];
+  var ret = triad_list[dThree-1] + ", " + await genTriadTag(triad_list[dThree-1], level);
+  return ret;
 }
 
 function GenAlignCohesion(){
@@ -120,17 +134,69 @@ function GenSettlementQual(){
   return settlement_qual_list[dSeven-1];
 }
 
-async function GenAnomaly(){
-	anomaly_list = await ScrapeAnomalyList()
-	var dTwenty = rollRange(20)
-	return anomaly_list[dTwenty-1]; 
+async function GenBiomeAnomaly(lastindex){
+	anomaly_list = await scrapeList("Biome");
+	return anomaly_list[rollRange(anomaly_list.length-1)]; 
 }
 
-async function ScrapeAnomalyList(){
+async function genTriadTag(level, list){
+	var triadList = await scrapeList(list);
+	var ret = [];
+	var addToRet = false;
+	for(var i = 0; i < triadList.length; i++){		
+		if (level == "Low" && triadList[i].includes("Low_")){
+			addToRet = true;
+			i++;
+		}
+		if (level == "Medium" && triadList[i].includes("Medium_")){
+			addToRet = true;
+			i++;
+		}
+		if (level == "High" && triadList[i].includes("High_")){
+			addToRet = true;
+			i++;
+		}
+		if (triadList[i].length < 2){
+			addToRet = false;
+		}
+		
+		if(addToRet)
+			ret.push(triadList[i]);
+	}
+	// for(var i = 0; i < ret.length; i++)
+		// console.log(ret[i]);
+	return ret[rollRange(ret.length-1)];
+}
+
+async function scrapeList(list){
 	try {
-       var data = fs.readFileSync("./AnomalyList.txt", { encoding: 'utf8', flag: 'r' });
-       var ret = data.split('\n');
-       return ret;
+		if(list == "Accord"){
+			var data = fs.readFileSync("./ListFiles/AccordList.txt", { encoding: 'utf8', flag: 'r' });
+			var ret = data.split('\n');
+			return ret;
+		}
+		if(list == "Magic"){
+			var data = fs.readFileSync("./ListFiles/MagicList.txt", { encoding: 'utf8', flag: 'r' });
+			var ret = data.split('\n');
+			return ret;
+		}
+		if(list == "Religion"){
+			var data = fs.readFileSync("./ListFiles/ReligionList.txt", { encoding: 'utf8', flag: 'r' });
+			var ret = data.split('\n');
+			return ret;
+		}
+		if(list == "Technology"){
+			var data = fs.readFileSync("./ListFiles/TechList.txt", { encoding: 'utf8', flag: 'r' });
+			var ret = data.split('\n');
+			return ret;
+		}
+		if(list == "Biome"){
+			var data = fs.readFileSync("./ListFiles/BiomeList.txt", { encoding: 'utf8', flag: 'r' });
+			var ret = data.split('\n');
+			return ret;
+		}else{
+			return [];
+		}
   } catch (e) {
        console.log(e);
        return [];
@@ -141,17 +207,4 @@ function rollRange(r){
   return Math.floor(Math.random() * r) + 1;
 }
 
-console.log("\n\n");
 GeneratePlanet()
-console.log("\n\n");
-/*GeneratePlanet()
-console.log("\n\n");
-GeneratePlanet()
-console.log("\n\n");
-GeneratePlanet()
-console.log("\n\n");
-GeneratePlanet()
-console.log("\n\n");
-GeneratePlanet()
-console.log("\n\n");
-*/

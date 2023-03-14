@@ -1,0 +1,44 @@
+High_Magic
+Magically Supported World
+Magic Savants
+Oracular Leaders
+World Fighting Back
+Technology Disruption
+Magocracy
+Casting is Dangerous
+Arcane War
+Forbidden Magic School
+Wild Magic
+Pentacle Cities
+Cursed Object
+
+Medium_Magic
+Mad Magic
+Magic Level Change Ritual
+Mass Enchantment
+Kaiju
+Shifting Leylines
+Magic Item Crafters
+Arcane Experiments
+Magic Sensitive Children
+Arcane Specialty
+Magic Storms
+Arcane Power Transfer
+Arcane Throne
+Magic Circle
+
+Low_Magic
+Imprisoned Magic
+Caster Fuel
+Mage Elite
+Magic Tithe
+Eldritch Dark Forest
+Magic Eating World
+Magic Hatred
+Tourists of the Mundane
+Magically Sterile
+Curse Suppressing Planet
+Caster's Holiday
+Magic Spread Thin
+
+NOTES: magic level also can determine spell effectiveness

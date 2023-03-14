@@ -1,21 +1,21 @@
-1/15/23 10:16 PM PS
-Android
+3/12/23 7:37 PM PST
 Human
 Kasatha
 Lashunta
-Shirren
+Android
 Vesk
+Shirren
 Ysoki
 Dwarf
-Elf
 Gnome
+Elf
 Half-Elf
 Halfling
 Half-Orc
 Aasimar
-Alkainan
-Amrantah
 Anassanoi
+Amrantah
+Alkainan
 Astrazoan
 Astriapi
 Bantrid
@@ -34,8 +34,8 @@ Dessamar instar
 Dirindi
 Draelik
 Dragonkin
-Drow
 Dromada
+Drow
 Elebrian
 Embri
 Endiffian
@@ -77,8 +77,8 @@ Kitsune
 Kobold
 Maraquoi
 Megalonyxa
-Moyishuu
 Morlamaw
+Moyishuu
 Neskinti
 Nuar
 Orc

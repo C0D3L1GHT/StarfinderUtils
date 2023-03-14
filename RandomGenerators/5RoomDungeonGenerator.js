@@ -17,12 +17,12 @@ const Layout = {
 	Twelve: "       []\n[][][]\n[]"
 }
 
-const listOne   = ["NPC", "Sentinel", "Atmosphere", "Explore", "Secret", "Separated"]
-const listTwo   = ["Puzzle", "Obstacle", "Trick", "Setback", "Device", "Betrayal"]
-const listThree = ["Trap", "Switch", "Environmental", "Timer", "Targets", "Gate"]
-const listFour  = ["Treasure", "Weapons", "Narrative Beat", "Heal", "Lore", "Spells"]
-const listFive  = ["Combat", "Boss", "Stealth", "Spawn", "Outmatched", "Injury"]
-const listSix   = ["Roleplay", "Dispute", "Revelation", "Twist", "Escape", "Death"]
+const listOne   = ["Riddle", "Sentinel", "Atmosphere", "Explore", "Secret", "Separated"]
+const listTwo   = ["Puzzle", "Obstacle", "Trick", "Setback", "Device", "Locked Door"]
+const listThree = ["Trap", "Elevation", "Gravity", "Timer", "Targets", "Gate"]
+const listFour  = ["Treasure", "Equipment", "Hacking", "Heal", "Lore", "Spells"]
+const listFive  = ["Combat", "Boss", "Stealth", "Spawn", "Terrain", "Injury"]
+const listSix   = ["Chase", "Key", "Arcane", "Maze", "Escape", "Death"]
 
 async function generate5RD(biome, lvl, consumableAmount, tacAmount, tacChance, itemAmount, itemChance){
 		var dungeon = []
@@ -215,4 +215,4 @@ function rollRange(r){
     return Math.floor(Math.random() * r) + 1;
 }
 
-generate5RD("Weird", 3, 4, 2, 50, 1, 50);
+//generate5RD("Weird", 6, 4, 2, 50, 1, 50);
