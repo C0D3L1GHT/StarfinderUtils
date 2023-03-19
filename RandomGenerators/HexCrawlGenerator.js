@@ -20,6 +20,7 @@ function setLevelDiff(diff){
 		console.log("Level difference outside scope")
 }
 
+//TODO: refactor this to be starfinder's hexmap in the GEM
 const hexMap = ["          _____         _____         _____         _____         _____         _____                 ",
                 "         /-----\\       /-----\\       /-----\\       /-----\\       /-----\\       /-----\\          ",
                 "   _____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____    ",

@@ -1,0 +1,338 @@
+3/12/23 7:37 PM PST
+Aeon Stone, Turquoise Cube {Aeon Stone}
+Aeon Stone, Iridescent Spindle {Aeon Stone}
+Aeon Stone, Clear Spindle {Aeon Stone}
+Aeon Stone, Cloudy Blue Rhomboid {Aeon Stone}
+Aeon Stone, Bright Yellow Cabochon {Aeon Stone}
+Aeon Stone, Opalescent White Pyramid {Aeon Stone}
+Aeon Stone, Banded Malachite Cabochon {Aeon Stone}
+Aeon Stone, Amber Hyperboloid {Aeon Stone}
+Aeon Stone, Kehtarite Oval {Aeon Stone}
+Aeon Stone, Ruby Sphere {Aeon Stone}
+Aeon Stone, Scarlet Prism {Aeon Stone}
+Aeon Stone, Viridian Balbis {Aeon Stone}
+Aeon Stone, Sapphire Cone {Aeon Stone}
+Aeon Stone, Iridium Star {Aeon Stone}
+Aeon Stone, Lusinite Rose {Aeon Stone}
+Aeon Stone, Vibrant Green Prism {Aeon Stone}
+Aeon Stone, Alabaster Helix {Aeon Stone}
+Aeon Stone, Dark Blue Rhomboid {Aeon Stone}
+Aeon Stone, Pearly White Spindle {Aeon Stone}
+Aeon Stone, Iridescent Trillian {Aeon Stone}
+Aeon Stone, Kaleidoscopic Icosahedron {Aeon Stone}
+Aeon Stone, Purple Sphere {Aeon Stone}
+Aeon Stone, Silver Lemniscate {Aeon Stone}
+Canu’s Cache {Artifact}
+Aeon Stone, Obsidian Annulus {Aeon Stone}
+Evomorpher {Artifact}
+Atrocite Sphere {Artifact}
+Authority Medallion {Other}
+Book of Unwritten Truths {Artifact}
+Ungarato {Artifact}
+Titan’s Gate {Artifact}
+Trafodi Paradox {Artifact}
+Paramour’s Prism {Other}
+Courage Medallion {Other}
+Charge Cloak {Other}
+Glory Medallion {Other}
+Scrapper’s Cookpot {Other}
+Spectacles of the Unseen {Other}
+Reckless Gloves {Other}
+Valor’s Mantle {Other}
+Encryption Tattoo, Agent {Other}
+Sun Bean Ice {Other}
+Xenowarden’s Boots {Other}
+Brooch of Shielding {Other}
+Corpse Lantern {Other}
+Spell Putty, 0-Level {Other}
+Cover Seed {Other}
+Diadem of Desna {Other}
+Flame Melon Juice {Other}
+Hoop of Perspicacity {Other}
+Starfinder Backpack {Other}
+Resilient Jacket {Other}
+Gimmick, Basic {Other}
+Quorlu heat gem {Other}
+Gimmick, Cutting Apprentice {Other}
+Tattoo Pact {Other}
+Valor Medallion {Other}
+Gimmick, Devastating Apprentice {Other}
+Amulet of Camouflage {Other}
+Spell Amulet, 1st {Other}
+Spell Putty, 1st-Level {Other}
+Falsebond Tattoos {Other}
+Brigh's Bolt {Other}
+Dawnflower Ring {Other}
+Instinctive Stabilizer {Other}
+Lawfinder {Other}
+Moon Crystal {Other}
+Obfuscated Journal {Other}
+Hivemask {Other}
+Queen's Meal {Other}
+Quick-dive Pearl {Other}
+Ruthig Milk Tea {Other}
+Recovery Aegis {Other}
+Elemental Gem, Mk 1 {Other}
+Figurine of Wondrous Power, Plush Squox {Other}
+Pilot's Helmet {Other}
+Gimmick, Elemental Apprentice {Other}
+Flame Shield Gauntlet {Other}
+Brenneri Stone, Glossy {Other}
+Darksight Goggles {Other}
+Friendship Bracelet {Other}
+Iomedaean Crusader Helm {Other}
+Trampling Boots {Other}
+Ibra’s Astrolabe {Other}
+Gimmick, Targeting Apprentice {Other}
+Truth Amplifier {Other}
+Tangleburst Seed {Other}
+Planar Runeplates, Mk 1 {Other}
+Improvisation Adornment, Mk 1 {Other}
+Barachius Helm {Other}
+Arquand Manacles {Other}
+Spell Putty, 2nd-Level {Other}
+Contortion Coat {Other}
+Dented Kasa {Other}
+Crimson Bangles {Other}
+Energy Transference Amulet {Other}
+Blackraven Axe {Other}
+Empty Orbit Emblem {Other}
+Monocle of Recognition {Other}
+Hood Ornament of Hovering {Other}
+Ring of Sustenance {Other}
+Skyfire Saddle {Other}
+Radiant Ensemble {Other}
+Staff of Mystic Healing {Other}
+Diffraction Cloak, Mk 1 {Other}
+Falcon Boots {Other}
+Weatherwear {Other}
+Fiery Runeplates, Mk 1 {Other}
+Figurine of Wondrous Power, Obsidian Electrovore {Other}
+Storage Goo {Other}
+Spell Amulet, 2nd {Other}
+Gimmick, Focused Apprentice {Other}
+Travel Treads, Mk 1 {Other}
+Ferocity Blazon {Other}
+Energy-Relay Gloves {Other}
+Chronal Harness {Other}
+Glove of Storing {Other}
+Lantern’s Laughing Lie {Other}
+Plasma Scabbard {Other}
+Gravity Ring {Other}
+Hat of Disguise {Other}
+Figurine of Wondrous Power, Polymer Velociraptor {Other}
+Elemental Gem, Mk 2 {Other}
+Robe of Communalism {Other}
+Gimmick, Cutting Expert {Other}
+Azlanti Noble’s Cloak {Other}
+Blender Fist {Other}
+Conspirator's Emblem {Other}
+Item Tattoo {Other}
+Furtive Garment {Other}
+Plasma Beads, Mk 1 {Other}
+Ring of Astrozoology {Other}
+Thruneblade {Other}
+Restoring Rod {Other}
+Pathing Telescope {Other}
+Brenneri Stone, Luminous {Other}
+Spell Putty, 3rd-Level {Other}
+Aura Goggles {Other}
+Stalkring, Digger {Other}
+Divination Mirror {Other}
+Calcification Rod {Other}
+Mask of the Mantis {Other}
+Shattercoat {Other}
+Techbane Rod {Other}
+Arquand Horns {Other}
+Trench Coat of Utility {Other}
+Banishing Blade, Mk 1 {Other}
+White Knuckle Gloves {Other}
+Eldritch Encephalon, Mk 1 {Other}
+Encryption Tattoo, Operative {Other}
+Teleportation Puck {Other}
+Figurine of Wondrous Power, Bone Crest-Eater {Other}
+Gimmick, Devastating Expert {Other}
+Improvisation Adornment, Mk 2 {Other}
+Planar Runeplates, Mk 2 {Other}
+Dreamsilk Cloak {Other}
+Spell Amulet, 3rd {Other}
+Ratfolk Belt {Other}
+Anvil of Torag {Other}
+Rod of Cancellation {Other}
+Hellknight Flail {Other}
+Diffraction Cloak, Mk 2 {Other}
+Arclord's Rod, Mk 1 {Other}
+Fiery Runeplates, Mk 2 {Other}
+Gimmick, Elemental Expert {Other}
+Ring Of Genie Calling, Djinn {Other}
+Stalkring, Obsidian {Other}
+Plasma Beads, Mk 2 {Other}
+Elemental Gem, Mk 3 {Other}
+Planar Acclimation Serum {Other}
+Shadow Orb {Other}
+Travel Treads, Mk 2 {Other}
+Starship in a Bottle {Other}
+Gimmick, Cutting Master {Other}
+Temporal Crystal {Other}
+Omnicomponent, Flawed {Other}
+Gimmick, Targeting Expert {Other}
+Spell Putty, 4th-Level {Other}
+Inkwing Tattoo {Other}
+Aballonian Drone Box {Other}
+Brenneri Stone, Radiant {Other}
+Incense of Open Thoughts {Other}
+Figurine of Wondrous Power, Titanium Hashukayak {Other}
+Inspiration Blazon {Other}
+Spell Amulet, 4th {Other}
+Mantle of Willpower {Other}
+Green Mother’s Final Trick {Other}
+Quickthin Tattoo {Other}
+Banishing Blade, Mk 2 {Other}
+Arclord's Rod, Mk 2 {Other}
+Improvisation Adornment, Mk 3 {Other}
+Ring Of Genie Calling, Shaitan {Other}
+Elemental Gem, Mk 4 {Other}
+Planar Runeplates, Mk 3 {Other}
+Flux Fig {Other}
+Shantak Whistle {Other}
+Plasma Beads, Mk 3 {Other}
+Phase Twin Generator {Other}
+Diffraction Cloak, Mk 3 {Other}
+Encryption Tattoo, Provocateur {Other}
+Figurine of Wondrous Power, Bloodstone Bloodbrother {Other}
+Spell Putty, 5th-Level {Other}
+Eldritch Encephalon, Mk 2 {Other}
+Travel Treads, Mk 3 {Other}
+Fiery Runeplates, Mk 3 {Other}
+Warlord Stone {Other}
+Gimmick, Devastating Master {Other}
+Figurine of Wondrous Power, Diamond Laser Wolf {Other}
+Psychic Inhibitor {Other}
+Boardroom Attire {Other}
+Elemental Gem, Mk 5 {Other}
+Figurine of Wondrous Power, Plastic Sharpwing {Other}
+Gimmick, Elemental Master {Other}
+Ring Of Genie Calling, Efreeti {Other}
+Rat’s Last Word {Other}
+Gimmick, Targeting Master {Other}
+Spell Putty, 6th-Level {Other}
+Spell Amulet, 5th {Other}
+Omnicomponent, Pristine {Other}
+Banishing Blade, Mk 3 {Other}
+Arclord's Rod, Mk 3 {Other}
+Ring Of Genie Calling, Marid {Other}
+Spell Amulet, 6th {Other}
+Calecor Skull-Globe {Other}
+Eldritch Encephalon, Mk 3 {Other}
+Containment Tesseract {Other}
+Encryption Tattoo, Master {Other}
+Tattoo Guardian {Other}
+Elemental Gem, Mk 6 {Other}
+The Malikah's Staff {Other}
+The Malikah's Robes {Other}
+Banishing Blade, Mk 4 {Other}
+Gimmick, Focused Expert {Otther}
+Arcane Signet {Rings}
+Ring of Whispers {Rings}
+Arclord's Rod, Mk 4 {Other}
+Ring of Resistance, Mk 1 {Rings}
+Ring of Cosmic Alignment {Rings}
+Ring of Resistance, Mk 3 {Rings}
+Ring of Resistance, Mk 2 {Rings}
+Ring of the Ninth Truth {Rings}
+Ring of Resistance, Mk 4 {Rings}
+Ring of Counterspells {Rings}
+Ring of Resistance, Mk 5 {Rings}
+Serum of Appearance Change {Serums}
+Serum of Healing, Mk 1 {Serums}
+Serum Of Earthen Stature {Serums}
+Serum of Hibernation, Diluted {Serums}
+Serum Of Fiery Vengeance {Serums}
+Serum Of Infinite Air {Serums}
+Serum, Lingo {Serums}
+Bitterflesh Serum {Serums}
+Polymorphic Serum, Mk 1 {Serums}
+Marathon Serum {Serums}
+Serum, Daywalker  {Serums}
+Rad-Out Serum {Serums}
+Gravity Serum {Serums}
+Aquanaut Elixir {Serums}
+Serum Of Fey’s Fickle Fancy, Mk 1 {Serums}
+Adaptive Serum, Mk 1 {Serums}
+Glowskin Serum {Serums}
+Serum of Sex Shift {Serums}
+Regenerative Philter, Mk 1 {Serums}
+Serum, Shadowblend {Serums}
+Serum Of Water’s Protection, Mk 1 {Serums}
+Bloodbrother Serum {Serums}
+Dawnflower Melange {Serums}
+Serum, X-Ray {Serums}
+Starshine Serum {Serums}
+Pact World Serum, Aballon Spark {Serums}
+Pact World Serum, Absalom Affable {Serums}
+Pact World Serum, Bretheda Effervescent {Serums}
+Pact World Serum, Akiton Rustrider {Serums}
+Xeroform Jelly {Serums}
+Pact World Serum, Diaspora Daredevil {Serums}
+Pact World Serum, Idari Gold {Serums}
+Pact World Serum, Eox Deliquesce {Serums}
+Pact World Serum, Castrovel Effloresce {Serums}
+Serum, Veracity {Serums}
+Pact World Serum, Verces Gleam {Serums}
+Serum of Enhancement, Scientist {Serums}
+Pact World Serum, Triaxus Dragonsight {Serums}
+Serum of Enhancement, Commando {Serums}
+Serum of Enhancement, Sneak {Serums}
+Serum of Enhancement, Diplomat {Serums}
+Serum of Hibernation, Potent {Serums}
+Serum of Enhancement, Warrior {Serums}
+Starmetal Serums, Abysium Philter {Serums}
+Serum of Healing, Mk 2 {Serums}
+Starmetal Serums, Djezet Draught {Serums}
+Starmetal Serums, Horacalcum Mélange {Serums}
+Serum of Enhancement, Sensate {Serums}
+Starmetal Serums, Inubrix Brew {Serums}
+Driftsauce Serum {Serums}
+Starmetal Serums, Noqual Elixir {Serums}
+Starmetal Serums, Siccatite Tonic {Serums}
+Joyful Thought {Serums}
+Regeneration Serum {Serums}
+Polymorphic Serum, Mk 2 {Serums}
+Nectar of Flame’s Glory {Serums}
+Adaptive Serum, Mk 2 {Serums}
+Serum Of Fey’s Fickle Fancy, Mk 2 {Serums}
+Serum, Close-Quarters {Serums}
+Serum Of Water’s Protection, Mk 2 {Serums}
+Serum of Healing, Mk 3 {Serums}
+Serum Of Fetid Verdancy {Serums}
+Regenerative Philter, Mk 2 {Serums}
+Adaptive Serum, Mk 3 {Serums}
+Polymorphic Serum, Mk 3 {Serums}
+Serum Of Water’s Protection, Mk 3 {Serums}
+Sophic Philter {Serums}
+Polymorphic Serum, Mk 4 {Serums}
+Polymorphic Serum, Mk 5 {Serums}
+Serum Of Long Shadows {Serums}
+Haeshi-Shaa Serum {Serums}
+Serum Of Shapelessness {Serums}
+Spell Ampoule, 0 {Spell Ampoule}
+Polymorphic Serum, Mk 6 {Serums}
+Regenerative Philter, Mk 3 {Serums}
+Spell Ampoule, 1st {Spell Ampoule}
+Spell Gem, 0 {Spell Gem}
+Spell Ampoule, 3rd {Spell Ampoule}
+Spell Ampoule, 2nd {Spell Ampoule}
+Spell Gem, 2nd {Spell Gem}
+Spell Gem, 3rd {Spell Gem}
+Spell Gem, 1st {Spell Gem}
+Spell Gem, 5th {Spell Gem}
+Spell Gem, 6th {Spell Gem}
+Spell Gem, 4th {Spell Gem}
+Tiara of Translocation, Mk 1 {Tiara of Translocation}
+Tiara of Translocation, Mk 4 {Tiara of Translocation}
+Tiara of Translocation, Mk 3 {Tiara of Translocation}
+Araznian Crusader Helm {Worn}
+Tiara of Translocation, Mk 2 {Tiara of Translocation}
+Ring of Fangs {Worn}
+Celestial Stole {Worn}
+Eohi Boots {Worn}

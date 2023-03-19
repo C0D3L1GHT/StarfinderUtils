@@ -18,7 +18,7 @@ const Layout = {
 }
 
 const listOne   = ["Riddle", "Sentinel", "Atmosphere", "Explore", "Secret", "Separated"]
-const listTwo   = ["Puzzle", "Obstacle", "Trick", "Setback", "Device", "Locked Door"]
+const listTwo   = ["Puzzle", "Obstacle", "Trick", "Setback", "Device", "Locked Way"]
 const listThree = ["Trap", "Elevation", "Gravity", "Timer", "Targets", "Gate"]
 const listFour  = ["Treasure", "Equipment", "Hacking", "Heal", "Lore", "Spells"]
 const listFive  = ["Combat", "Boss", "Stealth", "Spawn", "Terrain", "Injury"]
@@ -105,7 +105,7 @@ function addEntrances(dict){
 	var ret = {}
 	for(var d in dict) {
 	  if(dict[d] == min)
-		  ret[d+", door"] = dict[d];
+		  ret[d+", [door]"] = dict[d];
 	  else
 		  ret[d] = dict[d];
     }
@@ -215,4 +215,4 @@ function rollRange(r){
     return Math.floor(Math.random() * r) + 1;
 }
 
-//generate5RD("Weird", 6, 4, 2, 50, 1, 50);
+// generate5RD("Weird", 6, 4, 2, 50, 1, 50);

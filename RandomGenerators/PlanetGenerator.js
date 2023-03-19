@@ -19,42 +19,67 @@ const PLANET_DIFF  = 3;
 /*********************************************************/
 
 //TODO: add clues and mysteries that have answers on other planets in the list
-//TODO: make system generator
 //TODO: make sector generator
 //TODO: add other planet types (moon, black hole, Fold Gate Station, Machine World)
+// Galaxy Exploration is tracking down system clues. 3-5 clues to get to a system
+// System Exploration is finding Gravity Wells which gives you the system locations of 1d3 worlds
+// Analyzing System Data is analyzing what type of world it is
+// Exploration From Orbit is determining one of the following biome, gravity, atmosphere, religion, magic, tech, accord, or anomaly_list
+// World Mapping give you 1 Hex biome plus other features if high enough
+// World Exploration is hex crawl/guided tour if world is advanced and accomodating   
 async function GeneratePlanet(){
+  var planetInfo = [];
   var biomeAnomalies = await GenBiomeAnomaly();
   var nextbiomeAnomaly = await GenBiomeAnomaly();
   while(biomeAnomalies == nextbiomeAnomaly)
 	  nextbiomeAnomaly = await GenBiomeAnomaly();
   biomeAnomalies += ", " + nextbiomeAnomaly;
-  console.log("World Type:      " + GenWorldType());
-  console.log("   Anomalies: " + biomeAnomalies);
-  console.log("Gravity:         " + GenGravity());
-  console.log("Atmosphere:      " + GenAtmopshere());
+  planetInfo.push("World Type:      " + GenWorldType());
+  planetInfo.push("   Anomalies: " + biomeAnomalies);
+  planetInfo.push("Gravity:         " + GenGravity());
+  planetInfo.push("Atmosphere:      " + GenAtmopshere());
+  
+  // console.log("World Type:      " + GenWorldType());
+  // console.log("   Anomalies: " + biomeAnomalies);
+  // console.log("Gravity:         " + GenGravity());
+  // console.log("Atmosphere:      " + GenAtmopshere());
   var dThree = rollRange(3);
   var biomeList = [];
   for(let i = 1; i <= dThree; i++){
 	  var biome = GenBiome();
 	  biomeList.push(biome);
-      console.log("   Biome: " + biome);
+      //console.log("   Biome: " + biome);
+	  planetInfo.push("   Biome: " + biome);
   }
   
   var accord     = await GenTriadAttributes("Accord");
   var magic      = await GenTriadAttributes("Magic");
   var religion   = await GenTriadAttributes("Religion");
   var technology = await GenTriadAttributes("Technology");
-  console.log("Accord:          " + accord);
-  console.log("Magic Level:     " + magic);
-  console.log("Religion Level:  " + religion);
-  console.log("Tech Level:      " + technology);
-  console.log("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
+  
+  planetInfo.push("Accord:          " + accord);
+  planetInfo.push("Magic Level:     " + magic);
+  planetInfo.push("Religion Level:  " + religion);
+  planetInfo.push("Tech Level:      " + technology);
+  planetInfo.push("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
+  
+  
+  // console.log("Accord:          " + accord);
+  // console.log("Magic Level:     " + magic);
+  // console.log("Religion Level:  " + religion);
+  // console.log("Tech Level:      " + technology);
+  // console.log("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
   var dThree = rollRange(3);
   for(let i = 1; i <= dThree; i++){
-    console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
+    //console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
+	planetInfo.push("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   //console.log("\n\n")
   //randomMap.populateMap(biomeList,10,10);
+  //TODO: Figure out how to push HexMap data into Planet info
+  // for(var i = 0; i < planetInfo.length; i++)
+	  // console.log(planetInfo[i]);
+  return planetInfo;
 }
 
 function GenWorldType(){
@@ -134,7 +159,7 @@ function GenSettlementQual(){
   return settlement_qual_list[dSeven-1];
 }
 
-async function GenBiomeAnomaly(lastindex){
+async function GenBiomeAnomaly(){
 	anomaly_list = await scrapeList("Biome");
 	return anomaly_list[rollRange(anomaly_list.length-1)]; 
 }
@@ -201,6 +226,64 @@ async function scrapeList(list){
        console.log(e);
        return [];
   }
+}
+
+module.exports = {
+  generatePlanet: async function GeneratePlanet(){
+  var planetInfo = [];
+  var biomeAnomalies = await GenBiomeAnomaly();
+  var nextbiomeAnomaly = await GenBiomeAnomaly();
+  while(biomeAnomalies == nextbiomeAnomaly)
+	  nextbiomeAnomaly = await GenBiomeAnomaly();
+  biomeAnomalies += ", " + nextbiomeAnomaly;
+  planetInfo.push("World Type:      " + GenWorldType());
+  planetInfo.push("   Anomalies: " + biomeAnomalies);
+  planetInfo.push("Gravity:         " + GenGravity());
+  planetInfo.push("Atmosphere:      " + GenAtmopshere());
+  
+  // console.log("World Type:      " + GenWorldType());
+  // console.log("   Anomalies: " + biomeAnomalies);
+  // console.log("Gravity:         " + GenGravity());
+  // console.log("Atmosphere:      " + GenAtmopshere());
+  var dThree = rollRange(3);
+  var biomeList = [];
+  for(let i = 1; i <= dThree; i++){
+	  var biome = GenBiome();
+	  biomeList.push(biome);
+      //console.log("   Biome: " + biome);
+	  planetInfo.push("   Biome: " + biome);
+  }
+  
+  var accord     = await GenTriadAttributes("Accord");
+  var magic      = await GenTriadAttributes("Magic");
+  var religion   = await GenTriadAttributes("Religion");
+  var technology = await GenTriadAttributes("Technology");
+  
+  planetInfo.push("Accord:          " + accord);
+  planetInfo.push("Magic Level:     " + magic);
+  planetInfo.push("Religion Level:  " + religion);
+  planetInfo.push("Tech Level:      " + technology);
+  planetInfo.push("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
+  
+  
+  // console.log("Accord:          " + accord);
+  // console.log("Magic Level:     " + magic);
+  // console.log("Religion Level:  " + religion);
+  // console.log("Tech Level:      " + technology);
+  // console.log("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
+  var dThree = rollRange(3);
+  for(let i = 1; i <= dThree; i++){
+    //console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
+	planetInfo.push("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
+  }
+  //console.log("\n\n")
+  //randomMap.populateMap(biomeList,10,10);
+  //TODO: Figure out how to push HexMap data into Planet info
+  // for(var i = 0; i < planetInfo.length; i++)
+	  // console.log(planetInfo[i]);
+  return planetInfo;
+}
+	
 }
 
 function rollRange(r){

@@ -9,13 +9,13 @@ const NPC_QUIRK    = "Ends Sentences with 'You know?' a lot"
 
 function generateName(){
    let ret = '';
-   let vowels = [97,101,105,11,117];
+   let vowels = [97,101,105,111,117];
    for(let i = 0; i < NAME_LENGTH; i++){
-      const random = Math.floor(Math.random() * 27);// not sure why we are multiplying by 27
+      const random = Math.floor(Math.random() * 26);
 	  if(i % 2 == 0)
 		  ret += String.fromCharCode(vowels[rollRange(5)-1]);
 	  else
-          ret += String.fromCharCode(97 + random); 
+          ret += String.fromCharCode(97 + random);
    };
    return ret;
 }

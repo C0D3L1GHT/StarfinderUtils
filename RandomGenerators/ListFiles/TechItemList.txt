@@ -1,0 +1,285 @@
+3/12/23 7:37 PM PST
+Comm Unit, Personal {Comm Units}
+Cable Line, Titanium Alloy {Cable Lines}
+Comm Unit, System-Wide {Comm Units}
+Comm Unit, Unlimited {Comm Units}
+Cable Line, Adamantine Alloy {Cable Lines}
+Lock, Good {Locks}
+Lock, Average {Locks}
+Lock, Superior {Locks}
+Medpatch {Medical Gear}
+Lock, Simple {Locks}
+Medkit, Basic {Medical Gear}
+Medkit, Advanced {Medical Gear}
+Crawling Cord {Organic}
+Medical Lab {Medical Gear}
+Sprayflesh {Medical Gear}
+Buoyant Harness {Organic}
+Message Slime {Organic}
+Electrosensory Drum {Organic}
+Breakaway Aegis {Other}
+Chemalyzer {Other}
+Signal Jammer {Other}
+Wrist Leech {Organic}
+Camouflage Membrane {Other}
+Emergency Beacon {Other}
+Detonator {Other}
+Fire Extinguisher {Other}
+Geckopad Gloves {Other}
+Formation Boots {Other}
+Enviro Mask {Other}
+Habitat Box {Other}
+Holographic Sashimono {Other}
+Holographic Strike Sign {Other}
+Laser Drill {Other}
+Medical Inhaler {Other}
+Radiation Badge {Other}
+Scorch Suture {Other}
+Scuba Gear {Other}
+Voice Distorter {Other}
+Zipstick {Other}
+Emergency Raft, Basic {Other}
+Environmental Field Collar, Huge or larger {Other}
+Environmental Field Collar, Large {Other}
+Environmental Field Collar, Medium {Other}
+Environmental Field Collar, Small or smaller {Other}
+Gnomish Duffel, Mk 1 {Other}
+Grenade Scrambler, Mk 1 {Other}
+Hoverchairs, Basic {Other}
+Imaginarium Projector, Basic {Other}
+Micro Tap, Mk 1 {Other}
+Musical Instrument, Basic {Other}
+Nanite Patch, Mk 1 {Other}
+Proximity Switch, Mk 1 {Other}
+Scanner, Video Camera {Other}
+Strategy Game, Basic {Other}
+Tent, Portaledge {Other}
+Tool Kit, Akinzi Resources {Other}
+Tool Kit, Starfinder Armory {Other}
+Tool Kit {Other}
+Tool Kit, Xhinti Holdings {Other}
+Vidgame, Advanced {Other}
+Vidgame, Basic {Other}
+Altitude Bead {Other}
+Crash Pad {Other}
+Datapad {Other}
+Diagnostic Lozenge {Other}
+Evenfire Unit {Other}
+Fashion Infosite Subscription {Other}
+Heatsink Cravat {Other}
+Grappler {Other}
+Holoskin {Other}
+Magboots {Other}
+Microgoggles {Other}
+Microjets {Other}
+Pulse Ray {Other}
+Radiation Sweeper {Other}
+Seeker Slime {Other}
+Snapshot Sphere {Other}
+Survival Straw {Other}
+Tactical Pumps {Other}
+Tetred Certified Translator {Other}
+Valai Band {Other}
+Wingsuit {Other}
+Xenobiologist’s Field Kit {Other}
+Gnomish Anytool, Mk 1 {Other}
+Emotion Regulator, Basic {Other}
+Hoverchairs, Athletic {Other}
+Gnomish Duffel, Mk 2 {Other}
+Nanite Hypopen, Brown {Other}
+Scanner, Shotgun Microphone {Other}
+Swarmproof Bangles, Basic {Other}
+Tool Kit, Engineering Specialty {Other}
+Alert Redirector {Other}
+All-Purpose Accessory {Other}
+Beacon Buoys {Other}
+Data Core {Other}
+Dermal Stapler {Other}
+Delectator {Other}
+Engineer's Puzzle Box {Other}
+Gun Emplacement {Other}
+Hardlight Netting {Other}
+Holoshroud {Other}
+Ion Tape {Other}
+Junk Drone {Other}
+Miniature Sun {Other}
+Multiverse Mirror {Other}
+Portable Grinder {Other}
+Programmer’s Plushie {Other}
+Telepathy Tap {Other}
+White-Noise Generator {Other}
+Gnomish Duffel, Mk 3 {Other}
+Domestic Drone, Carousing {Other}
+Gray Comm Unit, Planetary {Other}
+Micro Tap, Mk 2 {Other}
+Scanner, Enhanced Camera {Other}
+Anykey {Other}
+Cartographer Boots {Other}
+Dusk Shades {Other}
+Echo Gloves {Other}
+Eldricarnum {Other}
+Emotiquest {Other}
+Inertial-Reinforcement Belt {Other}
+Machimind {Other}
+Magniscope {Other}
+Jammer Charge {Other}
+Magnegloves {Other}
+Mechaflora {Other}
+Purifying Puck {Other}
+Proximity Helmet {Other}
+Replenigel Megavitamin {Other}
+Mechakata {Other}
+Solar Sheeting {Other}
+Autograppler, Basic {Other}
+Domestic Drone, Basic {Other}
+Grenade Scrambler, Mk 2 {Other}
+Smart Lock, Average {Other}
+Combat Controller {Other}
+Clearsight Goggles {Other}
+Warning Wire, Mk 1 {Other}
+Emergency Surfacer {Other}
+Composter Slime {Other}
+Planar Spacesuit {Other}
+Portable Gangway {Other}
+Relaxu {Other}
+Ooze Stasis Flask {Other}
+Sleeping Sentry {Other}
+Sonar Helmet {Other}
+Thief Drone {Other}
+Domectic Drone, Thief Drone {Other}
+Whisper Comm {Other}
+Metaphysical Detector, Mk I {Other}
+Nanite Hypopen, Purple {Other}
+Micro Tap, Mk 3 {Other}
+Nanite Patch, Mk 2 {Other}
+Nano Gadget Loadout, Wristband {Other}
+Phrenic Scrambler, Clear {Other}
+Strategy Game, Imperial Conquest {Other}
+Scanner, Laser Microphone {Other}
+Proximity Switch, Mk 2 {Other}
+Electroviscous Cloak {Other}
+Empathy Engine {Other}
+Blabbersponder {Other}
+Noise Dampener {Other}
+Plasma Diverter {Other}
+Analeptic Tablet {Other}
+Spy Drone {Other}
+Stickyfinger Gloves {Other}
+Hoverchairs, Elite {Other}
+Subdermal Extractor {Other}
+Smart Cable {Other}
+Tracking Bug {Other}
+Mimic Imager, Helmet-Mounted {Other}
+Meltdown Battery, Mk 1 {Other}
+Musical Instrument, Euphonic {Other}
+Nanite Hypopen, Black {Other}
+Antigravity Belt {Other}
+Organic Printing Vat {Other}
+Scanner, Motion Detector {Other}
+Traction Holster {Other}
+Swarmproof Bangles, Advanced {Other}
+Autoclaw {Other}
+Drift Glass Goggles {Other}
+Envoy's Mouthpiece {Other}
+Hover Anchor {Other}
+Flushbuster {Other}
+Hoverskates {Other}
+Mnemonic Scanner {Other}
+Portable Gravity Field {Other}
+Gray Comm Unit, System-wide {Other}
+Gnomish Anytool, Mk 2 {Other}
+Grenade Scrambler, Mk 3 {Other}
+Infaux Sphere, Basic {Other}
+Nano Gadget Loadout, Belt {Other}
+Metaphysical Detector, Mk II {Other}
+Smart Lock, Good {Other}
+Warning Wire, Mk 2 {Other}
+Autocartographer {Other}
+Portable Antrigravity Field {Other}
+Quantogram {Other}
+Autograppler, Advanced {Other}
+Short-circuit Grenade {Other}
+Nanite Hypopen, White {Other}
+Phrenic Scrambler, Viridian {Other}
+Nanite Patch, Mk 3 {Other}
+Scanner, X-Ray Visor {Other}
+Scanner, True-Frame Camera {Other}
+Bug Snare {Other}
+DNA Scrambler {Other}
+Inductive Bandolier {Other}
+Fungal Bomb {Other}
+Emergency Raft, Hovercraft {Other}
+Domestic Drone, Elite {Other}
+Bypass Subroutine {Other}
+Imaginarium Projector, Advanced {Other}
+Nanite Hypopen, Gray {Other}
+Mimic Imager, Hovering {Other}
+Flash Shield Generator {Other}
+Proximity Switch, Mk 3 {Other}
+Emotion Regulator, Advanced {Other}
+Grenade Scrambler, Mk 4 {Other}
+Meltdown Battery, Mk 2 {Other}
+Infaux Sphere, Advanced {Other}
+Nanite Hypopen, Green {Other}
+Warning Wire, Mk 3 {Other}
+Nano Gadget Loadout, Duster {Other}
+Memory Expunger {Other}
+Chrono Jumper Suit {Other}
+Spear of Fates {Other}
+Quantum Tunnelling Coverall {Other}
+Spears of Fates {Other}
+Phrenic Scrambler, Violet {Other}
+Gnomish Anytool, Mk 3 {Other}
+Carter's Baton {Other}
+Drift Harness {Other}
+Nanite Capsules {Other}
+Neuropoppet {Other}
+Synaptic Link {Other}
+Gray Comm Unit, Unlimited {Other}
+Nanite Hypopen, Red {Other}
+Entanglement Badges {Other}
+Grounding Boots {Other}
+Regeneration Table {Other}
+Grenade Scrambler, Mk 5 {Other}
+Superposition Belt {Other}
+Infaux Sphere, Elite {Other}
+Smart Lock, Superior {Other}
+Quantum Boxes {Other}
+Proximity Switch, Mk 4 {Other}
+Personal Phase Shifter {Other}
+Weightless Footlocker {Other}
+Meltdown Battery, Mk 3 {Other}
+Grenade Scrambler, Mk 6 {Other}
+Disintegration Hoop {Other}
+Portable Light, Beacon {Portable Lights}
+Portable Light, Flashlight {Portable Lights}
+Portable Light, Lantern {Portable Lights}
+Portable Light, Spotlight {Portable Lights}
+Kishalee Battery {Relic}
+Kishalee Battery
+ {Relic}
+Holdall Raiment {Relic}
+Acclimation Torc {Relic}
+Dimensional Comm Unit {Relic}
+Imposter Drone {Relic}
+Kishalee Battery, High-Capacity {Relic}
+Kishalee Battery
+, High-Capacity {Relic}
+Fitting Jacket {Relic}
+Soul Camera {Relic}
+Horizon Shield {Relic}
+Hushing Wire {Relic}
+Kishalee Battery, Super-Capacity {Relic}
+Kishalee Battery, Ultra-Capacity {Relic}
+Kishalee Battery
+, Super-Capacity {Relic}
+Kishalee Battery
+, Ultra-Capacity {Relic}
+Sovereign Helm {Relic}
+Feelings Lockbox {Relic}
+Passthrough Cloak {Relic}
+Time-pit Boots {Relic}
+Explosion Inhibitor {Relic}
+Drift Gauntlet {Relic}
+Restraints, Binders {Restraints}
+Restraints, Manacles {Restraints}

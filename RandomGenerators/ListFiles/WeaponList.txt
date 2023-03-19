@@ -1,0 +1,1545 @@
+3/12/23 7:37 PM PST
+Hammer, Assault {—}
+Disposal Blade, Tactical {—}
+Longsword, Standard {—}
+Manica, Tactical {—}
+Starknife, Tactical {—}
+Gnome Flickmace, Chert {—}
+Needler Estoc, Standard {—}
+Velstrac Flenser, Ascetic {—}
+Hook Sword {—}
+Injection Glove {—}
+Painclaw, Ghoulish {—}
+Snap Whip, Thunderstrike {—}
+Taclash, Standard {—}
+Spectra Blade, Iridia {—}
+Warfan {—}
+Battleaxe, Tactical {—}
+Hardlight Hand Wrap, Diffuse {—}
+Talon, Drone {—}
+Thresherblade, Tactical {—}
+Countdown Blade, Second {—}
+Living Lash {—}
+Disposal Blade, Advanced {—}
+Doshakari, Tactical {—}
+Mindspike, Tactical {—}
+Needler Estoc, Sharp-pointed {—}
+Fangblade {—}
+Manica, Advanced {—}
+Epoch Spear, Century {—}
+Longsword, Sintered {—}
+Gearhammer, Tactical {—}
+Velstrac Flenser, Singer {—}
+Snap Whip, LFD {—}
+Polylash, Tactical {—}
+Starknife, Sintered {—}
+Spectra Blade, Wyspiria {—}
+Gnome Flickmace, Gneiss  {—}
+Hardlight Hand Wrap, Ambient {—}
+Longsword, Microserrated {—}
+Thresherblade, Microserrated {—}
+Talon, Warrior {—}
+Countdown Blade, Minute {—}
+Hammer, Comet {—}
+Doshakari, Advanced {—}
+Mindspike, Microserrated {—}
+Needler Estoc, Hyper-pointed {—}
+Epoch Spear, Millennium {—}
+Disposal Blade, Ultrathin {—}
+Manica, Elite {—}
+Longsword, Ultrathin {—}
+Polylash, Advanced {—}
+Painclaw, Demonic {—}
+Taclash, Numbing {—}
+Fractal Hook, Static {—}
+Starknife, Accelerated {—}
+Talon, Knight {—}
+Gearhammer, Advanced {—}
+Velstrac Flenser, Debater {—}
+Doshakari, Ultrathin {—}
+Grindblade {—}
+Snap Whip, HFD {—}
+Spectra Blade, Sondria {—}
+Thresherblade, Nanoserrated {—}
+Hardlight Hand Wrap, Natural {—}
+Mindspike, Nanoserrated {—}
+Needler Estoc, Ultra-pointed {—}
+Monowhip {—}
+Longsword, Zero-Edge {—}
+Countdown Blade, Hour {—}
+Polylash, Elite {—}
+Disposal Blade, Zero-Edge {—}
+Doshakari, Zero-Edge {—}
+Epoch Spear, Eon {—}
+Gnome Flickmace, Dacite  {—}
+Manica, Paragon {—}
+Hammer, Meteoric {—}
+Starknife, Lightspeed {—}
+Hardlight Hand Wrap, Fluorescent {—}
+Talon, Queen {—}
+Longsword, Molecular Rift {—}
+Thresherblade, Ultraserrated {—}
+Fractal Hook, Dynamic {—}
+Velstrac Flenser, Recluse {—}
+Longsword, Ultraserrated {—}
+Needler Estoc, Supreme-pointed {—}
+Gearhammer, Paragon {—}
+Mindspike, Ultraserrated {—}
+Snap Whip, Banshee {—}
+Spectra Blade, Aspecna {—}
+Doshakari, Molecular Rift {—}
+Epoch Spear, Eternity {—}
+Hammer, Gravity Well {—}
+Painclaw, Draconic {—}
+Polylash, Paragon {—}
+Hardlight Hand Wrap, Incandescent {—}
+Longsword, Dimensional Slice {—}
+Needler Estoc, Master-pointed {—}
+Talon, God {—}
+Starknife, Dimensional Slice {—}
+Cryospike, Personal {Cryo}
+Ice Needle, Undercover {Cryo}
+Zero Knife, Frostbite-Class {Cryo}
+Bone Scepter, Chill {Cryo}
+Ice Needle, Furitive {Cryo}
+Tomb Claw, Ghoulish {Cryo}
+Bone Scepter, Void {Cryo}
+Zero Knife, Hailstorm-Class {Cryo}
+Cryospike, Residential {Cryo}
+Ice Needle, Artifice {Cryo}
+Gale Baton, Tempest {Cryo}
+Bone Scepter, Rigor {Cryo}
+Tomb Claw, Vampiric {Cryo}
+Gale Baton, Cyclone {Cryo}
+Ice Needle, Espionage {Cryo}
+Zero Knife, Blizzard-Class {Cryo}
+Tomb Claw, Lich {Cryo}
+Cryospike, Industrial {Cryo}
+Zero Knife, Avalanche-Class {Cryo}
+Ice Needle, Subterfuge {Cryo}
+Gale Baton, Hurrican {Cryo}
+Zero Knife, Icequake-Class {Cryo}
+Bone Scepter, Cadaver {Cryo}
+Disintegration Lash, Liquidator {Disintegrator}
+Disintegration Lash, Executioner {Disintegrator}
+Disintegration Lash, Eradicator {Disintegrator}
+Disintegration Lash, Decimator {Disintegrator}
+Heat-Amp Gauntlet, Mk 1 {Flame}
+Junk Censer {Flame}
+Tomb Claw, Skeletal {Cryo}
+Resistance Rod, Strain-Gauge {Flame}
+Pyrod, Luminous {Flame}
+Magma Blade, Rhyolite {Flame}
+Mirage Dagger, Distortion {Flame}
+Heat-Amp Gauntlet, Mk 2 {Flame}
+Searing Grip, Low-Heat {Flame}
+Skyfire Sword, Tactical {Flame}
+Resistance Rod, Thermistor {Flame}
+Pyrod, Torch {Flame}
+Searing Grip, High-Heat {Flame}
+Heat-Amp Gauntlet, Mk 3 {Flame}
+Resistance Rod, Piezoresistor {Flame}
+Magma Blade, Basalt {Flame}
+Mirage Dagger, Hallucination {Flame}
+Heat-Amp Gauntlet, Mk 4 {Flame}
+Resistance Rod, Induction {Flame}
+Magma Blade, Andesite {Flame}
+Pyrod, Beacon {Flame}
+Skyfire Sword, Inferno {Flame}
+Magma Blade, Plagioclase {Flame}
+Mirage Dagger, Illusion {Flame}
+Searing Grip, Weaponized {Flame}
+Locus Blade, Interference {Locus}
+Locus Blade, Harmonic {Locus}
+Locus Blade, Infrasonic {Locus}
+Welder, Utility {Plasma}
+Solar Brand, Red Star {Plasma}
+Locus Blade, Ultrasonic {Locus}
+Angel Wing, Movanic {Plasma}
+Plasma Lash, Red Star {Plasma}
+Solar Brand, Yellow Star {Plasma}
+Welder, Industrial {Plasma}
+Angel Wing, Monadic {Plasma}
+Angel Wing, Astral {Plasma}
+Plasma Lash, Yellow Star {Plasma}
+Plasma Sword, Tactical {Plasma}
+Solar Brand, White Star {Plasma}
+Plasma Sword, Red Star {Plasma}
+Plasma Lash, White Star {Plasma}
+Plasma Sword, Yellow Star {Plasma}
+Welder, Offensive {Plasma}
+Welder, Starship {Plasma}
+Solar Brand, Blue Star {Plasma}
+Plasma Sword, Blue Star {Plasma}
+Plasma Lash, Blue Star {Plasma}
+Plasma Sword, White Star {Plasma}
+Electrovore Glove, Static {Shock}
+Spark Knife, Runner {Shock}
+Shock Pad, Static {Shock}
+Neural Lash, Electroplax {Shock}
+Shock Pad, Aurora {Shock}
+Spark Knife, Recruit {Shock}
+Electrovore Glove, Aurora {Shock}
+Glass Blade, Jolt {Shock}
+Glass Blade, Live {Shock}
+Shock Truncheon, Static {Shock}
+Neural Lash, Amperometric {Shock}
+Spark Knife, Crew {Shock}
+Shock Truncheon, Aurora {Shock}
+Electrovore Glove, Storm {Shock}
+Neural Lash, Galvanic {Shock}
+Glass Blade, Impulse {Shock}
+Shock Pad, Storm {Shock}
+Spark Knife, Boss {Shock}
+Shock Truncheon, Storm {Shock}
+Electrovore Glove, Tempest {Shock}
+Shock Pad, Tempest {Shock}
+Shock Truncheon, Tempest {Shock}
+Neural Lash, Voltaic {Shock}
+Singing Disk, Sopranino {Sonic}
+Pulse Gauntlet, Thunderstrike {Sonic}
+Boomknuckles, Thunderstrike {Sonic}
+Wailing Blade, Tymbal {Sonic}
+Glass Blade, Surge {Shock}
+Shrieking Knife, Harmonic {Sonic}
+Resonant Gauntlet, Cellular {Sonic}
+Singing Disk, Soprano {Sonic}
+Boomknuckles, LFD {Sonic}
+Pulse Gauntlet, LFD {Sonic}
+Wailing Blade, Euphonic {Sonic}
+Shrieking Knife, Interference {Sonic}
+Singing Disk, Alto {Sonic}
+Resonant Gauntlet, Molecular {Sonic}
+Pulse Gauntlet, HFD {Sonic}
+Wailing Blade, Strident {Sonic}
+Shrieking Knife, Infrasonic {Sonic}
+Resonant Gauntlet, Atomic {Sonic}
+Pulse Gauntlet, Banshee {Sonic}
+Singing Disk, Tenor {Sonic}
+Boomknuckles, HFD {Sonic}
+Shrieking Knife, Ultrasonic {Sonic}
+Boomknuckles, Banshee {Sonic}
+Wailing Blade, Warbler {Sonic}
+Resonant Gauntlet, Quantum {Sonic}
+Singing Disk, Bass {Sonic}
+Crisis Wrench, Tinker-class {—}
+Doshko, Tactical {—}
+Skitterstaff, Rustic {—}
+Capture Pole, Enforcement-class {—}
+Excavation Drill, Utility  {—}
+Lumenstaff, Tactical {—}
+Pike, Tactical {—}
+Singing Star, Apprentice {—}
+Toothblade, Tactical {—}
+Trident (Levaloch), Tactical {—}
+Battle Ribbon, Traditional {—}
+Crystal Spear, Tactical {—}
+Gnome Ripsaw, Flicker {—}
+Storm Doshko, Static {—}
+Collapsible Battle Ladder {—}
+Brain Pike, Drone {—}
+Curve Blade, Carbon Steel {—}
+Frosthaft Doshko, Chill {—}
+Nematocyst Spear, Ceremonial  {—}
+Kishaxe, Skirmish {—}
+Skitterstaff, Provincial {—}
+Xenolash, Immature {—}
+Neutriad Flail {—}
+Magma Sledge, Rhyolite {—}
+Toothblade, Microserrated {—}
+Swoop Hammer, Tactical {—}
+Crisis Wrench, Scrapper-class {—}
+Excavation Drill, Industrial  {—}
+Shimmerstone Staff, Sunset {—}
+Voidhammer, Primordial {—}
+Capture Pole, Apprehension-class {—}
+Devastation Blade, Wrack {—}
+Coil Trident, Sentinel {—}
+Doshko, Advanced {—}
+Frosthaft Doshko, Subzero {—}
+Lumenstaff, Advanced {—}
+Phasic Scythe, Monophonic {—}
+Singing Star, Adept {—}
+Staff, Sentinel {—}
+Storm Doshko, Aurora {—}
+Trident (Levaloch), Sintered {—}
+Battle Ribbon, Micro-Edge {—}
+Brain Pike, Warrior {—}
+Skitterstaff, Agrarian {—}
+Terminal Doshko, Moment {—}
+Gnome Ripsaw, Spark {—}
+Kishaxe, Assault {—}
+Magma Sledge, Andesite {—}
+Pike, Advanced {—}
+Nematocyst Spear, Dueling  {—}
+Swoop Hammer, Advanced {—}
+Toothblade, Nanoserrated {—}
+Curve Blade, Ultrathin {—}
+Excavation Drill, Helical  {—}
+Voidhammer, Stellar {—}
+Brain Pike, Knight {—}
+Xenolash, Mature {—}
+Crisis Wrench, Engineer-class {—}
+Crystal Spear, Sentinel {—}
+Doshko, Ultrathin {—}
+Phasic Scythe, Harmonic {—}
+Shimmerstone Staff, Evenfall {—}
+Battle Ribbon, Zero-Edge {—}
+Capture Pole, Imprisonment-class {—}
+Singing Star, Master {—}
+Skitterstaff, Bucolic {—}
+Storm Doshko, Lightning {—}
+Trident (Levaloch), Ultrathin {—}
+Coil Trident, Ultrathin {—}
+Devastation Blade, Ruin {—}
+Nematocyst Spear, Hunter  {—}
+Staff, Repeller {—}
+Swoop Hammer, Mach I {—}
+Brain Pike, Queen {—}
+Doshko, Zero-Edge {—}
+Excavation Drill, Volute  {—}
+Frosthaft Doshko, Glacial {—}
+Kishaxe, Havoc {—}
+Terminal Doshko, Instant {—}
+Voidhammer, Intermediate {—}
+Xenolash, Blooming {—}
+Gnome Ripsaw, Blaze {—}
+Magma Sledge, Basalt {—}
+Phasic Scythe, Polyphonic {—}
+Pike, Elite {—}
+Shimmerstone Staff, Twilight {—}
+Crisis Wrench, Artificer-class {—}
+Curve Blade, Buzzblade {—}
+Storm Doshko, Tempest {—}
+Toothblade, Ultraserrated  {—}
+Capture Pole, Domination-class {—}
+Doshko, Molecular Rift {—}
+Lumenstaff, Elite {—}
+Nematocyst Spear, Warlord  {—}
+Singing Star, Sage {—}
+Swoop Hammer, Mach II {—}
+Trident (Levaloch), Molecular Rift {—}
+Brain Pike, God {—}
+Crystal Spear, Zero-edge {—}
+Devastation Blade, Apocalypse {—}
+Excavation Drill, Gyroidal  {—}
+Voidhammer, Supermassive {—}
+Xenolash, Seeded {—}
+Coil Trident, Zero-edge {—}
+Doshko, Dimensional Blade {—}
+Kishaxe, Onslaught {—}
+Phasic Scythe, Multiphonic {—}
+Capture Pole, Overlord-class {—}
+Curve Blade, Dimensional Slice {—}
+Frosthaft Doshko, Avalanche {—}
+Magma Sledge, Plagioclase {—}
+Nematocyst Spear, Champion  {—}
+Swoop Hammer, Mach III {—}
+Terminal Doshko, Prescient {—}
+Trident (Levaloch), Dimensional Slice {—}
+Shadow Chains, Follower {Cryo}
+Void Staff, Grave-Class {Cryo}
+Frost Maul, Aufeis {Cryo}
+Icestar Staff, Defender {Cryo}
+Spined Iceblade, Frostbite-Class {Cryo}
+Cryopike, Tactical {Cryo}
+Void Staff, Crypt-Class {Cryo}
+Icestar Staff, Seeker {Cryo}
+Shadow Chains, Acolyte {Cryo}
+Frost Maul, Iceberg {Cryo}
+Spined Iceblade, Hailstorm-Class {Cryo}
+Shadow Chains, Penitent {Cryo}
+Icestar Staff, Warrior {Cryo}
+Void Staff, Tomb-Class {Cryo}
+Cryopike, Advanced {Cryo}
+Frost Maul, Floe {Cryo}
+Icestar Staff, Drifter {Cryo}
+Shadow Chains, Ecclesiastic {Cryo}
+Void Staff, Ossuary-Class {Cryo}
+Spined Iceblade, Blizzard-Class {Cryo}
+Frost Maul, Glacier {Cryo}
+Icestar Staff, Leader {Cryo}
+Shadow Chains, Devotional {Cryo}
+Spined Iceblade, Avalanche-Class {Cryo}
+Void Staff, Barrow-Class {Cryo}
+Quantum Entangler, Military {Degenerator}
+Quantum Entangler, Dominion {Degenerator}
+Flame Spinner, Fireball {Flame}
+Blaze Scimitar, Acolyte {Flame}
+Flame Doshko, Ember {Flame}
+Burning Chains, Fiend-Class {Flame}
+Flame Spinner, Immolation {Flame}
+Meteor Glaive, Tactical {Flame}
+Blaze Scimitar, Disciple {Flame}
+Flame Doshko, Blaze {Flame}
+Burning Chains, Malebranche-Class {Flame}
+Meteor Glaive, Advanced {Flame}
+Blaze Scimitar, Cleric {Flame}
+Flame Spinner, Supernova {Flame}
+Flame Doshko, Inferno {Flame}
+Meteor Glaive, Elite {Flame}
+Blaze Scimitar, Divine {Flame}
+Burning Chains, Archdevil-Class {Flame}
+Meteor Glaive, Paragon {Flame}
+Flame Doshko, Solar Flare {Flame}
+Flame Spinner, Fission {Flame}
+Flare Axe, Red Star {Plasma}
+Nova Lance, Red Star {Plasma}
+Core Hammer, Tactical {Plasma}
+Plasma Ribbon, Student {Plasma}
+Flare Axe, Yellow Star {Plasma}
+Plasma Doshko, Red Star {Plasma}
+Nova Lance, Yellow Star {Plasma}
+Core Hammer, Advanced {Plasma}
+Plasma Ribbon, Professional {Plasma}
+Plasma Doshko, Yellow Star {Plasma}
+Flare Axe, White Star {Plasma}
+Nova Lance, White Star {Plasma}
+Core Hammer, Fusion {Plasma}
+Plasma Ribbon, Competitor {Plasma}
+Plasma Doshko, White Star {Plasma}
+Flare Axe, Blue Star {Plasma}
+Nova Lance, Blue Star {Plasma}
+Plasma Doshko, Blue Star {Plasma}
+Plasma Ribbon, Champion {Plasma}
+Core Hammer, Reactor {Plasma}
+Polarity Gauntlets, Spark {Shock}
+Stun Staff, Tactical {Shock}
+Storm Hammer, Diamagnetic {Shock}
+Dragonglaive, Basic {Shock}
+Polarity Gauntlets, Static {Shock}
+Electroflail, Tactical {Shock}
+Stun Staff, Static {Shock}
+Storm Hammer, Paramagnetic {Shock}
+Electroflail, Advanced {Shock}
+Dragonglaive, Thunderhead {Shock}
+Polarity Gauntlets, Aurora {Shock}
+Stun Staff, Aurora {Shock}
+Storm Hammer, Ferromagnetic {Shock}
+Dragonglaive, Stormstrike {Shock}
+Polarity Gauntlets, Current {Shock}
+Stun Staff, Storm {Shock}
+Electroflail, Elite {Shock}
+Polarity Gauntlets, Storm {Shock}
+Dragonglaive, Skyshatter {Shock}
+Storm Hammer, Antiferromagnetic {Shock}
+Stun Staff, Tempest {Shock}
+Electroflail, Paragon {Shock}
+Dragonglaive, Wyrmlord {Shock}
+Polarity Gauntlets, Tempest {Shock}
+Storm Hammer, Metamagnetic {Shock}
+Vibrogarrote, Basic {Sonic}
+Seismic Pick, Light {Sonic}
+Resonant Staff, Sonorous {Sonic}
+Singing Spear, Sopranino {Sonic}
+Seismic Pick, Heavy {Sonic}
+Interference Blade, Monophonic {Sonic}
+Vibrogarrote, Harmonic {Sonic}
+Singing Spear, Soprano {Sonic}
+Seismic Pick, Driver {Sonic}
+Vibrogarrote, Interference {Sonic}
+Singing Spear, Alto {Sonic}
+Interference Blade, Harmonic {Sonic}
+Resonant Staff, Reverberant {Sonic}
+Interference Blade, Polyphonic {Sonic}
+Seismic Pick, Demolition {Sonic}
+Vibrogarrote, Infrasonic {Sonic}
+Singing Spear, Tenor {Sonic}
+Resonant Staff, Stentorian {Sonic}
+Interference Blade, Multiphonic {Sonic}
+Vibrogarrote, Ultrasonic {Sonic}
+Club {—}
+Unarmed Strike {—}
+Baton, Tactical {—}
+Battleglove, Cestus {—}
+Handaxe, Basic {—}
+Knife, Survival {—}
+Shillelagh, Destroyer {—}
+Sword Cane, Tactical {—}
+Syringe Stick, Standard {—}
+Idaran Force Training Baton {—}
+Bone Cestus, Austere {—}
+Dueling Sword, Tactical {—}
+Electric Prod, Jolt  {—}
+Sap, Light {—}
+Sledge {—}
+Switchblade, Tactical {—}
+Inferno Knife {—}
+Tailblade {—}
+Clockbaton, Tactical {—}
+Dueling Sword (Corpse Fleet), Converted {—}
+Handaxe, Tactical {—}
+Sword Cane, Advanced {—}
+Ignurso Knuckles, Ember {—}
+Retractable Spike, Tactical {—}
+Spined Blade, Basic {—}
+Syringe Stick, Sharp-pointed {—}
+Clocksword, Second {—}
+Electric Prod, Impulse  {—}
+Polyclub, Tactical {—}
+Retractable Stinger, Tactical {—}
+Sap, Medium {—}
+Shell Knuckles, Tactical {—}
+Hook Knife {—}
+Bone Cestus, Measured {—}
+Knife, Tactical {—}
+Shillelagh, Cruiser {—}
+Sword Cane, Ultrathin {—}
+Dueling Sword, Buzzblade {—}
+Handaxe, Sintered {—}
+Switchblade, Ultrathin {—}
+Spined Blade, Buzzblade {—}
+Incapacitator {—}
+Ignurso Knuckles, Blaze {—}
+Syringe Stick, Hyper-pointed {—}
+Retractable Stinger, Advanced {—}
+Clockbaton, Advanced {—}
+Battleglove, Power {—}
+Electric Prod, Storm  {—}
+Polyclub, Advanced {—}
+Dueling Sword (Corpse Fleet), Officer {—}
+Sword Cane, Zero-Edge {—}
+Retractable Spike, Advanced {—}
+Clocksword, Minute {—}
+Sap, Heavy {—}
+Dueling Sword, Ultrathin {—}
+Spined Blade, Ripper {—}
+Bone Cestus, Imposing {—}
+Dagger, Ultrathin {—}
+Battleglove, Nova {—}
+Shell Knuckles, Advanced {—}
+Retractable Stinger, Elite {—}
+Ignurso Knuckles, Inferno {—}
+Shillelagh, Battleship {—}
+Switchblade, Zero-Edge {—}
+Sword Cane, Molecular Rift {—}
+Syringe Stick, Ultra-pointed {—}
+Dagger, Zero-Edge {—}
+Electric Prod, Surge  {—}
+Handaxe, Ultrathin {—}
+Spined Blade, Gravity {—}
+Polyclub, Elite {—}
+Dueling Sword, Ripper {—}
+Retractable Spike, Elite {—}
+Peacemaker {—}
+Clockbaton, Elite {—}
+Shell Knuckles, Elite {—}
+Sword Cane, Dimensional Slice {—}
+Battleglove, Gravity {—}
+Bone Cestus, Severe {—}
+Clocksword, Hour {—}
+Dagger, Molecular Rift {—}
+Dueling Sword (Corpse Fleet), Admiral {—}
+Ignurso Knuckles, Solar Flare {—}
+Retractable Stinger, Paragon {—}
+Syringe Stick, Supreme-pointed {—}
+Dueling Sword, Molecular Rift {—}
+Polyclub, Paragon {—}
+Electric Prod, Tempest  {—}
+Spined Blade, Rivener {—}
+Switchblade, Molecular Rift {—}
+Baton, Advanced {—}
+Handaxe, Molecular Rift {—}
+Retractable Spike, Paragon {—}
+Shell Knuckles, Paragon {—}
+Red Star Plasma Kukri {Plasma}
+Warclub {—}
+Syringe Spear, Tactical {—}
+Garrote, Wire {—}
+Greataxe, Tactical {—}
+Spear, Tactical {—}
+Chitinblade, Tactical {—}
+Puzzleblade, Conviction {—}
+Staff, Battle {—}
+Maul, Tactical {—}
+Greataxe, Sintered {—}
+Living Staff, Tactical {—}
+Lance, Advanced {—}
+Staff, Carbon {—}
+Spear, Sentinel {—}
+Scythe, Tactical {—}
+Syringe Spear, Advanced {—}
+Chitinblade, Microserrated {—}
+Puzzleblade, Dedication {—}
+Garrote, Nanofiber {—}
+Scythe, Sintered {—}
+Greataxe, Ultrathin {—}
+Spear, Buzzblade {—}
+Syringe Spear, Elite {—}
+Garrote, Microfilament {—}
+Living Staff, Advanced {—}
+Chitinblade, Nanoserrated {—}
+Lance, Elite {—}
+Greataxe, Molecular Rift {—}
+Puzzleblade, Moderation {—}
+Maul, Elite {—}
+Spear, Zero-Edge {—}
+Living Staff, Elite {—}
+Scythe, Ultrathin {—}
+Syringe Spear, Paragon {—}
+Chitinblade, Ultraserrated {—}
+Garrote, Monowire {—}
+Lance, Paragon {—}
+Staff, Hardlight {—}
+Puzzleblade, Tradition {—}
+Spear, Gravity {—}
+Living Staff, Paragon {—}
+Maul, Paragon {—}
+Battletune, Sopranino {Sonic}
+Battletune, Soprano {Sonic}
+Battletune, Alto {Sonic}
+Battletune, Tenor {Sonic}
+Lance, Tactical {—}
+Maul, Advanced {—}
+Staff, Battle {—}
+Spear, Tactical {—}
+Syringe Spear, Tactical {—}
+Garrote, Wire {—}
+Greataxe, Tactical {—}
+Warclub {—}
+Puzzleblade, Conviction {—}
+Living Staff, Tactical {—}
+Chitinblade, Tactical {—}
+Greataxe, Sintered {—}
+Maul, Tactical {—}
+Scythe, Tactical {—}
+Syringe Spear, Advanced {—}
+Garrote, Nanofiber {—}
+Lance, Tactical {—}
+Spear, Sentinel {—}
+Lance, Advanced {—}
+Puzzleblade, Dedication {—}
+Chitinblade, Microserrated {—}
+Staff, Carbon {—}
+Greataxe, Ultrathin {—}
+Scythe, Sintered {—}
+Maul, Advanced {—}
+Syringe Spear, Elite {—}
+Garrote, Microfilament {—}
+Spear, Buzzblade {—}
+Living Staff, Advanced {—}
+Greataxe, Molecular Rift {—}
+Chitinblade, Nanoserrated {—}
+Puzzleblade, Moderation {—}
+Maul, Elite {—}
+Spear, Zero-Edge {—}
+Living Staff, Elite {—}
+Scythe, Ultrathin {—}
+Syringe Spear, Paragon {—}
+Chitinblade, Ultraserrated {—}
+Garrote, Monowire {—}
+Lance, Paragon {—}
+Staff, Hardlight {—}
+Puzzleblade, Tradition {—}
+Living Staff, Paragon {—}
+Lance, Elite {—}
+Maul, Paragon {—}
+Spear, Gravity {—}
+Battletune, Alto {Sonic}
+Battletune, Tenor {Sonic}
+Battletune, Soprano {Sonic}
+Battletune, Sopranino {Sonic}
+Needler Rifle {—}
+Needler Rifle, Tactical {—}
+Rackarack, Pulse {—}
+Caustolance, Liquidator {—}
+Dusk Rifle, Static {—}
+Meduza Rifle, Stinger  {—}
+Formian Venomcaster, Tactical {—}
+Frost Maw, Growl-class {—}
+Net Gun, Wireframe {—}
+Thasphalt Rifle, Light {—}
+Needler Rifle, Advanced {—}
+Data Rifle, Giga {—}
+Caustolance, Decimator {—}
+Meduza Rifle, Blitz  {—}
+Electrosystem Rifle, Buzzing {—}
+Rackarack, Surge {—}
+Dusk Rifle, Aurora {—}
+Chimera Graft, Growl-class {—}
+Net Gun, Bolt {—}
+EM Induction Rifle, Static {—}
+Recombinator Ray {—}
+Culling Ray, Lesser {—}
+Digitizer Rifle, Silver  {—}
+Thasphalt Rifle, Tactical {—}
+Formian Venomcaster, Advanced {—}
+Nanite Thrower, Tactical {—}
+Frost Maw, Snarl-class {—}
+Data Rifle, Tera {—}
+Reality Rifle {—}
+Frost Maw, Roar-class {—}
+Meduza Rifle, Assault  {—}
+Caustolance, Executioner {—}
+Chimera Graft, Snarl-class {—}
+Dusk Rifle, Storm {—}
+Culling Ray, Standard {—}
+Electrosystem Rifle, Jolting {—}
+Needler Rifle, Elite {—}
+Thasphalt Rifle, Advanced {—}
+EM Induction Rifle, Aurora {—}
+Digitizer Rifle, Gold  {—}
+Nanite Thrower, Advanced {—}
+Rackarack, Drum {—}
+Data Rifle, Peta {—}
+Meduza Rifle, Commander  {—}
+Formian Venomcaster, Elite {—}
+Thasphalt Rifle, Elite {—}
+Needler Rifle, Paragon {—}
+Chimera Graft, Roar-class {—}
+EM Induction Rifle, Storm {—}
+Dusk Rifle, Tempest {—}
+Nanite Thrower, Elite {—}
+Culling Ray, Greater {—}
+Electrosystem Rifle, Convulsion {—}
+Formian Venomcaster, Paragon {—}
+Caustolance, Eradicator {—}
+Rackarack, Hammer {—}
+Meduza Rifle, Gorgon  {—}
+Digitizer Rifle, Holofoil  {—}
+Data Rifle, Exa {—}
+Nanite Thrower, Paragon {—}
+Numbing Beam, Tactical {Cryo}
+Frailty Rifle, Atrophy-Class {Cryo}
+Needler Rifle, Supreme {—}
+Void Rifle, Grave-Class {Cryo}
+Zero Rifle, Frostbite-Class {Cryo}
+Freeze Ray, Hiemal {Cryo}
+Ice Carbine, Subzero {Cryo}
+Frost Projector, Frostbite-Class {Cryo}
+Numbing Beam, Advanced {Cryo}
+Void Rifle, Crypt-Class {Cryo}
+Zero Rifle, Hailstorm-Class {Cryo}
+Ice Carbine, Gelid {Cryo}
+Frailty Rifle, Rot-Class {Cryo}
+Freeze Ray, Glacial {Cryo}
+Numbing Beam, Elite {Cryo}
+Void Rifle, Tomb-Class {Cryo}
+Frost Projector, Hailstorm-Class {Cryo}
+Ice Carbine, Ultracold {Cryo}
+Numbing Beam, Paragon {Cryo}
+Zero Rifle, Blizzard-Class {Cryo}
+Frailty Rifle, Blight-Class {Cryo}
+Freeze Ray, Algid {Cryo}
+Void Rifle, Ossuary-Class {Cryo}
+Frailty Rifle, Epidemic-Class {Cryo}
+Freeze Ray, Isothermal {Cryo}
+Zero Rifle, Avalanche-Class {Cryo}
+Frost Projector, Blizzard-Class {Cryo}
+Freeze Ray, Hypothermic {Cryo}
+Ice Carbine, Absolute-Zero {Cryo}
+Degenerator Rifle, Military {Degenerator}
+Void Rifle, Barrow-Class {Cryo}
+Disruption Rifle, Minor {Dimensional Disruption}
+Disruption Rifle, Major {Dimensional Disruption}
+Degenerator Rifle, Dominion {Degenerator}
+Dross Gun, Scrapper {Disintegrator}
+Disintegrator Rifle, Liquidator {Disintegrator}
+Dross Gun, Scoring {Disintegrator}
+Disintegrator Rifle, Decimator {Disintegrator}
+Dross Gun, Flux {Disintegrator}
+Disintegrator Rifle, Eradicator {Disintegrator}
+Flare Rifle, Dazzler {Flame}
+Gulchgun {Flame}
+Disintegrator Rifle, Executioner {Disintegrator}
+Blaze Rifle, Salamander-Class {Flame}
+Petrol Converter, Light {Flame}
+Flare Rifle, Vivifier {Flame}
+Dragon Rifle, Wyrmling {Flame}
+Petrol Converter, Tactical {Flame}
+Igniter, Ember {Flame}
+Flame Rifle {Flame}
+Blaze Rifle, Ifrit-Class {Flame}
+Petrol Converter, Advanced {Flame}
+Flare Rifle, Coruscator {Flame}
+Dragon Rifle, Drake {Flame}
+Blaze Rifle, Hellhound-Class {Flame}
+Dragon Rifle, Wyvern {Flame}
+Igniter, Blaze {Flame}
+Flare Rifle, Scorcher {Flame}
+Petrol Converter, Elite {Flame}
+Flare Rifle, Nova {Flame}
+Igniter, Inferno {Flame}
+Blaze Rifle, Firedrake-Class {Flame}
+Igniter, Solar Flare {Flame}
+Petrol Converter, Paragon {Flame}
+Blaze Rifle, Pheonix-Class {Flame}
+Laser Rifle, Azimuth {Laser}
+Serpent Laser, Azimuth {Laser}
+Dragon Rifle, True  {Flame}
+Excavation Laser, Light {Laser}
+Serpent Laser, Corona {Laser}
+Infinity Rifle, Tactical {Laser}
+Laser Rifle, Corona {Laser}
+Infinity Rifle, Advanced {Laser}
+Autobeam Rifle, Tactical {Laser}
+Excavation Laser, Medium {Laser}
+Serpent Laser, Aphelion {Laser}
+Laser Rifle, Perihelion {Laser}
+Laser Rifle, Aphelion {Laser}
+Autobeam Rifle, Advanced {Laser}
+Infinity Rifle, Paragon {Laser}
+Infinity Rifle, Elite {Laser}
+Laser Rifle, Parallax {Laser}
+Serpent Laser, Perihelion {Laser}
+Autobeam Rifle, Elite {Laser}
+Excavation Laser, Heavy {Laser}
+Plasma Bolter, Tactical {Plasma}
+Plasma Fork, 12-Notch {Plasma}
+Laser Rifle, Zenith {Laser}
+Microfusion Rifle, Light {Plasma}
+Plasma Rifle, Red Star {Plasma}
+Plasma Bolter, Advanced {Plasma}
+Nova Rifle, Yellow Star {Plasma}
+Plasma Bolter, Elite {Plasma}
+Plasma Fork, 15-Notch {Plasma}
+Nova Rifle, White Star {Plasma}
+Plasma Rifle, Yellow Star {Plasma}
+Nova Rifle, Red Star {Plasma}
+Microfusion Rifle, Medium {Plasma}
+Plasma Rifle, White Star {Plasma}
+Plasma Caster, White Star {Plasma}
+Microfusion Rifle, Heavy {Plasma}
+Plasma Caster, Blue Star {Plasma}
+Plasma Rifle, Blue Star {Plasma}
+Plasma Bolter, Paragon {Plasma}
+Plasma Fork, 19-Notch {Plasma}
+Scattergun, Utility {Projectile}
+Hunting Rifle {Projectile}
+Plasma Fork, 22-Notch {Plasma}
+Acid Dart Rifle, Tactical {Projectile}
+Cinder Rifle, Truth-Sequence {Projectile}
+Shield Rifle, Tactical {Projectile}
+Crossbolter, Tactical {Projectile}
+Autotarget Rifle {Projectile}
+Aeon Guard, Assault Rifle {Projectile}
+Kalo Shredder, Slipstream-Class {Projectile}
+Breaching Gun, Utility {Projectile}
+Huchket Rifle {Projectile}
+Rail Gun, Tactical {Projectile}
+Rail Gun, Advanced {Projectile}
+Vivara Rifle, Low-Flux {Projectile}
+Aeon Guard, Accelerator Rifle {Projectile}
+Rocket Rifle {Projectile}
+Acid Dart Rifle, Dual {Projectile}
+Cinder Rifle, Salvation-Sequence {Projectile}
+Seeker Rifle, Tactical {Projectile}
+Breaching Gun, Snub {Projectile}
+Kalo Shredder, Cascade-Class {Projectile}
+Shield Rifle, Advanced {Projectile}
+Vivara Rifle, Mid-Flux {Projectile}
+Crossbolter, Dual {Projectile}
+Magnetar Rifle, Tactical {Projectile}
+Aeon Guard, RPPR {Projectile}
+Scattergun, Snub {Projectile}
+Breaching Gun, Impact {Projectile}
+Kalo Shredder, Torrent-Class {Projectile}
+Acid Dart Rifle, Complex {Projectile}
+Cinder Rifle, Valor-Sequence {Projectile}
+Shield Rifle, Elite {Projectile}
+Scattergun, Impact {Projectile}
+Vivara Rifle, High-Flux {Projectile}
+Gyrojet Rifle, Tactical {Projectile}
+Magnetar Rifle, Advanced {Projectile}
+Kalo Shredder, Deluge-Class {Projectile}
+Breaching Gun, Vortex {Projectile}
+Seeker Rifle, Advanced {Projectile}
+Cinder Rifle, Glory-Sequence {Projectile}
+Scattergun, Vortex {Projectile}
+Combat Rifle {Projectile}
+Gyrojet Rifle, Advanced {Projectile}
+Kalo Shredder, Monsoon-Class {Projectile}
+Gyrojet Rifle, Elite {Projectile}
+Magnetar Rifle, Elite {Projectile}
+Breaching Gun, Grapeshot {Projectile}
+Magnetar Rifle, Paragon {Projectile}
+Scattergun, Grapeshot {Projectile}
+Shield Rifle, Paragon {Projectile}
+Gyrojet Rifle, Paragon {Projectile}
+Storm Coil, Live {Shock}
+Seeker Rifle, Paragon {Projectile}
+Polarity Rifle, Static {Shock}
+Seeker Rifle, Elite {Projectile}
+Arc Rifle, Static {Shock}
+Arc Emitter, Tactical {Shock}
+Pulsecaster Rifle {Shock}
+Surgecaster, Standard {Shock}
+Polarity Rifle, Aurora {Shock}
+Charge Emitter, Impulse {Shock}
+Arc Emitter, Advanced {Shock}
+Storm Coil, Jolt {Shock}
+Arc Rifle, Aurora {Shock}
+Surgecaster, Advanced {Shock}
+Storm Coil, Impulse {Shock}
+Arc Rifle, Storm {Shock}
+Polarity Rifle, Storm {Shock}
+Charge Emitter, Surge {Shock}
+Arc Rifle, Tempest {Shock}
+Charge Emitter, Jolt {Shock}
+Polarity Rifle, Tempest {Shock}
+Trenarii Singing Coil, Solo {Shock }
+Scrambler Rifle, Termite {Shock }
+Storm Coil, Surge {Shock}
+Scrambler Rifle, Cockroach {Shock }
+Trenarii Singing Coil, Duet {Shock }
+Trenarii Singing Coil, Quartet {Shock }
+Trenarii Singing Coil, Orchestra {Shock }
+Shout Rifle {Sonic}
+Scrambler Rifle, Locust {Shock }
+Scrambler Rifle, Dragonfly {Shock }
+Chordpocalypse, Thunderstrike {Sonic}
+Blindmark Rifle, Thunderstrike {Sonic}
+Vortex Rifle, Pulse {Sonic}
+Staccato Rifle, Pulse {Sonic}
+Sonic Rifle, Thunderstrike {Sonic}
+Chordpocalypse, Shattering {Sonic}
+Vortex Rifle, Surge {Sonic}
+Boomer Rifle, Tremor {Sonic}
+Boomer Rifle, Rumbler {Sonic}
+Blindmark Rifle, LFD {Sonic}
+Streetsweeper, Thunderstrike {Sonic}
+Chordpocalypse, Psychedelic {Sonic}
+Staccato Rifle, Surge {Sonic}
+Boomer Rifle, Concussive {Sonic}
+Vortex Rifle, Drum {Sonic}
+Streetsweeper, LFD {Sonic}
+Blindmark Rifle, HFD {Sonic}
+Chordpocalypse, Banshee {Sonic}
+Sonic Rifle, HFD {Sonic}
+Streetsweeper, HFD {Sonic}
+Vortex Rifle, Hammer {Sonic}
+Boomer Rifle, Shockwave {Sonic}
+Sonic Rifle, LFD {Sonic}
+Chordpocalypse, Transcendent {Sonic}
+Blindmark Rifle, Banshee {Sonic}
+Staccato Rifle, Drum {Sonic}
+Staccato Rifle, Hammer {Sonic}
+Sonic Rifle, Banshee {Sonic}
+Needler Pistol {—}
+Singing Stinger {—}
+Caustoject, Liquidator {—}
+Cestus Pistol, Tactical {—}
+Gnome Scout Gun, Tactical {—}
+Needler Pistol, Tactical {—}
+Skipshot Pistol, Tactical {—}
+Thasphalt Blaster, Light {—}
+Chorister, Warbler {—}
+Glove Needler, Tactical {—}
+Acid Cannon, Micrergate {—}
+Graviton Pistol, Linear {—}
+Infernian, Ifrit-Class {—}
+Nightarch Needler, Tactical {—}
+Mood Goo Emitter {—}
+Thasteron Blunderbuss {—}
+Moon Splinter, Crescent {—}
+Shield Projector, Sentry {—}
+Sting Pistol, Ant {—}
+Neutriad Pistol {—}
+Binding Blaster, Orb {—}
+Data Pistol, Giga {—}
+Graviton Pistol, Vector {—}
+Needler Pistol, Advanced {—}
+Caustoject, Decimator {—}
+Cestus Pistol, Advanced {—}
+Chorister, Harmonist {—}
+Rocket Bracer, Tactical {—}
+Skipshot Pistol, Advanced {—}
+Thasphalt Blaster, Tactical {—}
+Reality Pistol {—}
+Acid Cannon, Macrergate {—}
+Digitizer Pistol, Silver  {—}
+Gnome Scout Gun, Advanced {—}
+Glove Needler, Advanced {—}
+Infernian, Salamander-Class {—}
+Tetrad Rings, Tactical {—}
+Graviton Pistol, Tensor {—}
+Nightarch Needler, Advanced {—}
+Binding Blaster, Globe {—}
+Data Pistol, Tera {—}
+Moon Splinter, Gibbous {—}
+Nanite Pistol, Tinker-class {—}
+Shield Projector, Defender {—}
+Chorister, Chanteuse {—}
+Moon Splinter, Full {—}
+Moon Splinter, New {—}
+Sting Pistol, Yellow Jacket {—}
+Needler Pistol, Elite {—}
+Thasphalt Blaster, Advanced {—}
+Infernian, Hellhound-Class {—}
+Cestus Pistol, Elite {—}
+Nanite Pistol, Scrapper-class {—}
+Caustoject, Executioner {—}
+Acid Cannon, Dinergate {—}
+Rocket Bracer, Advanced {—}
+Gnome Scout Gun, Elite {—}
+Skipshot Pistol, Elite {—}
+Tetrad Rings, Advanced {—}
+Digitizer Pistol, Gold  {—}
+Graviton Pistol, Chiral {—}
+Nightarch Needler, Elite {—}
+Chorister, Intoner {—}
+Data Pistol, Peta {—}
+Nanite Pistol, Engineer-class {—}
+Glove Needler, Elite {—}
+Shield Projector, Guardian {—}
+Thasphalt Blaster, Elite {—}
+Infernian, Firedrake-Class {—}
+Needler Pistol, Paragon {—}
+Rocket Bracer, Elite {—}
+Sting Pistol, Wasp {—}
+Cestus Pistol, Paragon {—}
+Acid Cannon, Ergatoid {—}
+Skipshot Pistol, Paragon {—}
+Caustoject, Eradicator {—}
+Chorister, Diva {—}
+Data Pistol, Exa {—}
+Nightarch Needler, Paragon {—}
+Sting Pistol, Hornet {—}
+Digitizer Pistol, Holofoil  {—}
+Nanite Pistol, Artificer-class {—}
+Infernian, Phoenix-Class {—}
+Rocket Bracer, Paragon {—}
+Shield Projector, Warden {—}
+Tetrad Rings, Elite {—}
+Glove Needler, Paragon {—}
+Needler Pistol, Supreme {—}
+Hail Pistol, Subzero {Cryo}
+Subduer, Frost {Cryo}
+Bone Pistol, Grave-Class {Cryo}
+Frailty Pistol, Rasp-Class {Cryo}
+Shadow Pistol, Caliginous {Cryo}
+Zero Pistol, Frostbite-Class {Cryo}
+Bone Pistol, Crypt-Class {Cryo}
+Shadow Pistol, Sable {Cryo}
+Hail Pistol, Gelid {Cryo}
+Frailty Pistol, Wail-Class {Cryo}
+Subduer, Rime {Cryo}
+Zero Pistol, Hailstorm-Class {Cryo}
+Bone Pistol, Sepulcher-Class {Cryo}
+Shadow Pistol, Tenebrous {Cryo}
+Subduer, Sleet {Cryo}
+Frailty Pistol, Scream-Class {Cryo}
+Hail Pistol, Ultracold {Cryo}
+Zero Pistol, Blizzard-Class {Cryo}
+Subduer, Glacier {Cryo}
+Hail Pistol, Absolute-Zero {Cryo}
+Bone Pistol, Vault-Class {Cryo}
+Zero Pistol, Avalanche-Class {Cryo}
+Frailty Pistol, Deathcry-Class {Cryo}
+Shadow Pistol, Umbral {Cryo}
+Degenerator Pistol, Military {Degenerator}
+Degenerator Pistol, Dominion {Degenerator}
+Disruption Pistol, Minor {Dimensional Disruption}
+Disruption Pistol, Major {Dimensional Disruption}
+Decoupler, Pusher {Disintegrator}
+Disintegration Pistol, Liquidator {Disintegrator}
+Decoupler, Bruiser {Disintegrator}
+Disintegrator Pistol, Liquidator {Disintegrator}
+Decoupler, Screamer {Disintegrator}
+Disintegration SMG, Decimator {Disintegrator}
+Disintegration SMG, Liquidator {Disintegrator}
+Disintegration Pistol, Decimator {Disintegrator}
+Disintegration SMG, Executioner {Disintegrator}
+Disintegrator Pistol, Decimator {Disintegrator}
+Disintegrator Pistol, Executioner {Disintegrator}
+Disintegration SMG, Eradicator {Disintegrator}
+Disintegration Pistol, Eradicator {Disintegrator}
+Disintegrator Pistol, Eradicator {Disintegrator}
+Flare Gun, Survival {Flame}
+Mercy Pistol, Illuminator {Flame}
+Flame Pistol {Flame}
+Scorchgun, Microwave {Flame}
+Wave Modulator, I {Flame}
+Shellgun, Bombard {Flame}
+Dragon Pistol, Wyrmling {Flame}
+Flare Pistol, Dazzler {Flame}
+Trilaser, Tactical {Flame}
+Wave Modulator, II {Flame}
+Mercy Pistol, Infrared {Flame}
+Radshot, Electromagnetic {Flame}
+Flame Pistol, Blaze {Flame}
+Scorchgun, S-Band {Flame}
+Wave Modulator, III {Flame}
+Flare Pistol, Vivifier {Flame}
+Shellgun, Blaze {Flame}
+Dragon Pistol, Drake {Flame}
+Trilaser, Advanced {Flame}
+Flame Pistol, Inferno {Flame}
+Mercy Pistol, Ultraviolet {Flame}
+Wave Modulator, IV {Flame}
+Shellgun, Fury {Flame}
+Flare Pistol, Coruscator {Flame}
+Scorchgun, C-Band {Flame}
+Radshot, Neutron {Flame}
+Dragon Pistol, Wyvern {Flame}
+Wave Modulator, V {Flame}
+Trilaser, Elite {Flame}
+Flare Pistol, Scorcher {Flame}
+Scorchgun, K-Band {Flame}
+Wave Modulator, VI {Flame}
+Flame Pistol, Solar Flare {Flame}
+Scorchgun, X-Band {Flame}
+Dragon Pistol, True {Flame}
+Flare Pistol, Nova {Flame}
+Disintegration Pistol, Executioner {Disintegrator}
+Radshot, Rapid-Decay {Flame}
+Trilaser, Paragon {Flame}
+Wave Modulator, VII {Flame}
+Laser Pistol, Azimuth {Laser}
+Shoulder Laser, Azimuth {Laser}
+Membrane Holdout Pistol {Laser}
+Compliance Ray, Flash {Laser}
+Lens Pistol, Cylindrical {Laser}
+Laser Pistol, Corona {Laser}
+Compliance Ray, Flare {Laser}
+Shoulder Laser, Corona {Laser}
+Laser Pistol, Aphelion {Laser}
+Lens Pistol, Lenticular {Laser}
+Compliance Ray, Strobe {Laser}
+Laser Pistol, Parallax {Laser}
+Compliance Ray, Starburst {Laser}
+Lens Pistol, Electron {Laser}
+Shoulder Laser, Aphelion {Laser}
+Laser Pistol, Perihelion {Laser}
+Shoulder Laser, Perihelion {Laser}
+Laser Pistol, Zenith {Laser}
+Compliance Ray, Sunspot {Laser}
+Locus Beam, Interference {Locus}
+Lens Pistol, Sunglass {Laser}
+Locus Beam, Infrasonic {Locus}
+Locus Beam, Harmonic {Locus}
+Plasma Claw, Electocellular {Plasma}
+Forked Pistol, 6-Notch {Plasma}
+Locus Beam, Ultrasonic {Locus}
+Forked Pistol, 8-Notch {Plasma}
+Plasma Ring, Single-Valve {Plasma}
+Cavitation Pistol, Vapor {Plasma}
+Plasma Pistol, Red Star {Plasma}
+Cavitation Pistol, Inertial {Plasma}
+Persuader {Plasma}
+Plasma Claw, Synthecite {Plasma}
+Plasma Pistol, Yellow Star {Plasma}
+Forked Pistol, 9-Notch {Plasma}
+Cavitation Pistol, Hydrodynamic {Plasma}
+Plasma Pistol, White Star {Plasma}
+Plasma Ring, Dual-Valve {Plasma}
+Plasma Ring, Multichannel {Plasma}
+Plasma Claw, Organic {Plasma}
+Plasma Pistol, Blue Star {Plasma}
+Plasma Claw, Biodynamic {Plasma}
+Cavitation Pistol, Thermodynamic {Plasma}
+Semi-Auto Pistol, Tactical {Projectile}
+Ember Pistol, Truth-Sequence {Projectile}
+Forked Pistol, 10-Notch {Plasma}
+Handcannon, Bravado {Projectile}
+Injector Pistol, Medic {Projectile}
+Rotating Pistol, Tactical {Projectile}
+Uppercut SMG, Tactical {Projectile}
+Injector Pistol, Zoologist {Projectile}
+Ring Fire, Tactical {Projectile}
+Handcannon, Swagger {Projectile}
+Semi-Auto Pistol, Advanced {Projectile}
+Injector Pistol, Poacher {Projectile}
+Ember Pistol, Salvation-Sequence {Projectile}
+Ring Fire, Advanced {Projectile}
+Handcannon, Bombast {Projectile}
+Semi-Auto Pistol, Elite {Projectile}
+Ember Pistol, Valor-Sequence {Projectile}
+Rotating Pistol, Advanced {Projectile}
+Handcannon, Braggadocio {Projectile}
+Uppercut SMG, Elite {Projectile}
+Ember Pistol, Glory-Sequence {Projectile}
+Injector Pistol, Subjugation {Projectile}
+Ring Fire, Elite {Projectile}
+Rotating Pistol, Elite {Projectile}
+Gyrojet Pistol, Tactical {Projectile}
+Gyrojet Pistol, Advanced {Projectile}
+Handcannon, Gasconade {Projectile}
+Ring Fire, Paragon {Projectile}
+Uppercut SMG, Paragon {Projectile}
+Injector Pistol, Elite {Projectile}
+Pulsecaster Pistol {Shock}
+Gyrojet Pistol, Elite {Projectile}
+Polarity Wire, Static {Shock}
+Handcoil, Explorer {Shock}
+Arc Pistol, Static {Shock}
+Anchor Pistol, Voltaic {Shock}
+Lightning Pistol, Sheet {Shock}
+Ionizer, Cupric {Shock}
+Handcoil, Fighter {Shock}
+Lightning Pistol, Ribbon {Shock}
+Anchor Pistol, Emergent {Shock}
+Ionizer, Feric {Shock}
+Handcoil, Pilot {Shock}
+Lightning Pistol, Rocket {Shock}
+Polarity Wire, Storm {Shock}
+Arc Pistol, Aurora {Shock}
+Ionizer, Chromic {Shock}
+Anchor Pistol, Inductive {Shock}
+Polarity Wire, Aurora {Shock}
+Lightning Pistol, Smooth-Channel {Shock}
+Handcoil, Capital {Shock}
+Arc Pistol, Storm {Shock}
+Ionizer, Stannic {Shock}
+Anchor Pistol, Flux {Shock}
+Scrambler Pistol, Termite {Shock }
+Scrambler Pistol, Cockroach {Shock }
+Scrambler Pistol, Dragonfly {Shock }
+Scrambler Pistol, Locust {Shock }
+Dirge Pistol, Harmonic {Sonic}
+Perforator Pistol, Diffraction {Sonic}
+Sonic Suppressor, Murmur {Sonic}
+Sonic Pistol, Thunderstrike {Sonic}
+Polarity Wire, Tempest {Shock}
+Shrieking Larva {Sonic}
+Resonant Pistol, Lattice {Sonic}
+Sonic Suppressor, Whisper {Sonic}
+Perforator Pistol, Refraction {Sonic}
+Dirge Pistol, Anharmonic {Sonic}
+Sonic Pistol, LFD {Sonic}
+Sonic Suppressor, Hush {Sonic}
+Perforator Pistol, Linear {Sonic}
+Sonic Pistol, HFD {Sonic}
+Dirge Pistol, Parametric {Sonic}
+Sonic Pistol, Banshee {Sonic}
+Sonic Suppressor, Repose {Sonic}
+Resonant Pistol, Matrix {Sonic}
+Dirge Pistol, Radial {Sonic}
+Perforator Pistol, Phased {Sonic}
+Dirge Pistol, Resonant {Sonic}
+Uppercut SMG, Advanced {Projectile}
+Semi-Auto Pistol, Paragon {Projectile}
+Philosopher’s Sting, Lead {—}
+Rift Rifle, Pinhole {—}
+Kin-Killer, Tactical {—}
+Wraith-Sting Rifle, Wasp {—}
+Philosopher’s Sting, Iron {—}
+Rift Rifle, Keyhole {—}
+Nanite Rifle, Tactical {—}
+Kin-Killer, Advanced {—}
+Philosopher’s Sting, Mercury {—}
+Rift Rifle, Borehole {—}
+Wraith-Sting Rifle, Hornet {—}
+Kin-Killer, Elite {—}
+Nanite Rifle, Advanced {—}
+Philosopher’s Sting, Gold {—}
+Nanite Rifle, Elite {—}
+Rift Rifle, Wormhole {—}
+Kin-Killer, Paragon {—}
+Gamma Rifle, Terrestrial {Flame}
+Gamma Rifle, Ionizing {Flame}
+Gamma Rifle, Fusion {Flame}
+Gamma Rifle, Synchrotron {Flame}
+Diasporan Rifle, Tactical {Laser}
+Focus Rifle, Dual {Laser}
+Diasporan Rifle, Advanced {Laser}
+Focus Rifle, Triple {Laser}
+Diasporan Rifle, Elite {Laser}
+Focus Rifle, Quad {Laser}
+Diasporan Rifle, Ultra {Laser}
+Focus Rifle, Compound {Laser}
+Diasporan Rifle, Imperial {Laser}
+Plasma Guide, Series-21 {Plasma}
+Plasma Guide, Series-28 {Plasma}
+Plasma Guide, Series-42 {Plasma}
+Plasma Guide, Series-37 {Plasma}
+Plasma Guide, Series-62 {Plasma}
+Coil Rifle, Precision {Projectile}
+Shobhad Horizon Striker, Tactical {Projectile}
+Shirren-Eye Rifle, Tactical {Projectile}
+Assassin Rifle, Stalker {Projectile}
+Multistage Rifle, Dual {Projectile}
+Extrusion Rifle, 12-atm {Projectile}
+Tagtech Rifle, Dazzler {Projectile}
+Parapet Rifle, Tactical {Projectile}
+Coil Rifle, Specialist {Projectile}
+Tagtech Rifle, Vivifier {Projectile}
+Assassin Rifle, Shadow {Projectile}
+Shobhad Horizon Striker, Advanced {Projectile}
+Multistage Rifle, Dual-Plus {Projectile}
+Shirren-Eye Rifle, Advanced {Projectile}
+Extrusion Rifle, 24-atm {Projectile}
+Assassin Rifle, Phantom {Projectile}
+Coil Rifle, Rangefinder {Projectile}
+Parapet Rifle, Advanced {Projectile}
+Multistage Rifle, Triple {Projectile}
+Shobhad Horizon Striker, Elite {Projectile}
+Tagtech Rifle, Coruscator {Projectile}
+Assassin Rifle, Spectre {Projectile}
+Extrusion Rifle, 48-atm {Projectile}
+Shirren-Eye Rifle, Elite {Projectile}
+Coil Rifle, Saboteur {Projectile}
+Multistage Rifle, Triple-Plus {Projectile}
+Parapet Rifle, Elite {Projectile}
+Shirren-Eye Rifle, Paragon {Projectile}
+Shobhad Horizon Striker, Paragon {Projectile}
+Assassin Rifle, Wraith {Projectile}
+Tagtech Rifle, Nova {Projectile}
+Multistage Rifle, Quad {Projectile}
+Extrusion Rifle, 96-atm {Projectile}
+Coil Rifle, Assassin {Projectile}
+Parapet Rifle, Paragon {Projectile}
+Shirren-Eye Rifle, Warpshot {Projectile}
+Wraith-Sting Rifle, Yellow Jacket {—}
+Plasma Guide, Series-73 {Plasma}
+Apocalypse Crystal, Shard {1}
+Electron, Shard {1}
+Photino Crystals, Shard {1}
+Photon, Shard {1}
+W-Boson, Shard {1}
+Z-Boson, Shard {1}
+Gluon, Shard {2}
+Iceflame Crystals, Shard {2}
+Tauon, Least {1}
+T-Quark, Least {2}
+Positron, Least {3}
+Pyrespike Crystals, Shard {3}
+Electron, Least {3}
+Photino Crystals, Least {4}
+Muon, Minor {4}
+Apocalypse Crystal, Least {5}
+Tauon, Minor {4}
+Z-Boson, Least {4}
+Graviton, Least {5}
+Muon, Least {2}
+Photon, Least {5}
+Iceflame Crystals, Least {5}
+Electron, Minor {6}
+T-Quark, Minor {5}
+Pyrespike Crystals, Least {6}
+Gluon, Least {6}
+Photino Crystals, Minor {7}
+T-Quark, Lesser {7}
+W-Boson, Least {5}
+Apocalypse Crystal, Minor {8}
+Graviton, Minor {8}
+Z-Boson, Minor {7}
+Iceflame Crystals, Minor {8}
+W-Boson, Minor {8}
+Photon, Minor {8}
+Electron, Lesser {9}
+Pyrespike Crystals, Minor {9}
+Muon, Lesser {10}
+Gluon, Minor {9}
+Tauon, Standard {10}
+Photino Crystals, Lesser {10}
+Z-Boson, Lesser {10}
+Apocalypse Crystal, Lesser {11}
+Iceflame Crystals, Lesser {11}
+Tauon, Lesser {7}
+Photon, Lesser {11}
+W-Boson, Lesser {11}
+Electron, Standard {12}
+Pyrespike Crystals, Lesser {12}
+Gluon, Lesser {12}
+Photino Crystals, Standard {13}
+Graviton, Lesser {11}
+T-Quark, Standard {13}
+Z-Boson, Standard {13}
+Positron, Minor {13}
+Apocalypse Crystal, Standard {14}
+Iceflame Crystals, Standard {14}
+Tauon, Greater {13}
+Photon, Standard {14}
+Graviton, Standard {14}
+Electron, Greater {15}
+Pyrespike Crystals, Standard {15}
+W-Boson, Standard {14}
+Gluon, Standard {15}
+Photino Crystals, Greater {16}
+Tauon, True {16}
+T-Quark, Greater {16}
+Apocalypse Crystal, Greater {17}
+Muon, Standard {16}
+Z-Boson, Greater {16}
+Iceflame Crystals, Greater {17}
+Photon, Greater {17}
+W-Boson, Greater {17}
+Graviton, Greater {17}
+Pyrespike Crystals, Greater {18}
+Positron, Lesser {19}
+Z-Boson, True {19}
+Apocalypse Crystal, True {20}
+Gluon, True {20}
+Graviton, True {20}
+Iceflame Crystals, True {20}
+Muon, Greater {20}
+Electron, True {18}
+Photon, True {20}
+Pyrespike Crystals, True {20}
+T-Quark, True {20}
+W-Boson, True {20}
+Gluon, Greater {18}
+Photino Crystals, True {19}
+Carbonedge Shuriken (10) {—}
+Nyfiber Net {—}
+Shuriken, Grooved {—}
+Shuriken, Microserrated {—}
+Shuriken, Flash {—}
+Shuriken, Singing {—}
+Shuriken, Ultraserrated {—}
+Shuriken, Dynamo {—}
+Bow {—}
+Apocalypse Bow, Tactical {—}
+Battlebow, Advanced {—}
+Apocalypse Bow, Advanced {—}
+Apocalypse Bow, Elite {—}
+Battlebow, Elite {—}
+Battlebow, Paragon {—}
+Apocalypse Bow, Paragon {—}
+Battlebow, Tactical {—}
+Fireburst Chamber {1}
+Grenadier Bracket {1}
+Rangefinder {1}
+Uniclamp {1}
+Bayonet Bracket, Heavy {1}
+Bayonet Bracket, Light {1}
+Bipod, Light {1}
+Bipod, Heavy {2}
+Grip, Folding {2}
+Grip, Nanofiber {2}
+Sight, Manual {2}
+Stock, Collapsing {2}
+Collapsing Weapon {3}
+Flash Suppressor {3}
+Gunner Harness, Light {3}
+Scope, Sniper {3}
+Silencer {4}
+Scope, Nightvision {4}
+Sight, Laser {5}
+Inertial Dampener {6}
+Grip, Null-Space {6}
+Scope, Laser {6}
+Grip, Blur {7}
+Gunner Harness, Heavy {7}
+Stock, Null-Space {7}
+Gunner Harness, Null-Space {9}
+Scope, Revealing {9}
+Scope, Clarity {12}
+Called {1}
+Cunning {1}
+Defiant {1}
+Durable {1}
+Familial {1}
+Anchoring {1}
+Harmonic {1}
+Hindering {1}
+Hybridized {1}
+Illuminating {1}
+Invigorating {1}
+Mining {1}
+Ominous {1}
+Returning {1}
+Soulfire {1}
+Secured {1}
+Climbing {1}
+Trailblazer {1}
+Axiomatic {2}
+Blasting {2}
+Burst {2}
+Dimming {2}
+Entangling {2}
+Glowing {2}
+Holy {2}
+Inspiring {2}
+Kindred {2}
+Glamered {1}
+Merciful {2}
+Spellthrower {2}
+Opportunistic {2}
+Throwing {2}
+Stabilizing {1}
+Ulrikka Duster {2}
+Venomous {2}
+Astute {3}
+Conserving {3}
+Binding {3}
+Deafening {3}
+Disruptive {3}
+Anarchic {2}
+Dispelling {3}
+Launching {3}
+Potent {3}
+Seeking {3}
+Sentinel {3}
+Sundering {3}
+Valorous {3}
+Defending {3}
+Bonding {4}
+Burning {4}
+Echoing {4}
+Manufacturing {4}
+Tactical {4}
+Unholy {2}
+Vanishing {4}
+Radioactive {4}
+Bending {5}
+Accurate {5}
+Bleeding {5}
+Apprehending {5}
+Bombarding {5}
+Flaming {5}
+Energetic {5}
+Devastating {5}
+Frost {5}
+Bane {5}
+Limning {5}
+Ghost Killer {5}
+Interposing {5}
+Obscuring {5}
+Shock {5}
+Selective {5}
+Punishing {5}
+Supercharging {5}
+Numbing {5}
+Agonizing {6}
+Chained {6}
+Advancing {6}
+Adaptive {6}
+Vicious {5}
+Dimensional Disruption {6}
+EMP {6}
+Hive Buster {6}
+Knockdown {6}
+Nanite {6}
+Ensnaring {6}
+Dampening {6}
+Quantum Storage {6}
+Agile {7}
+Tunneling {6}
+Cellular Degenerating {7}
+Cruel {6}
+Menacing {6}
+Jinxing {7}
+Boosting {7}
+Charge Disrupting {7}
+Mind Reading {7}
+Steady {7}
+Spellbane {6}
+Annihilator {8}
+Tattoo {7}
+Wounding {7}
+Continuous {8}
+Leeching {8}
+Rebounding {8}
+Synesthetic {8}
+Temporal Disruption {8}
+Beneficent {9}
+Burdening {9}
+Guarded {8}
+Corrosive {9}
+Tritidair {8}
+Malediction {9}
+Rel-Entrapment {9}
+Thundering {9}
+Disentanglement {10}
+Ratjaw {9}
+Nullifying {10}
+Quantum {10}
+Tracking {10}
+Lightveiled {10}
+Meltdown {13}
+Mind-Reading {13}
+Vorpal {10}
+Sheering {12}
+Kaleidoscopic {14}
