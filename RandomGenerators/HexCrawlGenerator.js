@@ -82,14 +82,13 @@ const COL_LENGTH = 10
 
 async function generateHexMap(worldBiomes, averageLvl, lvlDiff){
 	averageLevel = averageLvl;
-	levelDiff = lvlDiff;	
-	populateMap(worldBiomes);
+	levelDiff = lvlDiff;
+	return populateMap(worldBiomes);
 }
 
 async function populateMap(biomelist){
 	var counter = 1;
 	var letter   = 97;
-	var newHexMap = hexMap;
 	
 	var p = perlin.generatePerlinNoise(ROW_LENGTH, COL_LENGTH)
 	
@@ -107,7 +106,7 @@ async function populateMap(biomelist){
 	}
 	
 	counter = 1;
-	newHexMap.forEach(function(line, index) {
+	HexMap.forEach(function(line, index) {
 		if(line[4] == '-') counter = 1;
 		if (index > 1 && line.includes('-')) letter++;
 		if(line[10] == '-')	counter = 2;
@@ -123,9 +122,9 @@ async function populateMap(biomelist){
 			line = line.replace("\#######/", "\   "+rollLandmark(getHexCoord(index, line.indexOf("\#######/")))+"   /");
 			counter += 2;
 		}
-		console.log(line);
+		//console.log(line);
 	});	
-	return newHexMap;
+	return HexMap;
 }
 
 async function printLandmarkData(coord, landmark){
@@ -145,31 +144,31 @@ async function printLandmarkData(coord, landmark){
 	if(landmark == "r"){
 		var RT = await randomLoot.rollLootPool(level,3,1,10,2,25);
 		RT.unshift("\n"+coord);
-		for(var i = 0; i < RT.length; i++)
-			console.log(RT[i]);
+		// for(var i = 0; i < RT.length; i++)
+			// console.log(RT[i]);
 	}
 	if(landmark == "c"){
 		var RD = await random5RD.generate5RD(getHexBiome(coord),level,5,2,10,4,50);
 		RD.unshift("\n"+coord);
-		for(var i = 0; i < RD.length; i++)
-		    console.log(RD[i]); 
+		// for(var i = 0; i < RD.length; i++)
+		    // console.log(RD[i]); 
 	}
 	if(landmark == "%"){
 		var RT = await randomLoot.rollLootPool(level,0,1,30,2,90);
 		RT.unshift("\n"+coord);
-		for(var i = 0; i < RT.length; i++)
-		    console.log(RT[i]);
+		// for(var i = 0; i < RT.length; i++)
+		    // console.log(RT[i]);
 	}
 	if(landmark == "!"){
 		var RM = await randomMonsters.generateMonsters(getHexBiome(coord), level);
 		RM.unshift("\n"+coord);
-		console.log()
-		for(var i = 0; i < RM.length; i++)
-			console.log(RM[i]);
+		// for(var i = 0; i < RM.length; i++)
+			// console.log(RM[i]);
 	}
 }
 
 function rollLandmark(coord){
+	return " ";
 	if (coord.length == 0)
 		return ' ';
 	var landmark = rollRange(20);
@@ -541,7 +540,7 @@ module.exports = {
 	populateMap: async function generateHexMap(worldBiomes, averageLvl, lvlDiff){
 		averageLevel = averageLvl;
 		levelDiff = lvlDiff;	
-		populateMap(worldBiomes);
+		return populateMap(worldBiomes);
 	}
 }
 //["Airborne","Aquatic","Arctic","Desert","Forest","Marsh","Mountain","Plains","Space","Subterranean","Urban","Weird"]

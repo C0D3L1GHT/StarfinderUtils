@@ -1,0 +1,101 @@
+Brenneri Sage {3}
+Brenneri Ambassador {6}
+Juvenile Atlapak {3}
+Atlapak {9}
+Cerebric fungus {3}
+Caypin {6}
+Copaxi Socialite {1}
+Copaxi Special Ops {4}
+Colour out of Space {10}
+Dragon, black {11}
+Diatha {0.5}
+Diatha Elder {5}
+Dragon, bronze {11}
+Dinosaur, pterosaur {3}
+Entu colony {0.5}
+Dinosaur, sauropod {10}
+Entu symbiote {7}
+Electrovore {2}
+Formian Worker {0.5}
+Formian Warrior {3}
+Formian Taskmaster {7}
+Formian Mymarch {10}
+Formian Queen {17}
+Earth Elemental, Tiny {0.3}
+Earth Elemental, Small {1}
+Earth Elemental, Medium {3}
+Earth Elemental, Large {5}
+Earth Elemental, Huge {7}
+Earth Elemental, Greater {9}
+Earth Elemental, Elder {11}
+Ghoran World-Tamer {1}
+Ghoran Flora-Shaper {6}
+Water Elemental, Tiny {0.3}
+Water Elemental, Small {1}
+Water Elemental, Medium {3}
+Water Elemental, Large {5}
+Water Elemental, Huge {7}
+Water Elemental, Greater {9}
+Water Elemental, Elder {11}
+Space Goblin Honchohead {2}
+Space Goblin Zaperator {0.3}
+Elmeshra {7}
+Hortus {2}
+Hortinarch Hortus {11}
+Bodysnatcher Autocrat {10}
+Bodysnatcher slime {3}
+Ijtikri {0.5}
+Ijtikri Commando {4}
+Feeder fungus {4}
+Ilthisarian {4}
+Frujai Soldier {12}
+Frujai Colony {19}
+Jububnan Traveler {2}
+Jububnan Raconteur {8}
+Marsh Herd animal, Small {0.3}
+Marsh Herd animal, Medium {0.5}
+Marsh Herd animal, Large {2}
+Marsh Herd animal, Huge {4}
+Marsh Herd animal, Gargantuan {6}
+Marsh Herd animal, Colossal {8}
+Khizar {4}
+Ksarik {4}
+Mi-go {6}
+Mi-go High Priest {11}
+Moonflower {8}
+Moonflower Titan {16}
+Osharu {0.5}
+Osharu Headteacher {8}
+Murzzilat Bantling {1}
+Murzzilat {4}
+Pahtra Inquisitive {2}
+Pahtra Stalker {6}
+Marsh Predator, Small {0.3}
+Marsh Predator, Swarm {2}
+Marsh Predator, Medium {1}
+Marsh Predator, Large {4}
+Marsh Predator, Huge {7}
+Marsh Predator, Gargantuan {10}
+Marsh Predator, Colossal {13}
+Raxilite Researcher {0.5}
+Raxilite Bioengineer {4}
+Scavenger slime {9}
+Scyphozoan {3}
+Common Swamp Strider {2}
+Crested Swamp Strider {10}
+Spathinae Guard {1}
+Spathinae Explorer {11}
+Swarm Corrovox {3}
+Telia {2}
+Telia Raconteur {7}
+Tashtari {3}
+Tashtari Alpha {7}
+Vesk Pirate Lord {7}
+Vesk Mercenary Rookie {6}
+Troll Polyp {3}
+Troll {5}
+Quantum Troll {6}
+Vilderaro {5}
+Vracinea {4}
+Wrikreechee {3}
+Writher swarm {9}

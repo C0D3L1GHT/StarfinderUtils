@@ -83,18 +83,18 @@ async function getRandomMonsterByBiomeAndLevel(biome, lvl){
 		console.log("invalid level: enter a number between 0.3 and 20")
 	
 	var monsterByLevel = "?"; 
-	if (biome.includes("Airborne")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./AirborneMonsterList.txt",lvl);
-	if (biome.includes("Aquatic")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./AquaticMonsterList.txt",lvl);
-	if (biome.includes("Arctic")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ArcticMonsterList.txt",lvl);
-	if (biome.includes("Desert")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./DesertMonsterList.txt",lvl);
-	if (biome.includes("Forest")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ForestMonsterList.txt",lvl);
-	if (biome.includes("Marsh")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./MarshMonsterList.txt",lvl);
-	if (biome.includes("Mountain")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./MountainMonsterList.txt",lvl);
-	if (biome.includes("Plains")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./PlainsMonsterList.txt",lvl);
-	if (biome.includes("Space")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./SpaceMonsterList.txt",lvl);
-	if (biome.includes("Subterranean")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./SubterraneanMonsterList.txt",lvl);
-	if (biome.includes("Urban")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./UrbanMonsterList.txt",lvl);
-	if (biome.includes("Weird")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./WeirdMonsterList.txt",lvl);
+	if (biome.includes("Airborne")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/AirborneMonsterList.txt",lvl);
+	if (biome.includes("Aquatic")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/AquaticMonsterList.txt",lvl);
+	if (biome.includes("Arctic")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/ArcticMonsterList.txt",lvl);
+	if (biome.includes("Desert")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/DesertMonsterList.txt",lvl);
+	if (biome.includes("Forest")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/ForestMonsterList.txt",lvl);
+	if (biome.includes("Marsh")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/MarshMonsterList.txt",lvl);
+	if (biome.includes("Mountain")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/MountainMonsterList.txt",lvl);
+	if (biome.includes("Plains")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/PlainsMonsterList.txt",lvl);
+	if (biome.includes("Space")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/SpaceMonsterList.txt",lvl);
+	if (biome.includes("Subterranean")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/SubterraneanMonsterList.txt",lvl);
+	if (biome.includes("Urban")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/UrbanMonsterList.txt",lvl);
+	if (biome.includes("Weird")) monsterByLevel = await getAllMonstersByBiomeAndLevel("./ListFiles/WeirdMonsterList.txt",lvl);
 	
 	var index = Math.floor(Math.random()*monsterByLevel.length);
 	//console.log(monsterByLevel[index]);
@@ -244,4 +244,14 @@ function rollRange(r){
   return Math.floor(Math.random() * r) + 1;
 }
 
-//rollMonsterPool("Airborne", 3);
+// rollMonsterPool("Airborne", 3);
+// rollMonsterPool("Aquatic", 3);
+// rollMonsterPool("Desert", 3);
+// rollMonsterPool("Forest", 3);
+// rollMonsterPool("Marsh", 3);
+// rollMonsterPool("Mountain", 3);
+// rollMonsterPool("Plains", 3);
+// rollMonsterPool("Space", 3);
+// rollMonsterPool("Subterranean", 3);
+// rollMonsterPool("Urban", 3);
+// rollMonsterPool("Weird", 3);

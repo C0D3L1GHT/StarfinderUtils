@@ -18,8 +18,7 @@ const PLANET_LEVEL = 3;
 const PLANET_DIFF  = 3;
 /*********************************************************/
 
-//TODO: add clues and mysteries that have answers on other planets in the list
-//TODO: make sector generator
+//TODO: add clues and mysteries that have answers on other planets in the list=
 //TODO: add other planet types (moon, black hole, Fold Gate Station, Machine World)
 // Galaxy Exploration is tracking down system clues. 3-5 clues to get to a system
 // System Exploration is finding Gravity Wells which gives you the system locations of 1d3 worlds
@@ -34,6 +33,7 @@ async function GeneratePlanet(){
   while(biomeAnomalies == nextbiomeAnomaly)
 	  nextbiomeAnomaly = await GenBiomeAnomaly();
   biomeAnomalies += ", " + nextbiomeAnomaly;
+  biomeAnomalies = biomeAnomalies.replace(/\r?\n|\r/g, "");
   planetInfo.push("World Type:      " + GenWorldType());
   planetInfo.push("   Anomalies: " + biomeAnomalies);
   planetInfo.push("Gravity:         " + GenGravity());
@@ -75,10 +75,13 @@ async function GeneratePlanet(){
 	planetInfo.push("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   //console.log("\n\n")
-  //randomMap.populateMap(biomeList,10,10);
+  var hexMap = await randomMap.populateMap(biomeList,10,10);
+  planetInfo.push("\n\n");
+  for(var i = 0; i < hexMap.length; i++)
+	  planetInfo.push(hexMap[i]);
   //TODO: Figure out how to push HexMap data into Planet info
-  // for(var i = 0; i < planetInfo.length; i++)
-	  // console.log(planetInfo[i]);
+  for(var i = 0; i < planetInfo.length; i++)
+	  console.log(planetInfo[i]);
   return planetInfo;
 }
 
@@ -236,21 +239,17 @@ module.exports = {
   while(biomeAnomalies == nextbiomeAnomaly)
 	  nextbiomeAnomaly = await GenBiomeAnomaly();
   biomeAnomalies += ", " + nextbiomeAnomaly;
+  biomeAnomalies = biomeAnomalies.replace(/\r?\n|\r/g, "");
   planetInfo.push("World Type:      " + GenWorldType());
   planetInfo.push("   Anomalies: " + biomeAnomalies);
   planetInfo.push("Gravity:         " + GenGravity());
   planetInfo.push("Atmosphere:      " + GenAtmopshere());
   
-  // console.log("World Type:      " + GenWorldType());
-  // console.log("   Anomalies: " + biomeAnomalies);
-  // console.log("Gravity:         " + GenGravity());
-  // console.log("Atmosphere:      " + GenAtmopshere());
   var dThree = rollRange(3);
   var biomeList = [];
   for(let i = 1; i <= dThree; i++){
 	  var biome = GenBiome();
 	  biomeList.push(biome);
-      //console.log("   Biome: " + biome);
 	  planetInfo.push("   Biome: " + biome);
   }
   
@@ -265,22 +264,18 @@ module.exports = {
   planetInfo.push("Tech Level:      " + technology);
   planetInfo.push("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
   
-  
-  // console.log("Accord:          " + accord);
-  // console.log("Magic Level:     " + magic);
-  // console.log("Religion Level:  " + religion);
-  // console.log("Tech Level:      " + technology);
-  // console.log("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
   var dThree = rollRange(3);
   for(let i = 1; i <= dThree; i++){
-    //console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
 	planetInfo.push("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   //console.log("\n\n")
-  //randomMap.populateMap(biomeList,10,10);
+  var hexMap = randomMap.populateMap(biomeList,10,10);
+  planetInfo.push("\n\n");
+  for(var i = 0; i < hexMap.length; i++)
+	  planetInfo.push(hexMap[i]);
   //TODO: Figure out how to push HexMap data into Planet info
-  // for(var i = 0; i < planetInfo.length; i++)
-	  // console.log(planetInfo[i]);
+  for(var i = 0; i < planetInfo.length; i++)
+	  console.log(planetInfo[i]);
   return planetInfo;
 }
 	

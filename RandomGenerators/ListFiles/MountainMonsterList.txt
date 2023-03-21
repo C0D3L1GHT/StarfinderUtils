@@ -1,0 +1,96 @@
+Azata, tritidair {8}
+Akata {1}
+Void Zombie Akata {1}
+Bolida Miner {2}
+Bolida Overseer {8}
+Apari Constituent {2}
+Apari {7}
+Contemplative {2}
+Contemplative Mentor {18}
+Bryrvath {15}
+Damai {0.5}
+Damai Guardian {12}
+Crest-eater {4}
+Dessamar Imago {1}
+Dessamar Theurgist {6} 
+Juvenile Defrex {7}
+Defrex {11}
+Dragon, blue {11}
+Deh-nolo {14} 
+Embri {3}
+Embri Speaker {10}
+Dust manta {6}
+Dust manta monarch {12}
+Espraksa {0.5}
+Espraksa Performer {4}
+Earth Elemental, Tiny {0.3}
+Earth Elemental, Small {1}
+Earth Elemental, Medium {3}
+Earth Elemental, Large {5}
+Earth Elemental, Huge {7}
+Earth Elemental, Greater {9}
+Earth Elemental, Elder {11}
+Formian Worker {0.5}
+Formian Warrior {3}
+Formian Taskmaster {7}
+Formian Mymarch {10}
+Formian Queen {17}
+Ellicoth {9}
+Haan {3}
+Haan Combat Pilot {7}
+Ghost {7}
+Ikeshti Brood Minder {2}
+Ikeshti Rivener {5}
+Glass Serpent {5}
+Kasatha Free Captain {4}
+Mahadatori {19}
+Ignurso Burrower {5}
+Ignurso Mason {11}
+Maraquoi hunter {0.5}
+Maraquoi shaman {8}
+Marooned one {8}
+Phentomite {0.5}
+Phentomite Bridger {6}
+Mi-go {6}
+Mi-go High Priest {11}
+Quorlu {2}
+Quorlu Sapper {9}
+Moonflower {8}
+Moonflower Titan {16}
+Reptoid {1}
+Reptoid master {6}
+Mountain eel {6}
+Ryphorian technician {1}
+Ryphorian skyfire pilot {5}
+Kanabo Commando Oni {3}
+Oni Spirit {2}
+Ja Noi Oni {5}
+Tsabagu Oni {10}
+Shobhad {4}
+Shobhad Warleader {7}
+Rageshkor, rock {12}
+Skittermander {2}
+Skittermander Whelp {0.3}
+Stridermander {3}
+Stridermander Tyrant {10}
+Scavenger slime {9}
+Trox {2}
+Trox Defensor {9}
+Shantak {8}
+Uplifted Bear Avenger {4}
+Uplifted Bear Constellate {7} 
+Shotalashu {2}
+Feral Shotalashu {6}
+Urog {3}
+Skreeling Skreesire {3}
+Skreesire {7} 
+Verthani Aether Pilot {2}
+Verthani Pure One {9}
+Surnoch {9}
+Vlaka Handler {6}
+Vlaka Tracker {2}
+Thermatrod {3}
+Caldera Thermatrod {10}
+Witchwyrd {6}
+Wolliped {3}
+Alural War Wolliped {9}

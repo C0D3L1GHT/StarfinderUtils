@@ -14,7 +14,7 @@ async function newsFeedDateHasChanged(){
     oldPageDate = getRaceListFileDate();
 	//console.log(oldPageDate+" vs\n"+newPageDate);
     if(newPageDate != oldPageDate){
-		fs.writeFile('RaceList.txt', newPageDate+"\n", (err) => {
+		fs.writeFile('./Listfiles/RaceList.txt', newPageDate+"\n", (err) => {
         if (err) throw err;
       })
       return true;
@@ -28,7 +28,7 @@ async function newsFeedDateHasChanged(){
 
 function getRaceListFileDate(){
   try {
-    var data = fs.readFileSync("./RaceList.txt", { encoding: 'utf8', flag: 'r' });
+    var data = fs.readFileSync("./ListFiles/RaceList.txt", { encoding: 'utf8', flag: 'r' });
     var ret = data.split('\n');
     return ret.slice(0,1);
   } catch (e) {
@@ -67,7 +67,7 @@ function addListToRaceListFile(raceList){
 	  str2add = str2add.replace('*', '');
 	  if(str2add[0] == ' ')
 		  str2add = str2add.slice(1, str2add.length);
-      fs.appendFile('RaceList.txt', str2add+'\n', (err) => {
+      fs.appendFile('./ListFiles/RaceList.txt', str2add+'\n', (err) => {
         if (err) throw err;
       })
     }
@@ -75,7 +75,7 @@ function addListToRaceListFile(raceList){
 
 function getRaceListFile() {
   try {
-    var data = fs.readFileSync("./RaceList.txt", { encoding: 'utf8', flag: 'r' });
+    var data = fs.readFileSync("./ListFiles/RaceList.txt", { encoding: 'utf8', flag: 'r' });
     var ret = data.split('\n');
     return ret.slice(1);
   } catch (e) {

@@ -26,7 +26,7 @@ function rollAttitude(){
 
 function getQuirksListFile(){
 	try {
-       var data = fs.readFileSync("./QuirkList.txt", { encoding: 'utf8', flag: 'r' });
+       var data = fs.readFileSync("./ListFiles/QuirkList.txt", { encoding: 'utf8', flag: 'r' });
        var ret = data.split('\n');
        return ret;
   } catch (e) {
@@ -37,7 +37,7 @@ function getQuirksListFile(){
 
 function getEmotionsListFile(){
 	try {
-       var data = fs.readFileSync("./EmotionList.txt", { encoding: 'utf8', flag: 'r' });
+       var data = fs.readFileSync("./ListFiles/EmotionList.txt", { encoding: 'utf8', flag: 'r' });
        var ret = data.split('\n');
        return ret;
   } catch (e) {

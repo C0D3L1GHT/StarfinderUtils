@@ -1,0 +1,93 @@
+Amrantah {5}
+Acrochor {8}
+Bolida Miner {2}
+Bolida Overseer {8} 
+Bloodbrother  {7}
+Damai {0.5}
+Damai Guardian {12} 
+Carnivorous crystal {11}
+Dragon, copper {11}
+Dust manta {6}
+Drow Enforcer {1}
+Drow Noble Arms Dealer {11}
+Earth Elemental, Tiny {0.3}
+Earth Elemental, Small {1}
+Earth Elemental, Medium {3}
+Earth Elemental, Large {5}
+Earth Elemental, Huge {7}
+Earth Elemental, Greater {9}
+Earth Elemental, Elder {11}
+Dwarf {3}
+Fire Elemental, Tiny {0.3}
+Fire Elemental, Small {1}
+Fire Elemental, Medium {3}
+Fire Elemental, Large {5}
+Fire Elemental, Huge {7}
+Fire Elemental, Greater {9}
+Fire Elemental, Elder {11}
+Embri {3}
+Embri Speaker {10} 
+Entropy slug {4}
+Formian Worker {0.5}
+Formian Warrior {3}
+Formian Taskmaster {7}
+Formian Mymarch {10}
+Formian Queen {17} 
+Ferrofluid ooze {2}
+Ferrofluid Magneto-cluster {12}
+Genie, efreeti {8}
+Subterranean Herd animal, Small {0.3}
+Subterranean Herd animal, Medium {0.5}
+Subterranean Herd animal, Large {2}
+Subterranean Herd animal, Huge {4}
+Subterranean Herd animal, Gargantuan {6}
+Subterranean Herd animal, Colossal {8}
+Genie, shaitan {7}
+Magma ooze {7}
+Slag Giant {15}
+Bantling Murzzilat {1}
+Murzzilat {2} 
+Stone Giant {15}
+Odheo {1}
+Gosclaw {5}
+Subterranean Predator, Small {0.3}
+Subterranean Predator, Swarm {2}
+Subterranean Predator, Medium {1}
+Subterranean Predator, Large {4}
+Subterranean Predator, Huge {7}
+Subterranean Predator, Gargantuan {10}
+Subterranean Predator, Colossal {13}
+Hobgoblin Trooper {1}
+Hobgoblin Lieutenant {7}
+Guardian Robot {5}
+Iztheptar {6}
+Mining Robot {9}
+Nuar Enforcer {4}
+Nuar Specialist {8}
+Robot, observer-class security {1}
+Planar scion, oread {1}
+Skreeling Skreesire {3}
+Skreesire {7}
+Psacynoid Custodian {3}
+Psacynoid Gallant {9}
+Quorlu {2}
+Quorlu Sapper {9}
+Surnoch {9}
+Shimreen {5}
+Shimreen Warrior {5}
+Shimreen Worker {1} 
+Swarm dredger {5}
+Telia {2}
+Telia Raconteur {7} 
+Swarm molitera {6}
+Thorgothrel {8}
+Thermatrod {8}
+Caldera Thermatrod {10}
+Trinir {4}
+Thermophilic ooze {3}
+Trox {2}
+Trox Defensor {9} 
+Thoqqua {2}
+Varculak Marauder {2}
+Varculak Noble {12}
+Writher swarm {9}
