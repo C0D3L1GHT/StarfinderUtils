@@ -1,34 +1,34 @@
 3/12/23 7:37 PM PST
-Stationwear, Flight Suit {1}
 Shobhad Harness, Recruit {1}
-Flight Skin, Nascent {1}
-Second Skin {1}
-Estex Suit, I {1}
-Preserver's Mantle, I {2}
-Kasatha Microcord, I {2}
 EJ Coverall, Utility {1}
+Second Skin {1}
+Flight Skin, Nascent {1}
+Stationwear, Flight Suit {1}
+Estex Suit, I {1}
+Kasatha Microcord, I {2}
 Zeizerer Diffractor, I {2}
 Freebooter Armor, I {2}
+Preserver's Mantle, I {2}
 Vesk Brigandine, I {2}
-EJ Coverall, Industrial {2}
-Hardened Resin {3}
 Skitterhide, I {3}
+Hardened Resin {3}
 Carbon Skin, Graphite {3}
 ThermSkin, I {3}
 Stationwear, Casual {3}
 Clearweave, I {3}
+EJ Coverall, Industrial {2}
 Devwear I {3}
-Devourer’s Skin, Chewing {3}
 Regimental Dress, I {3}
+Devourer’s Skin, Chewing {3}
 Camping Gear I {4}
 Shobhad Harness, Veteran {4}
 Lashunta Tempweave, Basic {4}
-Acrochor Hide, Basic {4}
 Peacekeeper’s Aegis, I {4}
 Autoencoded Veil, I {4}
+Acrochor Hide, Basic {4}
 Exochitin, Slicer {4}
-Defrex Hide, Basic {4}
 Grave Mantle, Enlisted {4}
+Defrex Hide, Basic {4}
 Troupesuit I {5}
 Stationwear, Business {5}
 Vesk Brigandine, II {5}
@@ -39,8 +39,8 @@ Flight Skin, Foray {5}
 Ursikka Carapace, Synthetic {5}
 Kasatha Microcord, II {6}
 Stationwear, Elite {6}
-Zeizerer Diffractor, II {6}
 Ysoki Refractor Suit {6}
+Zeizerer Diffractor, II {6}
 Polyplate, Basic {6}
 Lashunta Mind Mail, I {6}
 Freebooter Armor, II {6}
@@ -52,9 +52,8 @@ Feyguard, Sprite {7}
 D-Suit, II {7}
 AbadarCorp Travel Suit, Silver {7}
 Azlanti Royal Battle Regalia {7}
-Aeon Guard, SpecOps Armor {7}
 Devourer’s Skin, Gnawing {7}
-Peacekeeper’s Aegis, II {8}
+Aeon Guard, SpecOps Armor {7}
 Acrochor Hide, Advanced {8}
 Lashunta Tempweave, Advanced {8}
 Shobhad Harness, Warleader {8}
@@ -64,428 +63,429 @@ Kasatha Microcord, III {8}
 Autoencoded Veil, II {8}
 AbadarCorp Travel Suit, Gold {9}
 Skitterhide, II {9}
-Zeizerer Diffractor, III {9}
 Ursikka Hide, Basic {9}
+Zeizerer Diffractor, III {9}
 Clearweave, II {9}
 D-Suit, III {9}
 Plexigrass Bodysuit, II {9}
 Shiftskin, I {9}
 Scrapchain, Giant {9}
-Flight Skin, Dream {9}
 Freebooter Armor, III {10}
-Regimental Dress, II {10}
+Flight Skin, Dream {9}
 Polyplate, Advanced {10}
 Grave Mantle, Specialist {10}
+Regimental Dress, II {10}
 Carbon Skin, White Carbon {10}
-Void Hide, I {10}
 ThermSkin, III {10}
+Void Hide, I {10}
 Vesk Brigandine, IV {11}
-Kasatha Microcord, IV {11}
 Feyguard, Dryad {11}
-Lashunta Mind Mail, II {11}
+Peacekeeper’s Aegis, II {8}
 Devourer’s Skin, Gnashing {11}
+Lashunta Mind Mail, II {11}
 Ursikka Carapace, Traditional {11}
 AbadarCorp Travel Suit, Platinum {12}
-Acrochor Hide, Elite {12}
-Peacekeeper’s Aegis, III {12}
+Kasatha Microcord, IV {11}
 Defrex Hide, Advanced {12}
+Peacekeeper’s Aegis, III {12}
 Preserver's Mantle, III {12}
+Autoencoded Veil, III {12}
+Acrochor Hide, Elite {12}
 Hardlight Series, Squad {12}
 Dust Manta Hide, Advanced {12}
-D-Suit, IV {13}
-Autoencoded Veil, III {12}
-Ursikka Hide, Advanced {13}
 Shobhad Harness, Chieftain {13}
 Zeizerer Diffractor, IV {13}
 Estex Suit, IV {13}
-Scrapchain, Behemoth {13}
+Ursikka Hide, Advanced {13}
 Plexigrass Bodysuit, III {13}
+D-Suit, IV {13}
 Freebooter Armor, IV {14}
 Polyplate, Elite {14}
 Echelon Fashion, Ready to Wear {14}
+Scrapchain, Behemoth {13}
 Exochitin, Vivisector {14}
-Shiftskin, II {14}
-Flight Skin, Venture {14}
 Void Hide, II {14}
+Flight Skin, Venture {14}
 Swarmsuit {15}
 Feyguard, Nymph {15}
-ThermSkin, IV {15}
 Vesk Brigandine, V {15}
 Hardlight Series, Elite {15}
-Carbon Skin, Diamond {15}
+Shiftskin, II {14}
 Defrex Hide, Elite {16}
+Carbon Skin, Diamond {15}
 Skitterhide, III {16}
 Shotalashu Armor {16}
-Lashunta Mind Mail, III {16}
 Autoencoded Veil, VI {16}
+Lashunta Mind Mail, III {16}
 Ursikka Hide, Elite {17}
-D-Suit, V {17}
+ThermSkin, IV {15}
 Scrapchain, Titan {17}
 Grave Mantle, Officer {17}
 Devourer’s Skin, Masticating {17}
 Echelon Fashion, Bespoke {17}
 Zeizerer Diffractor, V {18}
-Polyplate, Paragon {18}
+D-Suit, V {17}
 Freebooter Armor, V {18}
-Void Hide, III {18}
 Regimental Dress, III {18}
-D-Suit, VI {19}
+Void Hide, III {18}
 Flight Skin, Conglomeration {18}
+D-Suit, VI {19}
 Feyguard, Erlking {19}
 Lashunta Mind Mail, IV {19}
-Exochitin, Decapitator {19}
 Carbon Skin, Nanotube {20}
-Autoencoded Veil, V {20}
+Exochitin, Decapitator {19}
 Shiftskin, III {20}
+Autoencoded Veil, V {20}
 Hardlight Series, Specialist {20}
+Polyplate, Paragon {18}
+Ceremonial Plate, Troop {1}
+Reinforced EVA Suit, I {1}
 Golemforged Plating, I {1}
 EJ Hardsuit, Utility {1}
-Aeonaut Suit, Traveler {2}
-Reinforced EVA Suit, I {1}
-Hidden Soldier Armor {2}
-Ceremonial Plate, Troop {1}
-Iridishell, Basic {2}
 Lashunta Ringwear, I {1}
+Hidden Soldier Armor {2}
 Formian Plate, Worker {2}
+Aeonaut Suit, Traveler {2}
+Iridishell, Basic {2}
 Kyokor Plating, I {2}
 Mining Jack, I {2}
-Hellknight Plate, Armiger {2}
-Thinplate {2}
-EJ Hardsuit, Industrial {2}
 AbadarCorp CelPro, Local {2}
-Reinforced EVA Suit, II {3}
+Hellknight Plate, Armiger {2}
 Moraine Mantle, Bedrock {3}
+EJ Hardsuit, Industrial {2}
+Thinplate {2}
 Defiance Series, Squad {3}
+Reinforced EVA Suit, II {3}
 Drift Shell, I {3}
 Golemforged Plating, II {3}
 Aeon Guard, Battle Dress (Trooper) {3}
 Formian Plate, Warrior {4}
+Kalo Encounter Suit, I {4}
 Mageplate, Apprentice {4}
 Ceremonial Plate, Officer {4}
-Dendron Armor, Ash {4}
-Kalo Encounter Suit, I {4}
-Mining Jack, II {5}
+Formian Hide, Basic {4}
 Lashunta Ringwear, II {5}
 Enforcer Armor, I {5}
-Formian Hide, Basic {4}
+Dendron Armor, Ash {4}
+Fossilwrap, I {5}
+Mining Jack, II {5}
+Aeonaut Suit, Explorer {6}
+Hellknight Plate, Lictor {5}
+Vesk Overplate, I {6}
+Reinforced EVA Suit, III {6}
+Inheritor's Grace, I {6}
+AbadarCorp CelPro, Elite {6}
 Hardplate, Basic {5}
 EJ Hardsuit, Advanced {5}
-Hellknight Plate, Lictor {5}
-Aeonaut Suit, Explorer {6}
-Fossilwrap, I {5}
-Vesk Overplate, I {6}
-Inheritor's Grace, I {6}
-Reinforced EVA Suit, III {6}
-Kyokor Plating, II {6}
 Moraine Mantle, Gneiss {6}
 Golemforged Plating, III {7}
-Drift Shell, II {7}
-AbadarCorp CelPro, Elite {6}
 Formian Hide, Advanced {7}
+Drift Shell, II {7}
 Dendron Armor, Yew {7}
-Defiance Series, Elite {7}
 Ceremonial Plate, Commander {7}
-Night Plate, I {8}
-Terramold Plate, I {8}
 Lashunta Ringwear, III {8}
-Vesk Overplate, II {8}
+Night Plate, I {8}
 Pulse Armor, I {8}
-Hardplate, Advanced {9}
+Kyokor Plating, II {6}
+Vesk Overplate, II {8}
+Terramold Plate, I {8}
 Abyssal Plate, Vrock {8}
+Defiance Series, Elite {7}
 Aeonaut Suit, Conqueror {9}
-Mageplate, Journeyman {9}
 Kalo Encounter Suit, II {9}
+Mageplate, Journeyman {9}
 Iridishell, Advanced {9}
 EJ Hardsuit, Elite {9}
 Skyfire Armor, Pinion {9}
-Formian Hide, Superior {10}
 Hellknight Plate, Maralictor {9}
-Kyokor Plating, III {10}
+Formian Hide, Superior {10}
 Defiance Series, Specialist {10}
-Mining Jack, III {10}
+Hardplate, Advanced {9}
+Skittersuit, I {9}
+Kyokor Plating, III {10}
 AbadarCorp CelPro, Idol {10}
 Dendron Armor, Oak {10}
-Skittersuit, I {9}
 Aeon Guard, Battle Dress (Command) {10}
-Moraine Mantle, Orogen {10}
-Abyssal Plate, Glabrezu {11}
-Enforcer Armor, II {11}
-Drift Shell, III {11}
-Golemforged Plating, IV {11}
-Night Plate, II {12}
 Vesk Overplate, III {11}
+Moraine Mantle, Orogen {10}
+Enforcer Armor, II {11}
+Golemforged Plating, IV {11}
+Mining Jack, III {10}
+Abyssal Plate, Glabrezu {11}
+Night Plate, II {12}
+Drift Shell, III {11}
 Lashunta Ringwear, IV {11}
-Pulse Armor, II {12}
 Vesk Monolith, I {12}
-Formian Plate, Taskmaster {12}
 Terramold Plate, II {12}
-Aegis Series, Squad {12}
-Hardplate, Elite {13}
+Formian Plate, Taskmaster {12}
+Pulse Armor, II {12}
+Iridishell, Superior {12}
 Kalo Encounter Suit, III {13}
+Aegis Series, Squad {12}
 EJ Hardsuit, Paragon {13}
+Hardplate, Elite {13}
 Skyfire Armor, Exident {13}
 Skittersuit, II {13}
-Iridishell, Superior {12}
-Inheritor's Grace, II {14}
 Golemforged Plating, V {14}
 Mageplate, Master {14}
-Vesk Overplate, IV {14}
+Inheritor's Grace, II {14}
 AbadarCorp CelPro, Stellar {14}
-Lashunta Ringwear, V {15}
 Kyokor Plating, IV {14}
-Hellknight Plate, Paralictor {14}
-Drift Shell, IV {15}
 Fossilwrap, II {13}
-Abyssal Plate, Marilith {15}
+Vesk Overplate, IV {14}
+Lashunta Ringwear, V {15}
+Drift Shell, IV {15}
 Enforcer Armor, III {15}
-Terramold Plate, III {16}
-Enginerunner {15}
-Vesk Monolith, II {16}
-Aegis Series, Elite {17}
+Hellknight Plate, Paralictor {14}
 Steelbones {16}
-Pulse Armor, III {16}
-Dendron Armor, Sequoia {17}
+Enginerunner {15}
+Terramold Plate, III {16}
+Abyssal Plate, Marilith {15}
+Aegis Series, Elite {17}
+Vesk Monolith, II {16}
 Night Plate, III {16}
-EJ Hardsuit, Spec-ops {17}
+Dendron Armor, Sequoia {17}
 Kalo Encounter Suit, IV {18}
-Vitrum Plate {18}
+EJ Hardsuit, Spec-ops {17}
+Pulse Armor, III {16}
 Skittersuit, III {17}
-AbadarCorp CelPro, Galactic {18}
 Kyokor Plating, V {18}
+AbadarCorp CelPro, Galactic {18}
+Vitrum Plate {18}
 Formian Plate, Myrmarch {19}
-Vesk Overplate, V {18}
+Drift Shell, V {19}
 Mageplate, Archmage {19}
 Inheritor's Grace, III {19}
-Drift Shell, V {19}
 Fossilwrap, III {19}
+Vesk Overplate, V {18}
 Voidshield Armor {19}
-Pulse Armor, IV {20}
 Vesk Monolith, III {20}
-Abyssal Plate, Balor {20}
-Aegis Series, Specialist {20}
 Night Plate, IV {20}
-Salvage Chassis {2}
+Pulse Armor, IV {20}
+Aegis Series, Specialist {20}
+Abyssal Plate, Balor {20}
 Goblin Battle Jack {2}
-Cargo Lifter {4}
+Salvage Chassis {2}
 Encounter Suit {4}
-Empire Aggressor {5}
-Sci-shield Unit {5}
-Infiltration Skin {6}
-Spacer Carapace {6}
 Scrapper's Rig {4}
-Laborer Frame {7}
-Cargo Hauler {8}
-Personal Submersible {7}
 Absorptive Shell {5}
-Spellcaster's Aegis {8}
+Battle Harness {5}
+Empire Aggressor {5}
+Infiltration Skin {6}
+Sci-shield Unit {5}
+Spacer Carapace {6}
+Cargo Lifter {4}
+Personal Submersible {7}
+Laborer Frame {7}
+Kashcomm Scout {8}
 Living Tree {8}
+Cargo Hauler {8}
+Spellcaster's Aegis {8}
 Brawler Frame {9}
-Hover Suit {9}
 Ironclad Bulwark {10}
+Hover Suit {9}
 Flight Frame {11}
 Spider Harness {10}
-Stag-Step Suit {11}
 Celerity Rigging {12}
-Battle Harness {5}
-Swarm Carapace {12}
 Barathu Battens {13}
+Swarm Carapace {12}
 Geistwork Hunter {13}
+Stag-Step Suit {11}
 Winter Walker {13}
-Kashcomm Scout {8}
+Oblivion Chassis {13}
 Explorer's Cradle {14}
 Aeon Guard Elite Harness {15}
 Commander's Harness {15}
-Jarlslayer {15}
-Feral Frame {14}
-Oblivion Chassis {13}
 Rocket Hero Suit {15}
+Jarlslayer {15}
+Angel Frame {16}
 Kyton Bloodsuit {16}
 Extradimensional Armor {17}
 Reactor Guard {17}
 Devaplate {18}
-Angel Frame {16}
 Efreet Noble Regalia {18}
 Surnoch Suit {18}
 Thrall Hardshell {19}
 Warmaster's Harness {19}
-Obsidian Mask {20}
 Starguard {20}
-Automated Self-repairer {1}
+Feral Frame {14}
+Obsidian Mask {20}
 Weapon Spikes {1}
 Light Weapon Mount {1}
-Pet Carrier {1}
+Automated Self-repairer {1}
 Heavy Weapon Mount {1}
-Remote Monitoring System {1}
-Easy Access Kit {1}
 Scrap Spikes, Tactical {1}
-Light Projector {1}
-Grim Trophies (Magic) {1}
-Thermal Regulator (Hybrid) {1}
-Sustenance System, Basic {1}
-Aversion Coating {1}
-Tensile Reinforcement {1}
-Infrared Sensors {1}
-Concealed Compartments {1}
-Leapers {1}
-Radiation Buffer {1}
-Enviro-Sensor {1}
-Voice-Command Module, Mk 1 {1}
-Slickskin {1}
-Medical Analysis Kit, Mk 1 {1}
+Remote Monitoring System {1}
 Vacuum Rappeler {1}
-Quick-Release Sheath {1}
-Descent Thrusters {1}
-Personal Drop Pod, Basic {2}
-Snarl Barbs {1}
-Broadband Noise Generator, Mk 1 {2}
-Automated Loader {2}
-Sustenance System, Mk 1 {2}
-Auto-CPR Unit {2}
-Omnidirectional Camera {2}
-Jump Jets {2}
-Thrower Arms {2}
-Juggernaut Boosters {3}
-Quicksuit (Hybrid) {3}
+Easy Access Kit {1}
+Grim Trophies (Magic) {1}
+Pet Carrier {1}
+Light Projector {1}
+Thermal Regulator (Hybrid) {1}
+Aversion Coating {1}
+Sustenance System, Basic {1}
+Concealed Compartments {1}
+Enviro-Sensor {1}
+Infrared Sensors {1}
+Tensile Reinforcement {1}
+Leapers {1}
+Voice-Command Module, Mk 1 {1}
+Medical Analysis Kit, Mk 1 {1}
+Slickskin {1}
+Radiation Buffer {1}
 Agility Enhancer, Mk 1 {1}
-Glamer Projector (Magic) {3}
-Voice-Command Module, Mk 2 {3}
+Quick-Release Sheath {1}
+Snarl Barbs {1}
+Descent Thrusters {1}
 Stabilizer Springs {1}
-Mobility Enhancer, Mk 1 {3}
+Personal Drop Pod, Basic {2}
+Automated Loader {2}
+Broadband Noise Generator, Mk 1 {2}
+Auto-CPR Unit {2}
+Sustenance System, Mk 1 {2}
+Thrower Arms {2}
+Omnidirectional Camera {2}
+Juggernaut Boosters {3}
+Jump Jets {2}
+Quicksuit (Hybrid) {3}
+Glamer Projector (Magic) {3}
+Hibernation System {3}
+Voice-Command Module, Mk 2 {3}
 Hydrojet {3}
 Reactive Polarization {3}
+Mobility Enhancer, Mk 1 {3}
+Hover Field {4}
 Exit Pod {4}
 Remote-Link Module {4}
-Hover Field {4}
-Hibernation System {3}
 Climate Control Unit {4}
 Backup Generator {4}
-Longstrider Module {4}
+Force Field, Brown {3}
+Flashblinders, MK 1 {4}
 Sustenance System, Mk 2 {4}
-Targeting Computer {4}
+Longstrider Module {4}
 Stalwart {4}
 Medical Analysis Kit, Mk 2 {4}
-Personal Drop Pod, Stealth {5}
 Load Lifter {5}
-Scrap Spikes, Advanced {5}
+Targeting Computer {4}
+Personal Drop Pod, Stealth {5}
 Telepathic Dampener (Magic) {5}
 Molting Coat Module, Mk 1 {5}
-Voice-Command Module, Mk 3 {5}
 MedObserve Interface, Basic {5}
 Rampart Plates {5}
-Ghost Armor (Magic) {5}
+Scrap Spikes, Advanced {5}
 Agility Enhancer, Mk 2 {5}
+Voice-Command Module, Mk 3 {5}
 Electrostatic Field, MK 1 {5}
-Jetpack {5}
+Ghost Armor (Magic) {5}
 Reverberation Amplifier {5}
 Plasma Pain (Hybrid) {5}
 Thermal Capacitor, MK 1 {5}
 Brightlight Projector (Hybrid) {6}
 Broadband Noise Generator, Mk 2 {6}
-Sacred Seal (Hybrid) {6}
 Phase Shield {6}
-Tactical Scaffold {6}
+Sacred Seal (Hybrid) {6}
 Endurance Module (Hybrid) {6}
+Tactical Scaffold {6}
 Sustenance System, Mk 3 {6}
-Force Field, Purple {6}
+Jetpack {5}
 Filtered Rebreather {6}
-Lightwarp Inlay {6}
+Drift Escape Module {7}
+Force Field, Purple {6}
 Voice-Command Module, Mk 4 {7}
-Force Field, Brown {3}
+Lightwarp Inlay {6}
 Computer Interface {7}
-Glider Foils {7}
 Medical Analysis Kit, Mk 3 {7}
+Glider Foils {7}
 Aligned Buffer (Hybrid) {7}
 Absorption Shield (Hybrid) {7}
-Ferrofluid Suspension {7}
 Adaptive Defense, Mk 1 (Hybrid) {7}
+Ferrofluid Suspension {7}
 Microspur Spray (Hybrid) {7}
-Auto-Injector {7}
-Quartz Refractor (Hybrid) {7}
-Burrowing Arms, Mk 1 {7}
 Sonic Dampener {7}
+Quartz Refractor (Hybrid) {7}
+Auto-Injector {7}
 Deflective Reinforcement {7}
 Graviton Emitter {7}
 Environmental Field (Magic) {8}
 Explosive Defense Unit {8}
-Haste Circuit (Magic) {8}
 Arcane Vision (Hybrid) {8}
-Mindlink Servos, Mk 1 (Hybrid) {8}
+Burrowing Arms, Mk 1 {7}
 Mobility Enhancer, Mk 2 {8}
+Mindlink Servos, Mk 1 (Hybrid) {8}
 Flashblinders, MK 2 {8}
-Silicon Armor Casing {8}
+Haste Circuit (Magic) {8}
 Grandchild's Cloak, Normal (Hybrid) {8}
-Force Field, Black {8}
-Battery Unit {9}
+Silicon Armor Casing {8}
 Haze Field (Hybrid) {9}
-Agility Enhancer, Mk 3 {9}
 Electrostatic Field, MK 2 {9}
-Forcepack (Hybrid) {9}
+Battery Unit {9}
+Force Field, Black {8}
 Reaction Accelerator (Hybrid) {9}
 Medical Interface, Mk 1 (Hybrid) {9}
 Personal Drop Pod, Invisibility {10}
 Scrap Spikes, Ultrathin {10}
+Agility Enhancer, Mk 3 {9}
 Invisibility Detector (Hybrid) {10}
-Adaptive Energy Shield {10}
+Forcepack (Hybrid) {9}
 Broadband Noise Generator, Mk 3 {10}
 Gravity Pulse Unit {10}
 Holodouble Module (Hybrid) {10}
+Echolocation Detection Unit {10}
 Courage Module (Hybrid) {10}
 Shadow Skip Unit (Magic) {10}
-Echolocation Detection Unit {10}
-Flashblinders, MK 1 {4}
 Molting Coat Module, Mk 2 {11}
+Force Field, White {10}
 Magic Resistor, Mk 1 (Magic) {11}
 MedObserve Interface, Advanced {11}
 Attractor Field (Hybrid) {11}
+Adaptive Energy Shield {10}
 Bodyguard Module (Magic) {11}
 Lingual Scrambler (Hybrid) {12}
-Burrowing Arms, Mk 2 {11}
 Privacy Shield (Magic) {12}
 Electrostatic Field, MK 3 {12}
-Thermal Capacitor, MK 2 {12}
-Flashblinders, MK 3 {12}
 Neutronium Shell (Hybrid) {12}
+Burrowing Arms, Mk 2 {11}
+Flashblinders, MK 3 {12}
+Thermal Capacitor, MK 2 {12}
 Force Field, Gray {12}
-Burrowing Arms, Mk 3 {13}
-Indomitability Module (Hybrid) {13}
 Spell Reflector, MK 1 (Magic) {13}
-Agility Enhancer, Mk 4 {13}
+Indomitability Module (Hybrid) {13}
 Teleportation Unit (Hybrid) {13}
-Fortified Plates, Mk 1 {14}
-Mindlink Servos, Mk 2 (Hybrid) {14}
+Agility Enhancer, Mk 4 {13}
 Life Shield (Magic) {14}
+Fortified Plates, Mk 1 {14}
 Magic Resistor, Mk 2 (Magic) {14}
+Mindlink Servos, Mk 2 (Hybrid) {14}
 Adaptive Defense, Mk 2 (Hybrid) {14}
-Force Field, Green {14}
-Titan Shield {14}
+Burrowing Arms, Mk 3 {13}
 Scrap Spikes, Zero-Edge {15}
 Medical Interface, Mk 2 (Hybrid) {15}
 Fortified Plates, Mk 2 {15}
 Displacement Field (Hybrid) {15}
+Force Field, Green {14}
+Grandchild's Cloak, Greater (Hybrid) {15}
+Titan Shield {14}
 Tandem Translocator {16}
 Thermal Capacitor, MK 3 {15}
-Fortified Plates, Mk 3 {16}
 Emergency Defense Sphere (Hybrid) {16}
-Grandchild's Cloak, Greater (Hybrid) {15}
 Flashblinders, MK 4 {16}
+Fortified Plates, Mk 3 {16}
 Agility Enhancer, Mk 5 {17}
-Molting Coat Module, Mk 3 {17}
-Tandem Vitality {17}
 Force Field, Red {16}
+Molting Coat Module, Mk 3 {17}
 Magic Resistor, Mk 3 (Magic) {17}
 Adaptive Defense, Mk 3 (Hybrid) {17}
+Tandem Vitality {17}
 Force Field, Blue {17}
-Quantum Phasing {18}
 Fortified Plates, Mk 4 {17}
-Spell Reflector, MK 2 (Magic) {18}
 Vibration Sensors {18}
-Shadow Sprint Unit (Magic) {18}
+Spell Reflector, MK 2 (Magic) {18}
+Quantum Phasing {18}
 Force Field, Orange {18}
-Ghostmarch Unit (Magic) {19}
 Fortified Plates, Mk 5 {19}
 Medical Interface, Mk 3 (Hybrid) {19}
+Shadow Sprint Unit (Magic) {18}
+Rel-State Contingency {20}
+Ghostmarch Unit (Magic) {19}
 Magic Resistor, Mk 4 (Magic) {20}
 Force Field, Prismatic {20}
-Rel-State Contingency {20}
-Drift Escape Module {7}
-Force Field, White {10}

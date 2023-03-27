@@ -2,6 +2,7 @@
   "dependencies": {
     "isomorphic-fetch": "^3.0.0",
     "jsdom": "^20.0.3",
-    "perlin-noise": "^0.0.1"
+    "perlin-noise": "^0.0.1",
+    "table": "^6.8.1"
   }
 }

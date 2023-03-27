@@ -25,55 +25,64 @@ const hexMap = ["          _____         _____         _____         _____      
                 "         /-----\\       /-----\\       /-----\\       /-----\\       /-----\\       /-----\\          ",
                 "   _____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____    ",
                 "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
-                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
                 " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
                 "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
                 "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
-                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
                 " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
                 "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
                 "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
-                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
                 " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
                 "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
                 "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
-                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
                 " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
                 "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
                 "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
-                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
                 " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
                 "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
                 "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
-                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
                 " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
                 "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
                 "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
-                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
                 " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
                 "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
 				"  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
-                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
                 " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
                 "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
 				"  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
-                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ", 
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
                 " \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/ ",
                 "  \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/  "];
-		   
+
+// a list of all of the landmark details
+var landmarkKey = [];		   
 // element 0 in the array is the required actions
+// Airborne = '\u2601'
+// Aquatic  = '\u26EC'
+// Arctic	= '\u2744'
+// Desert 	= '\u263C'
+// Mountain = '\u26F0'
+// Space 	= '\u2605'
+// Urban 	= '\u220F'
 var hexploration_stats = {
-	Airborne:     [1, 17, '\u2601'],//Assumes a fly (airborne or space) or swim (aquatic) speed
-    Aquatic:      [1, 14, '\u26EC'],//Assumes a fly (airborne or space) or swim (aquatic) speed
-    Arctic:       [2, 17, '\u2744'],
-    Desert:       [2, 17, '\u263C'],
+	Airborne:     [1, 17, 'A'],//Assumes a fly (airborne or space) or swim (aquatic) speed
+    Aquatic:      [1, 14, '@'],//Assumes a fly (airborne or space) or swim (aquatic) speed
+    Arctic:       [2, 17, '*'],
+    Desert:       [2, 17, 'D'],
     Forest:       [3, 12, 'T'],
     Marsh:        [2, 12, '%'],
-    Mountain:     [2, 16, '\u26F0'],
-    Plains:       [1, 16, 's'],
-    Space:        [1, 17, '\u2605'],//Assumes a fly (airborne or space) or swim (aquatic) speed
+    Mountain:     [2, 16, 'M'],
+    Plains:       [1, 16, 'P'],
+    Space:        [1, 17, 'S'],//Assumes a fly (airborne or space) or swim (aquatic) speed
     Subterranean: [2, 16, 'C'],
-    Urban:        [1, 10, '\u220F'],
+    Urban:        [1, 10, 'U'],
     Weird:        [2, 14, '?'],
 }
 
@@ -83,13 +92,21 @@ const COL_LENGTH = 10
 async function generateHexMap(worldBiomes, averageLvl, lvlDiff){
 	averageLevel = averageLvl;
 	levelDiff = lvlDiff;
-	return populateMap(worldBiomes);
+	var ret = await populateMap(worldBiomes);
+	for(var i = 0; i < landmarkKey.length; i++)
+		ret.push(landmarkKey[i]);
+	// for(var i = 0; i < ret.length; i++)
+		// console.log(ret[i]);
+	return ret;
 }
 
 async function populateMap(biomelist){
 	var counter = 1;
 	var letter   = 97;
-	
+	var newHexMap = hexMap;
+	// newhexMap keeps the landmarkKey lines in memory when generating planets after 1st for some reason
+	// resetting the length to 39 removes those lines and fixes the issue
+	newHexMap.length = 39;
 	var p = perlin.generatePerlinNoise(ROW_LENGTH, COL_LENGTH)
 	
 	for(var i = 0; i < p.length; i++){
@@ -106,7 +123,10 @@ async function populateMap(biomelist){
 	}
 	
 	counter = 1;
-	HexMap.forEach(function(line, index) {
+	for(var i = 0; i < newHexMap.length; i++){
+		var line = newHexMap[i];
+		var index = i;
+		
 		if(line[4] == '-') counter = 1;
 		if (index > 1 && line.includes('-')) letter++;
 		if(line[10] == '-')	counter = 2;
@@ -119,15 +139,18 @@ async function populateMap(biomelist){
 			else{
 				line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+""+counter.toString()+" \\");
 			}
-			line = line.replace("\#######/", "\   "+rollLandmark(getHexCoord(index, line.indexOf("\#######/")))+"   /");
+			var landmark = await rollLandmark(getHexCoord(index, line.indexOf("\#######/")));
+			line = line.replace("\#######/", "\   "+landmark+"   /");
 			counter += 2;
 		}
+		newHexMap[index] = line;
 		//console.log(line);
-	});	
-	return HexMap;
+	}
+	return newHexMap;
 }
 
-async function printLandmarkData(coord, landmark){
+async function getLandmarkData(coord, landmark){
+	//console.log(coord + " " + landmark)
 	var levelCrit = rollRange(500);
 	if(levelCrit == 1){
 		averageLevel = 20;
@@ -144,41 +167,41 @@ async function printLandmarkData(coord, landmark){
 	if(landmark == "r"){
 		var RT = await randomLoot.rollLootPool(level,3,1,10,2,25);
 		RT.unshift("\n"+coord);
-		// for(var i = 0; i < RT.length; i++)
-			// console.log(RT[i]);
+		for(var i = 0; i < RT.length; i++)
+			landmarkKey.push(RT[i]);
 	}
 	if(landmark == "c"){
 		var RD = await random5RD.generate5RD(getHexBiome(coord),level,5,2,10,4,50);
 		RD.unshift("\n"+coord);
-		// for(var i = 0; i < RD.length; i++)
-		    // console.log(RD[i]); 
+		for(var i = 0; i < RD.length; i++)
+			landmarkKey.push(RD[i]);
 	}
 	if(landmark == "%"){
 		var RT = await randomLoot.rollLootPool(level,0,1,30,2,90);
 		RT.unshift("\n"+coord);
-		// for(var i = 0; i < RT.length; i++)
-		    // console.log(RT[i]);
+		for(var i = 0; i < RT.length; i++)
+			landmarkKey.push(RT[i]);
 	}
 	if(landmark == "!"){
 		var RM = await randomMonsters.generateMonsters(getHexBiome(coord), level);
 		RM.unshift("\n"+coord);
-		// for(var i = 0; i < RM.length; i++)
-			// console.log(RM[i]);
+		for(var i = 0; i < RM.length; i++)
+			landmarkKey.push(RM[i]);
 	}
+	return;
 }
 
-function rollLandmark(coord){
-	return " ";
+async function rollLandmark(coord){
 	if (coord.length == 0)
 		return ' ';
 	var landmark = rollRange(20);
 	
 	if(landmark >= 1 && landmark <= 3){
-		printLandmarkData(coord, "r");
+		getLandmarkData(coord, "r");
 		return "r" //ruins
 	}
 	if(landmark >= 4 && landmark <= 6){
-		printLandmarkData(coord, "c");
+		getLandmarkData(coord, "c");
 		return "c"//5RD, lair, etc
 	}
 	if(landmark >= 7 && landmark <= 9){
@@ -186,7 +209,7 @@ function rollLandmark(coord){
 		return "^"//natural formation
 	}
 	if(landmark >= 10 && landmark <= 11){//should actually be based on biome's monster DC
-		printLandmarkData(coord, "!");
+		getLandmarkData(coord, "!");
 		return "!"//monster
 	}
 	if(landmark >= 12 && landmark <= 14){
@@ -196,7 +219,7 @@ function rollLandmark(coord){
 		return "$"//settlement
 	}
 	if(landmark == 17){
-		printLandmarkData(coord, "%");
+		getLandmarkData(coord, "%");
 		return "%"//magic or tech
 	}
 	if(landmark >= 18 && landmark <= 20){
@@ -537,10 +560,15 @@ function rollRange(r){
 }
 
 module.exports = {
-	populateMap: async function generateHexMap(worldBiomes, averageLvl, lvlDiff){
+	generateHexMap: async function generateHexMap(worldBiomes, averageLvl, lvlDiff){
 		averageLevel = averageLvl;
-		levelDiff = lvlDiff;	
-		return populateMap(worldBiomes);
+		levelDiff = lvlDiff;
+		var ret = await populateMap(worldBiomes);
+		for(var i = 0; i < landmarkKey.length; i++)
+			ret.push(landmarkKey[i]);
+		// for(var i = 0; i < ret.length; i++)
+			// console.log(ret[i]);
+		return ret;
 	}
 }
 //["Airborne","Aquatic","Arctic","Desert","Forest","Marsh","Mountain","Plains","Space","Subterranean","Urban","Weird"]

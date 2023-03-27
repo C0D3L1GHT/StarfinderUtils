@@ -4,8 +4,15 @@ const table = require('table').table;
 const randomSystem = require('./StellarSystemGenerator.js');
 
 var sectors_list = ["Amaranth","Annatto","Atroviren","Aurecolin","Cattleya","Celadon","Coquelicot","Damask","Eburnean",
-"Falu","Feldgrau","Fulvous","Gamboge","Glaucous","Lovat","Mazarine","Sable","Sarcoline","Skobeloff","Smaragdine",
+"Falu","Feldgrau","Fulvous","Gamboge","Lovat","Mazarine","Phlox","Sable","Sarcoline","Skobeloff","Smaragdine",
 "Smault","Titian","Vanta","Wenge","Zaffre","Zima"];
+
+async function generateGalaxy(){
+	// await generateSector(1,2,"_test");
+	for(var i = 0; i < sectors_list.length; i++){
+		await generateSector(rollRange(5),rollRange(10),sectors_list[i]);
+	}
+}
 // sectors should allocate locks and keys to systems
 // sectors should have three types of systems, HQ, near, and vast
 async function generateSector(nearSpaceMax, vastSpaceMax, sectorName){
@@ -47,8 +54,9 @@ async function generateSector(nearSpaceMax, vastSpaceMax, sectorName){
 		if(vsName != "") vsKeyString += vsName+", ";
 		systemList.push({HQ_System:hqName,Near_space_system:nsName,Vast_space_system:vsName});
 	}
-	fs.writeFile("./Sectors/"+sectorName+"/Sector_key.txt",hqKeyString+"\n"+nsKeyString+"\n"+vsKeyString, "utf8", function(err) {
+	var keysFile = fs.writeFile("./Sectors/"+sectorName+"/Sector_key.txt",hqKeyString+"\n"+nsKeyString+"\n"+vsKeyString, "utf8", function(err) {
 		if(err) {
+			console.log("sector key generation error");
 			return console.log(err);
 		}
 	});
@@ -70,6 +78,4 @@ function rollRange(r){
   return Math.floor(Math.random() * r) + 1;
 }
 
-for(var i = 0; i < sectors_list.length; i++){
-	generateSector(rollRange(5),rollRange(10),sectors_list[i]);
-}
+generateGalaxy();

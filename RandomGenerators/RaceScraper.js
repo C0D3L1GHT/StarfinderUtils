@@ -92,8 +92,6 @@ module.exports = {
 	  }
 	  var index = Math.floor(Math.random()*allRaces.length);
 	  return allRaces[index];
-	  //document.getElementById("NPCInfo").innerHTML = allRaces[index]+"<br />";
-	  scrapeRaces();
 	}
 }
 scrapeRaces();

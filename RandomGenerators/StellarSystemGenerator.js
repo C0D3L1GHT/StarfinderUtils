@@ -31,24 +31,19 @@ async function generateSystem(sector){
 	//Systems should have a group of planets (1-10)
 	var planets = [];
 	var systemName = nameGen();
-	if (!fs.existsSync("./sectors/"+sector+"/"+systemName))
-		fs.mkdirSync("./sectors/"+sector+"/"+systemName, { recursive: true });
+	if (!fs.existsSync("./Sectors/"+sector+"/"+systemName))
+		fs.mkdirSync("./Sectors/"+sector+"/"+systemName, { recursive: true });
 	var list = suffixes_list[rollRange(suffixes_list.length)-1];
 	for (var i = 0; i < rollRange(10); i++){
 		var planetInfo = await randomPlanet.generatePlanet();
 		var suffix = list[i];
 		planetInfo.unshift("Name:            " + systemName + suffix);
 		planets.push(planetInfo);
-		addListToFile(planetInfo,"./sectors/"+sector+"/"+systemName+"/"+systemName+suffix);
+		addListToFile(planetInfo,"./Sectors/"+sector+"/"+systemName+"/"+systemName+suffix);
 		planets.push("\n\n");
 	}
-	
-	//for(var i = 0; i < planets.length; i++){
-		//addListToFile(planets,"./sectors/"+sector+"/"+systemName+"/"+systemName + suffix)
-	    //for(var j = 0; j < planets[i].length; j++){
-			//console.log(planets[i][j]);
-	    //}
-	//}
+	// for(var i = 0; i < planets.length; i++)
+		// console.log(planets[i]);
 	return planets;
 	//TODO: Look into outputting a picture somehow
 }
@@ -80,15 +75,15 @@ module.exports = {
 		//Systems should have a group of planets (1-10)
 		var planets = [];
 		var systemName = nameGen();
-		if (!fs.existsSync("./sectors/"+sector+"/"+systemName))
-			fs.mkdirSync("./sectors/"+sector+"/"+systemName, { recursive: true });
+		if (!fs.existsSync("./Sectors/"+sector+"/"+systemName))
+			fs.mkdirSync("./Sectors/"+sector+"/"+systemName, { recursive: true });
 		var list = suffixes_list[rollRange(suffixes_list.length)-1];
 		for (var i = 0; i < rollRange(10); i++){
 			var planetInfo = await randomPlanet.generatePlanet();
 			var suffix = list[i];
 			planetInfo.unshift("Name:            " + systemName + suffix);
 			planets.push(planetInfo);
-			addListToFile(planetInfo,"./sectors/"+sector+"/"+systemName+"/"+systemName+suffix);
+			addListToFile(planetInfo,"./Sectors/"+sector+"/"+systemName+"/"+systemName+suffix);
 			planets.push("\n\n");
 		}
 		return planets;
@@ -96,4 +91,4 @@ module.exports = {
 	}
 }
 
-// generateSystem();
+generateSystem("test");

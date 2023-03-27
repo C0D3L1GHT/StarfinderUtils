@@ -57,10 +57,10 @@ async function scrapeInfoAndAddToFile(textFile, pageLink, tableName, levelIndex)
 	
 	for (var i = 1; i < table.length; i++) {
 		if(table[i]){
-			if(table[i].cells[1] && table[i].cells[0]){
+			if(table[i].cells[levelIndex] && table[i].cells[0]){
 				var name  = table[i].cells[0].textContent;
 				if(name[0] == ' ') name = name.slice(1);
-				var level = table[i].cells[1].textContent;
+				var level = table[i].cells[levelIndex].textContent;
 				//console.log(name + " (" + level + ")");
 				list.push(name + " {" + level + "}");
 			}
@@ -162,16 +162,17 @@ async function scrapeWeapons(){
 }
 
 async function scrapeConsumables(){
-	var listChanged = await newsFeedDateHasChanged("./ListFiles/ConsumablesList.txt.txt");
+	var listChanged = await newsFeedDateHasChanged("./ListFiles/ConsumablesList.txt");
 	if(!listChanged){
 		//console.log("no new content!");
 		return;
 	}else{
 		try{
-			const ammo     = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Ammo', 'ctl00_MainContent_GridViewWeapons1Hand', 2);
-			const grenade  = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Grenade', 'ctl00_MainContent_GridViewWeapons1Hand', 1);
-			const drugs    = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt.txt", 'https://aonsrd.com/OtherItems.aspx?Category=Medicinals', 'ctl00_MainContent_GridViewOtherItems', 1);
-			const personal = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt.txt", 'https://aonsrd.com/OtherItems.aspx?Category=Personal%20Items', 'ctl00_MainContent_GridViewOtherItems', 2);
+			const ammo     = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Ammo', 'ctl00_MainContent_GridViewWeapons1Hand', 2);
+			const grenade  = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Grenade', 'ctl00_MainContent_GridViewWeapons1Hand', 1);
+			const drugs    = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/OtherItems.aspx?Category=Medicinals', 'ctl00_MainContent_GridViewOtherItems', 1);
+			const personal = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/OtherItems.aspx?Category=Personal%20Items', 'ctl00_MainContent_GridViewOtherItems', 2);
+			console.log("\n\nupdated consumables page!");
 	}catch(err){
 			console.log(err);
 		}
@@ -207,7 +208,7 @@ async function scrapeTechItems(){
 		try{
 			const tech = await scrapeInfoAndAddToFile("./ListFiles/TechItemList.txt", 'https://aonsrd.com/TechItems.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewTechItems', 2);
 			console.log("\n\nupdated tech item page!");
-	}catch(err){
+		}catch(err){
 			console.log(err);
 		}
 	}
@@ -282,6 +283,8 @@ async function getRandomEquipmentByLevel(equipmentType, lvl){
 	}
 	
 	var index = Math.floor(Math.random()*equipmentByLevel.length);
+	if(equipmentByLevel.length == 0)
+		console.log(equipmentType + " at level " + lvl + " not found. Choose a different level, or re-scrape the list");
 	//console.log(equipmentByLevel[index]);
 	return equipmentByLevel[index];
 }
@@ -292,10 +295,12 @@ async function rollLootPool(level, consumableAmount, tacAmount, tacChance, itemA
 	if(level < 1) level == 1;
 	
 	pool.push("loot: (LEVEL" + level + ")");
-
+	console.log(pool[pool.length-1]);
+	
 	for(var i = 0; i < rollRange(consumableAmount); i++){
 		//level = Math.floor(Math.random() * ((lvl + diff) - (lvl - diff)) + (lvl - diff));
 		pool.push("consumable: "+await getRandomEquipmentByLevel("Consumable", level));
+		console.log(pool[pool.length-1]);
 	}
 
 	for(var i = 0; i < rollRange(tacAmount); i++){
@@ -303,6 +308,7 @@ async function rollLootPool(level, consumableAmount, tacAmount, tacChance, itemA
 		//level = Math.floor(Math.random() * ((lvl + diff) - (lvl - diff)) + (lvl - diff));
 	
 		if (tacIncluded){
+			console.log("tac yes")
 			var tacType = rollRange(3);
 			if(tacType == 1)
 				pool.push("armor: " + await getRandomEquipmentByLevel("Armor", level));
@@ -310,6 +316,7 @@ async function rollLootPool(level, consumableAmount, tacAmount, tacChance, itemA
 				pool.push("weapon: " + await getRandomEquipmentByLevel("Weapon", level));
 			if(tacType == 3)
 				pool.push("shield: " + await getRandomEquipmentByLevel("Shield", level));
+			console.log(pool[pool.length-1]);
 		}
 	}
 
@@ -319,6 +326,7 @@ async function rollLootPool(level, consumableAmount, tacAmount, tacChance, itemA
 	
 		if(itemIncluded){
 			var itemType = rollRange(4);
+			console.log("item yes " + itemType)	
 			if(itemType == 1)
 				pool.push("augment: " + await getRandomEquipmentByLevel("Augment", level));
 			if(itemType == 2)
@@ -327,12 +335,13 @@ async function rollLootPool(level, consumableAmount, tacAmount, tacChance, itemA
 				pool.push("techItem: " + await getRandomEquipmentByLevel("TechItem", level));
 			if(itemType == 4)
 				pool.push("hybridItem: " + await getRandomEquipmentByLevel("HybridItem", level));
+			console.log(pool[pool.length-1]);
 		}		
 	}
 
-	for(var i = 0; i < pool.length; i++)
-		console.log(pool[i]);
-	return pool
+	//for(var i = 0; i < pool.length; i++)
+		//console.log(pool[i]);
+	return pool;
 }
 
 function rollRange(r){
@@ -382,7 +391,7 @@ module.exports = {
 		for(var i = 0; i < rollRange(itemAmount); i++){
 			var itemIncluded = rollRange(100) <= tacChance;
 			//level = Math.floor(Math.random() * ((lvl + diff) - (lvl - diff)) + (lvl - diff));
-		
+			//NOTE: item scraping doesn't return anything for some reason
 			if(itemIncluded){
 				var itemType = rollRange(4);
 				if(itemType == 1)
@@ -398,7 +407,7 @@ module.exports = {
 	
 		//for(var i = 0; i < pool.length; i++)
 		//	console.log(pool[i]);
-		return pool
+		return pool;
 	}
 	
 }
@@ -411,6 +420,6 @@ module.exports = {
 // scrapeShields();
 // scrapeTechItems();
 // scrapeWeapons();
-//rollLootPool(8, 1, 1, 80, 1, 80);
+// rollLootPool(8, 1, 1, 80, 1, 80);
 
 

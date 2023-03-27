@@ -39,16 +39,11 @@ async function GeneratePlanet(){
   planetInfo.push("Gravity:         " + GenGravity());
   planetInfo.push("Atmosphere:      " + GenAtmopshere());
   
-  // console.log("World Type:      " + GenWorldType());
-  // console.log("   Anomalies: " + biomeAnomalies);
-  // console.log("Gravity:         " + GenGravity());
-  // console.log("Atmosphere:      " + GenAtmopshere());
   var dThree = rollRange(3);
   var biomeList = [];
   for(let i = 1; i <= dThree; i++){
 	  var biome = GenBiome();
 	  biomeList.push(biome);
-      //console.log("   Biome: " + biome);
 	  planetInfo.push("   Biome: " + biome);
   }
   
@@ -63,25 +58,19 @@ async function GeneratePlanet(){
   planetInfo.push("Tech Level:      " + technology);
   planetInfo.push("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
   
-  
-  // console.log("Accord:          " + accord);
-  // console.log("Magic Level:     " + magic);
-  // console.log("Religion Level:  " + religion);
-  // console.log("Tech Level:      " + technology);
-  // console.log("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
   var dThree = rollRange(3);
   for(let i = 1; i <= dThree; i++){
-    //console.log("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
 	planetInfo.push("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   //console.log("\n\n")
   var hexMap = await randomMap.populateMap(biomeList,10,10);
   planetInfo.push("\n\n");
-  for(var i = 0; i < hexMap.length; i++)
+  for(var i = 0; i < hexMap.length; i++){
+	  //console.log(hexMap[i]);
 	  planetInfo.push(hexMap[i]);
-  //TODO: Figure out how to push HexMap data into Planet info
-  for(var i = 0; i < planetInfo.length; i++)
-	  console.log(planetInfo[i]);
+  }
+  // for(var i = 0; i < planetInfo.length; i++)
+	  // console.log(planetInfo[i]);
   return planetInfo;
 }
 
@@ -269,13 +258,12 @@ module.exports = {
 	planetInfo.push("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   //console.log("\n\n")
-  var hexMap = randomMap.populateMap(biomeList,10,10);
+  var hexMap = await randomMap.generateHexMap(biomeList,10,10);
   planetInfo.push("\n\n");
   for(var i = 0; i < hexMap.length; i++)
 	  planetInfo.push(hexMap[i]);
-  //TODO: Figure out how to push HexMap data into Planet info
-  for(var i = 0; i < planetInfo.length; i++)
-	  console.log(planetInfo[i]);
+  // for(var i = 0; i < planetInfo.length; i++)
+	  // console.log(planetInfo[i]);
   return planetInfo;
 }
 	
@@ -285,4 +273,4 @@ function rollRange(r){
   return Math.floor(Math.random() * r) + 1;
 }
 
-GeneratePlanet()
+//GeneratePlanet()

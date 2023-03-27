@@ -57,7 +57,10 @@ async function generateNPC(){
    var feeling = allFeelings[fIndex];
    
    var race = await randomRace.getRandomRace();
-   var ret = generateName()+", a "+rollAttitude()+" "+race+" feeling "+feeling+" who "+quirk;
+   var name = generateName();
+   var attitude = rollAttitude();
+   var ret = name+", a "+attitude+" "+race+" feeling "+feeling+" who "+quirk;
+   ret = ret.replace(/\r?\n|\r/g, "");
    console.log(ret);
 }
 
