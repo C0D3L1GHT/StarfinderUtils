@@ -4,13 +4,17 @@ const table = require('table').table;
 const randomSystem = require('./StellarSystemGenerator.js');
 
 var sectors_list = ["Amaranth","Annatto","Atroviren","Aurecolin","Cattleya","Celadon","Coquelicot","Damask","Eburnean",
-"Falu","Feldgrau","Fulvous","Gamboge","Lovat","Mazarine","Phlox","Sable","Sarcoline","Skobeloff","Smaragdine",
+"Falu","Feldgrau","Fulvous","Gamboge","Lovat","Mazarine","Phlox","Sable","Sarcoline","Skobeloff",
 "Smault","Titian","Vanta","Wenge","Zaffre","Zima"];
 
+const sleep = (ms) =>
+  new Promise(resolve => setTimeout(resolve, ms));
+
 async function generateGalaxy(){
-	// await generateSector(1,2,"_test");
+	//await generateSector(1,2,"_testSector");
 	for(var i = 0; i < sectors_list.length; i++){
-		await generateSector(rollRange(5),rollRange(10),sectors_list[i]);
+		await generateSector(rollRange(6),rollRange(8),sectors_list[i]);
+		sleep(500);
 	}
 }
 // sectors should allocate locks and keys to systems
