@@ -11,11 +11,11 @@ const sleep = (ms) =>
   new Promise(resolve => setTimeout(resolve, ms));
 
 async function generateGalaxy(){
-	//await generateSector(1,2,"_testSector");
-	for(var i = 0; i < sectors_list.length; i++){
-		await generateSector(rollRange(6),rollRange(8),sectors_list[i]);
-		sleep(500);
-	}
+	await generateSector(1,2,"_testSector");
+	// for(var i = 0; i < sectors_list.length; i++){
+		// await generateSector(rollRange(6),rollRange(8),sectors_list[i]);
+		// sleep(500);
+	// }
 }
 // sectors should allocate locks and keys to systems
 // sectors should have three types of systems, HQ, near, and vast

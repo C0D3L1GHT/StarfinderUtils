@@ -57,6 +57,9 @@ const WEALTH_TABLE = new Map([
 	[20, 782000]]
 );
 
+//TODO: generate traps
+const TRAP_TAGS = ["Ranged", "Pit", "Hidden", "Touch", "Poison", "Curse", "Explosion", "Chamber"];
+
 function getListFile(fileName){
   try {
     var data = fs.readFileSync(fileName, { encoding: 'utf8', flag: 'r' });

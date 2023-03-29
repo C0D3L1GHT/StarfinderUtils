@@ -12,13 +12,7 @@ const align_morality_list = ["Evil", "Neutral", "Good"]
 const settlement_gov_list = ["Anarchy", "Autocracy", "Council", "Magocracy", "Military", "Oligarchy", "Secret Syndicate", "Plutocracy", "Utopia"]
 const settlement_qual_list = ["Academic", "Bureaucratic", "Cultured", "Devout", "Financial Center", "Insular", "Notorious", "Polluted"]
 
-
-/*********************************************************/
-const PLANET_LEVEL = 3;
-const PLANET_DIFF  = 3;
-/*********************************************************/
-
-//TODO: add clues and mysteries that have answers on other planets in the list=
+//TODO: add clues and mysteries that have answers on other planets in the list
 //TODO: add other planet types (moon, black hole, Fold Gate Station, Machine World)
 // Galaxy Exploration is tracking down system clues. 3-5 clues to get to a system
 // System Exploration is finding Gravity Wells which gives you the system locations of 1d3 worlds
@@ -26,7 +20,7 @@ const PLANET_DIFF  = 3;
 // Exploration From Orbit is determining one of the following biome, gravity, atmosphere, religion, magic, tech, accord, or anomaly_list
 // World Mapping give you 1 Hex biome plus other features if high enough
 // World Exploration is hex crawl/guided tour if world is advanced and accomodating   
-async function GeneratePlanet(){
+async function GeneratePlanet(level, diff){
   var planetInfo = [];
   var biomeAnomalies = await GenBiomeAnomaly();
   var nextbiomeAnomaly = await GenBiomeAnomaly();
@@ -63,7 +57,7 @@ async function GeneratePlanet(){
 	planetInfo.push("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   //console.log("\n\n")
-  var hexMap = await randomMap.populateMap(biomeList,10,10);
+  var hexMap = await randomMap.populateMap(biomeList,level,diff);
   planetInfo.push("\n\n");
   for(var i = 0; i < hexMap.length; i++){
 	  //console.log(hexMap[i]);
@@ -221,7 +215,7 @@ async function scrapeList(list){
 }
 
 module.exports = {
-  generatePlanet: async function GeneratePlanet(){
+  generatePlanet: async function GeneratePlanet(level, diff){
   var planetInfo = [];
   var biomeAnomalies = await GenBiomeAnomaly();
   var nextbiomeAnomaly = await GenBiomeAnomaly();
@@ -258,7 +252,7 @@ module.exports = {
 	planetInfo.push("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   //console.log("\n\n")
-  var hexMap = await randomMap.generateHexMap(biomeList,10,10);
+  var hexMap = await randomMap.generateHexMap(biomeList,level,diff);
   planetInfo.push("\n\n");
   for(var i = 0; i < hexMap.length; i++)
 	  planetInfo.push(hexMap[i]);
@@ -273,4 +267,4 @@ function rollRange(r){
   return Math.floor(Math.random() * r) + 1;
 }
 
-//GeneratePlanet()
+//GeneratePlanet(10,10)

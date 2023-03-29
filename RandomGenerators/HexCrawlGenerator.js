@@ -159,10 +159,8 @@ async function getLandmarkData(coord, landmark){
 	if(averageLevel == 1)
 		levelDiff = 0;
 	
-	var level = Math.floor(Math.random() * ((averageLevel + levelDiff) - (averageLevel - levelDiff)) + (averageLevel - levelDiff));
-	
-	if(level < 1) level = 1;
-	if(level > 20) level = 20;
+	//Math.floor(Math.random() * ((averageLevel + levelDiff) - (averageLevel - levelDiff)) + (averageLevel - levelDiff));
+	var level = gaussianRandom(averageLevel,2);
 	
 	if(landmark == "r"){
 		var RT = await randomLoot.rollLootPool(level,3,1,10,2,25);
@@ -557,6 +555,17 @@ function stringToBiome(str, num){
 
 function rollRange(r){
     return Math.floor(Math.random() * r) + 1;
+}
+
+function gaussianRandom(mean=0, stdev=1) {
+    let u = 1 - Math.random(); // Converting [0,1) to (0,1]
+    let v = Math.random();
+    let z = Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
+    // Transform to the desired mean and standard deviation:
+	let ret = Math.floor(z * stdev + mean);
+	if (ret < 1) ret = 1; // floor level at 1
+	if(ret > 20) ret = 20; //cap ret at 20;
+    return ret;
 }
 
 module.exports = {
