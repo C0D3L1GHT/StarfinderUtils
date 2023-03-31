@@ -3,14 +3,18 @@ const random5RD = require('./5RoomDungeonGenerator.js');
 const randomLoot = require('./EquipmentScraper.js');
 const randomMonsters = require('./MonsterListGenerator.js');
 
-var averageLevel = 1;
+var averageLevel = 5;
 var levelDiff	 = 0;
 
 function setAverageLevel(lvl){
 	if(lvl < 20 && lvl > 0.3)
-		averageLevel= lvl;
+		averageLevel = lvl;
 	else
 		console.log("Averge level outside scope");
+}
+
+function getAverageLevel(){
+	return averageLevel;
 }
 
 function setLevelDiff(diff){
@@ -61,6 +65,47 @@ const hexMap = ["          _____         _____         _____         _____      
                 " \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/ ",
                 "  \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/  "];
 
+function cleanHexMap(){
+	return ["          _____         _____         _____         _____         _____         _____                 ",
+                "         /-----\\       /-----\\       /-----\\       /-----\\       /-----\\       /-----\\          ",
+                "   _____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____    ",
+                "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
+                " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
+                "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
+                "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
+                " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
+                "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
+                "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
+                " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
+                "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
+                "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
+                " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
+                "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
+                "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
+                " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
+                "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
+                "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
+                " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
+                "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
+                "  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
+                " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
+                "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
+				"  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
+                " \\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/ ",
+                "  \\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/  ",
+				"  /-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\#######/-----\\  ",
+                " /*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\_____/*******\\ ",
+                " \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/     \\#######/ ",
+                "  \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/       \\_____/  "];
+}
 // a list of all of the landmark details
 var landmarkKey = [];		   
 // element 0 in the array is the required actions
@@ -103,20 +148,21 @@ async function generateHexMap(worldBiomes, averageLvl, lvlDiff){
 async function populateMap(biomelist){
 	var counter = 1;
 	var letter   = 97;
-	var newHexMap = hexMap;
+	var newHexMap = cleanHexMap();
 	// newhexMap keeps the landmarkKey lines in memory when generating planets after 1st for some reason
 	// resetting the length to 39 removes those lines and fixes the issue
 	newHexMap.length = 39;
+	landmarkKey = [];
 	var p = perlin.generatePerlinNoise(ROW_LENGTH, COL_LENGTH)
 	
 	for(var i = 0; i < p.length; i++){
 		p[i] = Math.floor(p[i] * biomelist.length) + 1;
 	}
-	
+
 	counter = 0;
 	for(var i = 1; i < COL_LENGTH; i++){
 		for(var j = 1; j < ROW_LENGTH; j++){
-			setHexBiome(i,j,biomelist[p[counter]-1]);
+			setHexBiome(i,j,biomelist[p[counter]-1],newHexMap);
 			counter++;
 		}
 		counter++;
@@ -131,7 +177,7 @@ async function populateMap(biomelist){
 		if (index > 1 && line.includes('-')) letter++;
 		if(line[10] == '-')	counter = 2;
 		
-		while(line.includes('-') || line.includes('#')){
+		for(var j = 0; j < 7; j++){//while(line.includes('-') || line.includes('#')){
 			//extract coordinates for landmarks
 			if (counter < 10){
 				line = line.replace("\-----\\", "\ "+String.fromCharCode(letter)+"0"+counter.toString()+" \\");
@@ -159,22 +205,29 @@ async function getLandmarkData(coord, landmark){
 	if(averageLevel == 1)
 		levelDiff = 0;
 	
-	//Math.floor(Math.random() * ((averageLevel + levelDiff) - (averageLevel - levelDiff)) + (averageLevel - levelDiff));
+	//var level = Math.floor(Math.random() * ((averageLevel + levelDiff) - (averageLevel - levelDiff)) + (averageLevel - levelDiff));
 	var level = gaussianRandom(averageLevel,2);
+	//console.log(averageLevel + " " + level)
 	
+	//TODO: make settlements
 	if(landmark == "r"){
-		var RT = await randomLoot.rollLootPool(level,3,1,10,2,25);
+		var ruinsLevel = level;
+		if(level > 2)
+			var ruinsLevel = level-2;
+		//TODO: add traps or perception DC to ruins
+		var RT = await randomLoot.rollLootPool(ruinsLevel,3,1,10,2,25);
 		RT.unshift("\n"+coord);
 		for(var i = 0; i < RT.length; i++)
 			landmarkKey.push(RT[i]);
 	}
-	if(landmark == "c"){
+	if(landmark == "d"){
 		var RD = await random5RD.generate5RD(getHexBiome(coord),level,5,2,10,4,50);
 		RD.unshift("\n"+coord);
 		for(var i = 0; i < RD.length; i++)
 			landmarkKey.push(RD[i]);
 	}
 	if(landmark == "%"){
+		//TODO: find a better symbol
 		var RT = await randomLoot.rollLootPool(level,0,1,30,2,90);
 		RT.unshift("\n"+coord);
 		for(var i = 0; i < RT.length; i++)
@@ -186,6 +239,8 @@ async function getLandmarkData(coord, landmark){
 		for(var i = 0; i < RM.length; i++)
 			landmarkKey.push(RM[i]);
 	}
+	// for (var i = 0; i < landmarkKey.length; i++)
+		// console.log(landmarkKey[i]);
 	return;
 }
 
@@ -193,14 +248,13 @@ async function rollLandmark(coord){
 	if (coord.length == 0)
 		return ' ';
 	var landmark = rollRange(20);
-	
 	if(landmark >= 1 && landmark <= 3){
 		getLandmarkData(coord, "r");
 		return "r" //ruins
 	}
 	if(landmark >= 4 && landmark <= 6){
-		getLandmarkData(coord, "c");
-		return "c"//5RD, lair, etc
+		getLandmarkData(coord, "d");
+		return "d"//5RD, lair, etc
 	}
 	if(landmark >= 7 && landmark <= 9){
 		//skill challenge
@@ -454,7 +508,7 @@ function getHexBiome(coord){
 	return ret;
 }
 
-function setHexBiome(row, col, str){
+function setHexBiome(row, col, str, hexMap){
 	
 	var mapRow;
 	var biomeStr;
@@ -565,7 +619,7 @@ function gaussianRandom(mean=0, stdev=1) {
 	let ret = Math.floor(z * stdev + mean);
 	if (ret < 1) ret = 1; // floor level at 1
 	if(ret > 20) ret = 20; //cap ret at 20;
-    return ret;
+	return ret;
 }
 
 module.exports = {
@@ -575,6 +629,8 @@ module.exports = {
 		var ret = await populateMap(worldBiomes);
 		for(var i = 0; i < landmarkKey.length; i++)
 			ret.push(landmarkKey[i]);
+		// for(var i = 0; i < hexMap.length; i++)
+			// console.log(hexMap[i]);
 		// for(var i = 0; i < ret.length; i++)
 			// console.log(ret[i]);
 		return ret;

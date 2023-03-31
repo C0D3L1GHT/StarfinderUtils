@@ -108,4 +108,4 @@ module.exports = {
 	}
 }
 
-generateSystem("_testSystem",1, 0);
+//generateSystem("_testSystem",1, 0);

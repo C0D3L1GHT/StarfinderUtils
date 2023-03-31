@@ -57,8 +57,34 @@ const WEALTH_TABLE = new Map([
 	[20, 782000]]
 );
 
-//TODO: generate traps
-const TRAP_TAGS = ["Ranged", "Pit", "Hidden", "Touch", "Poison", "Curse", "Explosion", "Chamber"];
+// [CR, [Perception DC, Disable DC]]
+const TRAP_TABLE = new Map([
+	[0.5,[17,12]],
+	[1,[21,16]],
+	[2,[23,18]],
+	[3,[24,19]],
+	[4,[26,21]],
+	[5,[27,22]],
+	[6,[29,24]],
+	[7,[30,25]],
+	[8,[32,27]],
+	[9,[33,28]],
+	[10,[35,30]],
+	[11,[36,31]],
+	[12,[38,33]],
+	[13,[39,34]],
+	[14,[41,36]],
+	[15,[42,37]],
+	[16,[44,39]],
+	[17,[45,40]],
+	[18,[47,42]],
+	[19,[48,43]],
+	[20,[50,45]]
+]);
+
+const TRAP_TYPES      = ["Tech","Magic","Hybrid"];
+const TRAP_TRIGGERS   = ["Location","Proximity","Touch"];
+const TRAP_PROX_TYPES = ["Auditory","Visual","Thermal"];
 
 function getListFile(fileName){
   try {
