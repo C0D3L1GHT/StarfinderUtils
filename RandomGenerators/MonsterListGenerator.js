@@ -57,34 +57,36 @@ const WEALTH_TABLE = new Map([
 	[20, 782000]]
 );
 
-// [CR, [Perception DC, Disable DC]]
+// [CR, info]
 const TRAP_TABLE = new Map([
-	[0.5,[17,12]],
-	[1,[21,16]],
-	[2,[23,18]],
-	[3,[24,19]],
-	[4,[26,21]],
-	[5,[27,22]],
-	[6,[29,24]],
-	[7,[30,25]],
-	[8,[32,27]],
-	[9,[33,28]],
-	[10,[35,30]],
-	[11,[36,31]],
-	[12,[38,33]],
-	[13,[39,34]],
-	[14,[41,36]],
-	[15,[42,37]],
-	[16,[44,39]],
-	[17,[45,40]],
-	[18,[47,42]],
-	[19,[48,43]],
-	[20,[50,45]]
+	[0.5,"\nPerception DC: 17\nDisable DC: 12\nAttack: +9\nDamage: 2d6\nSave DC: 11"],
+	[1,"\nPerception DC: 21\nDisable DC: 16\nAttack: +11\nDamage: 3d6\nSave DC: 12"],
+	[2,"\nPerception DC: 23\nDisable DC: 18\nAttack: +12\nDamage: 4d6\nSave DC: 13"],
+	[3,"\nPerception DC: 24\nDisable DC: 19\nAttack: +13\nDamage: 6d6\nSave DC: 14"],
+	[4,"\nPerception DC: 26\nDisable DC: 21\nAttack: +14\nDamage: 4d10+2\nSave DC: 15"],
+	[5,"\nPerception DC: 27\nDisable DC: 22\nAttack: +15\nDamage: 4d12+4\nSave DC: 15"],
+	[6,"\nPerception DC: 29\nDisable DC: 24\nAttack: +17\nDamage: 6d12\nSave DC: 16"],
+	[7,"\nPerception DC: 30\nDisable DC: 25\nAttack: +19\nDamage: 8d10\nSave DC: 17"],
+	[8,"\nPerception DC: 32\nDisable DC: 27\nAttack: +20\nDamage: 8d12\nSave DC: 18"],
+	[9,"\nPerception DC: 33\nDisable DC: 28\nAttack: +22\nDamage: 10d10+5\nSave DC: 18"],
+	[10,"\nPerception DC: 35\nDisable DC: 30\nAttack: +23\nDamage: 10d12\nSave DC: 19"],
+	[11,"\nPerception DC: 36\nDisable DC: 31\nAttack: +24\nDamage: 12d12\nSave DC: 20"],
+	[12,"\nPerception DC: 38\nDisable DC: 33\nAttack: +27\nDamage: 12d12+5\nSave DC: 21"],
+	[13,"\nPerception DC: 39\nDisable DC: 34\nAttack: +28\nDamage: 14d12\nSave DC: 21"],
+	[14,"\nPerception DC: 41\nDisable DC: 36\nAttack: +29\nDamage: 14d12+7\nSave DC: 22"],
+	[15,"\nPerception DC: 42\nDisable DC: 37\nAttack: +30\nDamage: 14d12+15\nSave DC: 23"],
+	[16,"\nPerception DC: 44\nDisable DC: 39\nAttack: +31\nDamage: 16d12+15\nSave DC: 24"],
+	[17,"\nPerception DC: 45\nDisable DC: 40\nAttack: +32\nDamage: 16d12+30\nSave DC: 24"],
+	[18,"\nPerception DC: 47\nDisable DC: 42\nAttack: +33\nDamage: 16d12+45\nSave DC: 25"],
+	[19,"\nPerception DC: 48\nDisable DC: 43\nAttack: +34\nDamage: 16d12+60\nSave DC: 26"],
+	[20,"\nPerception DC: 50\nDisable DC: 45\nAttack: +35\nDamage: 16d12+75\nSave DC: 27"]
 ]);
 
-const TRAP_TYPES      = ["Tech","Magic","Hybrid"];
+//TODO: add traps that impose conditions?
+const TRAP_TYPES      = ["Analog","Technological","Magical","Hybrid"];
 const TRAP_TRIGGERS   = ["Location","Proximity","Touch"];
 const TRAP_PROX_TYPES = ["Auditory","Visual","Thermal"];
+const TRAP_SAVE 	  = ["Reflex","Fortitude","Will"];
 
 function getListFile(fileName){
   try {
@@ -105,6 +107,47 @@ async function getAllMonstersByBiomeAndLevel(fileName, lvl){
 			allMonstersbyLevel.push(allMonsters[i]);
 	}
 	return allMonstersbyLevel;
+}
+
+async function getRandomTrap(lvl){
+	var randType    = TRAP_TYPES[rollRange(TRAP_TYPES.length)-1];
+	var randTrigger = TRAP_TRIGGERS[rollRange(TRAP_TRIGGERS.length)-1];
+	
+	if(randTrigger == "Proximity"){
+		var randProx = TRAP_PROX_TYPES[rollRange(TRAP_PROX_TYPES.length)-1];
+		randTrigger = randTrigger + " (" + randProx + ")";
+	}
+	var randSave 	= TRAP_SAVE[rollRange(TRAP_SAVE.length)-1];
+	
+	var effect = "";
+	//analog traps deal kinetic damage
+	if(randType == "Analog"){
+		var bps = ["Bludgeoning damage","Piercing damage","Slashing damage"]
+		effect = bps[rollRange(3)-1];
+	}		
+	//tech traps deal energy damage
+	if(randType == "Technological"){
+		var energy = ["Acid damage","Cold damage","Electricity damage","Fire damage","Sonic damage"];
+		effect = energy[rollRange(5)-1];
+	}		
+	//magic traps cast a level appropriate spell
+	if(randType == "Magical"){
+		effect = "a spell";
+	}
+	//hybrid traps impose conditions or mind affecting effects
+	if(randType == "Hybrid"){
+		var condition = await getRandomCondition();
+		effect = "The " + condition + " condition until a successful save";
+		effect = effect.replace(/\r?\n|\r/g, "");
+	}
+	
+	//console.log("Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl));
+	return "Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl);
+}
+
+async function getRandomCondition(){
+	let allConditions = await getListFile("./ListFiles/ConditionsList.txt");
+	return allConditions[rollRange(allConditions.length)-1];
 }
 
 async function getRandomMonsterByBiomeAndLevel(biome, lvl){
@@ -265,8 +308,42 @@ module.exports = {
 		// for(var i = 0; i < pool.length; i++)
 			// console.log(pool[i]);
 		return pool;
+	},
+	getRandomTrap: async function getRandomTrap(lvl){
+		var randType    = TRAP_TYPES[rollRange(TRAP_TYPES.length)-1];
+		var randTrigger = TRAP_TRIGGERS[rollRange(TRAP_TRIGGERS.length)-1];
+		
+		if(randTrigger == "Proximity"){
+			var randProx = TRAP_PROX_TYPES[rollRange(TRAP_PROX_TYPES.length)-1];
+			randTrigger = randTrigger + " (" + randProx + ")";
+		}
+		var randSave 	= TRAP_SAVE[rollRange(TRAP_SAVE.length)-1];
+		
+		var effect = "";
+		//analog traps deal kinetic damage
+		if(randType == "Analog"){
+			var bps = ["Bludgeoning damage","Piercing damage","Slashing damage"]
+			effect = bps[rollRange(3)-1];
+		}		
+		//tech traps deal energy damage
+		if(randType == "Technological"){
+			var energy = ["Acid damage","Cold damage","Electricity damage","Fire damage","Sonic damage"];
+			effect = energy[rollRange(5)-1];
+		}		
+		//magic traps cast a level appropriate spell
+		if(randType == "Magical"){
+			effect = "a spell";
+		}
+		//hybrid traps impose conditions or mind affecting effects
+		if(randType == "Hybrid"){
+			var condition = await getRandomCondition();
+			effect = "The " + condition + " condition until a successful save";
+			effect = effect.replace(/\r?\n|\r/g, "");
+		}
+		
+		//console.log("Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl));
+		return "Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl);
 	}
-	
 }
 
 function rollRange(r){
@@ -284,3 +361,4 @@ function rollRange(r){
 // rollMonsterPool("Subterranean", 3);
 // rollMonsterPool("Urban", 3);
 // rollMonsterPool("Weird", 3);
+// getRandomTrap(1);

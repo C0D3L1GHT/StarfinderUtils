@@ -215,7 +215,9 @@ async function getLandmarkData(coord, landmark){
 		if(level > 2)
 			var ruinsLevel = level-2;
 		//TODO: add traps or perception DC to ruins
+		var trap = await randomMonsters.getRandomTrap(ruinsLevel);
 		var RT = await randomLoot.rollLootPool(ruinsLevel,3,1,10,2,25);
+		RT.unshift(trap);
 		RT.unshift("\n"+coord);
 		for(var i = 0; i < RT.length; i++)
 			landmarkKey.push(RT[i]);
@@ -228,7 +230,9 @@ async function getLandmarkData(coord, landmark){
 	}
 	if(landmark == "%"){
 		//TODO: find a better symbol
+		var trap = await randomMonsters.getRandomTrap(ruinsLevel);
 		var RT = await randomLoot.rollLootPool(level,0,1,30,2,90);
+		RT.unshift(trap);
 		RT.unshift("\n"+coord);
 		for(var i = 0; i < RT.length; i++)
 			landmarkKey.push(RT[i]);

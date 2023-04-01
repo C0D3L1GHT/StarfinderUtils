@@ -195,6 +195,12 @@ module.exports = {
 			dungeon.push(room + " : " + rooms[room]);
 		}
 		//console.log("\n\n");
+		
+		dungeon.push("\n");
+		
+		var traps = await randomMonsters.getRandomTrap(lvl);
+		dungeon.push(traps);
+		
 		dungeon.push("\n");
 		
 		var monsters = await randomMonsters.generateMonsters(biome, lvl);

@@ -17,36 +17,36 @@ const sleep = (ms) =>
 // sectors 6-10  should have 1d4 near, 1d4 vast
 // sectors 11-25 should have 1d8 vast 
 async function generateGalaxy(){
-	//await generateSector(1,2,"_testSector",10,1,true);
+	await generateSector(1,2,"_testSector",10,1,true);
 	// sleep(1000);
 	//await generateSector(1,2,"_testSector2",20,1,true);
 	
-	for(var i = 0; i < sectors_list.length; i++){
-		if(i == 0){
-			await generateSector(rollRange(4),0,sectors_list[i], 1, 1, true);
-			sleep(500);
-		}
-		if(i > 0 && i < 5){
-			await generateSector(rollRange(8),0,sectors_list[i], i, 1, false);
-			sleep(500);
-		}
-		if(i > 5 && i < 10){
-			await generateSector(rollRange(6),rollRange(4),sectors_list[i], i, 1, false);
-			sleep(500);
-		}
-		if(i > 10 && i < 15){
-			await generateSector(rollRange(4),rollRange(6),sectors_list[i], i, 1, false);
-			sleep(500);
-		}
-		if(i > 15 && i < 20){
-			await generateSector(0,rollRange(8),sectors_list[i], i, 1, false);
-			sleep(500);
-		}
-		if(i > 20 && i < 25){
-			await generateSector(0,rollRange(4),sectors_list[i], 20, 0, false);
-			sleep(500);
-		}
-	}
+	// for(var i = 0; i < sectors_list.length; i++){
+		// if(i == 0){
+			// await generateSector(rollRange(4),0,sectors_list[i], 1, 1, true);
+			// sleep(500);
+		// }
+		// if(i > 0 && i < 5){
+			// await generateSector(rollRange(8),0,sectors_list[i], i, 1, false);
+			// sleep(500);
+		// }
+		// if(i > 5 && i < 10){
+			// await generateSector(rollRange(6),rollRange(4),sectors_list[i], i, 1, false);
+			// sleep(500);
+		// }
+		// if(i > 10 && i < 15){
+			// await generateSector(rollRange(4),rollRange(6),sectors_list[i], i, 1, false);
+			// sleep(500);
+		// }
+		// if(i > 15 && i < 20){
+			// await generateSector(0,rollRange(8),sectors_list[i], i, 1, false);
+			// sleep(500);
+		// }
+		// if(i > 20 && i < 25){
+			// await generateSector(0,rollRange(4),sectors_list[i], 20, 0, false);
+			// sleep(500);
+		// }
+	// }
 } 
 
 // sectors should allocate locks and keys to systems
