@@ -1,0 +1,187 @@
+Telekinetic Projectile {0}
+Acidic Mist {1}
+Baleful Polymorph {1}
+Command {1}
+Confusion, lesser {1}
+Destructive Rebuke {1}
+Dream of Home {1}
+Eclipse Touch {1}
+Ectoplasmic Barrage {1}
+Embrace the Void {1}
+Fear {1}
+Furious Shriek {1}
+Memory Lapse {1}
+Mind Thrust {1}
+Polymorph {1}
+Psychic Sonar {1}
+Pyre Wreath {1}
+Slithering Chain {1}
+Soul Surge {1}
+Summon Creature {1}
+Tectonic Shift {1}
+Tripartite Beam {1}
+Volcanic Wrath {1}
+Wall of Fog {1}
+Atavistic Howl {2}
+Baleful Polymorph {2}
+Befuddled Gibberish {2}
+Crystal Eruption {2}
+Day's Weariness {2}
+Destructive Rebuke {2}
+Eclipse Touch {2}
+Ectoplasmic Barrage {2}
+Ectoplasmic Snare {2}
+Ego Whip {2}
+Embrace the Void {2}
+Fear {2}
+Fog Cloud {2}
+Force Blast {2}
+Furious Shriek {2}
+Hold Person {2}
+Hurl Forcedisk {2}
+Inflict Pain {2}
+Mind Thrust {2}
+Novelty Obsession {2}
+Paranoia {2}
+Polymorph {2}
+Psychic Sonar {2}
+Reject Augmentation {2}
+Song of the Cosmos {2}
+Soul Surge {2}
+Summon Creature {2}
+Tectonic Shift {2}
+Temporal Shudder {2}
+Verdant Blast {2}
+Volcanic Wrath {2}
+Wall of Steam {2}
+Baleful Polymorph {3}
+Baleful Synesthesia {3}
+Battle Sonata {3}
+Bestow Curse {3}
+Burning Ash Cloud {3}
+Daegoxian Spore Cloud {3}
+Deep Slumber {3}
+Destructive Rebuke {3}
+Divine Aspect {3}
+Eclipse Touch {3}
+Ectoplasmic Barrage {3}
+Embrace the Void {3}
+Fear {3}
+Forceful Fling {3}
+Furious Shriek {3}
+Gravity Tether {3}
+Grim Insight {3}
+Id Insinuation {3}
+Irradiate {3}
+Mental Block {3}
+Mind Thrust {3}
+Nightmare {3}
+Petal Storm {3}
+Phantasmal Maze {3}
+Pocket Vacuum {3}
+Polar Vortex {3}
+Polymorph {3}
+Psychic Sonar {3}
+Psykinetic Strangulation {3}
+Ray of Exhaustion {3}
+Slip Through Space {3}
+Slow {3}
+Soul Surge {3}
+Suggestion {3}
+Summon Creature {3}
+Synaptic Pulse {3}
+Tectonic Shift {3}
+Time's Edge {3}
+Tripartite Beam, Greater {3}
+Umbral Tendrils {3}
+Viral Destruction {3}
+Void Whispers {3}
+Volcanic Wrath {3}
+Warpwave {3}
+Baleful Polymorph {4}
+Baleful Polymorph, Mass {4}
+Confusion {4}
+Cosmic Eddy {4}
+Destructive Rebuke {4}
+Eclipse Touch {4}
+Ectoplasmic Barrage {4}
+Ectoplasmic Eruption {4}
+Elemental Convergence {4}
+Embrace the Void {4}
+Enervation {4}
+Fear {4}
+Furious Shriek {4}
+Grasping Brambles {4}
+Gravity Well {4}
+Magic Seal {4}
+Miasma {4}
+Mind Thrust {4}
+Plasma Field {4}
+Polymorph, Mass {4}
+Psychic Sonar {4}
+Slip Through Space {4}
+Song of the Cosmos, Greater {4}
+Sonic Scream {4}
+Soul Reap {4}
+Soul Surge {4}
+Summon Creature {4}
+Void Grasp {4}
+Volcanic Wrath {4}
+Wonder Warp {4}
+Baleful Polymorph {5}
+Baleful Polymorph, Mass{5}
+Call Cosmos {5}
+Command, Greater {5}
+Crush Skull {5}
+Destructive Rebuke {5}
+Dominate Person {5}
+Eclipse Touch {5}
+Ectoplasmic Barrage {5}
+Embrace the Void {5}
+Feeblemind {5}
+Furious Shriek {5}
+Gaze into Darkness {5}
+Hailstorm {5}
+Mind Thrust {5}
+Polymorph, Mass {5}
+Psychic Sonar {5}
+Slip Through Space {5}
+Soul Surge {5}
+Subzero Clutch {5}
+Summon Creature {5}
+Synaptic Pulse, Greater {5}
+Unravel Magic {5}
+Volcanic Wrath {5}
+Wave of Warning {5}
+Wave of Fatigue {5}
+Weight of Ages {5}
+Antimagic Burst {6}
+Baleful Polymorph {6}
+Baleful Polymorph, Mass {6}
+Channel the Outer Sphere {6}
+Control Gravity {6}
+Destructive Rebuke {6}
+Eclipse Touch {6}
+Ectoplasmic Barrage {6}
+Embrace the Void {6}
+Fist of Damoritosh {6}
+Furious Shriek {6}
+Glimpse the End {6}
+Gravitation Singularity {6}
+Inflict Pain, Mass {6}
+Magic Seal, Greater {6}
+Mind Thrust {6}
+Polymorph {6}
+Polymorph, Mass {6}
+Psychic Sonar {6}
+Slip Through Space {6}
+Snuff Life {6}
+Soul Surge {6}
+Star Storm {6}
+Star Touch {6}
+Star Wall {6}
+Subjective Reality {6}
+Suggestion, Mass {6}
+Summon Corpse {6}
+Summon Creature {6}
+Volcanic Wrath {6}

@@ -220,5 +220,4 @@ module.exports = {
 function rollRange(r){
     return Math.floor(Math.random() * r) + 1;
 }
-
-// generate5RD("Weird", 6, 4, 2, 50, 1, 50);
+//generate5RD("Aquatic", 3, 4, 2, 50, 1, 50);

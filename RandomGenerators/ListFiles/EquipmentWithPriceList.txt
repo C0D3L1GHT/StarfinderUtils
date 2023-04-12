@@ -1,0 +1,3687 @@
+basic Tactical Shield {250}
+basic Riot Shield {300}
+basic Dousing Shield {900}
+basic Knight’s Shield {1500}
+basic Gravity Shield {2100}
+electroplax Deterrence Scale {2200}
+field Tactical Shield {2500}
+basic Irising Shield {850}
+green Rageshokor Shield {4250}
+field Irising Shield {4350}
+amperometric Deterrence Scale {9400}
+field Dousing Shield {6800}
+field Knight’s Shield {9500}
+field Gravity Shield {13500}
+advanced Tactical Shield {17250}
+advanced Irising Shield {25000}
+advanced Riot Shield {18000}
+galvanic Deterrence Scale {34600}
+rock Rageshokor Shield {37500}
+advanced Dousing Shield {36800}
+advanced Knight’s Shield {50000}
+elite Tactical Shield {100000}
+elite Riot Shield {125000}
+advanced Gravity Shield {73000}
+voltaic Deterrence Scale {178800}
+field Riot Shield {3000}
+elite Dousing Shield {256000}
+elite Knight’s Shield {400000}
+elite Irising Shield {256000}
+elite Gravity Shield {570000}
+paragon Tactical Shield {800000}
+paragon Riot Shield {900000}
+Many-mien Shield {555000}
+MK 1 Ability Crystal (Magic) {1400}
+MK 1 Synaptic Accelerators (Technology) {1400}
+MK 1 Synergizing Symbiote (Hybrid) {1400}
+MK 2 Synaptic Accelerators (Technology) {6500}
+MK 3 Ability Crystal (Magic) {75000}
+MK 2 Synergizing Symbiote (Hybrid) {6500}
+MK 3 Synaptic Accelerators (Technology) {75000}
+MK 2 Ability Crystal (Magic) {6500}
+MK 3 Synergizing Symbiote (Hybrid) {75000}
+Mk1 Black Heart {200}
+Mk2 Black Heart {4000}
+Mk1 Bone Blade {200}
+Mk3 Black Heart {30000}
+Mk4 Black Heart {350000}
+Mk5 Black Heart {775000}
+Mk3 Bone Blade {30000}
+Mk4 Bone Blade {350000}
+Mk1 Corpseskin {200}
+Mk5 Bone Blade {775000}
+Mk2 Corpseskin {4000}
+Mk3 Corpseskin {30000}
+Mk4 Corpseskin {350000}
+Mk1 Crypt Marrow {200}
+Mk5 Corpseskin {775000}
+Mk2 Crypt Marrow {4000}
+Mk3 Crypt Marrow {30000}
+Mk5 Crypt Marrow {775000}
+Mk4 Crypt Marrow {350000}
+Mk1 Enervating Hand {200}
+Mk3 Enervating Hand {30000}
+Mk4 Enervating Hand {350000}
+Mk2 Enervating Hand {4000}
+Mk5 Enervating Hand {775000}
+Mk1 Ghoul Glands {200}
+Mk3 Ghoul Glands {30000}
+Mk2 Ghoul Glands {4000}
+Mk4 Ghoul Glands {350000}
+Mk5 Ghoul Glands {775000}
+Mk1 Grave Wind {200}
+Mk2 Grave Wind {4000}
+Mk2 Bone Blade {4000}
+Mk5 Grave Wind {775000}
+Mk1 Hollowed Drums {200}
+Mk2 Hollowed Drums {4000}
+Mk4 Grave Wind {350000}
+Mk3 Hollowed Drums {30000}
+Mk4 Hollowed Drums {350000}
+Mk3 Grave Wind {30000}
+Mk1 Keening Larynx {200}
+Mk2 Keening Larynx {4000}
+Mk3 Keening Larynx {30000}
+Mk5 Hollowed Drums {775000}
+Mk5 Keening Larynx {775000}
+Mk4 Keening Larynx {350000}
+Mk2 Moonlight Fibers {4000}
+Mk3 Moonlight Fibers {30000}
+Mk4 Moonlight Fibers {350000}
+Mk1 Moonlight Fibers {200}
+Mk1 Necrocortex {200}
+Mk2 Necrocortex {4000}
+Mk4 Necrocortex {350000}
+Mk3 Necrocortex {30000}
+Mk5 Necrocortex {775000}
+Mk1 Phantom Basal Ganglia {200}
+Mk2 Phantom Basal Ganglia {4000}
+Mk3 Phantom Basal Ganglia {30000}
+Mk4 Phantom Basal Ganglia {350000}
+Mk5 Phantom Basal Ganglia {775000}
+Mk5 Moonlight Fibers {775000}
+Mk2 Shadow Nerves {4000}
+Mk3 Shadow Nerves {30000}
+Mk5 Shadow Nerves {775000}
+Mk4 Shadow Nerves {350000}
+Mk1 Shuffling Feet {200}
+Mk2 Shuffling Feet {4000}
+Mk3 Shuffling Feet {30000}
+Mk5 Shuffling Feet {775000}
+Mk1 Shadow Nerves {200}
+Mk1 Squirming Entrails {200}
+Mk2 Squirming Entrails {4000}
+Mk3 Squirming Entrails {30000}
+Mk4 Squirming Entrails {350000}
+Mk5 Squirming Entrails {775000}
+Mk1 Stench Glands {200}
+Mk2 Stench Glands {4000}
+Mk3 Stench Glands {30000}
+Mk4 Stench Glands {350000}
+Mk1 Undead Adrenal Gland {200}
+Mk2 Undead Adrenal Gland {4000}
+Mk3 Undead Adrenal Gland {30000}
+Mk5 Stench Glands {775000}
+Mk4 Undead Adrenal Gland {350000}
+Mk5 Undead Adrenal Gland {775000}
+Mk4 Shuffling Feet {350000}
+Mk1 Vampire Voice {200}
+Mk3 Vampire Voice {30000}
+Mk4 Vampire Voice {350000}
+Mk5 Vampire Voice {775000}
+Mk2 Vampire Voice {4000}
+Mk2 Whispering Gyrus {4000}
+Mk3 Whispering Gyrus {30000}
+Mk4 Whispering Gyrus {350000}
+Mk1 Whispering Gyrus {200}
+Mk5 Whispering Gyrus {775000}
+Mk2 Withered Lungs {4000}
+Mk3 Withered Lungs {30000}
+Mk4 Withered Lungs {350000}
+Mk1 Withered Lungs {200}
+Mk1 Wraith Motes {200}
+Mk2 Wraith Motes {4000}
+Mk4 Wraith Motes {350000}
+Mk5 Withered Lungs {775000}
+Mk5 Wraith Motes {775000}
+Mk3 Wraith Motes {30000}
+Standard Prosthetic Limb {100}
+Basic Weapon Learning Subroutine {125}
+Standard Hideaway Limb {150}
+Voice Amplifier {125}
+Single Society Subdermal Graft {150}
+Anosmatic Shunt {120}
+Respiration Compounder {250}
+Vocal Modulator {125}
+Haptic Database {500}
+Lightvision Shades {500}
+Bronchial Valves {700}
+Standard Datajack {625}
+Thruster Heels {1250}
+Minimal Spinal Struts {1260}
+Retinal Reflectors {1350}
+Charge Palm {350}
+Storage Prosthetic Limb {1450}
+Azimuth Optical Laser {1530}
+Minimal Speed Suspension {1900}
+Standard Darkvision Capacitors {1750}
+Fortified Feet {1850}
+Basic Pheromap {1300}
+Mk 1 Threshold Buffer {2080}
+Mk 1 Weaponized Prosthesis {2120}
+Primal Voice Encoder {2250}
+Emotional Regulator {2120}
+High-Density Datajack {2600}
+Mk 1 Solar Overload Conduit {2640}
+Bionic Knee {2750}
+Advanced Pheromap {2750}
+Wide-Spectrum Ocular Implant {2825}
+Mk 1 Dermal Plating {3025}
+Inner Gyros {2000}
+Quickdraw Hideaway Limb {3050}
+Standard Detoxifier {3500}
+Cardiac Accelerator {3850}
+Adaptive Fingerprints {4030}
+Advanced Weapon Learning Subroutine {4000}
+Standard Spinal Struts {4030}
+Basic X-Legs {4295}
+Mk 1 Biosynthetic Nanites {4450}
+Mk 1 Force Matrix {3300}
+Mk 1 Nanite Tempograft {4500}
+Reactive Echolocators {4450}
+Limning Palm {6300}
+Antitoxin Membrane {3000}
+Shortwave Receiver-Transmitter {6500}
+Polarizing Palm {5850}
+Mk 2 Dermal Plating {6950}
+Partitioned Personality Module {6800}
+Starship Neural Link {8500}
+Corona Optical Laser {7140}
+Accelerated Datajack {8525}
+Recoil Stabilizer {8550}
+Adrenal Booster {8900}
+Standard Speed Suspension {8800}
+Advanced Darkvision Capacitors {9000}
+Disquieting Nanites {10000}
+Illusion Refractor {7000}
+Mk 2 Threshold Buffer {13500}
+Mk 2 Weaponized Prosthesis {9250}
+Mk 2 Biosynthetic Nanites {13700}
+Mk 2 Solar Overload Conduit {16800}
+Mk 3 Dermal Plating {17975}
+Mk 2 Nanite Tempograft {10000}
+Artificial Third Eye {18000}
+Reinforced Spinal Struts {17640}
+Active Echolocators {13700}
+Soft-Light Holoframe {18000}
+Single Cybernetic Arm {24750}
+Aphelion Optical Laser {26520}
+Refraction Shell {25000}
+Mk 2 Force Matrix {26750}
+Complete Speed Suspension {32900}
+Sophisticate Voice Encoder {27500}
+Climbing X-Legs {35600}
+Linguistic Capacitor {33600}
+Thorgothrel Armature {25000}
+Mk 3 Nanite Tempograft {38000}
+Enhanced Detoxifier {39500}
+Mk 4 Dermal Plating {48850}
+Long-Range Darkvision Capacitors {48950}
+Enhanced Echolocators {50900}
+Tremor Soles {37000}
+Conductive Carrier {51000}
+Dual Cybernetic Arm {70150}
+Mk 3 Biosynthetic Nanites {50900}
+Mk 3 Threshold Buffer {110000}
+Polyhand {71000}
+Mk 3 Solar Overload Conduit {120000}
+Parallax Optical Laser {122400}
+Mk 6 Dermal Plating {163500}
+Mk 3 Force Matrix {278100}
+Mk 5 Dermal Plating {105000}
+Mk 7 Dermal Plating {542000}
+Cerebral backup {375000}
+Elite Detoxifier {612000}
+Zenith Optical Laser {612000}
+Polymath Graft {140}
+Carbonic Respiration Graft {150}
+Cold Inured Graft {150}
+Photosynthesis Graft {300}
+Applied Knowledge Graft {400}
+Balanced Graft {350}
+Hold Breath Graft {200}
+Skin Mimic Graft {450}
+Desert Stride Graft {480}
+Stealthy Swimmer Graft {550}
+Nimble Graft {375}
+Bulwark Graft {600}
+Partner Bond Graft {480}
+Electrolocation Graft {750}
+Natural Weapons Graft {1000}
+Maze Mind Graft {1200}
+Squirt Blood Graft {700}
+Bolt Graft {750}
+Heat Tracker Graft {1225}
+Stonecunning Graft {1250}
+Slow Fall Graft {1200}
+Defensive Ball Graft {1300}
+Eternal Hope Graft {1300}
+Communalism Graft {1300}
+Limited Telepathy Graft {1500}
+Absorb Force Graft {1350}
+Celestial Radiance Graft {1800}
+Lurker Graft {1250}
+Fiendish Gloom Graft {1800}
+Psychometry Graft {1875}
+Sneaky Graft {1300}
+Beguiling Glow Graft {1900}
+Tinker Graft {1800}
+Void Flyer Graft {2000}
+Elven Immunities Graft {2100}
+Retract Graft {2100}
+Hyper Graft {2125}
+Atmospheric Alteration Graft {2750}
+Resist Energy Drain Graft {2800}
+Amplify Graft {2000}
+Armor Savant Graft {3000}
+Gambler's Risk {3100}
+Ferocity Graft {3000}
+Strix Mobility Graft {3100}
+Upgrade Slot Graft {2700}
+Lashunta Magic Graft {3200}
+Cheek Pouches Graft {3900}
+Shielded Thoughts Graft {4225}
+Ferocious Charge Graft {4250}
+Impel Truth Graft {4000}
+Kanabo Magic Graft {3900}
+Rolling Charge Graft {4400}
+Atmospheric Adaptation Graft {4500}
+Force Bolt Graft {4300}
+Dessamar Magic Graft {6200}
+Hardened Mantle Graft {9000}
+Snag Graft {4400}
+Psychic Shunt Graft {9000}
+Electrical Affinity Graft {9500}
+Lithic Graft {8500}
+Early Stage Adaptation Graft {13000}
+Grave Touch Graft {17000}
+Phase Graft {17500}
+Prehensile Tail Graft {24750}
+Buoy Graft {9500}
+Tactical Disposal Blade {300}
+Standard Longsword {375}
+Assault Hammer {95}
+Tactical Manica {360}
+Standard Taclash {240}
+Injection Glove {490}
+Chert Gnome Flickmace {700}
+Standard Needler Estoc {175}
+Ascetic Velstrac Flenser {550}
+Hook Sword {1420}
+Ghoulish Painclaw {1250}
+Thunderstrike Snap Whip {1600}
+Drone Talon {2400}
+Iridia Spectra Blade {1500}
+Warfan {3070}
+Tactical Battleaxe {2650}
+Diffuse Hardlight Hand Wrap {3180}
+Tactical Thresherblade {3200}
+Living Lash {4150}
+Second Countdown Blade {4200}
+Tactical Starknife {110}
+Advanced Disposal Blade {4250}
+Advanced Manica {4280}
+Tactical Mindspike {4400}
+Sharp-pointed Needler Estoc {4000}
+Fangblade {5430}
+Tactical Gearhammer {6000}
+Century Epoch Spear {6800}
+Sintered Longsword {8420}
+Tactical Doshakari {4300}
+LFD Snap Whip {10100}
+Wyspiria Spectra Blade {10000}
+Singer Velstrac Flenser {6600}
+Warrior Talon {10500}
+Gneiss Gnome Flickmace {12500}
+Tactical Polylash {7000}
+Ambient Hardlight Hand Wrap {13100}
+Microserrated Thresherblade {13800}
+Microserrated Longsword {12100}
+Minute Countdown Blade {18500}
+Advanced Doshakari {18500}
+Comet Hammer {16900}
+Microserrated Mindspike {18450}
+Hyper-pointed Needler Estoc {17500}
+Millennium Epoch Spear {24000}
+Ultrathin Disposal Blade {25000}
+Ultrathin Longsword {26300}
+Elite Manica {25600}
+Sintered Starknife {9810}
+Demonic Painclaw {25000}
+Advanced Polylash {25500}
+Advanced Gearhammer {33800}
+Numbing Taclash {24800}
+Accelerated Starknife {40400}
+Debater Velstrac Flenser {37600}
+Static Fractal Hook {32000}
+Grindblade {45700}
+HFD Snap Whip {54000}
+Ultrathin Doshakari {51500}
+Nanoserrated Thresherblade {50300}
+Knight Talon {39100}
+Natural Hardlight Hand Wrap {75000}
+Zero-Edge Longsword {79500}
+Nanoserrated Mindspike {77800}
+Ultra-pointed Needler Estoc {67000}
+Sondria Spectra Blade {52000}
+Eon Epoch Spear {112000}
+Monowhip {107000}
+Hour Countdown Blade {113000}
+Zero-Edge Disposal Blade {170000}
+Dacite Gnome Flickmace {160000}
+Zero-Edge Doshakari {175000}
+Meteoric Hammer {164500}
+Lightspeed Starknife {183400}
+Paragon Manica {172600}
+Queen Talon {195000}
+Elite Polylash {110000}
+Fluorescent Hardlight Hand Wrap {250000}
+Ultraserrated Thresherblade {268650}
+Molecular Rift Longsword {245200}
+Dynamic Fractal Hook {360000}
+Recluse Velstrac Flenser {261360}
+Ultraserrated Mindspike {382100}
+Supreme-pointed Needler Estoc {342000}
+Ultraserrated Longsword {368100}
+Aspecna Spectra Blade {390000}
+Paragon Gearhammer {375000}
+Molecular Rift Doshakari {575000}
+Banshee Snap Whip {445000}
+Gravity Well Hammer {551000}
+Draconic Painclaw {560000}
+Paragon Polylash {575000}
+Incandescent Hardlight Hand Wrap {880000}
+Dimensional Slice Longsword {727300}
+Dimensional Slice Starknife {602200}
+Master-pointed Needler Estoc {750000}
+Undercover Ice Needle {330}
+Eternity Epoch Spear {580000}
+Personal Cryospike {1100}
+God Talon {925000}
+Skeletal Tomb Claw {777}
+Tempest Gale Baton {4240}
+Chill Bone Scepter {1490}
+Furitive Ice Needle {3140}
+Frostbite-Class Zero Knife {2810}
+Hailstorm-Class Zero Knife {5540}
+Void Bone Scepter {9850}
+Residential Cryospike {13700}
+Cyclone Gale Baton {24500}
+Artifice Ice Needle {18400}
+Blizzard-Class Zero Knife {32400}
+Rigor Bone Scepter {51800}
+Ghoulish Tomb Claw {6510}
+Espionage Ice Needle {74100}
+Industrial Cryospike {114000}
+Avalanche-Class Zero Knife {145000}
+Vampiric Tomb Claw {36330}
+Hurrican Gale Baton {245000}
+Subterfuge Ice Needle {384000}
+Icequake-Class Zero Knife {729000}
+Cadaver Bone Scepter {598000}
+Decimator Disintegration Lash {9800}
+Liquidator Disintegration Lash {1450}
+Executioner Disintegration Lash {113000}
+Eradicator Disintegration Lash {850000}
+Junk Censer {125}
+Mk 1 Heat-Amp Gauntlet {500}
+Strain-Gauge Resistance Rod {510}
+Luminous Pyrod {1300}
+Lich Tomb Claw {170100}
+Rhyolite Magma Blade {2300}
+Low-Heat Searing Grip {3010}
+Mk 2 Heat-Amp Gauntlet {7500}
+Distortion Mirage Dagger {4450}
+Thermistor Resistance Rod {12600}
+Torch Pyrod {13500}
+Tactical Skyfire Sword {6120}
+Mk 3 Heat-Amp Gauntlet {33200}
+Andesite Magma Blade {10900}
+High-Heat Searing Grip {25200}
+Hallucination Mirage Dagger {50800}
+Piezoresistor Resistance Rod {31500}
+Mk 4 Heat-Amp Gauntlet {178250}
+Induction Resistance Rod {94200}
+Basalt Magma Blade {79400}
+Beacon Pyrod {164000}
+Weaponized Searing Grip {364000}
+Inferno Skyfire Sword {246000}
+Illusion Mirage Dagger {897000}
+Plagioclase Magma Blade {610000}
+Harmonic Locus Blade {3300}
+Interference Locus Blade {13200}
+Utility Welder {300}
+Infrasonic Locus Blade {52800}
+Ultrasonic Locus Blade {307000}
+Movanic Angel Wing {1890}
+Red Star Solar Brand {790}
+Red Star Plasma Lash {1550}
+Yellow Star Solar Brand {4250}
+Monadic Angel Wing {5500}
+Astral Angel Wing {17100}
+Yellow Star Plasma Lash {11000}
+Industrial Welder {3100}
+White Star Solar Brand {35200}
+Yellow Star Plasma Sword {127000}
+White Star Plasma Lash {80500}
+Starship Welder {25800}
+Offensive Welder {164000}
+Tactical Plasma Sword {14550}
+Blue Star Solar Brand {245000}
+Blue Star Plasma Sword {920250}
+Runner Spark Knife {390}
+Blue Star Plasma Lash {912000}
+Red Star Plasma Sword {54300}
+Live Glass Blade {1230}
+White Star Plasma Sword {415600}
+Electroplax Neural Lash {2230}
+Recruit Spark Knife {3070}
+Static Electrovore Glove {750}
+Aurora Electrovore Glove {6250}
+Aurora Shock Pad {4900}
+Jolt Glass Blade {5440}
+Amperometric Neural Lash {14600}
+Static Shock Pad {1100}
+Crew Spark Knife {18200}
+Aurora Shock Truncheon {23000}
+Storm Electrovore Glove {49000}
+Storm Shock Pad {37500}
+Impulse Glass Blade {46500}
+Static Shock Truncheon {9150}
+Boss Spark Knife {112000}
+Galvanic Neural Lash {79400}
+Tempest Electrovore Glove {375000}
+Surge Glass Blade {327000}
+Storm Shock Truncheon {80200}
+Tempest Shock Truncheon {545000}
+Thunderstrike Pulse Gauntlet {475}
+Tempest Shock Pad {268000}
+Voltaic Neural Lash {909000}
+Sopranino Singing Disk {115}
+Thunderstrike Boomknuckles {1400}
+Tymbal Wailing Blade {1270}
+Harmonic Shrieking Knife {2180}
+Soprano Singing Disk {3900}
+Cellular Resonant Gauntlet {3230}
+Euphonic Wailing Blade {9080}
+LFD Boomknuckles {4350}
+Interference Shrieking Knife {13700}
+LFD Pulse Gauntlet {7340}
+Molecular Resonant Gauntlet {19900}
+Alto Singing Disk {23600}
+HFD Pulse Gauntlet {31300}
+Strident Wailing Blade {47100}
+Infrasonic Shrieking Knife {77400}
+Atomic Resonant Gauntlet {124000}
+HFD Boomknuckles {36700}
+Tenor Singing Disk {146000}
+Banshee Pulse Gauntlet {148200}
+Warbler Wailing Blade {363000}
+Ultrasonic Shrieking Knife {259000}
+Bass Singing Disk {482000}
+Banshee Boomknuckles {380000}
+Quantum Resonant Gauntlet {901000}
+Technopathy Node {220}
+Basic Morphic Skin {370}
+Mk 1 Intercepting Ears {1225}
+Mk 1 Gravitational Harness {515}
+Fascinating Psychoactive Eyes {965}
+Standard Galeforce Lungs {1300}
+Nimble Soles {2000}
+Advanced Morphic Skin {2030}
+Mk 1 Force Soles {2260}
+Basic Psychic Strike Node {2100}
+Follower Velstrac Shackle {1200}
+Selective Ears {2830}
+Charged Skin {3075}
+Experimental Dimensional Gland {3100}
+Mk 1 Rune-Etched Chitin {3175}
+Apprentice Ley Veins {3900}
+Charming Psychoactive Eyes {4250}
+Doppelganger Morphic Skin {4400}
+Standard Resonant Larynx {4400}
+Restless Pineal Gland {5500}
+Synchronous Heart {6300}
+Fluttering Heart {8220}
+Acolyte Velstrac Shackle {9100}
+Ecstasy Mask {7000}
+Deception Node {9500}
+Mk 2 Gravitational Harness {12700}
+Gust Galeforce Lungs {12900}
+Mk 2 Force Soles {10700}
+Mk 2 Rune-Etched Chitin {9700}
+Dispelling Hand {14300}
+Mk 2 Intercepting Ears {13600}
+Personal Stasis Unit {113000}
+Standard Cloaking Skin {18000}
+Standard Psychic Strike Node {13500}
+Mk 1 Holographic Eyes {18300}
+Mk 3 Rune-Etched Chitin {25200}
+Monofrequency Enchanting Vocal Modulator {25400}
+Penitent Velstrac Shackle {25000}
+Arcane Lenses {25900}
+Advanced Resonant Larynx {25500}
+Divining Mirror Neurons {36400}
+Dimensional Braces {38000}
+Adept Ley Veins {32000}
+Storm Galeforce Lungs {49000}
+Mk 1 Wing Extensions {18500}
+Mk 2 Holographic Eyes {49700}
+Immersive Dimensional Gland {50000}
+Duofrequency Enchanting Vocal Modulator {66500}
+Force Palms {69500}
+Advanced Psychic Strike Node {73000}
+Sciatic Agonizer {75000}
+Aeon Eye {46000}
+Mk 4 Rune-Etched Chitin {77000}
+Ecclesiastic Velstrac Shackle {102000}
+Psychokinetic Sleeve {75000}
+Mk 1 Antimagic Skin {109400}
+Mk 3 Gravitational Harness {118500}
+Planar Lenses {122000}
+Heart of Darkness {145000}
+Mk 2 Antimagic Skin {170800}
+Mk 1 Scuttle Engine {170800}
+Anchored Arms {170800}
+Mk 2 Wing Extensions {175000}
+Quadfrequency Enchanting Vocal Modulator {225000}
+Aeon Gage {200000}
+Mk 5 Rune-Etched Chitin {263000}
+Mk 3 Holographic Eyes {266000}
+Mk 3 Antimagic Skin {263000}
+Greater Cloaking Skin {270000}
+Control Mirror Neurons {365000}
+Archmage Ley Veins {325000}
+Devotional Velstrac Shackle {431000}
+Hurricane Galeforce Lungs {545000}
+Elite Psychic Strike Node {557000}
+Mk 4 Antimagic Skin {388000}
+Mk 2 Scuttle Engine {587800}
+Mk 4 Holographic Eyes {820000}
+Mk 5 Antimagic Skin {587000}
+Mk 6 Antimagic Skin {891000}
+Seismic Spine {1075,000}
+Mk 6 Rune-Etched Chitin {891000}
+Pressurized Lungs {130}
+Gill Sheath {95}
+Pressure Filter {150}
+Bioluminescent Skin {250}
+Restraining Spinneret {330}
+Wildwise {500}
+Angler’s Light {560}
+Photoenergetic Node {625}
+Mk 1 Resistant Hide {700}
+Wyrmling Dragon Gland {755}
+Harmonic Sonic Vocalizer {750}
+Adaptive Biochains {—}
+Climbing Suckers {1200}
+Flip Glands {1275}
+Swimming Fins {850}
+Mighty Vocal Cords {1275}
+Rescuing Healing Tendril {1400}
+Clinging Hands {1350}
+Ripcord Siphon {1750}
+Mk 2 Resistant Hide {1900}
+Mk 1 Focusing Membrane {1925}
+Venom Spur {625}
+Aqua-Empathic Lobe {2000}
+Ink Gland {2000}
+Slimelashes {1750}
+Mesoglea Tentacles {2000}
+Emotion Enhancement {2100}
+Glass Skin {2000}
+Jump Lobes {2100}
+Standard Rending Talons {2100}
+Shotalashu Link Cortex {2500}
+Tympanal Cluster {2150}
+Ocucloak Processor {2200}
+Machine Telepathy Cluster {2500}
+Caustic Acid Reservoir {2950}
+Drifter Ascendance Sac {2720}
+Chittering Psychic Chatter {3000}
+Salamander Flametongue {3150}
+Mk 1 Protean Response {3000}
+Mk 1 Regenerative Blood {3250}
+Bristling Bone Spines {2900}
+Growth Glands {3900}
+Mk 1 Filament Mesh {3450}
+Quyu Eye {3850}
+Stridulation Legs {3900}
+Skin of the Chameleon {4050}
+Eagle Eyes {4000}
+Panoptic Eyes {4100}
+Grasping Tentacle {4200}
+Cerebral Countermeasures {4200}
+Blinding Ink Sac {4500}
+Airjet {4000}
+Mk 1 Probability Tendril {6250}
+Mk 1 Unity Tendril {4200}
+Mk 3 Resistant Hide {5890}
+Thermal-Sensitive Eyes {6500}
+Resonant Sonic Vocalizer {6250}
+Strix Ultralight Wings {6400}
+Vengeful Ventricles {6300}
+Rejuvenating Healing Tendril {6600}
+Auxiliary Eyelids {8530}
+Moonflower Lightgraft {8500}
+Wind Rider Ascendance Sac {8800}
+Intensification Antennae {9500}
+Starhide {6600}
+Mk 2 Protean Response {9500}
+Sintered Rending Talons {9500}
+Neutralizer Lobe {9900}
+Mobility Tentacles {9900}
+Mk 2 Regenerative Blood {10100}
+Fungal Breath {9000}
+Warding Bone Spines {12900}
+Squealing Psychic Chatter {13000}
+Polyphonic Buffer {13200}
+Mk 2 Focusing Membrane {13260}
+Stasis Gland {12500}
+Hellhound Flametongue {13850}
+Mk 1 melding Healing Tendril {13800}
+Mk 2 Unity Tendril {17300}
+Mk 4 Resistant Hide {17000}
+Prehensile Tail {17900}
+Mk 2 Filament Mesh {17500}
+Electrostatic Spines {18000}
+Static Shock Fist {15600}
+Standard Dragon Gland {19125}
+Neuro-sensory Sac {18000}
+Mk 2 Probability Tendril {22500}
+Anharmonic Sonic Vocalizer {24500}
+Herbicidal Glands {19000}
+Stillheart {23100}
+Backup Lobe {23400}
+Eyes of the Seer {26000}
+Angel Ultralight Wings {28600}
+Vitriolic Acid Reservoir {12750}
+Microserrated Rending Talons {35000}
+Mk 3 Protean Response {25500}
+Pain Modulator {34600}
+Mk 3 Regenerative Blood {38500}
+Punishing Bone Spines {47900}
+Screaming Psychic Chatter {48500}
+Mk 2 melding Healing Tendril {50000}
+Firedrake Flametongue {51500}
+Mk 5 Resistant Hide {46350}
+Aurora Shock Fist {41400}
+Mk 3 Unity Tendril {63000}
+Mk 4 Protean Response {74000}
+Complex Superorgan {94000}
+Basic Superorgan {63000}
+Mk 3 Probability Tendril {115000}
+Thorough Superorgan {145000}
+Dragon Ultralight Wings {80300}
+Mk 4 Regenerative Blood {122000}
+Mk 3 melding Healing Tendril {170000}
+Zero-edge Rending Talons {164000}
+Parametric Sonic Vocalizer {162000}
+Mk 6 Resistant Hide {230850}
+Rebuking Bone Spines {242900}
+Shrieking Psychic Chatter {245000}
+Mk 5 Protean Response {255000}
+Storm Shock Fist {297000}
+Wyrm Dragon Gland {181500}
+Phoenix Flametongue {395000}
+Cleansing Breath {342000}
+Fluid Superorgan {218000}
+Disintegrating Acid Reservoir {495000}
+Mk 5 Regenerative Blood {605000}
+Amorphous Superorgan {480000}
+Radial Sonic Vocalizer {810000}
+Mk 6 Protean Response {850000}
+Tempest Shock Fist {1075,000}
+Flight Suit Stationwear {95}
+Recruit Shobhad Harness {150}
+Nascent Flight Skin {230}
+I Estex Suit {410}
+Utility EJ Coverall {230}
+I Preserver's Mantle {520}
+I Zeizerer Diffractor {650}
+Second Skin {250}
+I Kasatha Microcord {460}
+Industrial EJ Coverall {900}
+I Freebooter Armor {750}
+I Vesk Brigandine {950}
+Hardened Resin {1200}
+Graphite Carbon Skin {1220}
+I ThermSkin {1275}
+I Skitterhide {1200}
+Casual Stationwear {1300}
+I Clearweave {1350}
+I Regimental Dress {1450}
+Chewing Devourer’s Skin {1500}
+Camping Gear I {1850}
+Devwear I {1400}
+Basic Lashunta Tempweave {1950}
+Veteran Shobhad Harness {1850}
+I Peacekeeper’s Aegis {2000}
+I Autoencoded Veil {2100}
+Basic Acrochor Hide {2100}
+Enlisted Grave Mantle {2100}
+Basic Defrex Hide {2250}
+Slicer Exochitin {2100}
+Troupesuit I {2600}
+Business Stationwear {2600}
+II Estex Suit {2700}
+II Vesk Brigandine {2650}
+I D-Suit {2980}
+I Plexigrass Bodysuit {2700}
+Synthetic Ursikka Carapace {4000}
+Foray Flight Skin {3350}
+II Kasatha Microcord {3670}
+Elite Stationwear {4100}
+Ysoki Refractor Suit {4120}
+I Lashunta Mind Mail {4250}
+II Freebooter Armor {4720}
+Basic Polyplate {4200}
+II Zeizerer Diffractor {4150}
+III Estex Suit {5500}
+Basic Dust Manta Hide {5150}
+II ThermSkin {5900}
+II Preserver's Mantle {6400}
+Silver AbadarCorp Travel Suit {7250}
+II D-Suit {6900}
+Gnawing Devourer’s Skin {8000}
+Sprite Feyguard {6600}
+Azlanti Royal Battle Regalia {8000}
+Advanced Acrochor Hide {8250}
+II Peacekeeper’s Aegis {8100}
+Advanced Lashunta Tempweave {8500}
+SpecOps Armor Aeon Guard {7500}
+Warleader Shobhad Harness {8600}
+III Vesk Brigandine {8800}
+Mature Defrex Hide {9000}
+III Kasatha Microcord {9000}
+II Skitterhide {12500}
+Gold AbadarCorp Travel Suit {12100}
+II Autoencoded Veil {9500}
+III Zeizerer Diffractor {12500}
+Basic Ursikka Hide {12500}
+II Clearweave {13150}
+II Plexigrass Bodysuit {13500}
+I Shiftskin {13850}
+Giant Scrapchain {14500}
+III Freebooter Armor {16900}
+Specialist Grave Mantle {17950}
+III D-Suit {13300}
+Advanced Polyplate {17400}
+II Regimental Dress {18600}
+Dream Flight Skin {15000}
+White Carbon Carbon Skin {19650}
+IV Vesk Brigandine {23500}
+I Void Hide {20000}
+IV Kasatha Microcord {23800}
+II Lashunta Mind Mail {24500}
+Dryad Feyguard {24000}
+Gnashing Devourer’s Skin {25000}
+Traditional Ursikka Carapace {41000}
+III ThermSkin {21800}
+Advanced Defrex Hide {33000}
+Platinum AbadarCorp Travel Suit {30750}
+III Preserver's Mantle {35400}
+III Peacekeeper’s Aegis {33500}
+Elite Acrochor Hide {28000}
+III Autoencoded Veil {36500}
+Squad Hardlight Series {37500}
+Advanced Dust Manta Hide {43250}
+Advanced Ursikka Hide {46500}
+Chieftain Shobhad Harness {46900}
+IV Zeizerer Diffractor {48500}
+Behemoth Scrapchain {49750}
+IV Estex Suit {49250}
+IV Freebooter Armor {60600}
+III Plexigrass Bodysuit {51000}
+Elite Polyplate {65000}
+Ready to Wear Echelon Fashion {71300}
+IV D-Suit {45800}
+II Shiftskin {76830}
+Venture Flight Skin {77000}
+Vivisector Exochitin {75500}
+Swarmsuit {95200}
+Nymph Feyguard {97500}
+II Void Hide {90000}
+V Vesk Brigandine {99900}
+Shotalashu Armor {149500}
+Elite Hardlight Series {123500}
+IV ThermSkin {120000}
+III Skitterhide {144000}
+Elite Defrex Hide {142000}
+III Lashunta Mind Mail {166500}
+Elite Ursikka Hide {240000}
+VI Autoencoded Veil {175000}
+Diamond Carbon Skin {126400}
+Officer Grave Mantle {256500}
+Masticating Devourer’s Skin {275000}
+V Zeizerer Diffractor {340000}
+Titan Scrapchain {256000}
+Paragon Polyplate {345000}
+Bespoke Echelon Fashion {285000}
+III Regimental Dress {387000}
+Conglomeration Flight Skin {400000}
+V Freebooter Armor {367650}
+VI D-Suit {552000}
+III Void Hide {382500}
+Decapitator Exochitin {585000}
+IV Lashunta Mind Mail {556000}
+Nanotube Carbon Skin {825000}
+V D-Suit {244300}
+Erlking Feyguard {555000}
+V Autoencoded Veil {850000}
+III Shiftskin {886500}
+Specialist Hardlight Series {928000}
+Cleanliness Circuits {50}
+Attablossom {150}
+Dust Goggles {120}
+Locus Comm {11500}
+Instant Ground {25}
+Kvashbark Cartography Kit {30}
+Plant Shield Amulet {300}
+Shotalashu Saddle {300}
+Starstone Compass {3}
+Planar Flare {75}
+Mk 1 Absolute Compass {250}
+Sweet Dreambot {145}
+Mk 1 Defensive Threads {50}
+Thermal Regulator {150}
+Tier 1 Software Imp {400}
+Mk 1 Sense Silk {50}
+Phaserod {800}
+Mk 1 Earrings of Dampening {800}
+Portrait Empathic Depiction {750}
+Mk 1 Mask of Scrambling {755}
+Silver Metal Nitro {175}
+Mk 1 Mindlink Circlet {1600}
+Lesser Shadowstaff {500}
+Mk I Proton Snare {500}
+Alluvion Theodolite {1750}
+Book of Predilections {1500}
+Deoxy Pellet {250}
+Extra Seat {1400}
+Intonation Pendant {1250}
+Motion-Detection Badge {1350}
+Redundancy Belt {1200}
+Starlight Flute {1400}
+Suspension Pill {250}
+Mk 1 Animistic Tools {1350}
+Mk 1 Hivejack {1500}
+Basic Enercycle Instant Vehicle {500}
+Exploration Buggy Instant Vehicle {650}
+Torpedo Minisub Instant Vehicle {800}
+Mk 1 Mind Memory Chip {1435}
+Mk 1 Null-space Kennel {1300}
+Tier 2 Software Imp {1400}
+Basic Mindshield Circlet {1350}
+Mk 1 Wetware Bug {255}
+Animated Trapsmith's Tools {2000}
+Efficient Bandolier {2000}
+Drain Grenade {700}
+Gravitic Modulator {2200}
+Everlength Rope {820}
+Lightning Gatherer {2250}
+Mk 1 Ablative Insulation {350}
+Mk 2 Absolute Compass {1800}
+Mk 1 Computer Idol {1850}
+Mk 1 Creator Capsule {2000}
+Bust Empathic Depiction {2200}
+Mk 1 Fearmonger {2000}
+Mk 1 Prescient Lenses {2150}
+Mk 2 Sense Silk {250}
+Mk 1 Telespectrum Circlet {2400}
+Beast Vital Seed {650}
+Astral Transponder {3500}
+Everlatch Rope {2600}
+Digital Harrow Deck {3500}
+Fung-eye Goggles {2800}
+Null-Space Tumor {3050}
+Swarm Battery {550}
+Mk 1 Current Generator {2750}
+Mk 1 Emergency Life Shell {480}
+Ultralight Turboglider Instant Vehicle {1100}
+Mk 2 Mask of Scrambling {3100}
+Mk 1 Mnemonic Editor {500}
+Mk 1 Null-Space Chamber {3050}
+Mk II Proton Snare {2200}
+Tier 3 Software Imp {2800}
+Basic Universal Solvent {500}
+Darkwater Grenade {1400}
+Face Replicator {4250}
+Immobilizer {4000}
+Phase Detector {4000}
+Tactokinesis Gloves {4450}
+Statue Empathic Depiction {4500}
+Mk 1 Holding Gloves {4250}
+Gold Metal Nitro {675}
+Mk 1 Scrambler Gloves {4500}
+Mk 2 Wetware Bug {630}
+Ancestor Drone {6500}
+Breath-Stealer Mask {6800}
+Autopsic Scanner {6300}
+Motospheres (pack of 4) {5600}
+Mk 2 Animistic Tools {5500}
+Mi-Go Hollowskin {5500}
+Mk 2 Defensive Threads {7550}
+Mk 2 Earrings of Dampening {6500}
+Mk 1 Mindshield Circlet {6250}
+Mk I Matter Converter {7000}
+Mk 2 Null-space Kennel {6000}
+Mk 1 Retrieval Charms {6500}
+Tier 4 Software Imp {6000}
+Static Glider {1800}
+Allegiance Collar {10000}
+Dimensional Fetters {9200}
+Dromada Clutch {9200}
+Memory Crypt {9500}
+Mi-Go Brain Cylinder {10000}
+Void Projector {8500}
+Vampiric Charger {10000}
+Staff of Nuclear Vengeance {10500}
+Mk 2 Ablative Insulation {1500}
+Mk 2 Computer Idol {8500}
+Mk 2 Emergency Life Shell {1500}
+Mk 2 Creator Capsule {9000}
+Mk 2 Fearmonger {9300}
+Pump-Jet Sub Instant Vehicle {3800}
+All-Terrain Transport Instant Vehicle {2500}
+Mk 1 Kinetic Converter {10500}
+Mk 2 Mind Memory Chip {9850}
+Mk 2 Mindlink Circlet {11000}
+Standard Shadowstaff {10000}
+Mk 3 Sense Silk {11000}
+Adjudicator's Eye {12500}
+Advanced Aspis Badge {8500}
+Entropy Gloves {13000}
+Red Dwarf Captive-Star Amulet {14500}
+Psychic Booster {2000}
+Mk 2 Hivejack {13750}
+Mk 3 Mask of Scrambling {13200}
+Mk 2 Null-Space Chamber {12250}
+Mk 2 Prescient Lenses {13900}
+Mk III Proton Snare {8200}
+Tier 5 Software Imp {12500}
+Arriver Soul Projector {15000}
+Mk 3 Wetware Bug {2000}
+Antipathy Unit {20000}
+Telekinetic Gloves {13500}
+Concentrated Universal Solvent {2000}
+Earthbound Anklets {17000}
+Swarm Programmer Pill {2800}
+Remote Surveyor {18000}
+Queller {18000}
+Void Dust {2550}
+Telelocator {20000}
+Mk 2 Current Generator {17000}
+Platinum Metal Nitro {2700}
+Mk 2 Mnemonic Editor {3000}
+Mk 2 Scrambler Gloves {18000}
+Mk 2 Telespectrum Circlet {20000}
+Zeolite Vital Seed {5000}
+Adaptive Swarm Mask {24500}
+Infiltration Assistant {28000}
+Void Hag Robe {25000}
+Mk 3 Animistic Tools {22000}
+Mk 2 Mindshield Circlet {24500}
+Mk 3 Null-space Kennel {24000}
+Mk IV Proton Snare {18100}
+Mk 2 Retrieval Charms {26000}
+Tier 6 Software Imp {25000}
+Necrotic Mantle {17000}
+Mind Scour {35250}
+Psychic Resonator {40000}
+Runeworm {37000}
+Mk 3 Ablative Insulation {5500}
+Mk 3 Computer Idol {34000}
+Mk 3 Creator Capsule {38000}
+Mk 3 Earrings of Dampening {36000}
+Mk 3 Emergency Life Shell {5700}
+Mk 3 Fearmonger {35000}
+Mk 2 Holding Gloves {35000}
+Mk 2 Kinetic Converter {42000}
+Mk II Matter Converter {38000}
+Eoxian Wrackstaff {48500}
+Eyes of Rhean {55000}
+Magnetar Captive-Star Amulet {54000}
+Felnar {50000}
+Mk 4 Mask of Scrambling {50500}
+Mk 3 Null-Space Chamber {50000}
+Tier 7 Software Imp {50000}
+Forte Universal Solvent {7500}
+Consciousness Transfer Unit {89700}
+Dimensional Modulator {56000}
+Entanglement Belt (Pair) {68000}
+Quantum Processor {72500}
+Star Metal Nitro {10800}
+Mk 3 Mind Memory Chip {74500}
+Mk 3 Mindlink Circlet {78000}
+Mk 3 Prescient Lenses {77000}
+Besmaran Rose {103300}
+Mk 3 Scrambler Gloves {73000}
+Erasure Worm {110000}
+Mk 3 Current Generator {95000}
+Mk 3 Hivejack {108000}
+Mk 3 Mindshield Circlet {107000}
+Mk 3 Mnemonic Editor {20000}
+Mk 4 Null-space Kennel {102000}
+Returner Soul Projector {120000}
+Mind Guardian {36000}
+Tier 8 Software Imp {100000}
+Ethereal Transplanar Gluon Blade {135000}
+Mk 3 Retrieval Charms {105000}
+Vali Water {30000}
+Inner Sphere Interplanar Comm Unit {160000}
+Mk 3 Kinetic Converter {172000}
+Mk V Proton Snare {141000}
+Mk 1 Rel-Battery {150000}
+Mk 3 Telespectrum Circlet {160000}
+Domination Visor {220000}
+Pulsar Captive-Star Amulet {270000}
+Mk III Matter Converter {270000}
+Mk 4 Null-Space Chamber {250000}
+Mk 2 Rel-Battery {225000}
+Tier 9 Software Imp {225000}
+Regia Universal Solvent {36000}
+Regrower Vital Seed {40000}
+Mk 3 Rel-Battery {325000}
+Astral Transplanar Gluon Blade {450000}
+Energy-Matter Gateway {600000}
+Rel-State Generator {550000}
+Mk 4 Mind Memory Chip {585000}
+Life Fluid Hypopen {25000}
+Mk 4 Rel-Battery {500000}
+Mk 4 Retrieval Charms {480000}
+Tier 10 Software Imp {550000}
+Quantum Pad {900000}
+Transposition Key {800000}
+Mk 4 Mnemonic Editor {125000}
+Outer Sphere Interplanar Comm Unit {880000}
+Mk VI Proton Snare {890000}
+Mk 5 Rel-Battery {725000}
+Awakener Soul Projector {900000}
+Mk 4 Mindshield Circlet {550000}
+Shadow Transplanar Gluon Blade {1100,000}
+Troop Ceremonial Plate {110}
+I Golemforged Plating {250}
+Hidden Soldier Armor {465}
+I Lashunta Ringwear {415}
+Worker Formian Plate {480}
+Basic Iridishell {755}
+Traveler Aeonaut Suit {525}
+Utility EJ Hardsuit {350}
+I Kyokor Plating {800}
+Local AbadarCorp CelPro {900}
+Armiger Hellknight Plate {980}
+Thinplate {1000}
+Industrial EJ Hardsuit {1200}
+I Reinforced EVA Suit {200}
+Bedrock Moraine Mantle {1100}
+Squad Defiance Series {1220}
+I Mining Jack {825}
+I Drift Shell {1400}
+II Golemforged Plating {1610}
+Battle Dress (Trooper) Aeon Guard {1650}
+Warrior Formian Plate {1830}
+I Kalo Encounter Suit {1980}
+Ash Dendron Armor {2100}
+Apprentice Mageplate {2150}
+II Reinforced EVA Suit {1300}
+II Lashunta Ringwear {2970}
+II Mining Jack {2750}
+Basic Hardplate {3000}
+Officer Ceremonial Plate {2275}
+I Enforcer Armor {3100}
+Lictor Hellknight Plate {3300}
+Basic Formian Hide {2400}
+Advanced EJ Hardsuit {3500}
+Explorer Aeonaut Suit {3225}
+I Vesk Overplate {3910}
+I Inheritor's Grace {4450}
+III Reinforced EVA Suit {4060}
+I Fossilwrap {3100}
+Elite AbadarCorp CelPro {5100}
+Advanced Formian Hide {6100}
+II Kyokor Plating {4820}
+III Golemforged Plating {5500}
+Gneiss Moraine Mantle {5700}
+Elite Defiance Series {6300}
+Yew Dendron Armor {6600}
+Commander Ceremonial Plate {7350}
+I Night Plate {9400}
+I Pulse Armor {9400}
+I Terramold Plate {9900}
+III Lashunta Ringwear {8420}
+Vrock Abyssal Plate {11150}
+II Vesk Overplate {10250}
+II Drift Shell {6500}
+Conqueror Aeonaut Suit {12125}
+Advanced Hardplate {12000}
+II Kalo Encounter Suit {12900}
+Advanced Iridishell {13100}
+Journeyman Mageplate {12800}
+I Skittersuit {13200}
+Elite EJ Hardsuit {14200}
+Pinion Skyfire Armor {14200}
+Superior Formian Hide {16500}
+III Mining Jack {17150}
+Specialist Defiance Series {16950}
+Maralictor Hellknight Plate {14500}
+III Kyokor Plating {17100}
+Idol AbadarCorp CelPro {18100}
+Battle Dress (Command) Aeon Guard {18750}
+III Vesk Overplate {23400}
+Orogen Moraine Mantle {19800}
+Oak Dendron Armor {18450}
+Glabrezu Abyssal Plate {24000}
+III Drift Shell {25250}
+IV Golemforged Plating {24800}
+II Night Plate {37500}
+IV Lashunta Ringwear {27100}
+II Terramold Plate {38500}
+II Enforcer Armor {23725}
+I Vesk Monolith {39650}
+Taskmaster Formian Plate {42000}
+Squad Aegis Series {45200}
+II Pulse Armor {37500}
+III Kalo Encounter Suit {48500}
+II Skittersuit {52000}
+Superior Iridishell {42250}
+Exident Skyfire Armor {53600}
+Paragon EJ Hardsuit {53500}
+II Fossilwrap {55000}
+V Golemforged Plating {63750}
+Master Mageplate {70000}
+II Inheritor's Grace {67400}
+Elite Hardplate {48000}
+Stellar AbadarCorp CelPro {75500}
+Paralictor Hellknight Plate {80000}
+V Lashunta Ringwear {94200}
+IV Vesk Overplate {71850}
+IV Drift Shell {113000}
+III Enforcer Armor {101150}
+Marilith Abyssal Plate {116500}
+Steelbones {145500}
+Enginerunner {120900}
+III Terramold Plate {147500}
+II Vesk Monolith {163400}
+III Pulse Armor {177300}
+III Night Plate {177300}
+Elite Aegis Series {209000}
+IV Kyokor Plating {76000}
+Sequoia Dendron Armor {256500}
+IV Kalo Encounter Suit {360000}
+III Skittersuit {240000}
+Spec-ops EJ Hardsuit {260500}
+Galactic AbadarCorp CelPro {380000}
+V Kyokor Plating {371000}
+Myrmarch Formian Plate {557000}
+Vitrum Plate {365650}
+Archmage Mageplate {560000}
+III Inheritor's Grace {591000}
+V Drift Shell {568000}
+V Vesk Overplate {415800}
+III Fossilwrap {645000}
+Voidshield Armor {610250}
+IV Night Plate {886500}
+IV Pulse Armor {886500}
+Specialist Aegis Series {932000}
+Balor Abyssal Plate {944000}
+III Vesk Monolith {827250}
+Tinker-class Crisis Wrench {315}
+Enforcement-class Capture Pole {550}
+Rustic Skitterstaff {220}
+Utility Excavation Drill {750}
+Tactical Lumenstaff {800}
+Apprentice Singing Star {850}
+Tactical Pike {475}
+Tactical Toothblade {550}
+Tactical Trident (Levaloch) {750}
+Tactical Crystal Spear {1600}
+Traditional Battle Ribbon {270}
+Collapsible Battle Ladder {2050}
+Tactical Doshko {240}
+Flicker Gnome Ripsaw {1300}
+Carbon Steel Curve Blade {2230}
+Static Storm Doshko {1490}
+Drone Brain Pike {1950}
+Chill Frosthaft Doshko {2100}
+Ceremonial Nematocyst Spear {2100}
+Immature Xenolash {2430}
+Provincial Skitterstaff {1880}
+Neutriad Flail {3200}
+Rhyolite Magma Sledge {3100}
+Skirmish Kishaxe {2000}
+Tactical Swoop Hammer {3360}
+Industrial Excavation Drill {4200}
+Sunset Shimmerstone Staff {4000}
+Primordial Voidhammer {4200}
+Scrapper-class Crisis Wrench {4250}
+Apprehension-class Capture Pole {6600}
+Wrack Devastation Blade {5500}
+Microserrated Toothblade {3400}
+Subzero Frosthaft Doshko {12800}
+Advanced Doshko {5300}
+Sentinel Coil Trident {6450}
+Monophonic Phasic Scythe {6250}
+Aurora Storm Doshko {6700}
+Advanced Lumenstaff {6850}
+Adept Singing Star {7900}
+Sintered Trident (Levaloch) {6100}
+Agrarian Skitterstaff {9400}
+Micro-Edge Battle Ribbon {9400}
+Sentinel Staff {6320}
+Warrior Brain Pike {8700}
+Moment Terminal Doshko {9800}
+Andesite Magma Sledge {13800}
+Advanced Pike {12200}
+Spark Gnome Ripsaw {13000}
+Advanced Swoop Hammer {14300}
+Ultrathin Curve Blade {18100}
+Assault Kishaxe {13000}
+Nanoserrated Toothblade {12700}
+Helical Excavation Drill {18000}
+Knight Brain Pike {24600}
+Stellar Voidhammer {18000}
+Engineer-class Crisis Wrench {25500}
+Mature Xenolash {17000}
+Sentinel Crystal Spear {25500}
+Dueling Nematocyst Spear {13500}
+Evenfall Shimmerstone Staff {25000}
+Ultrathin Doshko {24600}
+Harmonic Phasic Scythe {25000}
+Imprisonment-class Capture Pole {36300}
+Lightning Storm Doshko {35900}
+Master Singing Star {36400}
+Bucolic Skitterstaff {36900}
+Ultrathin Coil Trident {48800}
+Ultrathin Trident (Levaloch) {36600}
+Ruin Devastation Blade {43900}
+Hunter Nematocyst Spear {50000}
+Mach I Swoop Hammer {44100}
+Repeller Staff {45200}
+Zero-Edge Battle Ribbon {35200}
+Volute Excavation Drill {70500}
+Zero-Edge Doshko {71500}
+Queen Brain Pike {66500}
+Glacial Frosthaft Doshko {73400}
+Blooming Xenolash {70000}
+Intermediate Voidhammer {76000}
+Blaze Gnome Ripsaw {105000}
+Instant Terminal Doshko {77000}
+Polyphonic Phasic Scythe {112500}
+Basalt Magma Sledge {112000}
+Elite Pike {95700}
+Twilight Shimmerstone Staff {105000}
+Artificer-class Crisis Wrench {169000}
+Havoc Kishaxe {70000}
+Tempest Storm Doshko {169000}
+Buzzblade Curve Blade {184300}
+Domination-class Capture Pole {256500}
+Molecular Rift Doshko {248000}
+Ultraserrated Toothblade {176000}
+Elite Lumenstaff {240000}
+Warlord Nematocyst Spear {260000}
+Mach II Swoop Hammer {273000}
+Molecular Rift Trident (Levaloch) {219600}
+Zero-edge Crystal Spear {390000}
+Gyroidal Excavation Drill {387750}
+Sage Singing Star {245000}
+Supermassive Voidhammer {390000}
+God Brain Pike {372000}
+Seeded Xenolash {409000}
+Zero-edge Coil Trident {555000}
+Dimensional Blade Doshko {546100}
+Onslaught Kishaxe {540000}
+Multiphonic Phasic Scythe {562500}
+Overlord-class Capture Pole {855000}
+Apocalypse Devastation Blade {410200}
+Plagioclase Magma Sledge {850000}
+Avalanche Frosthaft Doshko {804400}
+Dimensional Slice Curve Blade {815000}
+Prescient Terminal Doshko {820000}
+Champion Nematocyst Spear {850000}
+Dimensional Slice Trident (Levaloch) {768600}
+Grave-Class Void Staff {1080}
+Follower Shadow Chains {390}
+Mach III Swoop Hammer {905700}
+Frostbite-Class Spined Iceblade {2150}
+Defender Icestar Staff {2080}
+Aufeis Frost Maul {1240}
+Crypt-Class Void Staff {4600}
+Tactical Cryopike {3360}
+Seeker Icestar Staff {6320}
+Acolyte Shadow Chains {6800}
+Iceberg Frost Maul {8700}
+Penitent Shadow Chains {18800}
+Warrior Icestar Staff {25200}
+Hailstorm-Class Spined Iceblade {13700}
+Tomb-Class Void Staff {27100}
+Advanced Cryopike {34800}
+Drifter Icestar Staff {73100}
+Ecclesiastic Shadow Chains {76800}
+Ossuary-Class Void Staff {123000}
+Floe Frost Maul {46100}
+Glacier Frost Maul {224000}
+Leader Icestar Staff {251000}
+Blizzard-Class Spined Iceblade {170000}
+Avalanche-Class Spined Iceblade {570000}
+Devotional Shadow Chains {261000}
+Military Quantum Entangler {170000}
+Barrow-Class Void Staff {904000}
+Dominion Quantum Entangler {370800}
+Acolyte Blaze Scimitar {740}
+Fiend-Class Burning Chains {1450}
+Immolation Flame Spinner {2860}
+Ember Flame Doshko {750}
+Fireball Flame Spinner {225}
+Tactical Meteor Glaive {4390}
+Disciple Blaze Scimitar {9200}
+Malebranche-Class Burning Chains {13900}
+Cleric Blaze Scimitar {34600}
+Blaze Flame Doshko {8500}
+Advanced Meteor Glaive {18200}
+Supernova Flame Spinner {33900}
+Inferno Flame Doshko {53200}
+Divine Blaze Scimitar {162000}
+Archdevil-Class Burning Chains {178000}
+Paragon Meteor Glaive {385000}
+Elite Meteor Glaive {112000}
+Solar Flare Flame Doshko {595000}
+Red Star Nova Lance {995}
+Red Star Flare Axe {120}
+Fission Flame Spinner {802000}
+Yellow Star Flare Axe {2710}
+Tactical Core Hammer {1320}
+Red Star Plasma Doshko {4650}
+Yellow Star Nova Lance {6870}
+Yellow Star Plasma Doshko {17000}
+Advanced Core Hammer {9150}
+White Star Flare Axe {23100}
+Fusion Core Hammer {48200}
+Student Plasma Ribbon {2120}
+Competitor Plasma Ribbon {74100}
+Professional Plasma Ribbon {13600}
+Blue Star Flare Axe {148000}
+White Star Nova Lance {39500}
+Blue Star Plasma Doshko {364100}
+Blue Star Nova Lance {279000}
+Reactor Core Hammer {725000}
+Champion Plasma Ribbon {578000}
+Spark Polarity Gauntlets {410}
+White Star Plasma Doshko {126800}
+Basic Dragonglaive {2000}
+Diamagnetic Storm Hammer {1300}
+Static Polarity Gauntlets {2350}
+Static Stun Staff {4210}
+Tactical Stun Staff {750}
+Tactical Electroflail {2910}
+Aurora Polarity Gauntlets {10600}
+Thunderhead Dragonglaive {9000}
+Paramagnetic Storm Hammer {5520}
+Ferromagnetic Storm Hammer {22900}
+Advanced Electroflail {12800}
+Stormstrike Dragonglaive {34000}
+Current Polarity Gauntlets {39100}
+Elite Electroflail {69900}
+Storm Stun Staff {50200}
+Aurora Stun Staff {18100}
+Skyshatter Dragonglaive {160000}
+Antiferromagnetic Storm Hammer {145000}
+Paragon Electroflail {360000}
+Storm Polarity Gauntlets {122000}
+Tempest Polarity Gauntlets {615000}
+Tempest Stun Staff {244000}
+Wyrmlord Dragonglaive {525000}
+Basic Vibrogarrote {410}
+Metamagnetic Storm Hammer {728000}
+Sonorous Resonant Staff {1380}
+Sopranino Singing Spear {2200}
+Monophonic Interference Blade {4420}
+Heavy Seismic Pick {2790}
+Light Seismic Pick {180}
+Harmonic Vibrogarrote {7200}
+Soprano Singing Spear {9500}
+Harmonic Interference Blade {18700}
+Interference Vibrogarrote {27100}
+Reverberant Resonant Staff {49900}
+Polyphonic Interference Blade {76700}
+Driver Seismic Pick {12600}
+Demolition Seismic Pick {101000}
+Infrasonic Vibrogarrote {189000}
+Stentorian Resonant Staff {381000}
+Tenor Singing Spear {247000}
+Multiphonic Interference Blade {597000}
+Alto Singing Spear {45200}
+Ultrasonic Vibrogarrote {927000}
+Clear Spindle Aeon Stone {245}
+Iridescent Spindle Aeon Stone {740}
+Turquoise Cube Aeon Stone {250}
+Cloudy Blue Rhomboid Aeon Stone {1300}
+Opalescent White Pyramid Aeon Stone {1400}
+Bright Yellow Cabochon Aeon Stone {2000}
+Amber Hyperboloid Aeon Stone {2200}
+Scarlet Prism Aeon Stone {2140}
+Banded Malachite Cabochon Aeon Stone {2000}
+Kehtarite Oval Aeon Stone {3000}
+Sapphire Cone Aeon Stone {3200}
+Purple Sphere Aeon Stone {7500}
+Viridian Balbis Aeon Stone {4200}
+Iridium Star Aeon Stone {9250}
+Lusinite Rose Aeon Stone {9500}
+Vibrant Green Prism Aeon Stone {14000}
+Dark Blue Rhomboid Aeon Stone {18000}
+Alabaster Helix Aeon Stone {30000}
+Pearly White Spindle Aeon Stone {25000}
+Iridescent Trillian Aeon Stone {32000}
+Kaleidoscopic Icosahedron Aeon Stone {35000}
+Obsidian Annulus Aeon Stone {55000}
+Silver Lemniscate Aeon Stone {65000}
+Atrocite Sphere {—}
+Book of Unwritten Truths {—}
+Canu’s Cache {—}
+Evomorpher {—}
+Titan’s Gate {—}
+Trafodi Paradox {—}
+Ungarato {—}
+Ruby Sphere Aeon Stone {3850}
+Courage Medallion {100}
+Charge Cloak {200}
+Glory Medallion {400}
+Paramour’s Prism {3}
+Authority Medallion {225}
+Spectacles of the Unseen {185}
+Sun Bean Ice {80}
+Valor’s Mantle {375}
+Scrapper’s Cookpot {120}
+Agent Encryption Tattoo {50}
+Xenowarden’s Boots {80}
+Basic Gimmick {175}
+Brooch of Shielding {1000}
+Reckless Gloves {250}
+Cover Seed {200}
+Diadem of Desna {800}
+Flame Melon Juice {480}
+Hoop of Perspicacity {750}
+0-Level Spell Putty {25}
+Resilient Jacket {600}
+Corpse Lantern {500}
+Starfinder Backpack {750}
+Valor Medallion {1000}
+Cutting Apprentice Gimmick {750}
+Tattoo Pact {510}
+Devastating Apprentice Gimmick {850}
+Quorlu heat gem {125}
+1st-Level Spell Putty {100}
+1st Spell Amulet {450}
+Amulet of Camouflage {1400}
+Brigh's Bolt {1300}
+Dawnflower Ring {1450}
+Falsebond Tattoos {1500}
+Hivemask {1400}
+Instinctive Stabilizer {1400}
+Moon Crystal {200}
+Lawfinder {1200}
+Obfuscated Journal {1250}
+Pilot's Helmet {1200}
+Quick-dive Pearl {210}
+Queen's Meal {215}
+Recovery Aegis {1350}
+Glossy Brenneri Stone {1000}
+Ruthig Milk Tea {220}
+Mk 1 Elemental Gem {250}
+Plush Squox Figurine of Wondrous Power {1500}
+Elemental Apprentice Gimmick {1300}
+Darksight Goggles {2100}
+Flame Shield Gauntlet {1900}
+Friendship Bracelet {2000}
+Iomedaean Crusader Helm {2100}
+Tangleburst Seed {675}
+Ibra’s Astrolabe {2000}
+Trampling Boots {2500}
+Targeting Apprentice Gimmick {2100}
+Mk 1 Improvisation Adornment {1800}
+Mk 1 Planar Runeplates {2000}
+Arquand Manacles {2800}
+2nd-Level Spell Putty {300}
+Barachius Helm {3000}
+Blackraven Axe {3370}
+Crimson Bangles {3000}
+Contortion Coat {3300}
+Dented Kasa {3000}
+Empty Orbit Emblem {2600}
+Energy Transference Amulet {2800}
+Falcon Boots {3000}
+Monocle of Recognition {3000}
+Hood Ornament of Hovering {3200}
+Radiant Ensemble {3200}
+Ring of Sustenance {2925}
+Storage Goo {500}
+Skyfire Saddle {2650}
+Staff of Mystic Healing {3700}
+Weatherwear {2750}
+Mk 1 Diffraction Cloak {3200}
+Mk 1 Fiery Runeplates {3500}
+Obsidian Electrovore Figurine of Wondrous Power {3000}
+Focused Apprentice Gimmick {3000}
+2nd Spell Amulet {2500}
+Mk 1 Travel Treads {2750}
+Chronal Harness {4650}
+Energy-Relay Gloves {4250}
+Ferocity Blazon {4000}
+Glove of Storing {4600}
+Gravity Ring {3850}
+Hat of Disguise {3850}
+Lantern’s Laughing Lie {4300}
+Plasma Scabbard {4250}
+Robe of Communalism {4250}
+Mk 2 Elemental Gem {650}
+Mk 1 Plasma Beads {4200}
+Polymer Velociraptor Figurine of Wondrous Power {4250}
+Azlanti Noble’s Cloak {6000}
+Cutting Expert Gimmick {4200}
+Blender Fist {5800}
+Conspirator's Emblem {6500}
+Item Tattoo {1560}
+Furtive Garment {5500}
+Pathing Telescope {7000}
+Restoring Rod {6750}
+Thruneblade {9980}
+Ring of Astrozoology {6500}
+Luminous Brenneri Stone {6000}
+3rd-Level Spell Putty {850}
+Digger Stalkring {6500}
+Arquand Horns {8400}
+Aura Goggles {9000}
+Calcification Rod {9500}
+Divination Mirror {8500}
+Mask of the Mantis {8400}
+Shattercoat {9000}
+Techbane Rod {10000}
+Teleportation Puck {1500}
+Trench Coat of Utility {10000}
+White Knuckle Gloves {8400}
+Mk 1 Banishing Blade {10500}
+Mk 1 Eldritch Encephalon {3500}
+Bone Crest-Eater Figurine of Wondrous Power {9000}
+Operative Encryption Tattoo {8900}
+Devastating Expert Gimmick {9600}
+Mk 2 Improvisation Adornment {8400}
+Mk 2 Planar Runeplates {8500}
+3rd Spell Amulet {8000}
+Anvil of Torag {12000}
+Dreamsilk Cloak {13400}
+Hellknight Flail {19400}
+Ratfolk Belt {12250}
+Rod of Cancellation {2100}
+Mk 1 Arclord's Rod {14500}
+Mk 2 Diffraction Cloak {12500}
+Mk 3 Elemental Gem {2000}
+Mk 2 Fiery Runeplates {14000}
+Mk 2 Plasma Beads {12500}
+Elemental Expert Gimmick {12500}
+Djinn Ring Of Genie Calling {15900}
+Obsidian Stalkring {13000}
+Inkwing Tattoo {17950}
+Mk 2 Travel Treads {12000}
+Planar Acclimation Serum {3400}
+Shadow Orb {2850}
+Starship in a Bottle {17500}
+Temporal Crystal {2900}
+Cutting Master Gimmick {18500}
+Targeting Expert Gimmick {18500}
+Aballonian Drone Box {24500}
+Flawed Omnicomponent {5000}
+4th-Level Spell Putty {2550}
+Incense of Open Thoughts {3500}
+Inspiration Blazon {23500}
+Quickthin Tattoo {22800}
+Titanium Hashukayak Figurine of Wondrous Power {25000}
+Radiant Brenneri Stone {24000}
+4th Spell Amulet {21000}
+Mantle of Willpower {37000}
+Green Mother’s Final Trick {30000}
+Mk 2 Arclord's Rod {38500}
+Mk 2 Banishing Blade {39000}
+Mk 4 Elemental Gem {5000}
+Mk 3 Planar Runeplates {34000}
+Shaitan Ring Of Genie Calling {39000}
+Mk 3 Improvisation Adornment {33500}
+Mk 3 Plasma Beads {37500}
+Flux Fig {8500}
+Shantak Whistle {49000}
+Mk 3 Diffraction Cloak {51000}
+Phase Twin Generator {52000}
+Mk 2 Eldritch Encephalon {12500}
+Provocateur Encryption Tattoo {48000}
+Mk 3 Fiery Runeplates {56000}
+Bloodstone Bloodbrother Figurine of Wondrous Power {48000}
+5th-Level Spell Putty {7000}
+Mk 3 Travel Treads {46500}
+Boardroom Attire {62500}
+Truth Amplifier {2000}
+Warlord Stone {75000}
+Diamond Laser Wolf Figurine of Wondrous Power {65500}
+Devastating Master Gimmick {75000}
+5th Spell Amulet {58000}
+Psychic Inhibitor {120000}
+Mk 5 Elemental Gem {16000}
+Plastic Sharpwing Figurine of Wondrous Power {100000}
+Elemental Master Gimmick {105000}
+Efreeti Ring Of Genie Calling {112000}
+Rat’s Last Word {210000}
+Targeting Master Gimmick {172000}
+Pristine Omnicomponent {30000}
+6th-Level Spell Putty {22000}
+Calecor Skull-Globe {250000}
+Mk 3 Arclord's Rod {275000}
+Mk 3 Banishing Blade {289000}
+Marid Ring Of Genie Calling {270000}
+6th Spell Amulet {200000}
+Mk 3 Eldritch Encephalon {450000}
+Master Encryption Tattoo {360000}
+Tattoo Guardian {590000}
+Mk 6 Elemental Gem {49000}
+The Malikah's Staff {1250,000}
+Containment Tesseract {500000}
+The Malikah's Robes {1000,000}
+Mk 4 Arclord's Rod {950000}
+Mk 4 Banishing Blade {967000}
+Focused Expert Gimmick {25500}
+Ring of Whispers {300}
+Mk 1 Ring of Resistance {735}
+Mk 2 Ring of Resistance {4200}
+Mk 3 Ring of Resistance {18100}
+Arcane Signet {500}
+Ring of Cosmic Alignment {25000}
+Ring of the Ninth Truth {51000}
+Ring of Counterspells {24000}
+Mk 4 Ring of Resistance {70000}
+Serum of Appearance Change {75}
+Mk 5 Ring of Resistance {361500}
+Serum Of Earthen Stature {50}
+Bitterflesh Serum {45}
+Mk 1 Serum of Healing {50}
+Serum Of Fiery Vengeance {100}
+Diluted Serum of Hibernation {80}
+Gravity Serum {320}
+Lingo Serum {100}
+Serum Of Infinite Air {80}
+Marathon Serum {240}
+Serum of Sex Shift {350}
+Mk 1 Polymorphic Serum {250}
+Rad-Out Serum {225}
+Mk 1 Serum Of Fey’s Fickle Fancy {250}
+Glowskin Serum {350}
+Daywalker Serum {200}
+Mk 1 Adaptive Serum {350}
+Shadowblend Serum {325}
+Mk 1 Regenerative Philter {350}
+X-Ray Serum {350}
+Aquanaut Elixir {325}
+Mk 1 Serum Of Water’s Protection {350}
+Starshine Serum {475}
+Xeroform Jelly {440}
+Absalom Affable Pact World Serum {475}
+Akiton Rustrider Pact World Serum {475}
+Bretheda Effervescent Pact World Serum {475}
+Diaspora Daredevil Pact World Serum {475}
+Dawnflower Melange {475}
+Aballon Spark Pact World Serum {475}
+Castrovel Effloresce Pact World Serum {475}
+Eox Deliquesce Pact World Serum {475}
+Idari Gold Pact World Serum {475}
+Verces Gleam Pact World Serum {475}
+Veracity Serum {450}
+Commando Serum of Enhancement {475}
+Triaxus Dragonsight Pact World Serum {475}
+Diplomat Serum of Enhancement {475}
+Scientist Serum of Enhancement {475}
+Sneak Serum of Enhancement {475}
+Warrior Serum of Enhancement {475}
+Sensate Serum of Enhancement {475}
+Mk 2 Serum of Healing {425}
+Abysium Philter Starmetal Serums {450}
+Djezet Draught Starmetal Serums {450}
+Potent Serum of Hibernation {400}
+Horacalcum Mélange Starmetal Serums {475}
+Noqual Elixir Starmetal Serums {450}
+Bloodbrother Serum {500}
+Inubrix Brew Starmetal Serums {475}
+Driftsauce Serum {675}
+Siccatite Tonic Starmetal Serums {475}
+Mk 2 Polymorphic Serum {675}
+Nectar of Flame’s Glory {620}
+Regeneration Serum {600}
+Close-Quarters Serum {950}
+Mk 2 Serum Of Fey’s Fickle Fancy {950}
+Mk 2 Serum Of Water’s Protection {1500}
+Joyful Thought {870}
+Mk 2 Adaptive Serum {1500}
+Mk 3 Polymorphic Serum {2100}
+Sophic Philter {4500}
+Mk 3 Serum of Healing {1950}
+Serum Of Fetid Verdancy {2400}
+Mk 2 Regenerative Philter {3850}
+Mk 3 Serum Of Water’s Protection {5500}
+Mk 3 Adaptive Serum {5500}
+Mk 4 Polymorphic Serum {5700}
+Mk 5 Polymorphic Serum {18000}
+Serum Of Long Shadows {10000}
+Mk 3 Regenerative Philter {26000}
+Haeshi-Shaa Serum {10500}
+Mk 6 Polymorphic Serum {60000}
+Serum Of Shapelessness {60000}
+0 Spell Ampoule {200}
+3rd Spell Ampoule {3000}
+1st Spell Ampoule {300}
+2nd Spell Ampoule {700}
+2nd Spell Gem {450}
+3rd Spell Gem {1400}
+0 Spell Gem {50}
+1st Spell Gem {140}
+4th Spell Gem {3700}
+5th Spell Gem {10600}
+Mk 1 Tiara of Translocation {11750}
+Mk 2 Tiara of Translocation {185000}
+Mk 4 Tiara of Translocation {875000}
+6th Spell Gem {36650}
+Mk 3 Tiara of Translocation {410000}
+Eohi Boots {4200}
+Ring of Fangs {315}
+Celestial Stole {3000}
+Araznian Crusader Helm {2100}
+Goblin Battle Jack {950}
+Encounter Suit {2800}
+Scrapper's Rig {2150}
+Salvage Chassis {850}
+Cargo Lifter {2150}
+Empire Aggressor {3025}
+Sci-shield Unit {3450}
+Battle Harness {3450}
+Infiltration Skin {5200}
+Spacer Carapace {4650}
+Laborer Frame {7500}
+Personal Submersible {7200}
+Cargo Hauler {9500}
+Kashcomm Scout {12600}
+Living Tree {11200}
+Absorptive Shell {3375}
+Spellcaster's Aegis {10250}
+Brawler Frame {14500}
+Ironclad Bulwark {19250}
+Spider Harness {19500}
+Flight Frame {27100}
+Hover Suit {13300}
+Stag-Step Suit {26400}
+Celerity Rigging {38500}
+Swarm Carapace {41200}
+Barathu Battens {51500}
+Oblivion Chassis {57150}
+Geistwork Hunter {59400}
+Winter Walker {52100}
+Explorer's Cradle {79000}
+Commander's Harness {122500}
+Aeon Guard Elite Harness {125000}
+Feral Frame {75000}
+Rocket Hero Suit {122000}
+Angel Frame {191000}
+Kyton Bloodsuit {187750}
+Extradimensional Armor {278200}
+Reactor Guard {271000}
+Devaplate {424000}
+Efreet Noble Regalia {417000}
+Jarlslayer {125500}
+Thrall Hardshell {615500}
+Warmaster's Harness {610000}
+Starguard {904500}
+Obsidian Mask {875000}
+Surnoch Suit {405000}
+Unarmed Strike {—}
+Cestus Battleglove {100}
+Basic Handaxe {90}
+Club {—}
+Tactical Baton {90}
+Destroyer Shillelagh {200}
+Survival Knife {95}
+Tactical Sword Cane {250}
+Idaran Force Training Baton {400}
+Tactical Dueling Sword {475}
+Austere Bone Cestus {600}
+Standard Syringe Stick {125}
+Light Sap {450}
+Jolt Electric Prod {900}
+Tactical Switchblade {1300}
+Tailblade {2300}
+Inferno Knife {2100}
+Tactical Clockbaton {2200}
+Converted Dueling Sword (Corpse Fleet) {2100}
+Sledge {1050}
+Advanced Sword Cane {2100}
+Ember Ignurso Knuckles {3100}
+Basic Spined Blade {2600}
+Tactical Retractable Spike {3150}
+Second Clocksword {4500}
+Sharp-pointed Syringe Stick {2650}
+Tactical Polyclub {4200}
+Impulse Electric Prod {4500}
+Tactical Retractable Stinger {4300}
+Tactical Shell Knuckles {4050}
+Medium Sap {3900}
+Tactical Handaxe {1825}
+Measured Bone Cestus {5500}
+Hook Knife {6300}
+Cruiser Shillelagh {5500}
+Ultrathin Sword Cane {7000}
+Buzzblade Dueling Sword {9500}
+Tactical Knife {6000}
+Buzzblade Spined Blade {9400}
+Incapacitator {14200}
+Ultrathin Switchblade {9100}
+Blaze Ignurso Knuckles {13500}
+Advanced Retractable Stinger {13900}
+Power Battleglove {16100}
+Hyper-pointed Syringe Stick {12000}
+Storm Electric Prod {19000}
+Officer Dueling Sword (Corpse Fleet) {18795}
+Sintered Handaxe {12500}
+Advanced Clockbaton {18000}
+Advanced Retractable Spike {18400}
+Minute Clocksword {25000}
+Advanced Polyclub {17400}
+Heavy Sap {23100}
+Ultrathin Dueling Sword {26000}
+Imposing Bone Cestus {32000}
+Zero-Edge Sword Cane {18000}
+Ripper Spined Blade {24500}
+Ultrathin Dagger {32800}
+Advanced Shell Knuckles {32500}
+Inferno Ignurso Knuckles {50250}
+Elite Retractable Stinger {51000}
+Nova Battleglove {52500}
+Molecular Rift Sword Cane {50900}
+Ultra-pointed Syringe Stick {46000}
+Zero-Edge Switchblade {48600}
+Surge Electric Prod {75000}
+Battleship Shillelagh {46000}
+Elite Polyclub {65000}
+Ultrathin Handaxe {66800}
+Ripper Dueling Sword {109250}
+Elite Retractable Spike {119000}
+Gravity Spined Blade {62400}
+Peacemaker {185300}
+Elite Clockbaton {165000}
+Dimensional Slice Sword Cane {160000}
+Elite Shell Knuckles {151000}
+Severe Bone Cestus {230000}
+Gravity Battleglove {214850}
+Molecular Rift Dagger {275000}
+Admiral Dueling Sword (Corpse Fleet) {255150}
+Zero-Edge Dagger {64400}
+Paragon Retractable Stinger {268000}
+Solar Flare Ignurso Knuckles {262000}
+Molecular Rift Dueling Sword {331200}
+Supreme-pointed Syringe Stick {225000}
+Tempest Electric Prod {385000}
+Paragon Polyclub {345000}
+Rivener Spined Blade {325000}
+Molecular Rift Switchblade {354000}
+Hour Clocksword {255000}
+Molecular Rift Handaxe {502000}
+Paragon Shell Knuckles {525000}
+Paragon Retractable Spike {895000}
+Red Star Plasma Kukri {2450}
+Advanced Baton {540000}
+Tactical Spear {375}
+Battle Staff {80}
+Tactical Syringe Spear {250}
+Tactical Greataxe {1100}
+Wire Garrote {900}
+Conviction Puzzleblade {2100}
+Tactical Chitinblade {1890}
+Tactical Lance {1450}
+Tactical Living Staff {3300}
+Sintered Greataxe {4150}
+Warclub {450}
+Tactical Maul {2750}
+Tactical Scythe {3900}
+Carbon Staff {6150}
+Nanofiber Garrote {6700}
+Advanced Syringe Spear {4250}
+Sentinel Spear {10000}
+Microserrated Chitinblade {12400}
+Dedication Puzzleblade {13700}
+Advanced Lance {9400}
+Ultrathin Greataxe {18100}
+Buzzblade Spear {22650}
+Advanced Maul {17200}
+Sintered Scythe {23200}
+Elite Syringe Spear {25000}
+Advanced Living Staff {39500}
+Nanoserrated Chitinblade {46400}
+Molecular Rift Greataxe {69800}
+Microfilament Garrote {34800}
+Elite Lance {50800}
+Zero-Edge Spear {107350}
+Moderation Puzzleblade {77400}
+Ultrathin Scythe {160000}
+Elite Living Staff {181000}
+Ultraserrated Chitinblade {219000}
+Paragon Syringe Spear {165000}
+Elite Maul {95000}
+Paragon Lance {365000}
+Monowire Garrote {225000}
+Gravity Spear {552000}
+Hardlight Staff {320800}
+Tradition Puzzleblade {605000}
+Paragon Maul {724000}
+Sopranino Battletune {250}
+Alto Battletune {9200}
+Soprano Battletune {2000}
+Paragon Living Staff {919000}
+Tenor Battletune {34600}
+Weapon Spikes {—}
+Automated Self-repairer {100}
+Light Weapon Mount {100}
+Pet Carrier {100}
+Heavy Weapon Mount {100}
+Remote Monitoring System {100}
+Vacuum Rappeler {120}
+Tactical Scrap Spikes {100}
+Grim Trophies (Magic) {125}
+Tensile Reinforcement {150}
+Easy Access Kit {125}
+Thermal Regulator (Hybrid) {150}
+Concealed Compartments {175}
+Light Projector {150}
+Basic Sustenance System {150}
+Radiation Buffer {200}
+Aversion Coating {200}
+Enviro-Sensor {250}
+Infrared Sensors {200}
+Mk 1 Voice-Command Module {250}
+Quick-Release Sheath {325}
+Leapers {205}
+Slickskin {300}
+Mk 1 Medical Analysis Kit {320}
+Descent Thrusters {800}
+Mk 1 Agility Enhancer {375}
+Snarl Barbs {1500}
+Basic Personal Drop Pod {200}
+Mk 1 Broadband Noise Generator {650}
+Mk 1 Sustenance System {800}
+Automated Loader {750}
+Stabilizer Springs {400}
+Auto-CPR Unit {850}
+Omnidirectional Camera {1000}
+Juggernaut Boosters {1200}
+Quicksuit (Hybrid) {1300}
+Thrower Arms {1000}
+Glamer Projector (Magic) {1350}
+Mk 2 Voice-Command Module {1350}
+Hibernation System {1500}
+Mk 1 Mobility Enhancer {1500}
+Reactive Polarization {1600}
+Jump Jets {1000}
+Brown Force Field {1600}
+Remote-Link Module {1750}
+Exit Pod {1750}
+Hover Field {1800}
+Hydrojet {1400}
+Climate Control Unit {1950}
+Backup Generator {2100}
+Longstrider Module {2200}
+Mk 2 Sustenance System {2200}
+Stalwart {2300}
+MK 1 Flashblinders {2000}
+Mk 2 Medical Analysis Kit {2400}
+Load Lifter {2250}
+Targeting Computer {2250}
+Stealth Personal Drop Pod {500}
+Telepathic Dampener (Magic) {2700}
+Advanced Scrap Spikes {2640}
+Mk 3 Voice-Command Module {2700}
+Basic MedObserve Interface {2800}
+Mk 1 Molting Coat Module {2700}
+Rampart Plates {2850}
+Ghost Armor (Magic) {2900}
+Mk 2 Agility Enhancer {3000}
+Reverberation Amplifier {3300}
+MK 1 Electrostatic Field {3000}
+MK 1 Thermal Capacitor {3600}
+Jetpack {3100}
+Plasma Pain (Hybrid) {3500}
+Brightlight Projector (Hybrid) {3000}
+Sacred Seal (Hybrid) {4200}
+Phase Shield {4325}
+Endurance Module (Hybrid) {4500}
+Mk 2 Broadband Noise Generator {3900}
+Mk 3 Sustenance System {4500}
+Tactical Scaffold {4450}
+Purple Force Field {4550}
+Filtered Rebreather {4600}
+Mk 4 Voice-Command Module {5400}
+Drift Escape Module {1000}
+Glider Foils {6000}
+Lightwarp Inlay {5000}
+Mk 3 Medical Analysis Kit {6200}
+Absorption Shield (Hybrid) {6500}
+Ferrofluid Suspension {6500}
+Aligned Buffer (Hybrid) {6450}
+Mk 1 (Hybrid) Adaptive Defense {6500}
+Microspur Spray (Hybrid) {6700}
+Computer Interface {6000}
+Mk 1 Burrowing Arms {7350}
+Quartz Refractor (Hybrid) {7100}
+Graviton Emitter {7500}
+Explosive Defense Unit {9000}
+Sonic Dampener {7150}
+Environmental Field (Magic) {9000}
+Haste Circuit (Magic) {9250}
+Deflective Reinforcement {7500}
+Mk 1 (Hybrid) Mindlink Servos {9500}
+Auto-Injector {7000}
+Arcane Vision (Hybrid) {9300}
+Silicon Armor Casing {10000}
+MK 2 Flashblinders {10000}
+Mk 2 Mobility Enhancer {9500}
+Normal (Hybrid) Grandchild's Cloak {10000}
+Black Force Field {10500}
+Haze Field (Hybrid) {13000}
+MK 2 Electrostatic Field {13000}
+Forcepack (Hybrid) {13100}
+Mk 3 Agility Enhancer {13000}
+Reaction Accelerator (Hybrid) {13500}
+Mk 1 (Hybrid) Medical Interface {14000}
+Ultrathin Scrap Spikes {16800}
+Invisibility Personal Drop Pod {3000}
+Adaptive Energy Shield {17500}
+Battery Unit {12000}
+Invisibility Detector (Hybrid) {17000}
+Mk 3 Broadband Noise Generator {17500}
+Courage Module (Hybrid) {18300}
+Holodouble Module (Hybrid) {18000}
+Echolocation Detection Unit {19000}
+White Force Field {20000}
+Shadow Skip Unit (Magic) {19000}
+Mk 2 Molting Coat Module {23000}
+Mk 1 (Magic) Magic Resistor {23500}
+Bodyguard Module (Magic) {24400}
+Attractor Field (Hybrid) {24000}
+Gravity Pulse Unit {18000}
+Mk 2 Burrowing Arms {25000}
+Advanced MedObserve Interface {23850}
+Lingual Scrambler (Hybrid) {32800}
+MK 2 Thermal Capacitor {36250}
+MK 3 Electrostatic Field {35000}
+Gray Force Field {40000}
+Neutronium Shell (Hybrid) {37500}
+Privacy Shield (Magic) {35500}
+MK 1 (Magic) Spell Reflector {47950}
+MK 3 Flashblinders {38000}
+Mk 4 Agility Enhancer {46000}
+Teleportation Unit (Hybrid) {52000}
+Mk 3 Burrowing Arms {51500}
+Life Shield (Magic) {64000}
+Mk 1 Fortified Plates {65500}
+Indomitability Module (Hybrid) {50000}
+Mk 2 (Hybrid) Mindlink Servos {71000}
+Mk 2 (Hybrid) Adaptive Defense {75000}
+Mk 2 (Magic) Magic Resistor {70000}
+Green Force Field {80000}
+Zero-Edge Scrap Spikes {93600}
+Mk 2 (Hybrid) Medical Interface {100000}
+Titan Shield {75000}
+Displacement Field (Hybrid) {120000}
+Greater (Hybrid) Grandchild's Cloak {120000}
+Tandem Translocator {151000}
+MK 3 Thermal Capacitor {120000}
+Emergency Defense Sphere (Hybrid) {162000}
+MK 4 Flashblinders {180000}
+Mk 3 Fortified Plates {151000}
+Tandem Vitality {216000}
+Red Force Field {180000}
+Mk 2 Fortified Plates {104000}
+Mk 3 Molting Coat Module {225000}
+Mk 3 (Magic) Magic Resistor {240000}
+Mk 3 (Hybrid) Adaptive Defense {250000}
+Blue Force Field {280000}
+Mk 4 Fortified Plates {262000}
+MK 2 (Magic) Spell Reflector {360000}
+Quantum Phasing {360000}
+Mk 5 Agility Enhancer {216000}
+Orange Force Field {400000}
+Shadow Sprint Unit (Magic) {390600}
+Ghostmarch Unit (Magic) {590000}
+Vibration Sensors {360000}
+Mk 5 Fortified Plates {550000}
+Mk 3 (Hybrid) Medical Interface {600000}
+Mk 4 (Magic) Magic Resistor {800000}
+Rel-State Contingency {800000}
+Prismatic Force Field {1000,000}
+Merc NIL Grenade Launcher {280}
+Utility Molecular Borer {800}
+Light Rubbish Cannon {750}
+I Psychic-Wave Cannon {1100}
+Merc Minelayer {1470}
+Corroder-Class Acid Lancer {2000}
+Rage-Bringer Desperation Cannon {2250}
+Sheet Electrogel Jet {1880}
+Lure Sclerite Harpooner {2000}
+II Psychic-Wave Cannon {3520}
+Tactical Rocket Pauldron {3000}
+Sentry Barrier Cannon {4300}
+Light Singularity Cannon {3150}
+Industrial Molecular Borer {4800}
+Light Vibrowave Generator {4300}
+Ribbon Electrogel Jet {6500}
+Squad Minelayer {6930}
+Sticky Nauphage Cannon {7200}
+Macrergate Dissolver {10000}
+Squad NIL Grenade Launcher {9400}
+Standard Rubbish Cannon {9000}
+Melter-Class Acid Lancer {13000}
+Hook Sclerite Harpooner {13000}
+IMDS Missile Launcher {18200}
+Heavy Singularity Cannon {13000}
+Defender Barrier Cannon {18500}
+Doom-Caller Desperation Cannon {18500}
+Advanced Molecular Borer {20000}
+Advanced Rocket Pauldron {18200}
+Rocket Electrogel Jet {23700}
+III Psychic-Wave Cannon {28200}
+Heavy Vibrowave Generator {25000}
+Dinergate Dissolver {50000}
+Platoon Minelayer {51400}
+Adhesion Nauphage Cannon {47000}
+Advanced Cluster Launcher {35800}
+Thasphalt Deck Sweeper {81000}
+Novus missile launcher {71500}
+Liquefier-Class Acid Lancer {75000}
+Guardian Barrier Cannon {72000}
+Elite Molecular Borer {80000}
+Heavy Rubbish Cannon {70000}
+Lodestone Sclerite Harpooner {70000}
+Advanced Singularity Cannon {76750}
+Elite Cluster Launcher {105000}
+Sky-Piercer Desperation Cannon {119500}
+Tactical Cluster Launcher {4150}
+Smooth-channel Electrogel Jet {99900}
+IV Psychic-Wave Cannon {198000}
+Assault Vibrowave Generator {175000}
+Elite Rocket Pauldron {108000}
+Command Minelayer {243000}
+Thasphalt Carronade {375000}
+Warden Barrier Cannon {368000}
+Paragon Cluster Launcher {360000}
+Ergatoid Dissolver {380000}
+Titan-Killer Desperation Cannon {565000}
+Paragon Molecular Borer {400000}
+Disintegrator-Class Acid Lancer {550000}
+Anchor Nauphage Cannon {570000}
+Paragon Singularity Cannon {555000}
+Paragon Rocket Pauldron {817000}
+Subzero Hailcannon {275}
+Aufeis Ice Launcher {760}
+Hiemal Coolant Sprayer {1600}
+Tactical Energy Converter {2400}
+Iceberg Ice Launcher {3100}
+Gelid Hailcannon {4350}
+V Psychic-Wave Cannon {990000}
+Algid Coolant Sprayer {7400}
+Ultracold Hailcannon {14300}
+Advanced Energy Converter {20900}
+Floe Ice Launcher {9430}
+Murder-Class Frailty Cannon {20900}
+Tactical Zero Cannon {23000}
+Glacial Coolant Sprayer {41000}
+Absolute-Zero Hailcannon {50800}
+Massacre-Class Frailty Cannon {132000}
+Advanced Zero Cannon {81400}
+Glacier Ice Launcher {108000}
+Elite Energy Converter {198000}
+Isothermal Coolant Sprayer {290000}
+Extinction-Class Frailty Cannon {660000}
+Elite Zero Cannon {412800}
+Clathrate Hailcannon {565000}
+Icecap Ice Launcher {892000}
+Mutation Gun {400000}
+Heavy Degenerator {550000}
+Liquidator Disintegrator Cannon {4800}
+Decimator Disintegrator Cannon {29500}
+Caustic Nanite Decoupler {15000}
+Executioner Disintegrator Cannon {220000}
+Eradicator Disintegrator Cannon {765000}
+Vitriolic Nanite Decoupler {650000}
+Ifrit-Class Flamethrower {780}
+Ifrit-Class Burner {1300}
+Electromagnetic Radcannon {2150}
+Fireball Flame Launcher {3250}
+Pyre-Class Flamethrower {4200}
+Salamander-Class Burner {6050}
+Blaze Agitator {4300}
+Salamander-Class Flamethrower {8600}
+Immolation Flame Launcher {14200}
+Neutron Radcannon {18700}
+Hellhound-Class Burner {23800}
+Inferno Agitator {50800}
+Hellhound-Class Flamethrower {35100}
+Supernova Flame Launcher {79800}
+Firedrake-Class Burner {158000}
+Firedrake-Class Flamethrower {128000}
+Rapid-Decay Radcannon {264000}
+Solar Flare Agitator {580000}
+Pheonic-Class Burner {795000}
+Azimuth Artillery Laser {425}
+Phoenix-Class Flamethrower {367500}
+Tactical Rotolaser {720}
+Flash Dazzler {1420}
+Single-Wave Divergent Laser {3430}
+Single-Wave Convergent Laser {2100}
+Corona Artillery Laser {4650}
+Advanced Rotolaser {6040}
+Strobe Dazzler {9420}
+Aphelion Artillery Laser {14300}
+Ember Agitator {330}
+Corona Apocalypse Beam {9500}
+Multiwave Convergent Laser {24500}
+Multiwave Divergent Laser {41200}
+Perihelion Artillery Laser {53800}
+Sunspot Dazzler {71500}
+Tactical Autobeam Artillery {19400}
+Advanced Autobeam Artillery {145700}
+Wide-Spectrum Convergent Laser {118000}
+Parallax Artillery Laser {248000}
+Perihelion Apocalypse Beam {75000}
+Wide-Spectrum Divergent Laser {414000}
+Elite Autobeam Artillery {543300}
+Zenith Apocalypse Beam {875000}
+Red Star Conqueror {430}
+Zenith Artillery Laser {722000}
+Python-Series Hydra Cannon {1070}
+Red Star Plasma Array {1380}
+Python-series Scalegraser {850}
+Red Star Starheart Cannon {1300}
+Yellow Star Conqueror {2400}
+Hydrogen Aurora Cannon {3100}
+Viper-Series Hydra Cannon {4800}
+Luminous Plasma Flare {2950}
+Yellow Star Plasma Array {6300}
+Red Star Plasma Cannon {8650}
+Viper-series Scalegraser {6500}
+Yellow Star Starheart Cannon {9050}
+Radiant Plasma Flare {13275}
+White Star Conqueror {15200}
+Electron Aurora Cannon {18200}
+White Star Plasma Array {26400}
+Asp-Series Hydra Cannon {41000}
+Blue Star Conqueror {52000}
+Asp-series Scalegraser {36000}
+White Star Starheart Cannon {48100}
+Yellow Star Plasma Cannon {62800}
+Brilliant Plasma Flare {53100}
+Blue Star Plasma Array {109000}
+White Star Plasma Cannon {189200}
+Incandescent Plasma Flare {265500}
+Proton Aurora Cannon {258000}
+Cobra-series Scalegraser {260000}
+Blue Star Starheart Cannon {360000}
+Violet Star Conqueror {590000}
+Cobra-Series Hydra Cannon {642000}
+Blue Star Plasma Cannon {950000}
+Light Reaction Cannon {250}
+Light Dart Cannon {690}
+Tactical Rail Cannon {1410}
+Squad Machine Gun {2060}
+Tactical Dart Cannon {2800}
+Tactical X-Gen Gun {4240}
+Tactical Reaction Cannon {6100}
+Heavy Dart Cannon {9650}
+Light Machine Gun {8600}
+Advanced X-Gen Gun {13100}
+Heavy Reaction Cannon {16750}
+Light Stellar Cannon {19200}
+Advanced Crossbolter {21900}
+Advanced Dart Cannon {22300}
+Advanced Rail Cannon {37000}
+Medium Machine Gun {23100}
+Elite X-Gen Gun {53700}
+Elite Crossbolter {71400}
+Advanced Reaction Cannon {73000}
+Heavy Stellar Cannon {122800}
+Elite Dart Cannon {118000}
+Elite Rail Cannon {176000}
+Heavy Machine Gun {220300}
+Paragon Dart Cannon {584000}
+Paragon Crossbolter {327200}
+Elite Reaction Cannon {244000}
+Paragon Rail Cannon {591000}
+Paragon Reaction Cannon {810000}
+Static Arc Caster {375}
+Paragon X-Gen Gun {826000}
+Static Anacite Ion Cannon {1550}
+Sheet Stormcaller {1100}
+Corona Colossus Coil {1450}
+Tactical Cathode Cannon {2040}
+Aurora Arc Caster {3160}
+Static Shock Caster {4620}
+Ribbon Stormcaller {7700}
+Advanced Cathode Cannon {9300}
+Aurora Anacite Ion Cannon {10900}
+Brush Colossus Coil {13800}
+Elite Cathode Cannon {35300}
+Aurora Shock Caster {19100}
+Storm Anacite Ion Cannon {52900}
+Storm Arc Caster {25600}
+Rocket Stormcaller {57000}
+Streamer Arc Colossus Coil {76400}
+Paragon Cathode Cannon {109000}
+Storm Shock Caster {164800}
+Tempest Arc Caster {262000}
+Tempest Anacite Ion Cannon {441000}
+Shockstorm Cathode Cannon {647000}
+Smooth-Channel Stormcaller {440000}
+Multistream Colossus Coil {888000}
+Tempest Shock Caster {735000}
+Exhorter Shout Projector {420}
+Light Sonic Bolter {1480}
+Harmonic Dirge Cannon {900}
+Diffraction Resonator {2080}
+Thunderstrike Screamer {3350}
+Damper Shout Projector {4750}
+Resonant Dirge Cannon {4270}
+Heavy Sonic Bolter {10100}
+LFD Screamer {14000}
+Refraction Resonator {18300}
+Pacifier Shout Projector {22800}
+Assault Sonic Bolter {38000}
+Anharmonic Dirge Cannon {49900}
+HFD Screamer {107500}
+Linear Resonator {73800}
+Parametric Dirge Cannon {172000}
+Riot Shout Projector {304000}
+Devastator Sonic Bolter {398000}
+Phased Resonator {565000}
+Crackdown Shout Projector {918000}
+Needler Rifle {110}
+Liquidator Caustolance {400}
+Tactical Needler Rifle {200}
+Static Dusk Rifle {900}
+Pulse Rackarack {205}
+Light Thasphalt Rifle {880}
+Stinger Meduza Rifle {720}
+Tactical Formian Venomcaster {1325}
+Wireframe Net Gun {1750}
+Growl-class Frost Maw {1350}
+Giga Data Rifle {3150}
+Blitz Meduza Rifle {3950}
+Advanced Needler Rifle {3000}
+Decimator Caustolance {4500}
+Growl-class Chimera Graft {6250}
+Surge Rackarack {4400}
+Buzzing Electrosystem Rifle {4500}
+Static EM Induction Rifle {7000}
+Aurora Dusk Rifle {6500}
+Recombinator Ray {9500}
+Bolt Net Gun {5250}
+Lesser Culling Ray {8850}
+Silver Digitizer Rifle {8000}
+Tactical Thasphalt Rifle {8500}
+Advanced Formian Venomcaster {12750}
+Tactical Nanite Thrower {13300}
+Snarl-class Frost Maw {13000}
+Tera Data Rifle {17900}
+Reality Rifle {19500}
+Roar-class Frost Maw {19000}
+Assault Meduza Rifle {17200}
+Elite Needler Rifle {18000}
+Snarl-class Chimera Graft {24000}
+Standard Culling Ray {34500}
+Executioner Caustolance {38000}
+Jolting Electrosystem Rifle {37500}
+Aurora EM Induction Rifle {36400}
+Storm Dusk Rifle {36500}
+Advanced Nanite Thrower {35400}
+Advanced Thasphalt Rifle {35100}
+Drum Rackarack {46100}
+Gold Digitizer Rifle {65000}
+Peta Data Rifle {113300}
+Elite Formian Venomcaster {70600}
+Commander Meduza Rifle {100000}
+Paragon Needler Rifle {110000}
+Elite Nanite Thrower {110000}
+Elite Thasphalt Rifle {175000}
+Roar-class Chimera Graft {218000}
+Tempest Dusk Rifle {260000}
+Storm EM Induction Rifle {255000}
+Greater Culling Ray {350000}
+Eradicator Caustolance {400000}
+Convulsion Electrosystem Rifle {400000}
+Hammer Rackarack {371000}
+Paragon Formian Venomcaster {398000}
+Gorgon Meduza Rifle {500000}
+Exa Data Rifle {875000}
+Holofoil Digitizer Rifle {900000}
+Paragon Nanite Thrower {830000}
+Supreme Needler Rifle {850000}
+Tactical Numbing Beam {370}
+Grave-Class Void Rifle {1020}
+Subzero Ice Carbine {510}
+Atrophy-Class Frailty Rifle {1650}
+Frostbite-Class Zero Rifle {2330}
+Advanced Numbing Beam {3050}
+Frostbite-Class Frost Projector {5100}
+Crypt-Class Void Rifle {4400}
+Algid Freeze Ray {6300}
+Hailstorm-Class Zero Rifle {10100}
+Elite Numbing Beam {18000}
+Hiemal Freeze Ray {1420}
+Gelid Ice Carbine {12400}
+Glacial Freeze Ray {24800}
+Tomb-Class Void Rifle {26300}
+Hailstorm-Class Frost Projector {42000}
+Ultracold Ice Carbine {47100}
+Blight-Class Frailty Rifle {57200}
+Rot-Class Frailty Rifle {7700}
+Blizzard-Class Zero Rifle {79800}
+Isothermal Freeze Ray {165000}
+Ossuary-Class Void Rifle {182000}
+Paragon Numbing Beam {112000}
+Epidemic-Class Frailty Rifle {297000}
+Blizzard-Class Frost Projector {680000}
+Avalanche-Class Zero Rifle {410200}
+Barrow-Class Void Rifle {606000}
+Absolute-Zero Ice Carbine {218000}
+Military Degenerator Rifle {242000}
+Dominion Degenerator Rifle {810000}
+Hypothermic Freeze Ray {818000}
+Minor Disruption Rifle {15000}
+Major Disruption Rifle {80000}
+Scrapper Dross Gun {720}
+Flux Dross Gun {19200}
+Scoring Dross Gun {3300}
+Liquidator Disintegrator Rifle {4750}
+Decimator Disintegrator Rifle {29000}
+Executioner Disintegrator Rifle {210000}
+Eradicator Disintegrator Rifle {745000}
+Gulchgun {90}
+Flame Rifle {490}
+Ifrit-Class Blaze Rifle {1900}
+Dazzler Flare Rifle {445}
+Light Petrol Converter {2150}
+Wyrmling Dragon Rifle {3020}
+Vivifier Flare Rifle {3600}
+Salamander-Class Blaze Rifle {5800}
+Ember Igniter {9900}
+Tactical Petrol Converter {6750}
+Coruscator Flare Rifle {15700}
+Drake Dragon Rifle {13400}
+Advanced Petrol Converter {18500}
+Hellhound-Class Blaze Rifle {23200}
+Elite Petrol Converter {76500}
+Blaze Igniter {34200}
+Scorcher Flare Rifle {43800}
+Inferno Igniter {108000}
+Wyvern Dragon Rifle {72200}
+Nova Flare Rifle {201000}
+Firedrake-Class Blaze Rifle {153000}
+Solar Flare Igniter {360000}
+True Dragon Rifle {559000}
+Paragon Petrol Converter {385000}
+Pheonix-Class Blaze Rifle {765000}
+Azimuth Serpent Laser {500}
+Azimuth Laser Rifle {425}
+Tactical Infinity Rifle {1300}
+Light Excavation Laser {2050}
+Corona Serpent Laser {2700}
+Aphelion Serpent Laser {8800}
+Corona Laser Rifle {4650}
+Advanced Infinity Rifle {6100}
+Medium Excavation Laser {36000}
+Aphelion Laser Rifle {14300}
+Tactical Autobeam Rifle {26900}
+Elite Infinity Rifle {17100}
+Perihelion Serpent Laser {66000}
+Perihelion Laser Rifle {53800}
+Advanced Autobeam Rifle {95500}
+Paragon Infinity Rifle {155000}
+Parallax Laser Rifle {248000}
+Heavy Excavation Laser {380000}
+Zenith Laser Rifle {722000}
+Elite Autobeam Rifle {548100}
+Red Star Nova Rifle {940}
+Tactical Plasma Bolter {260}
+Light Microfusion Rifle {2350}
+Advanced Plasma Bolter {3010}
+Red Star Plasma Rifle {4600}
+12-Notch Plasma Fork {1290}
+Yellow Star Nova Rifle {6800}
+Elite Plasma Bolter {14000}
+15-Notch Plasma Fork {8850}
+Yellow Star Plasma Rifle {16800}
+White Star Nova Rifle {25300}
+Medium Microfusion Rifle {40800}
+19-Notch Plasma Fork {64800}
+White Star Plasma Caster {49100}
+White Star Plasma Rifle {126600}
+Blue Star Plasma Caster {275000}
+Heavy Microfusion Rifle {410000}
+22-Notch Plasma Fork {750000}
+Blue Star Plasma Rifle {935000}
+Hunting Rifle {240}
+Utility Scattergun {235}
+Autotarget Rifle {755}
+Tactical Acid Dart Rifle {485}
+Truth-Sequence Cinder Rifle {700}
+Tactical Crossbolter {475}
+Tactical Shield Rifle {900}
+Huchket Rifle {1400}
+Paragon Plasma Bolter {170000}
+Slipstream-Class Kalo Shredder {1610}
+Tactical Rail Gun {1150}
+Utility Breaching Gun {2350}
+Low-Flux Vivara Rifle {2100}
+Advanced Rail Gun {3770}
+Rocket Rifle {3010}
+Dual Acid Dart Rifle {6900}
+Accelerator Rifle Aeon Guard {7500}
+Snub Breaching Gun {6800}
+Salvation-Sequence Cinder Rifle {6000}
+Tactical Seeker Rifle {6030}
+Advanced Shield Rifle {6820}
+Cascade-Class Kalo Shredder {6630}
+Dual Crossbolter {8250}
+Snub Scattergun {8300}
+Assault Rifle Aeon Guard {1400}
+Mid-Flux Vivara Rifle {7500}
+Tactical Magnetar Rifle {11800}
+Combat Rifle {16500}
+RPPR Aeon Guard {21000}
+Valor-Sequence Cinder Rifle {23700}
+Torrent-Class Kalo Shredder {26700}
+Impact Breaching Gun {25300}
+Complex Acid Dart Rifle {39200}
+Impact Scattergun {30400}
+Elite Shield Rifle {37000}
+Tactical Gyrojet Rifle {54000}
+High-Flux Vivara Rifle {27600}
+Advanced Magnetar Rifle {53700}
+Deluge-Class Kalo Shredder {74300}
+Advanced Seeker Rifle {72300}
+Glory-Sequence Cinder Rifle {102200}
+Vortex Breaching Gun {119000}
+Vortex Scattergun {91900}
+Advanced Gyrojet Rifle {122800}
+Elite Magnetar Rifle {185100}
+Elite Gyrojet Rifle {245600}
+Monsoon-Class Kalo Shredder {784000}
+Paragon Shield Rifle {264000}
+Elite Seeker Rifle {242500}
+Grapeshot Scattergun {331000}
+Grapeshot Breaching Gun {509000}
+Paragon Magnetar Rifle {612600}
+Paragon Seeker Rifle {809200}
+Paragon Gyrojet Rifle {723500}
+Live Storm Coil {1480}
+Pulsecaster Rifle {100}
+Tactical Arc Emitter {750}
+Static Polarity Rifle {2400}
+Jolt Storm Coil {6900}
+Standard Surgecaster {3300}
+Impulse Charge Emitter {10900}
+Static Arc Rifle {4200}
+Advanced Arc Emitter {13200}
+Aurora Polarity Rifle {21000}
+Impulse Storm Coil {35200}
+Aurora Arc Rifle {24500}
+Jolt Charge Emitter {57000}
+Advanced Surgecaster {83000}
+Storm Polarity Rifle {137000}
+Surge Storm Coil {261000}
+Storm Arc Rifle {190300}
+Surge Charge Emitter {435000}
+Tempest Polarity Rifle {1000,000}
+Tempest Arc Rifle {622000}
+Termite Scrambler Rifle {1520}
+Solo Trenarii Singing Coil {2200}
+Dragonfly Scrambler Rifle {24900}
+Cockroach Scrambler Rifle {9850}
+Duet Trenarii Singing Coil {9700}
+Quartet Trenarii Singing Coil {50000}
+Orchestra Trenarii Singing Coil {380000}
+Locust Scrambler Rifle {82600}
+Tremor Boomer Rifle {520}
+Shout Rifle {450}
+Thunderstrike Blindmark Rifle {1400}
+Pulse Vortex Rifle {1400}
+Thunderstrike Chordpocalypse {765}
+Pulse Staccato Rifle {2000}
+Thunderstrike Sonic Rifle {3400}
+Rumbler Boomer Rifle {4100}
+Shattering Chordpocalypse {4280}
+Surge Vortex Rifle {4150}
+Thunderstrike Streetsweeper {7150}
+LFD Blindmark Rifle {9800}
+Surge Staccato Rifle {13000}
+Psychedelic Chordpocalypse {18400}
+LFD Sonic Rifle {17000}
+Concussive Boomer Rifle {24000}
+Drum Vortex Rifle {38000}
+LFD Streetsweeper {39300}
+HFD Blindmark Rifle {51000}
+Banshee Chordpocalypse {72000}
+Drum Staccato Rifle {107000}
+HFD Sonic Rifle {80200}
+HFD Streetsweeper {195000}
+Shockwave Boomer Rifle {230000}
+Hammer Vortex Rifle {250000}
+Transcendent Chordpocalypse {372000}
+Hammer Staccato Rifle {810000}
+Banshee Sonic Rifle {364500}
+Banshee Blindmark Rifle {585000}
+Needler Pistol {105}
+Singing Stinger {200}
+Tactical Gnome Scout Gun {300}
+Liquidator Caustoject {225}
+Tactical Needler Pistol {175}
+Light Thasphalt Blaster {350}
+Tactical Skipshot Pistol {105}
+Tactical Cestus Pistol {250}
+Linear Graviton Pistol {1450}
+Micrergate Acid Cannon {1500}
+Warbler Chorister {895}
+Tactical Nightarch Needler {1650}
+Tactical Glove Needler {560}
+Ifrit-Class Infernian {1400}
+Crescent Moon Splinter {2200}
+Thasteron Blunderbuss {1350}
+Sentry Shield Projector {2180}
+Ant Sting Pistol {2150}
+Orb Binding Blaster {3100}
+Mood Goo Emitter {2500}
+Giga Data Pistol {3150}
+Vector Graviton Pistol {3050}
+Neutriad Pistol {3200}
+Advanced Needler Pistol {2700}
+Advanced Cestus Pistol {4170}
+Harmonist Chorister {4400}
+Decimator Caustoject {4000}
+Tactical Thasphalt Blaster {4200}
+Reality Pistol {7000}
+Advanced Skipshot Pistol {3750}
+Macrergate Acid Cannon {7000}
+Silver Digitizer Pistol {6000}
+Advanced Gnome Scout Gun {6300}
+Salamander-Class Infernian {6500}
+Tactical Rocket Bracer {4000}
+Tactical Tetrad Rings {6900}
+Tensor Graviton Pistol {9800}
+Advanced Nightarch Needler {6270}
+Advanced Glove Needler {5800}
+Globe Binding Blaster {13900}
+Gibbous Moon Splinter {13000}
+Defender Shield Projector {13800}
+Chanteuse Chorister {18200}
+Tera Data Pistol {13700}
+Full Moon Splinter {19000}
+New Moon Splinter {19000}
+Elite Needler Pistol {17250}
+Yellow Jacket Sting Pistol {18500}
+Elite Cestus Pistol {24400}
+Tinker-class Nanite Pistol {13300}
+Advanced Thasphalt Blaster {17300}
+Scrapper-class Nanite Pistol {25200}
+Hellhound-Class Infernian {25000}
+Executioner Caustoject {32900}
+Dinergate Acid Cannon {36000}
+Advanced Rocket Bracer {23800}
+Elite Skipshot Pistol {32000}
+Elite Gnome Scout Gun {34800}
+Advanced Tetrad Rings {39000}
+Chiral Graviton Pistol {49500}
+Elite Nightarch Needler {44980}
+Gold Digitizer Pistol {46000}
+Intoner Chorister {76500}
+Elite Glove Needler {69300}
+Engineer-class Nanite Pistol {72000}
+Guardian Shield Projector {75200}
+Peta Data Pistol {76300}
+Elite Thasphalt Blaster {69000}
+Firedrake-Class Infernian {109500}
+Elite Rocket Bracer {102000}
+Paragon Needler Pistol {94500}
+Ergatoid Acid Cannon {256000}
+Paragon Cestus Pistol {162000}
+Wasp Sting Pistol {113000}
+Paragon Skipshot Pistol {216500}
+Eradicator Caustoject {242300}
+Paragon Nightarch Needler {369000}
+Hornet Sting Pistol {381000}
+Holofoil Digitizer Pistol {580000}
+Phoenix-Class Infernian {591500}
+Exa Data Pistol {385000}
+Artificer-class Nanite Pistol {555000}
+Paragon Rocket Bracer {525000}
+Warden Shield Projector {594000}
+Elite Tetrad Rings {620000}
+Paragon Glove Needler {765000}
+Subzero Hail Pistol {120}
+Diva Chorister {380000}
+Supreme Needler Pistol {725000}
+Frost Subduer {790}
+Rasp-Class Frailty Pistol {2420}
+Grave-Class Bone Pistol {900}
+Caliginous Shadow Pistol {2100}
+Frostbite-Class Zero Pistol {3060}
+Crypt-Class Bone Pistol {4350}
+Sable Shadow Pistol {6750}
+Wail-Class Frailty Pistol {15400}
+Rime Subduer {13200}
+Gelid Hail Pistol {8600}
+Sepulcher-Class Bone Pistol {25500}
+Sleet Subduer {50500}
+Hailstorm-Class Zero Pistol {16900}
+Scream-Class Frailty Pistol {85800}
+Tenebrous Shadow Pistol {35400}
+Blizzard-Class Zero Pistol {94500}
+Ultracold Hail Pistol {63200}
+Glacier Subduer {169000}
+Deathcry-Class Frailty Pistol {440000}
+Vault-Class Bone Pistol {591000}
+Umbral Shadow Pistol {855000}
+Military Degenerator Pistol {161000}
+Dominion Degenerator Pistol {560000}
+Minor Disruption Pistol {7500}
+Major Disruption Pistol {40000}
+Bruiser Decoupler {430}
+Liquidator Disintegration SMG {1490}
+Pusher Decoupler {2300}
+Liquidator Disintegration Pistol {4500}
+Liquidator Disintegrator Pistol {4500}
+Screamer Decoupler {10800}
+Decimator Disintegration SMG {13700}
+Decimator Disintegration Pistol {28000}
+Avalanche-Class Zero Pistol {492900}
+Decimator Disintegrator Pistol {28000}
+Executioner Disintegration SMG {118000}
+Executioner Disintegrator Pistol {200000}
+Executioner Disintegration Pistol {200000}
+Eradicator Disintegration Pistol {745000}
+Eradicator Disintegrator Pistol {745000}
+Survival Flare Gun {90}
+Eradicator Disintegration SMG {888000}
+Flame Pistol {470}
+Absolute-Zero Hail Pistol {218000}
+Bombard Shellgun {1150}
+Illuminator Mercy Pistol {275}
+Microwave Scorchgun {2050}
+Wyrmling Dragon Pistol {2650}
+Tactical Trilaser {3200}
+Dazzler Flare Pistol {3300}
+II Wave Modulator {3400}
+Infrared Mercy Pistol {4300}
+Electromagnetic Radshot {4010}
+I Wave Modulator {1080}
+Blaze Flame Pistol {5500}
+S-Band Scorchgun {9350}
+III Wave Modulator {11000}
+Vivifier Flare Pistol {13000}
+Blaze Shellgun {11500}
+Drake Dragon Pistol {17000}
+Inferno Flame Pistol {23000}
+IV Wave Modulator {28600}
+Ultraviolet Mercy Pistol {25000}
+Advanced Trilaser {17600}
+Coruscator Flare Pistol {46000}
+C-Band Scorchgun {49100}
+V Wave Modulator {81000}
+Fury Shellgun {30500}
+Neutron Radshot {69500}
+Wyvern Dragon Pistol {95000}
+Scorcher Flare Pistol {180000}
+Elite Trilaser {105600}
+K-Band Scorchgun {165000}
+X-Band Scorchgun {368000}
+True Dragon Pistol {489000}
+Nova Flare Pistol {485000}
+VI Wave Modulator {195000}
+Solar Flare Flame Pistol {220000}
+VII Wave Modulator {919000}
+Rapid-Decay Radshot {767000}
+Azimuth Laser Pistol {350}
+Azimuth Shoulder Laser {870}
+Membrane Holdout Pistol {1250}
+Cylindrical Lens Pistol {1850}
+Flash Compliance Ray {1400}
+Corona Laser Pistol {4270}
+Flare Compliance Ray {6400}
+Corona Shoulder Laser {9700}
+Aphelion Laser Pistol {14820}
+Lenticular Lens Pistol {17100}
+Perihelion Laser Pistol {40200}
+Strobe Compliance Ray {25100}
+Aphelion Shoulder Laser {51500}
+Paragon Trilaser {739250}
+Parallax Laser Pistol {82000}
+Starburst Compliance Ray {171000}
+Electron Lens Pistol {146000}
+Perihelion Shoulder Laser {383000}
+Sunspot Compliance Ray {545000}
+Sunglass Lens Pistol {728000}
+Zenith Laser Pistol {245200}
+Harmonic Locus Beam {3300}
+Infrasonic Locus Beam {52800}
+Ultrasonic Locus Beam {264000}
+Electocellular Plasma Claw {280}
+Vapor Cavitation Pistol {1430}
+Interference Locus Beam {13200}
+Synthecite Plasma Claw {3350}
+Single-Valve Plasma Ring {2350}
+8-Notch Forked Pistol {4100}
+Red Star Plasma Pistol {7200}
+Inertial Cavitation Pistol {9700}
+6-Notch Forked Pistol {720}
+Dual-Valve Plasma Ring {27000}
+Yellow Star Plasma Pistol {40300}
+Organic Plasma Claw {20100}
+Persuader {13500}
+9-Notch Forked Pistol {48100}
+Hydrodynamic Cavitation Pistol {75200}
+White Star Plasma Pistol {107500}
+Multichannel Plasma Ring {280000}
+Thermodynamic Cavitation Pistol {584000}
+10-Notch Forked Pistol {801000}
+Blue Star Plasma Pistol {565000}
+Biodynamic Plasma Claw {189000}
+Truth-Sequence Ember Pistol {525}
+Bravado Handcannon {790}
+Tactical Semi-Auto Pistol {260}
+Medic Injector Pistol {1290}
+Tactical Rotating Pistol {1900}
+Zoologist Injector Pistol {2890}
+Tactical Ring Fire {3900}
+Swagger Handcannon {4350}
+Tactical Uppercut SMG {2100}
+Advanced Semi-Auto Pistol {5500}
+Salvation-Sequence Ember Pistol {5700}
+Advanced Uppercut SMG {9800}
+Poacher Injector Pistol {9050}
+Advanced Ring Fire {17300}
+Elite Semi-Auto Pistol {18200}
+Bombast Handcannon {13200}
+Advanced Rotating Pistol {23400}
+Valor-Sequence Ember Pistol {23400}
+Elite Uppercut SMG {50600}
+Braggadocio Handcannon {35100}
+Glory-Sequence Ember Pistol {65800}
+Paragon Semi-Auto Pistol {45200}
+Subjugation Injector Pistol {68500}
+Elite Ring Fire {68500}
+Tactical Gyrojet Pistol {91500}
+Advanced Gyrojet Pistol {212700}
+Elite Rotating Pistol {153000}
+Paragon Ring Fire {357000}
+Paragon Uppercut SMG {380000}
+Elite Injector Pistol {532000}
+Elite Gyrojet Pistol {715800}
+Gasconade Handcannon {364000}
+Static Arc Pistol {750}
+Static Polarity Wire {580}
+Pulsecaster Pistol {250}
+Voltaic Anchor Pistol {2100}
+Sheet Lightning Pistol {3000}
+Cupric Ionizer {4650}
+Fighter Handcoil {5600}
+Explorer Handcoil {1200}
+Ribbon Lightning Pistol {9700}
+Emergent Anchor Pistol {13200}
+Feric Ionizer {20100}
+Aurora Polarity Wire {5750}
+Rocket Lightning Pistol {37000}
+Storm Polarity Wire {32800}
+Chromic Ionizer {80000}
+Aurora Arc Pistol {45700}
+Inductive Anchor Pistol {108000}
+Pilot Handcoil {24000}
+Capital Handcoil {150000}
+Tempest Polarity Wire {232000}
+Stannic Ionizer {611000}
+Smooth-Channel Lightning Pistol {260000}
+Termite Scrambler Pistol {800}
+Flux Anchor Pistol {814000}
+Storm Arc Pistol {365500}
+Cockroach Scrambler Pistol {5200}
+Dragonfly Scrambler Pistol {19400}
+Diffraction Perforator Pistol {500}
+Harmonic Dirge Pistol {440}
+Locust Scrambler Pistol {44700}
+Thunderstrike Sonic Pistol {2300}
+Shrieking Larva {2800}
+Resonant Dirge Pistol {4950}
+Lattice Resonant Pistol {6100}
+Whisper Sonic Suppressor {9700}
+Refraction Perforator Pistol {13000}
+Anharmonic Dirge Pistol {20500}
+Murmur Sonic Suppressor {1430}
+Linear Perforator Pistol {46000}
+LFD Sonic Pistol {26200}
+Hush Sonic Suppressor {36500}
+Parametric Dirge Pistol {133000}
+Banshee Sonic Pistol {191000}
+Repose Sonic Suppressor {257000}
+HFD Sonic Pistol {71300}
+Radial Dirge Pistol {660000}
+Phased Perforator Pistol {732000}
+Matrix Resonant Pistol {358000}
+Yellow Jacket Wraith-Sting Rifle {375}
+Tactical Kin-Killer {3010}
+Pinhole Rift Rifle {2180}
+Lead Philosopher’s Sting {950}
+Wasp Wraith-Sting Rifle {2980}
+Keyhole Rift Rifle {14500}
+Iron Philosopher’s Sting {6600}
+Borehole Rift Rifle {80000}
+Tactical Nanite Rifle {20100}
+Mercury Philosopher’s Sting {36300}
+Hornet Wraith-Sting Rifle {71200}
+Advanced Kin-Killer {25100}
+Gold Philosopher’s Sting {290000}
+Elite Kin-Killer {107100}
+Wormhole Rift Rifle {600000}
+Advanced Nanite Rifle {131000}
+Paragon Kin-Killer {825000}
+Elite Nanite Rifle {648000}
+Terrestrial Gamma Rifle {2120}
+Synchrotron Gamma Rifle {272000}
+Ionizing Gamma Rifle {13600}
+Dual Focus Rifle {1400}
+Tactical Diasporan Rifle {350}
+Elite Diasporan Rifle {17000}
+Advanced Diasporan Rifle {3750}
+Fusion Gamma Rifle {36600}
+Ultra Diasporan Rifle {110000}
+Compound Focus Rifle {375000}
+Imperial Diasporan Rifle {725000}
+Quad Focus Rifle {50800}
+Series-21 Plasma Guide {1070}
+Series-28 Plasma Guide {4920}
+Series-37 Plasma Guide {10800}
+Triple Focus Rifle {6460}
+Series-42 Plasma Guide {28200}
+Series-73 Plasma Guide {980000}
+Series-62 Plasma Guide {193000}
+Precision Coil Rifle {390}
+Dazzler Tagtech Rifle {400}
+Tactical Shobhad Horizon Striker {440}
+Tactical Shirren-Eye Rifle {755}
+Stalker Assassin Rifle {1510}
+12-atm Extrusion Rifle {1470}
+Dual Multistage Rifle {2380}
+Tactical Parapet Rifle {2350}
+Specialist Coil Rifle {3120}
+Vivifier Tagtech Rifle {3180}
+Advanced Shobhad Horizon Striker {4750}
+Dual-Plus Multistage Rifle {7500}
+Shadow Assassin Rifle {4550}
+24-atm Extrusion Rifle {9840}
+Phantom Assassin Rifle {14900}
+Advanced Shirren-Eye Rifle {9350}
+Triple Multistage Rifle {27900}
+Rangefinder Coil Rifle {18600}
+Elite Shobhad Horizon Striker {27300}
+Advanced Parapet Rifle {14600}
+Spectre Assassin Rifle {29500}
+Coruscator Tagtech Rifle {25750}
+48-atm Extrusion Rifle {55000}
+Elite Shirren-Eye Rifle {54000}
+Saboteur Coil Rifle {76700}
+Elite Parapet Rifle {78800}
+Triple-Plus Multistage Rifle {124000}
+Paragon Shirren-Eye Rifle {147200}
+Paragon Shobhad Horizon Striker {185000}
+Wraith Assassin Rifle {278000}
+Nova Tagtech Rifle {265000}
+96-atm Extrusion Rifle {392400}
+Quad Multistage Rifle {627000}
+Assassin Coil Rifle {590000}
+Warpshot Shirren-Eye Rifle {740800}
+Paragon Parapet Rifle {610000}
+Shard Apocalypse Crystal {150}
+Shard Electron {280}
+Shard Photino Crystals {110}
+Shard W-Boson {215}
+Least Tauon {235}
+Shard Gluon {770}
+Shard Z-Boson {115}
+Shard Iceflame Crystals {780}
+Shard Photon {145}
+Least Muon {760}
+Least T-Quark {750}
+Least Electron {1430}
+Shard Pyrespike Crystals {1400}
+Minor Muon {2200}
+Least Positron {1310}
+Least Photino Crystals {1850}
+Least Z-Boson {1950}
+Least Apocalypse Crystal {3050}
+Minor Tauon {1850}
+Least Graviton {2900}
+Least Photon {2950}
+Least W-Boson {3050}
+Least Iceflame Crystals {3100}
+Minor T-Quark {3000}
+Minor Electron {3850}
+Least Gluon {3900}
+Least Pyrespike Crystals {4255}
+Minor Photino Crystals {5500}
+Lesser Tauon {6000}
+Minor Z-Boson {7000}
+Lesser T-Quark {6950}
+Minor Apocalypse Crystal {9500}
+Minor Iceflame Crystals {9600}
+Minor Photon {9300}
+Minor W-Boson {9800}
+Lesser Electron {12100}
+Minor Pyrespike Crystals {13280}
+Minor Gluon {11500}
+Lesser Muon {18100}
+Lesser Photino Crystals {17000}
+Standard Tauon {17500}
+Lesser Z-Boson {17500}
+Lesser Apocalypse Crystal {24900}
+Lesser Graviton {24000}
+Lesser Iceflame Crystals {25200}
+Lesser Photon {25100}
+Lesser W-Boson {26200}
+Standard Electron {30500}
+Lesser Gluon {30800}
+Lesser Pyrespike Crystals {35500}
+Standard Photino Crystals {46000}
+Minor Positron {47000}
+Greater Tauon {48400}
+Standard T-Quark {45000}
+Standard Z-Boson {47500}
+Standard Apocalypse Crystal {74000}
+Standard Graviton {69800}
+Standard Iceflame Crystals {75000}
+Standard Photon {71200}
+Standard W-Boson {81300}
+Greater Electron {93000}
+Standard Gluon {94200}
+Standard Pyrespike Crystals {109000}
+Standard Muon {166000}
+Greater Photino Crystals {145000}
+True Tauon {161000}
+Greater Z-Boson {177500}
+Greater T-Quark {175000}
+Greater Apocalypse Crystal {265000}
+Greater Graviton {251000}
+Greater W-Boson {274100}
+Greater Iceflame Crystals {255000}
+Greater Photon {246200}
+Greater Gluon {330300}
+True Photino Crystals {495000}
+Lesser Positron {528000}
+True Electron {332000}
+True Z-Boson {561000}
+Greater Pyrespike Crystals {369000}
+True Apocalypse Crystal {776000}
+True Gluon {916200}
+True Graviton {727100}
+True Iceflame Crystals {825000}
+Greater Muon {760000}
+True Photon {729500}
+True Pyrespike Crystals {856000}
+True T-Quark {750000}
+True W-Boson {806000}
+Minor Graviton {9200}
+Carbonedge Shuriken (10) {85}
+Nyfiber Net {460}
+Grooved Shuriken {370}
+Microserrated Shuriken {1120}
+Flash Shuriken {3120}
+Singing Shuriken {8550}
+Ultraserrated Shuriken {29100}
+Dynamo Shuriken {98000}
+Bow {255}
+Tactical Battlebow {1900}
+Advanced Apocalypse Bow {13600}
+Tactical Apocalypse Bow {3300}
+Advanced Battlebow {8750}
+Elite Battlebow {31000}
+Paragon Apocalypse Bow {363000}
+Paragon Battlebow {150000}
+Elite Apocalypse Bow {40000}
+Grenadier Bracket {400}
+Rangefinder {325}
+Light Bayonet Bracket {150}
+Heavy Bayonet Bracket {300}
+Light Bipod {350}
+Heavy Bipod {700}
+Folding Grip {600}
+Manual Sight {1000}
+Collapsing Stock {850}
+Nanofiber Grip {750}
+Flash Suppressor {1200}
+Fireburst Chamber {400}
+Light Gunner Harness {1400}
+Silencer {1850}
+Collapsing Weapon {1250}
+Sniper Scope {1350}
+Inertial Dampener {4000}
+Nightvision Scope {2350}
+Null-Space Grip {4250}
+Laser Scope {4300}
+Blur Grip {5400}
+Laser Sight {3000}
+Null-Space Gunner Harness {15000}
+Revealing Scope {12500}
+Clarity Scope {37500}
+Null-Space Stock {5950}
+Heavy Gunner Harness {5600}
+Uniclamp {150}
+Anchoring {-}
+Called {-}
+Climbing {-}
+Defiant {-}
+Cunning {-}
+Familial {-}
+Harmonic {-}
+Hindering {-}
+Durable {-}
+Glamered {-}
+Hybridized {-}
+Illuminating {-}
+Invigorating {-}
+Mining {-}
+Ominous {-}
+Returning {-}
+Stabilizing {-}
+Secured {-}
+Soulfire {-}
+Trailblazer {-}
+Blasting {-}
+Anarchic {-}
+Axiomatic {-}
+Entangling {-}
+Dimming {-}
+Glowing {-}
+Burst {-}
+Inspiring {-}
+Kindred {-}
+Holy {-}
+Merciful {-}
+Spellthrower {-}
+Opportunistic {-}
+Ulrikka Duster {-}
+Venomous {-}
+Astute {-}
+Throwing {-}
+Binding {-}
+Conserving {-}
+Defending {-}
+Deafening {-}
+Dispelling {-}
+Unholy {-}
+Disruptive {-}
+Sentinel {-}
+Launching {-}
+Bonding {-}
+Seeking {-}
+Valorous {-}
+Potent {-}
+Sundering {-}
+Echoing {-}
+Manufacturing {-}
+Vanishing {-}
+Radioactive {-}
+Burning {-}
+Accurate {-}
+Apprehending {-}
+Bending {-}
+Bleeding {-}
+Bombarding {-}
+Tactical {-}
+Energetic {-}
+Devastating {-}
+Bane {-}
+Flaming {-}
+Numbing {-}
+Ghost Killer {-}
+Interposing {-}
+Limning {-}
+Frost {-}
+Obscuring {-}
+Selective {-}
+Supercharging {-}
+Punishing {-}
+Adaptive {-}
+Advancing {-}
+Shock {-}
+Vicious {-}
+Agonizing {-}
+Dampening {-}
+Cruel {-}
+Dimensional Disruption {-}
+Ensnaring {-}
+Hive Buster {-}
+EMP {-}
+Chained {-}
+Knockdown {-}
+Quantum Storage {-}
+Nanite {-}
+Menacing {-}
+Spellbane {-}
+Tunneling {-}
+Agile {-}
+Boosting {-}
+Charge Disrupting {-}
+Cellular Degenerating {-}
+Steady {-}
+Mind Reading {-}
+Tattoo {-}
+Jinxing {-}
+Annihilator {-}
+Wounding {-}
+Continuous {-}
+Leeching {-}
+Guarded {-}
+Rebounding {-}
+Temporal Disruption {-}
+Beneficent {-}
+Corrosive {-}
+Synesthetic {-}
+Ratjaw {-}
+Tritidair {-}
+Malediction {-}
+Rel-Entrapment {-}
+Disentanglement {-}
+Burdening {-}
+Lightveiled {-}
+Quantum {-}
+Thundering {-}
+Vorpal {-}
+Nullifying {-}
+Sheering {-}
+Meltdown {-}
+Tracking {-}
+Kaleidoscopic {-}
+Mind-Reading {-}
+Arrows (20) {50}
+Darts (25) {20}
+Flare (1) {5}
+Scattergun Shells (25) {55}
+Mood goo tank (10 mood goo ) {250}
+Flechette (25) {75}
+Standard (20) Battery {60}
+Thasphalt canister (20 thasphalt ) {75}
+Longarm and Sniper (25) Rounds {75}
+Small Arm (30) Rounds {40}
+Standard (20) Petrol Tank {60}
+Thasteron pellets (50 thasteron pellets ) {200}
+Heavy (20) Rounds {90}
+High-Capacity (40) Petrol Tank {280}
+High-Capacity (40) Battery {330}
+Super-Capacity (80) Battery {390}
+Ultra-Capacity (100) Battery {445}
+Nanite Canisters (10 nanites) {2150}
+Interference () Locus Crystal {1000}
+Harmonic () Locus Crystal {190}
+Infrasonic () Locus Crystal {5600}
+Mini-Rockets (10) {300}
+Ultrasonic () Locus Crystal {11300}
+Arrow (20) Explosive {75}
+Rounds Explosive {150}
+Darts (25) Explosive {50}
+Rounds Explosive {60}
+Scattergun Shells (25) Explosive {110}
+Rounds Explosive {180}
+I (1) Grenade Arrow {875}
+Mini-Rockets (10) Explosive {450}
+I Longarm and Sniper Rounds (25) Phasing {820}
+II (1) Grenade Arrow {5450}
+Tactical (1) Missile {5700}
+Ionized (1) Plasma Missile {6700}
+Diamond-Edge (20) Arrow {5200}
+Advanced (1) Missile {14600}
+II Longarm and Sniper Rounds (25) Phasing {9420}
+Heavy Rounds (20) Warpshot {9750}
+Mini-rockets (10) Warpshot {9750}
+Scattergun Shells (25) Warpshot {9750}
+III (1) Grenade Arrow {32050}
+Stellar (1) Plasma Missile {53200}
+Molecular Rift (20) Arrow {53700}
+HED (1) Plasma Missile {175000}
+IV (1) Grenade Arrow {245000}
+Smoke Grenade {40}
+Mk 1 Concussion Grenade {50}
+Mk 1 Defoliant Grenade {75}
+Mk 1 Frag Grenade {35}
+I Dye Grenade {50}
+Mk 1 Holo Grenade {50}
+I Thasphalt Grenade {110}
+Mk 1 Stickybomb Grenade {80}
+I Decoupler Grenade {200}
+Mk 1 Shock Grenade {50}
+Mk 1 Antigravity Grenade {140}
+Mk 1 Flash Grenade {120}
+Mk 1 Holy Water Grenade {375}
+I Gravity Grenade {135}
+Mk 1 Mindspike Grenade {150}
+Mk 1 Incendiary Grenade {140}
+Mk 1 Riot Grenade {185}
+Mk 2 Concussion Grenade {230}
+Mk 1 Barbed Shrapnel Grenade {225}
+I Meduza Grenade {240}
+Mk 1 Diminisher Grenade {270}
+I Solar Flare Grenade {280}
+Mk 1 Summoning Grenade {250}
+I Thasteron Grenade {310}
+Mk 1 Foam Grenade {410}
+Taserweb Grenade {720}
+Mk 2 Defoliant Grenade {320}
+Mk 1 Web Grenade {490}
+Mk 2 Frag Grenade {310}
+Mk 2 Holo Grenade {300}
+Mk 2 Mindspike Grenade {305}
+Mk 1 Pheromone Grenade {325}
+Mk 1 Screamer Grenade {320}
+Mk 2 Shock Grenade {290}
+Mk 2 Stickybomb Grenade {300}
+Mk 2 Holy Water Grenade {940}
+II Dye Grenade {320}
+Mk 1 Pulse Grenade {950}
+Mk 2 Riot Grenade {810}
+II Thasphalt Grenade {820}
+Mk 2 Antigravity Grenade {575}
+Mk 1 Necro Grenade {870}
+Mk 2 Barbed Shrapnel Grenade {580}
+Mk 1 Cryo Grenade {600}
+II Decoupler Grenade {700}
+Mk 2 Diminisher Grenade {675}
+Mk 2 Flash Grenade {620}
+II Gravity Grenade {600}
+Mk 2 Incendiary Grenade {580}
+Mk 1 Microbot Grenade {1400}
+Mk 1 Panic Grenade {1400}
+II Solar Flare Grenade {725}
+Mk 3 Concussion Grenade {615}
+Mk 3 Defoliant Grenade {850}
+Mk 2 Summoning Grenade {650}
+Mk 3 Holo Grenade {900}
+II Meduza Grenade {920}
+Mk 3 Riot Grenade {1640}
+Disruption Grenade {1600}
+II Thasteron Grenade {1350}
+Mk 3 Incendiary Grenade {1380}
+Mk 3 Frag Grenade {1260}
+Mk 3 Mindspike Grenade {1275}
+III Dye Grenade {1300}
+Mk 2 Screamer Grenade {1340}
+Junkbot Grenade {2250}
+Mk 3 Diminisher Grenade {2100}
+Mk 2 Microbot Grenade {4200}
+Mk 2 Pheromone Grenade {1400}
+Mk 2 Necro Grenade {3900}
+Mk 2 Foam Grenade {3520}
+III Solar Flare Grenade {2450}
+Mk 2 Pulse Grenade {4350}
+III Thasphalt Grenade {4200}
+Mk 3 Summoning Grenade {2000}
+Wonder Grenade {2500}
+Mk 2 Web Grenade {3950}
+Mk 3 Barbed Shrapnel Grenade {2500}
+Mk 3 Antigravity Grenade {2650}
+Mk 4 Concussion Grenade {2600}
+Mk 2 Cryo Grenade {2350}
+Temporal Disruption Grenade {2900}
+Mk 4 Frag Grenade {2700}
+Mk 2 Panic Grenade {5600}
+Mk 3 Stickybomb Grenade {2500}
+III Decoupler Grenade {3000}
+III Thasteron Grenade {5500}
+Mk 3 Holy Water Grenade {7680}
+Mk 4 Riot Grenade {6910}
+IV Thasphalt Grenade {8250}
+Containment Grenade {6000}
+Mk 4 Defoliant Grenade {4800}
+Mk 4 Diminisher Grenade {5700}
+IV Dye Grenade {5100}
+Mk 3 Shock Grenade {2500}
+III Gravity Grenade {4800}
+Mk 4 Incendiary Grenade {4300}
+Mk 4 Mindspike Grenade {5000}
+Mk 3 Flash Grenade {4800}
+Mk 3 Pheromone Grenade {5300}
+Mk 3 Microbot Grenade {12500}
+Mk 4 Summoning Grenade {5000}
+VI Solar Flare Grenade {6500}
+III Meduza Grenade {7200}
+Mk 3 Necro Grenade {14640}
+Mk 3 Screamer Grenade {5200}
+Mk 4 Antigravity Grenade {9500}
+Mk 3 Web Grenade {14700}
+Mk 5 Concussion Grenade {9800}
+Mk 5 Frag Grenade {8400}
+IV Decoupler Grenade {12000}
+Mk 3 Panic Grenade {22400}
+Mk 4 Shock Grenade {10500}
+IV Thasteron Grenade {20500}
+Mk 4 Barbed Shrapnel Grenade {14250}
+I Antimagic Grenade {27500}
+Mk 5 Diminisher Grenade {17000}
+Mk 3 Foam Grenade {26100}
+Mk 3 Pulse Grenade {37500}
+Mk 4 Microbot Grenade {37000}
+V Solar Flare Grenade {20100}
+Mk 5 Riot Grenade {28200}
+Mk 4 Flash Grenade {24300}
+V Thasphalt Grenade {37000}
+Mk 3 Cryo Grenade {9400}
+Mk 5 Summoning Grenade {16000}
+Mk 5 Incendiary Grenade {20200}
+Mk 5 Mindspike Grenade {21000}
+Mk 4 Pheromone Grenade {26000}
+Degeneration Grenade {40000}
+Mk 4 Screamer Grenade {20000}
+Mk 6 Frag Grenade {20500}
+Mk 4 Necro Grenade {72900}
+IV Meduza Grenade {36000}
+Mk 6 Riot Grenade {67000}
+V Decoupler Grenade {65000}
+Mk 4 Pulse Grenade {82500}
+Mk 7 Frag Grenade {48400}
+Mk 6 Incendiary Grenade {54300}
+Mk 4 Cryo Grenade {54100}
+Mk 5 Microbot Grenade {109000}
+Mk 6 Diminisher Grenade {51000}
+V Thasteron Grenade {110000}
+Mk 6 Summoning Grenade {49000}
+Mutation Bomb {85000}
+Mk 4 Panic Grenade {89600}
+II Antimagic Grenade {172000}
+Mk 4 Holy Water Grenade {175000}
+Mk 4 Web Grenade {163000}
+Mk 5 Antigravity Grenade {83000}
+Mk 5 Shock Grenade {110000}
+Mk 8 Frag Grenade {132000}
+Mk 7 Riot Grenade {222000}
+Tier 1 Analgesic {75}
+Tier 1 Antibiotic {75}
+Tier 1 Antitoxin {75}
+Tier 1 Cytoguard {75}
+Tier 1 Antiemetic {75}
+Tier 1 Counteractant {75}
+Tier 1 Emetic {75}
+Tier 1 Coagulant {75}
+Tier 1 Insulivate {75}
+Tier 1 Narco-Imitator {75}
+Tier 1 Revitilate {75}
+Tier 1 Prismatilate {75}
+Tier 1 Sal Volatile {75}
+Tier 1 Sedative {75}
+Tier 1 Stimulant {75}
+Tier 2 Analgesic {450}
+Tier 1 Vaccine {75}
+Tier 2 Antiemetic {450}
+Tier 1 Excitant {75}
+Tier 2 Antibiotic {450}
+Tier 2 Counteractant {450}
+Tier 2 Antitoxin {450}
+Tier 2 Emetic {450}
+Tier 2 Cytoguard {450}
+Tier 2 Insulivate {450}
+Tier 2 Coagulant {450}
+Tier 2 Prismatilate {450}
+Tier 2 Narco-Imitator {450}
+Tier 2 Sal Volatile {450}
+Tier 2 Revitilate {450}
+Tier 2 Sedative {450}
+Tier 2 Stimulant {450}
+Tier 2 Vaccine {450}
+Tier 2 Excitant {450}
+Tier 3 Analgesic {2700}
+Tier 3 Antiemetic {2700}
+Tier 3 Antitoxin {2700}
+Tier 3 Antibiotic {2700}
+Tier 3 Coagulant {2700}
+Tier 3 Counteractant {2700}
+Tier 3 Excitant {2700}
+Tier 3 Emetic {2700}
+Tier 3 Narco-Imitator {2700}
+Tier 3 Cytoguard {2700}
+Tier 3 Insulivate {2700}
+Tier 3 Sal Volatile {2700}
+Tier 3 Revitilate {2700}
+Tier 3 Prismatilate {2700}
+Tier 3 Sedative {2700}
+Tier 3 Stimulant {2700}
+Tier 4 Analgesic {16200}
+Tier 4 Antibiotic {16200}
+Tier 3 Vaccine {2700}
+Tier 4 Antiemetic {16200}
+Tier 4 Coagulant {16200}
+Tier 4 Counteractant {16200}
+Tier 4 Cytoguard {16200}
+Tier 4 Excitant {16200}
+Tier 4 Antitoxin {16200}
+Tier 4 Narco-Imitator {16200}
+Tier 4 Insulivate {16200}
+Tier 4 Prismatilate {16200}
+Tier 4 Sedative {16200}
+Tier 4 Revitilate {16200}
+Tier 4 Sal Volatile {16200}
+Tier 4 Vaccine {16200}
+Tier 4 Emetic {16200}
+Tier 4 Stimulant {16200}
+Allergy Pod {20}
+Buoyant pack {50}
+Cosmetics {20}
+Chemical heat pack {5}
+Energel food pellets (1 pack) {5}
+Hazmat Synthsleeves {30}
+Frosthiker Soles {35}
+Holo-tat {100}
+Junk Camouflage {50}
+Chemical cold pack {5}
+Mineral Dye {25}
+Portable Condenser {50}
+Portable Power Hub {10}
+Stabilizer Bracelets {15}
+Speech Encoder {100}
+Stylemander {50}
+Safety Helmet {65}
+Waymarker Ribbon {3}
+Treadsetter’s Guide {25}
+Stomach Tabs {75}
+Kalistocratic Clothing {5}
+Pact Worlds Attentive Guidebook {200}
+Arcanascopic lenses {50}
+Grooming Moss {50}
+Meteorological Reader {100}
+Pocket Linguist {75}
+Helping Hand {75}
+Researcher’s Helper {165}
+Sure Collector {500}
+Tattoo {25}
+Spidersatchel {1200}
+Designer Perfume {350}
+Designer Clothing {600 + Plus The Cost Of Base Outfit}
+Designer Jewelry {50}
+Mk 2 Crystalline Codex {7000}
+Couture Clothing {5000}
+Mk 1 Crystalline Codex {1400}
+Mk 3 Crystalline Codex {25000}
+Couture Jewelry {500}
+Mk 5 Crystalline Codex {600000}
+Consumer Backpack {3}
+Industrial Backpack {25}
+Athletic Clothing {5}
+Mk 4 Crystalline Codex {115000}
+Everyday Clothing {1}
+Ceremonial Clothing {5}
+Formal Clothing {5}
+Environmental Clothing {10}
+Professional Clothing {5}
+Travel Clothing {10}
+Uniform Clothing {5}
+Party Clothing {5}
+Mk 1 Culinary Synthesizer {400}
+Mk 2 Culinary Synthesizer {1200}
+Mk 1 Glass Cutter {100}
+Mk 3 Culinary Synthesizer {2500}
+Reconfigurable Clothing {100 + cost of component outfits}
+Collapsible (40 feet) Ladder {300}
+Mk 2 Glass Cutter {400}
+Collapsible (10 feet) Ladder {75}
+Collapsible (20 feet) Ladder {150}
+Portable Altar {250}
+Survey Map {20}
+Aerosol Spray {80}
+Binoculars {50}
+Navigational Map {80}
+Blanket {3}
+Bonding Epoxy {400}
+Cot {25}
+Bedroll {15}
+Gear Clamp {100}
+Gear Maintenance Kit {5}
+Lighter {1}
+Hygiene Kit {3}
+Hammock {20}
+Canteen {1}
+Magnetic Jack {450}
+Oxygen Candle {20}
+Motion Trigger {80}
+Religious Symbol {2}
+Self-Heating Pot {100}
+Scuba Gear {25}
+Rope {1/50 ft.}
+Sleeping Bag {10}
+Manual Tool {25}
+Mess Kit {2}
+Holy Text Book {2}
+Huge or larger Riding Saddle {300}
+Large Riding Saddle {75}
+Space Suit {25}
+Medium Riding Saddle {25}
+Small or smaller Riding Saddle {10}
+Warming Balm {150}
+Standard Book {5}
+Library Chip {250}
+Frictionless Gel {450}
+Pheromonal Perfume {500}
+Wake-up Patch {100}
+Mass Produced Tent {2}
+Mobile Hotelier Tent {50}
+Autoshade Umbrella {450}
+Standard Perfume {50}
+Standard Umbrella {2}

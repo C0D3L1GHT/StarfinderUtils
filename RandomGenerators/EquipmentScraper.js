@@ -48,26 +48,44 @@ function getListFile(fileName){
   }
 }
 
-async function scrapeInfoAndAddToFile(textFile, pageLink, tableName, levelIndex){
+async function scrapeInfoAndAddToFile(textFile, pageLink, tableName, levelIndex, creditIndex){
 	const response = await fetch(pageLink);
 	const text = await response.text();
 	const dom = await new JSDOM(text);
-	const list = [];
+	const levelList = [];
+	const credList  = [];
 	const table = dom.window.document.getElementById(tableName).getElementsByTagName("tr")
 	
 	for (var i = 1; i < table.length; i++) {
 		if(table[i]){
+			var credits = table[i].cells[creditIndex].textContent;
+			//TODO: going to need to treat fusions and necrografts special
 			if(table[i].cells[levelIndex] && table[i].cells[0]){
 				var name  = table[i].cells[0].textContent;
 				if(name[0] == ' ') name = name.slice(1);
 				var level = table[i].cells[levelIndex].textContent;
+				if(pageLink.includes("Fusions")){
+					credits = "-";
+					name += " weapon fusion";
+				}
 				//console.log(name + " (" + level + ")");
-				list.push(name + " {" + level + "}");
+				levelList.push(name + " {" + level + "}");
 			}
+			credits = credits.replace(",","");
+			// console.log(name + " (" + credits + ")");
+			var credName = table[i].cells[0].textContent;
+			if(credName.includes(", ")){
+				var nameBreak = credName.split(',');
+				credName = nameBreak[1] + " " + nameBreak[0];
+				credName.replace("  "," ");
+			}
+			credList.push(credName + " {" + credits + "}");
 		}
 	}
-	if(!list.isEmpty)
-		addListToFile(list, textFile);
+	if(!levelList.isEmpty)
+		addListToFile(levelList, textFile);
+	if(!credList.isEmpty)
+		addListToFile(credList, "./ListFiles/EquipmentWithPriceList.txt");
 }
 
 async function scrapeNecroGrafts(textFile, pageLink, tableName){
@@ -75,6 +93,7 @@ async function scrapeNecroGrafts(textFile, pageLink, tableName){
 	const text = await response.text();
 	const dom = await new JSDOM(text);
 	const list = [];
+	const credList = [];
 	const necrograftNamesList = dom.window.document.getElementsByClassName("inner");
 	const graftsList = necrograftNamesList[0].textContent.split(" ");
 	const table = dom.window.document.getElementById(tableName).getElementsByTagName("tr");
@@ -88,17 +107,25 @@ async function scrapeNecroGrafts(textFile, pageLink, tableName){
 				for(var j = 1; j < graftsList.length; j++){
 					var mark = "Mk" + graftsList[j][0];
 					var level = graftsList[j][1];
+					var creds = graftsList[j].slice(2,graftsList[j].length);
 					if(graftsList[j][0] > 2){
 						level = graftsList[j][1] + graftsList[j][2];
+						creds = graftsList[j].slice(3,graftsList[j].length);
 					}
+					creds = creds.replace("Mk","");
+					creds = creds.replace(",","");
 					var entry = mark + " " + graftName + " {" + level + "}";
+					var credEntry = mark + " " + graftName + " {" + creds + "}";
 					// console.log(entry);
+					// console.log(credEntry);
 					list.push(entry);
+					credList.push(credEntry);
 				}
 			}
 		}
 	}
 	addListToFile(list, textFile);
+	addListToFile(credList,"./ListFiles/EquipmentWithPriceList.txt");
 }
 
 async function scrapeArmors(){
@@ -108,10 +135,10 @@ async function scrapeArmors(){
 		return;
 	}else{
 		try{
-			const lightArmor   = await scrapeInfoAndAddToFile("./ListFiles/ArmorList.txt", 'https://aonsrd.com/Armor.aspx?Category=Light', 'ctl00_MainContent_GridViewArmor', 1);
-			const heavyArmor   = await scrapeInfoAndAddToFile("./ListFiles/ArmorList.txt", 'https://aonsrd.com/Armor.aspx?Category=Heavy', 'ctl00_MainContent_GridViewArmor', 1);
-			const poweredArmor = await scrapeInfoAndAddToFile("./ListFiles/ArmorList.txt", 'https://aonsrd.com/PoweredArmor.aspx?ItemName=All', 'ctl00_MainContent_GridViewPoweredArmor', 1);
-			const armorUpgrade = await scrapeInfoAndAddToFile("./ListFiles/ArmorList.txt", 'https://aonsrd.com/ArmorUpgrades.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewArmorUpgrades', 1);
+			const lightArmor   = await scrapeInfoAndAddToFile("./ListFiles/ArmorList.txt", 'https://aonsrd.com/Armor.aspx?Category=Light', 'ctl00_MainContent_GridViewArmor', 1, 2);
+			const heavyArmor   = await scrapeInfoAndAddToFile("./ListFiles/ArmorList.txt", 'https://aonsrd.com/Armor.aspx?Category=Heavy', 'ctl00_MainContent_GridViewArmor', 1, 2);
+			const poweredArmor = await scrapeInfoAndAddToFile("./ListFiles/ArmorList.txt", 'https://aonsrd.com/PoweredArmor.aspx?ItemName=All', 'ctl00_MainContent_GridViewPoweredArmor', 1, 2);
+			const armorUpgrade = await scrapeInfoAndAddToFile("./ListFiles/ArmorList.txt", 'https://aonsrd.com/ArmorUpgrades.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewArmorUpgrades', 1, 2);
 			console.log("\n\nupdated armor page!");
 	}catch(err){
 			console.log(err);
@@ -126,7 +153,7 @@ async function scrapeShields(){
 		return;
 	}else{
 		try{
-			const shield = await scrapeInfoAndAddToFile("./ListFiles/ShieldList.txt", 'https://aonsrd.com/Shields.aspx', 'ctl00_MainContent_DataElement', 1);
+			const shield = await scrapeInfoAndAddToFile("./ListFiles/ShieldList.txt", 'https://aonsrd.com/Shields.aspx', 'ctl00_MainContent_DataElement', 1, 2);
 			console.log("\n\nupdated shield page!");
 	}catch(err){
 			console.log(err);
@@ -141,19 +168,19 @@ async function scrapeWeapons(){
 		return;
 	}else{
 		try{
-			const advMelee1h   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=AdvMelee', 'ctl00_MainContent_GridViewWeapons1Hand', 2);
-			const advMelee2h   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=AdvMelee', 'ctl00_MainContent_GridViewWeapons2Hands', 2);
-			const basMelee1h   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=BasicMelee', 'ctl00_MainContent_GridViewWeapons1Hand', 2);
-			const basMelee2h   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=BasicMelee', 'ctl00_MainContent_GridViewWeapons2Hands', 2);
-			const heavyArms    = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=BasicMelee', 'ctl00_MainContent_GridViewWeapons2Hands', 2);
-			const longArms     = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Longarms', 'ctl00_MainContent_GridViewWeapons2Hands', 2);
-			const smallArms	   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=SmallArms', 'ctl00_MainContent_GridViewWeapons1Hand', 2);
-			const sniper       = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Sniper', 'ctl00_MainContent_GridViewWeapons2Hands', 2);
-			const solarianCrys = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Solarian', 'ctl00_MainContent_GridViewWeapons1Hand', 1);
-			const special1h    = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Special', 'ctl00_MainContent_GridViewWeapons1Hand', 2);
-			const special2h	   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Special', 'ctl00_MainContent_GridViewWeapons2Hands', 2);
-			const accessories  = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/WeaponAccessories.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewWeaponAccessories', 1);
-			const fusions      = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/WeaponFusions.aspx?ItemName=All', 'ctl00_MainContent_GridViewWeaponFusions', 1);
+			const advMelee1h   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=AdvMelee', 'ctl00_MainContent_GridViewWeapons1Hand', 2, 3);
+			const advMelee2h   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=AdvMelee', 'ctl00_MainContent_GridViewWeapons2Hands', 2, 3);
+			const basMelee1h   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=BasicMelee', 'ctl00_MainContent_GridViewWeapons1Hand', 2, 3);
+			const basMelee2h   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=BasicMelee', 'ctl00_MainContent_GridViewWeapons2Hands', 2, 3);
+			const heavyArms    = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Heavy', 'ctl00_MainContent_GridViewWeapons2Hands', 2, 3);
+			const longArms     = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Longarms', 'ctl00_MainContent_GridViewWeapons2Hands', 2, 3);
+			const smallArms	   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=SmallArms', 'ctl00_MainContent_GridViewWeapons1Hand', 2, 3);
+			const sniper       = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Sniper', 'ctl00_MainContent_GridViewWeapons2Hands', 2, 3);
+			const solarianCrys = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Solarian', 'ctl00_MainContent_GridViewWeapons1Hand', 1, 2);
+			const special1h    = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Special', 'ctl00_MainContent_GridViewWeapons1Hand', 2, 3);
+			const special2h	   = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Special', 'ctl00_MainContent_GridViewWeapons2Hands', 2, 3);
+			const accessories  = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/WeaponAccessories.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewWeaponAccessories', 1, 2);
+			const fusions      = await scrapeInfoAndAddToFile("./ListFiles/WeaponList.txt", 'https://aonsrd.com/WeaponFusions.aspx?ItemName=All', 'ctl00_MainContent_GridViewWeaponFusions', 1, 0);//fusions are weird
 			console.log("\n\nupdated weapons page!");
 	}catch(err){
 			console.log(err);
@@ -168,10 +195,10 @@ async function scrapeConsumables(){
 		return;
 	}else{
 		try{
-			const ammo     = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Ammo', 'ctl00_MainContent_GridViewWeapons1Hand', 2);
-			const grenade  = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Grenade', 'ctl00_MainContent_GridViewWeapons1Hand', 1);
-			const drugs    = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/OtherItems.aspx?Category=Medicinals', 'ctl00_MainContent_GridViewOtherItems', 1);
-			const personal = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/OtherItems.aspx?Category=Personal%20Items', 'ctl00_MainContent_GridViewOtherItems', 2);
+			const ammo     = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Ammo', 'ctl00_MainContent_GridViewWeapons1Hand', 2, 3);
+			const grenade  = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/Weapons.aspx?Proficiency=Grenade', 'ctl00_MainContent_GridViewWeapons1Hand', 1, 2);
+			const drugs    = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/OtherItems.aspx?Category=Medicinals', 'ctl00_MainContent_GridViewOtherItems', 1, 2);
+			const personal = await scrapeInfoAndAddToFile("./ListFiles/ConsumablesList.txt", 'https://aonsrd.com/OtherItems.aspx?Category=Personal%20Items', 'ctl00_MainContent_GridViewOtherItems', 2, 3);
 			console.log("\n\nupdated consumables page!");
 	}catch(err){
 			console.log(err);
@@ -186,12 +213,12 @@ async function scrapeAugments(){
 		return;
 	}else{
 		try{
-			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/Cybernetics.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewCybernetics', 1);
-			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/Biotech.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewBiotech', 1);
-			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/Magitech.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewMagitech', 1);
+			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/Cybernetics.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewCybernetics', 1, 2);
+			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/Biotech.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewBiotech', 1, 2);
+			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/Magitech.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewMagitech', 1, 2);
 			scrapeNecroGrafts("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/Necrografts.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewNecrografts');
-			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/PersonalUpgrades.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewPersonalUpgrades', 1);
-			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/SpeciesGrafts.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewSpeciesGrafts', 1);
+			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/PersonalUpgrades.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewPersonalUpgrades', 1, 2);
+			scrapeInfoAndAddToFile("./ListFiles/AugmentsList.txt", 'https://aonsrd.com/SpeciesGrafts.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewSpeciesGrafts', 1, 2);
 			console.log("\n\nupdated augments page!");
 	}catch(err){
 			console.log(err);
@@ -206,7 +233,7 @@ async function scrapeTechItems(){
 		return;
 	}else{
 		try{
-			const tech = await scrapeInfoAndAddToFile("./ListFiles/TechItemList.txt", 'https://aonsrd.com/TechItems.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewTechItems', 2);
+			const tech = await scrapeInfoAndAddToFile("./ListFiles/TechItemList.txt", 'https://aonsrd.com/TechItems.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewTechItems', 2, 3);
 			console.log("\n\nupdated tech item page!");
 		}catch(err){
 			console.log(err);
@@ -221,7 +248,7 @@ async function scrapeMagicItems(){
 		return;
 	}else{
 		try{
-			const magic = await scrapeInfoAndAddToFile("./ListFiles/MagicItemList.txt", 'https://aonsrd.com/MagicItems.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewMagicItems', 2);
+			const magic = await scrapeInfoAndAddToFile("./ListFiles/MagicItemList.txt", 'https://aonsrd.com/MagicItems.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewMagicItems', 2, 3);
 			console.log("\n\nupdated magic item page!");
 	}catch(err){
 			console.log(err);
@@ -236,7 +263,7 @@ async function scrapeHybridItems(){
 		return;
 	}else{
 		try{
-			const hybrid = await scrapeInfoAndAddToFile("./ListFiles/HybridItemList.txt", 'https://aonsrd.com/HybridItems.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewHybridItems', 1);
+			const hybrid = await scrapeInfoAndAddToFile("./ListFiles/HybridItemList.txt", 'https://aonsrd.com/HybridItems.aspx?ItemName=All&Family=None', 'ctl00_MainContent_GridViewHybridItems', 1, 2);
 			console.log("\n\nupdated hybrid item page!");
 	}catch(err){
 			console.log(err);
@@ -419,7 +446,7 @@ module.exports = {
 // scrapeMagicItems();
 // scrapeShields();
 // scrapeTechItems();
-// scrapeWeapons();
+scrapeWeapons();
 // rollLootPool(8, 1, 1, 80, 1, 80);
 
 

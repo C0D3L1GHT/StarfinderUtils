@@ -17,7 +17,7 @@ const sleep = (ms) =>
 // sectors 6-10  should have 1d4 near, 1d4 vast
 // sectors 11-25 should have 1d8 vast 
 async function generateGalaxy(){
-	await generateSector(1,2,"_testSector",10,1,true);
+	await generateSector(0,0,"_testSector",5,1,true);
 	// sleep(1000);
 	//await generateSector(1,2,"_testSector2",20,1,true);
 	

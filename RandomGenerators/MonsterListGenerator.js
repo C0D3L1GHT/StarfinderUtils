@@ -1,3 +1,6 @@
+const fetch = require('isomorphic-fetch')
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
 const fs = require('fs');
 const path = require('path');
 const randomRace = require('./RaceScraper.js');
@@ -110,6 +113,8 @@ async function getAllMonstersByBiomeAndLevel(fileName, lvl){
 }
 
 async function getRandomTrap(lvl){
+	if(lvl < 0.5) lvl = 0.5;
+	if(lvl > 20) lvl = 20;
 	var randType    = TRAP_TYPES[rollRange(TRAP_TYPES.length)-1];
 	var randTrigger = TRAP_TRIGGERS[rollRange(TRAP_TRIGGERS.length)-1];
 	
@@ -130,24 +135,161 @@ async function getRandomTrap(lvl){
 		var energy = ["Acid damage","Cold damage","Electricity damage","Fire damage","Sonic damage"];
 		effect = energy[rollRange(5)-1];
 	}		
-	//magic traps cast a level appropriate spell
+	//magic traps cast a level appropriate Mystic spell
+	//spellcaster level CR conversion:
+	/*
+	0.3-3 = 1st level spells
+	4-6   = 2nd level spells
+	7-9   = 3rd level spells
+	10-12 = 4th level spells
+	13-15 = 5th level spells
+	16-20 = 6th level spells
+	*/
 	if(randType == "Magical"){
-		effect = "a spell";
+		//this function needs a rename as it works just fine for spells by level
+		var spellLevel = 0;
+		if(lvl > 0 && lvl < 4)
+			spellLevel = 1;
+		if(lvl > 3 && lvl < 7)
+			spellLevel = 2;
+		if(lvl > 6 && lvl < 10)
+			spellLevel = 3;
+		if(lvl > 9 && lvl < 8)
+			spellLevel = 4;
+		if(lvl > 12 && lvl < 16)
+			spellLevel = 5;
+		if(lvl > 15 && lvl < 21)
+			spellLevel = 6;
+		var spellList = await getAllMonstersByBiomeAndLevel("./ListFiles/MagicTrapSpellsList.txt",spellLevel);
+		effect = spellList[rollRange(spellList.length)-1];
 	}
-	//hybrid traps impose conditions or mind affecting effects
+	//hybrid traps cast Technomancy Spells
 	if(randType == "Hybrid"){
-		var condition = await getRandomCondition();
-		effect = "The " + condition + " condition until a successful save";
-		effect = effect.replace(/\r?\n|\r/g, "");
+		// var condition = await getRandomCondition();
+		// effect = "The " + condition + " condition until a successful save";
+		// effect = effect.replace(/\r?\n|\r/g, "");
+		var spellLevel = 0;
+		if(lvl > 0 && lvl < 4)
+			spellLevel = 1;
+		if(lvl > 3 && lvl < 7)
+			spellLevel = 2;
+		if(lvl > 6 && lvl < 10)
+			spellLevel = 3;
+		if(lvl > 9 && lvl < 8)
+			spellLevel = 4;
+		if(lvl > 12 && lvl < 16)
+			spellLevel = 5;
+		if(lvl > 15 && lvl < 21)
+			spellLevel = 6;
+		var spellList = await getAllMonstersByBiomeAndLevel("./ListFiles/HybridTrapSpellsList.txt",spellLevel);
+		effect = spellList[rollRange(spellList.length)-1];
 	}
 	
-	//console.log("Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl));
+	// console.log("Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl));
 	return "Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl);
 }
 
 async function getRandomCondition(){
 	let allConditions = await getListFile("./ListFiles/ConditionsList.txt");
 	return allConditions[rollRange(allConditions.length)-1];
+}
+
+async function scrapeMonsterEquipmentCredits(){
+	const response = await fetch("https://aonsrd.com/Aliens.aspx?Letter=All");
+	const text = await response.text();
+	const dom = await new JSDOM(text);
+	const table = dom.window.document.getElementById("ctl00_MainContent_GridViewAliens").getElementsByTagName("tr")
+	
+	var equipmentList = getListFile("./ListFiles/EquipmentWithPriceList.txt")
+	
+	var fusions = getListFile("./ListFiles/WeaponList.txt")
+	var fusionsHasWeapons = true;
+	while(fusionsHasWeapons){
+		for(var i = 0; i < fusions.length; i++){
+			// console.log(fusions[i] + " " +!fusions[i].includes("weapon fusion"))
+			if(fusions[0].includes("weapon fusion"))
+				fusionsHasWeapons = false;
+			if(!fusions[i].includes("weapon fusion")){
+				fusions.splice(i,1);
+				fusionsHasWeapons = true;
+			}
+		}
+	}
+	
+	var k = 4;//debug to set index to only one monster
+	// for (var k = 1; k < table.length; k++){
+		var monsterEquipmentCreds = 0;
+		var monsterLink = table[k].innerHTML.substring(table[k].innerHTML.indexOf('<a href=')+9, table[k].innerHTML.length);
+		monsterLink     = "https://aonsrd.com/"+monsterLink.substring(0,monsterLink.indexOf('">'));
+		
+		const monsterResponse = await fetch(monsterLink);
+		const monsterText = await monsterResponse.text();
+		const monsterDom = await new JSDOM(monsterText);
+		const infoList = monsterDom.window.document.getElementById("ctl00_MainContent_DataListTalentsAll_ctl00_LabelName").getElementsByTagName("b");
+		const pageInfo = monsterDom.window.document.getElementById("ctl00_MainContent_DataListTalentsAll_ctl00_LabelName").innerHTML;
+		
+		//debug, delete later
+		const monsterName = monsterDom.window.document.getElementById("ctl00_MainContent_DataListTalentsAll_ctl00_LabelName").getElementsByTagName("a")[0].textContent;
+		// console.log(monsterName);
+		
+		if(pageInfo.indexOf("Gear") > -1){
+			var gearText = pageInfo.substring(pageInfo.indexOf("Gear")+9,pageInfo.length);
+			gearText = gearText.substring(0,gearText.indexOf("<h3"));
+			gearText = gearText.replace("<i>","");
+			gearText = gearText.replace("</i>","");
+			gearText = gearText.replace(", ",",");
+			
+			//console.log(gearText)
+			var semiColonSplit = gearText.split(';');
+			var gearList = [];
+			//console.log(semiColonSplit[0]);
+			for(var i = 0; i < semiColonSplit.length; i++){
+				var gearItemList = semiColonSplit[i].split(',');
+				for(var j = 0; j < gearItemList.length; j++){
+					var gearItem = gearItemList[j].split(" with ");
+					for(var k = 0; k < gearItem.length; k++){
+						if(gearItem[k][0] == ' ') gearItem[k] = gearItem[k].slice(1);
+						gearItem[k] = gearItem[k].replace("<b>Augmentations</b> ","");
+						gearList.push(gearItem[k]);
+					}
+				}
+			}
+			// console.log(gearList);
+			
+			for(var i = 0; i < gearList.length; i++){
+				var gearFirstWord = gearList[i].split(" ")[0];
+				//capitalize first word to make searching in fusion list easier
+				gearFirstWord = gearFirstWord.charAt(0).toUpperCase() + gearFirstWord.slice(1);
+				for (var j = 0; j < fusions.length; j++){
+					if(fusions[j].includes(gearFirstWord)){
+						//remove fusions from equipment for now
+						gearList[i] = gearList[i].replace(gearList[i].split(" ")[0] + " ","");
+					}
+				}
+				for(var j = 0; j < equipmentList.length; j++){
+					equipmentList[j] = equipmentList[j].toLowerCase(); 
+					if(equipmentList[j].includes(gearList[i])){
+						//add equipment price to tally
+						monsterEquipmentCreds += parseInt(equipmentList[j].substring(equipmentList[j].indexOf("{")+1, equipmentList[j].indexOf("}")));
+						//console.log(gearList[i] + " " +parseInt(equipmentList[j].substring(equipmentList[j].indexOf("{")+1, equipmentList[j].indexOf("}"))));
+					}
+				}
+			}
+			// console.log(gearList);
+			// console.log(monsterEquipmentCreds);
+			// console.log(Math.floor(monsterEquipmentCreds*0.1));
+			// console.log("\n");
+		}else{
+			// console.log("Gear not found");
+			// console.log(0);
+			// console.log("\n");
+		}
+	// }
+	// for (var k = 1; i < table.length; k++){	
+	// }
+	//all monsters table ctl00_MainContent_GridViewAliens
+	//span id with Gear ctl00_MainContent_DataListTalentsAll_ctl00_LabelName 
+	//determine if the word "Gear" is present, then parse gear
 }
 
 async function getRandomMonsterByBiomeAndLevel(biome, lvl){
@@ -330,18 +472,57 @@ module.exports = {
 			var energy = ["Acid damage","Cold damage","Electricity damage","Fire damage","Sonic damage"];
 			effect = energy[rollRange(5)-1];
 		}		
-		//magic traps cast a level appropriate spell
+		//magic traps cast a level appropriate Mystic spell
+		//spellcaster level CR conversion:
+		/*
+		0.3-3 = 1st level spells
+		4-6   = 2nd level spells
+		7-9   = 3rd level spells
+		10-12 = 4th level spells
+		13-15 = 5th level spells
+		16-20 = 6th level spells
+		*/
 		if(randType == "Magical"){
-			effect = "a spell";
+			//this function needs a rename as it works just fine for spells by level
+			var spellLevel = 0;
+			if(lvl > 0 && lvl < 4)
+				spellLevel = 1;
+			if(lvl > 3 && lvl < 7)
+				spellLevel = 2;
+			if(lvl > 6 && lvl < 10)
+				spellLevel = 3;
+			if(lvl > 9 && lvl < 8)
+				spellLevel = 4;
+			if(lvl > 12 && lvl < 16)
+				spellLevel = 5;
+			if(lvl > 15 && lvl < 21)
+				spellLevel = 6;
+			var spellList = await getAllMonstersByBiomeAndLevel("./ListFiles/MagicTrapSpellsList.txt",spellLevel);
+			effect = spellList[rollRange(spellList.length)-1];
 		}
-		//hybrid traps impose conditions or mind affecting effects
+		//hybrid traps cast Technomancy Spells
 		if(randType == "Hybrid"){
-			var condition = await getRandomCondition();
-			effect = "The " + condition + " condition until a successful save";
-			effect = effect.replace(/\r?\n|\r/g, "");
+			// var condition = await getRandomCondition();
+			// effect = "The " + condition + " condition until a successful save";
+			// effect = effect.replace(/\r?\n|\r/g, "");
+			var spellLevel = 0;
+			if(lvl > 0 && lvl < 4)
+				spellLevel = 1;
+			if(lvl > 3 && lvl < 7)
+				spellLevel = 2;
+			if(lvl > 6 && lvl < 10)
+				spellLevel = 3;
+			if(lvl > 9 && lvl < 8)
+				spellLevel = 4;
+			if(lvl > 12 && lvl < 16)
+				spellLevel = 5;
+			if(lvl > 15 && lvl < 21)
+				spellLevel = 6;
+			var spellList = await getAllMonstersByBiomeAndLevel("./ListFiles/HybridTrapSpellsList.txt",spellLevel);
+			effect = spellList[rollRange(spellList.length)-1];
 		}
 		
-		//console.log("Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl));
+		// console.log("Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl));
 		return "Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl);
 	}
 }
@@ -361,4 +542,5 @@ function rollRange(r){
 // rollMonsterPool("Subterranean", 3);
 // rollMonsterPool("Urban", 3);
 // rollMonsterPool("Weird", 3);
-// getRandomTrap(1);
+// getRandomTrap(5);
+scrapeMonsterEquipmentCredits();

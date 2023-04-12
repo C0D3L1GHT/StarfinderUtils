@@ -1,64 +1,63 @@
 3/12/23 7:37 PM PST
-Arrows (20) {1}
-Darts (25) {1}
-Scattergun Shells (25) {1}
 Flare (1) {1}
+Darts (25) {1}
+Arrows (20) {1}
 Flechette (25) {1}
+Scattergun Shells (25) {1}
 Mood goo tank  (10 mood goo ) {1}
 Thasphalt canister  (20 thasphalt ) {1}
 Battery, Standard (20) {1}
-Rounds, Longarm and Sniper (25) {1}
-Petrol Tank, Standard (20) {1}
-Thasteron pellets  (50 thasteron pellets ) {3}
 Rounds, Small Arm (30) {1}
-Petrol Tank, High-Capacity (40) {3}
+Petrol Tank, Standard (20) {1}
+Rounds, Longarm and Sniper (25) {1}
 Rounds, Heavy (20) {2}
+Thasteron pellets  (50 thasteron pellets ) {3}
+Petrol Tank, High-Capacity (40) {3}
 Mini-Rockets (10) {4}
 Battery, High-Capacity (40) {4}
 Battery, Super-Capacity (80) {4}
 Battery, Ultra-Capacity (100) {5}
-Nanite Canisters (10 nanites) {9}
-Locus Crystal, Harmonic () {5}
 Locus Crystal, Interference () {9}
+Nanite Canisters (10 nanites) {9}
 Locus Crystal, Infrasonic () {13}
 Locus Crystal, Ultrasonic () {17}
+Locus Crystal, Harmonic () {5}
 Explosive, Arrow (20) {2}
-Explosive, Scattergun Shells (25) {2}
 Explosive, Darts (25) {2}
-Explosive, Rounds, Small Arms (30) {2}
 Explosive, Rounds, Longarm and Sniper (25) {2}
-Phasing, I Longarm and Sniper Rounds (25) {7}
+Explosive, Scattergun Shells (25) {2}
+Explosive, Rounds, Heavy (20) {3}
 Explosive, Mini-Rockets (10) {5}
+Explosive, Rounds, Small Arms (30) {2}
+Phasing, I Longarm and Sniper Rounds (25) {7}
 Grenade Arrow, I (1) {6}
 Grenade Arrow, II (1) {10}
 Missile, Tactical (1) {10}
 Plasma Missile, Ionized (1) {11}
-Explosive, Rounds, Heavy (20) {3}
+Arrow, Diamond-Edge (20) {12}
 Missile, Advanced (1) {13}
 Phasing, II Longarm and Sniper Rounds (25) {14}
 Warpshot, Heavy Rounds (20) {14}
-Arrow, Diamond-Edge (20) {12}
 Warpshot, Mini-rockets (10) {14}
 Warpshot, Scattergun Shells (25) {14}
 Grenade Arrow, III (1) {15}
 Plasma Missile, Stellar (1) {16}
-Plasma Missile, HED (1) {19}
 Arrow, Molecular Rift (20) {18}
+Plasma Missile, HED (1) {19}
 Grenade Arrow, IV (1) {20}
-Smoke Grenade {1}
 Concussion Grenade, Mk 1 {1}
-Holo Grenade, Mk 1 {1}
 Dye Grenade, I {1}
-Shock Grenade, Mk 1 {1}
-Frag Grenade, Mk 1 {1}
+Smoke Grenade {1}
+Defoliant Grenade, Mk 1 {1}
 Stickybomb Grenade, Mk 1 {1}
 Thasphalt Grenade, I {1}
-Antigravity Grenade, Mk 1 {2}
+Holo Grenade, Mk 1 {1}
 Decoupler Grenade, I {2}
-Defoliant Grenade, Mk 1 {1}
+Shock Grenade, Mk 1 {1}
+Antigravity Grenade, Mk 1 {2}
 Gravity Grenade, I {2}
+Holy Water Grenade, Mk 1 {2}
 Incendiary Grenade, Mk 1 {2}
-Flash Grenade, Mk 1 {2}
 Mindspike Grenade, Mk 1 {2}
 Riot Grenade, Mk 1 {2}
 Barbed Shrapnel Grenade, Mk 1 {3}
@@ -70,74 +69,75 @@ Solar Flare Grenade, I {3}
 Summoning Grenade, Mk 1 {3}
 Thasteron Grenade, I {3}
 Web Grenade, Mk 1 {3}
-Taserweb Grenade {4}
+Flash Grenade, Mk 1 {2}
 Defoliant Grenade, Mk 2 {4}
 Dye Grenade, II {4}
+Taserweb Grenade {4}
 Frag Grenade, Mk 2 {4}
 Holo Grenade, Mk 2 {4}
 Mindspike Grenade, Mk 2 {4}
-Holy Water Grenade, Mk 1 {2}
-Screamer Grenade, Mk 1 {4}
+Pheromone Grenade, Mk 1 {4}
 Shock Grenade, Mk 2 {4}
+Screamer Grenade, Mk 1 {4}
 Stickybomb Grenade, Mk 2 {4}
-Holy Water Grenade, Mk 2 {5}
+Frag Grenade, Mk 1 {1}
 Necro Grenade, Mk 1 {5}
-Pulse Grenade, Mk 1 {5}
+Holy Water Grenade, Mk 2 {5}
 Riot Grenade, Mk 2 {5}
 Thasphalt Grenade, II {5}
 Antigravity Grenade, Mk 2 {6}
-Pheromone Grenade, Mk 1 {4}
 Barbed Shrapnel Grenade, Mk 2 {6}
-Decoupler Grenade, II {6}
+Pulse Grenade, Mk 1 {5}
+Concussion Grenade, Mk 3 {6}
 Diminisher Grenade, Mk 2 {6}
 Flash Grenade, Mk 2 {6}
+Decoupler Grenade, II {6}
 Gravity Grenade, II {6}
 Cryo Grenade, Mk 1 {6}
-Concussion Grenade, Mk 3 {6}
 Microbot Grenade, Mk 1 {6}
+Incendiary Grenade, Mk 2 {6}
+Summoning Grenade, Mk 2 {6}
 Panic Grenade, Mk 1 {6}
-Solar Flare Grenade, II {6}
 Thasteron Grenade, II {6}
 Defoliant Grenade, Mk 3 {7}
-Meduza Grenade, II {7}
 Holo Grenade, Mk 3 {7}
-Riot Grenade, Mk 3 {7}
+Solar Flare Grenade, II {6}
 Disruption Grenade {8}
-Incendiary Grenade, Mk 2 {6}
+Meduza Grenade, II {7}
 Dye Grenade, III {8}
-Summoning Grenade, Mk 2 {6}
 Frag Grenade, Mk 3 {8}
 Incendiary Grenade, Mk 3 {8}
-Pheromone Grenade, Mk 2 {8}
-Screamer Grenade, Mk 2 {8}
 Mindspike Grenade, Mk 3 {8}
+Pheromone Grenade, Mk 2 {8}
 Junkbot Grenade {9}
+Screamer Grenade, Mk 2 {8}
 Diminisher Grenade, Mk 3 {9}
+Microbot Grenade, Mk 2 {9}
 Foam Grenade, Mk 2 {9}
 Necro Grenade, Mk 2 {9}
-Pulse Grenade, Mk 2 {9}
+Riot Grenade, Mk 3 {7}
 Solar Flare Grenade, III {9}
-Microbot Grenade, Mk 2 {9}
-Summoning Grenade, Mk 3 {9}
 Thasphalt Grenade, III {9}
+Pulse Grenade, Mk 2 {9}
 Web Grenade, Mk 2 {9}
 Wonder Grenade {10}
 Antigravity Grenade, Mk 3 {10}
 Barbed Shrapnel Grenade, Mk 3 {10}
-Concussion Grenade, Mk 4 {10}
 Cryo Grenade, Mk 2 {10}
-Decoupler Grenade, III {10}
+Concussion Grenade, Mk 4 {10}
 Disruption Grenade, Temporal {10}
+Decoupler Grenade, III {10}
+Summoning Grenade, Mk 3 {9}
 Frag Grenade, Mk 4 {10}
 Panic Grenade, Mk 2 {10}
-Shock Grenade, Mk 3 {10}
 Thasteron Grenade, III {10}
 Stickybomb Grenade, Mk 3 {10}
 Holy Water Grenade, Mk 3 {11}
 Riot Grenade, Mk 4 {11}
 Thasphalt Grenade, IV {11}
-Defoliant Grenade, Mk 4 {12}
 Containment Grenade {12}
+Shock Grenade, Mk 3 {10}
+Defoliant Grenade, Mk 4 {12}
 Diminisher Grenade, Mk 4 {12}
 Dye Grenade, IV {12}
 Flash Grenade, Mk 3 {12}
@@ -145,65 +145,65 @@ Gravity Grenade, III {12}
 Incendiary Grenade, Mk 4 {12}
 Microbot Grenade, Mk 3 {12}
 Mindspike Grenade, Mk 4 {12}
-Screamer Grenade, Mk 3 {12}
-Solar Flare Grenade, VI {12}
-Summoning Grenade, Mk 4 {12}
-Meduza Grenade, III {13}
 Pheromone Grenade, Mk 3 {12}
-Antigravity Grenade, Mk 4 {14}
-Concussion Grenade, Mk 5 {14}
-Cryo Grenade, Mk 3 {14}
+Screamer Grenade, Mk 3 {12}
+Summoning Grenade, Mk 4 {12}
+Solar Flare Grenade, VI {12}
+Meduza Grenade, III {13}
 Web Grenade, Mk 3 {13}
+Antigravity Grenade, Mk 4 {14}
+Necro Grenade, Mk 3 {13}
+Concussion Grenade, Mk 5 {14}
 Decoupler Grenade, IV {14}
-Panic Grenade, Mk 3 {14}
-Shock Grenade, Mk 4 {14}
 Frag Grenade, Mk 5 {14}
+Panic Grenade, Mk 3 {14}
 Thasteron Grenade, IV {14}
-Antimagic Grenade, I {15}
+Cryo Grenade, Mk 3 {14}
+Shock Grenade, Mk 4 {14}
 Barbed Shrapnel Grenade, Mk 4 {15}
-Diminisher Grenade, Mk 5 {15}
 Foam Grenade, Mk 3 {15}
+Diminisher Grenade, Mk 5 {15}
 Microbot Grenade, Mk 4 {15}
 Pulse Grenade, Mk 3 {15}
+Antimagic Grenade, I {15}
 Solar Flare Grenade, V {15}
-Riot Grenade, Mk 5 {15}
 Summoning Grenade, Mk 5 {15}
 Thasphalt Grenade, V {15}
-Flash Grenade, Mk 4 {16}
+Riot Grenade, Mk 5 {15}
 Frag Grenade, Mk 6 {16}
-Necro Grenade, Mk 3 {13}
 Incendiary Grenade, Mk 5 {16}
-Pheromone Grenade, Mk 4 {16}
 Mindspike Grenade, Mk 5 {16}
-Degeneration Grenade {17}
+Pheromone Grenade, Mk 4 {16}
 Screamer Grenade, Mk 4 {16}
+Degeneration Grenade {17}
 Meduza Grenade, IV {17}
 Necro Grenade, Mk 4 {17}
 Pulse Grenade, Mk 4 {17}
-Cryo Grenade, Mk 4 {18}
+Riot Grenade, Mk 6 {17}
+Flash Grenade, Mk 4 {16}
 Decoupler Grenade, V {18}
 Diminisher Grenade, Mk 6 {18}
-Incendiary Grenade, Mk 6 {18}
 Frag Grenade, Mk 7 {18}
+Incendiary Grenade, Mk 6 {18}
 Microbot Grenade, Mk 5 {18}
 Panic Grenade, Mk 4 {18}
 Summoning Grenade, Mk 6 {18}
 Thasteron Grenade, V {18}
-Mutation Bomb {19}
+Cryo Grenade, Mk 4 {18}
 Antigravity Grenade, Mk 5 {19}
-Antimagic Grenade, II {19}
 Holy Water Grenade, Mk 4 {19}
+Mutation Bomb {19}
 Web Grenade, Mk 4 {19}
 Frag Grenade, Mk 8 {20}
 Riot Grenade, Mk 7 {20}
 Shock Grenade, Mk 5 {20}
-Riot Grenade, Mk 6 {17}
+Antimagic Grenade, II {19}
 Analgesic, Tier 1 {1}
-Antiemetic, Tier 1 {1}
 Antibiotic, Tier 1 {1}
-Counteractant, Tier 1 {1}
+Antiemetic, Tier 1 {1}
 Coagulant, Tier 1 {1}
 Cytoguard, Tier 1 {1}
+Counteractant, Tier 1 {1}
 Emetic, Tier 1 {1}
 Excitant, Tier 1 {1}
 Insulivate, Tier 1 {1}
@@ -211,19 +211,19 @@ Narco-Imitator, Tier 1 {1}
 Prismatilate, Tier 1 {1}
 Revitilate, Tier 1 {1}
 Sal Volatile, Tier 1 {1}
-Sedative, Tier 1 {1}
 Stimulant, Tier 1 {1}
+Sedative, Tier 1 {1}
 Vaccine, Tier 1 {1}
 Analgesic, Tier 2 {5}
 Antibiotic, Tier 2 {5}
 Antiemetic, Tier 2 {5}
 Antitoxin, Tier 1 {1}
 Coagulant, Tier 2 {5}
-Cytoguard, Tier 2 {5}
 Counteractant, Tier 2 {5}
+Cytoguard, Tier 2 {5}
+Emetic, Tier 2 {5}
 Excitant, Tier 2 {5}
 Insulivate, Tier 2 {5}
-Emetic, Tier 2 {5}
 Narco-Imitator, Tier 2 {5}
 Prismatilate, Tier 2 {5}
 Revitilate, Tier 2 {5}
@@ -234,27 +234,27 @@ Vaccine, Tier 2 {5}
 Analgesic, Tier 3 {10}
 Antibiotic, Tier 3 {10}
 Antiemetic, Tier 3 {10}
-Antitoxin, Tier 3 {10}
 Coagulant, Tier 3 {10}
-Cytoguard, Tier 3 {10}
+Antitoxin, Tier 3 {10}
 Counteractant, Tier 3 {10}
-Emetic, Tier 3 {10}
+Antitoxin, Tier 2 {5}
 Excitant, Tier 3 {10}
+Emetic, Tier 3 {10}
 Insulivate, Tier 3 {10}
 Narco-Imitator, Tier 3 {10}
 Prismatilate, Tier 3 {10}
 Revitilate, Tier 3 {10}
 Sal Volatile, Tier 3 {10}
-Sedative, Tier 3 {10}
 Stimulant, Tier 3 {10}
+Sedative, Tier 3 {10}
 Vaccine, Tier 3 {10}
-Antitoxin, Tier 2 {5}
+Antibiotic, Tier 4 {15}
+Cytoguard, Tier 3 {10}
 Analgesic, Tier 4 {15}
-Antiemetic, Tier 4 {15}
 Antitoxin, Tier 4 {15}
 Coagulant, Tier 4 {15}
-Cytoguard, Tier 4 {15}
 Counteractant, Tier 4 {15}
+Cytoguard, Tier 4 {15}
 Emetic, Tier 4 {15}
 Excitant, Tier 4 {15}
 Insulivate, Tier 4 {15}
@@ -263,109 +263,109 @@ Prismatilate, Tier 4 {15}
 Revitilate, Tier 4 {15}
 Sal Volatile, Tier 4 {15}
 Sedative, Tier 4 {15}
-Vaccine, Tier 4 {15}
 Stimulant, Tier 4 {15}
-Antibiotic, Tier 4 {15}
-Buoyant pack {1}
+Vaccine, Tier 4 {15}
+Antiemetic, Tier 4 {15}
 Allergy Pod {1}
+Buoyant pack {1}
 Chemical cold pack {1}
+Chemical heat pack {1}
 Energel food pellets (1 pack) {1}
 Cosmetics {1}
-Frosthiker Soles {1}
-Chemical heat pack {1}
-Mineral Dye {1}
-Holo-tat {1}
 Hazmat Synthsleeves {1}
-Portable Power Hub {1}
-Safety Helmet {1}
+Frosthiker Soles {1}
+Mineral Dye {1}
 Junk Camouflage {1}
 Portable Condenser {1}
+Safety Helmet {1}
+Speech Encoder {1}
+Portable Power Hub {1}
 Stabilizer Bracelets {1}
 Stylemander {1}
-Speech Encoder {1}
 Stomach Tabs {1}
+Holo-tat {1}
 Treadsetter’s Guide {1}
-Attentive Guidebook, Pact Worlds {1}
-Tattoo {1}
 Waymarker Ribbon {1}
+Attentive Guidebook, Pact Worlds {1}
 Arcanascopic lenses {2}
+Tattoo {1}
+Clothing, Kalistocratic {1}
 Helping Hand {2}
 Grooming Moss {2}
-Clothing, Kalistocratic {1}
-Researcher’s Helper {2}
-Sure Collector {2}
 Meteorological Reader {2}
+Pocket Linguist {2}
+Researcher’s Helper {2}
 Crystalline Codex, Mk 1 {3}
 Jewelry, Designer {3}
-Spidersatchel {3}
-Pocket Linguist {2}
+Sure Collector {2}
+Perfume, Designer {3}
 Clothing, Designer {4}
 Crystalline Codex, Mk 2 {7}
+Jewelry, Couture {7}
 Clothing, Couture {8}
 Crystalline Codex, Mk 3 {11}
-Jewelry, Couture {7}
 Crystalline Codex, Mk 5 {19}
 Crystalline Codex, Mk 4 {15}
-Perfume, Designer {3}
 Backpack, Industrial {1}
 Clothing, Ceremonial {1}
-Clothing, Environmental {1}
-Clothing, Athletic {1}
-Clothing, Everyday {1}
-Clothing, Formal {1}
 Backpack, Consumer {1}
-Clothing, Professional {1}
-Clothing, Uniform {1}
-Clothing, Travel {1}
-Clothing, Reconfigurable {2}
-Culinary Synthesizer, Mk 2 {3}
-Culinary Synthesizer, Mk 3 {5}
+Spidersatchel {3}
+Clothing, Athletic {1}
+Clothing, Environmental {1}
 Clothing, Party {1}
+Clothing, Everyday {1}
+Clothing, Professional {1}
+Clothing, Formal {1}
+Clothing, Uniform {1}
+Culinary Synthesizer, Mk 2 {3}
+Clothing, Travel {1}
 Culinary Synthesizer, Mk 1 {1}
-Ladder, Collapsible (10 feet) {1}
-Ladder, Collapsible (40 feet) {1}
-Glass Cutter, Mk 2 {1}
 Ladder, Collapsible (20 feet) {1}
-Map, Survey {1}
-Glass Cutter, Mk 1 {1}
-Aerosol Spray {1}
+Culinary Synthesizer, Mk 3 {5}
+Clothing, Reconfigurable {2}
+Ladder, Collapsible (10 feet) {1}
+Glass Cutter, Mk 2 {1}
+Ladder, Collapsible (40 feet) {1}
 Map, Navigational {1}
-Binoculars {1}
+Glass Cutter, Mk 1 {1}
+Map, Survey {1}
 Altar, Portable {1}
-Bonding Epoxy {1}
+Aerosol Spray {1}
 Blanket {1}
-Canteen {1}
-Cot {1}
 Bedroll {1}
+Binoculars {1}
+Bonding Epoxy {1}
+Cot {1}
+Gear Clamp {1}
 Gear Maintenance Kit {1}
-Hammock {1}
+Canteen {1}
 Hygiene Kit {1}
 Lighter {1}
 Magnetic Jack {1}
+Hammock {1}
 Motion Trigger {1}
-Mess Kit {1}
-Gear Clamp {1}
 Oxygen Candle {1}
-Religious Symbol {1}
 Pot, Self-Heating {1}
+Mess Kit {1}
+Religious Symbol {1}
 Sleeping Bag {1}
 Rope {1}
-Scuba Gear {1}
-Tool, Manual {1}
-Book, Holy Text {1}
-Riding Saddle, Huge or larger {1}
-Book, Standard {1}
-Riding Saddle, Large {1}
-Riding Saddle, Medium {1}
-Wake-up Patch {2}
-Riding Saddle, Small or smaller {1}
 Space Suit {1}
-Warming Balm {2}
+Book, Holy Text {1}
+Tool, Manual {1}
+Book, Standard {1}
+Riding Saddle, Huge or larger {1}
+Riding Saddle, Medium {1}
+Scuba Gear {1}
+Riding Saddle, Small or smaller {1}
+Riding Saddle, Large {1}
+Library Chip {3}
+Wake-up Patch {2}
 Frictionless Gel {5}
 Perfume, Standard {1}
 Perfume, Pheromonal {5}
-Library Chip {3}
-Tent, Mass Produced {1}
 Tent, Mobile Hotelier {1}
-Umbrella, Autoshade {1}
+Tent, Mass Produced {1}
 Umbrella, Standard {1}
+Umbrella, Autoshade {1}
+Warming Balm {2}

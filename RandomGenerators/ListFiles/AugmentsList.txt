@@ -1,236 +1,253 @@
 3/12/23 7:37 PM PST
-Synergizing Symbiote (Hybrid), MK 1 {3}
 Synaptic Accelerators (Technology), MK 1 {3}
-Synaptic Accelerators (Technology), MK 2 {7}
-Ability Crystal (Magic), MK 2 {7}
-Synergizing Symbiote (Hybrid), MK 2 {7}
-Ability Crystal (Magic), MK 3 {14}
+Synergizing Symbiote (Hybrid), MK 1 {3}
 Ability Crystal (Magic), MK 1 {3}
+Synergizing Symbiote (Hybrid), MK 2 {7}
+Synaptic Accelerators (Technology), MK 2 {7}
 Synaptic Accelerators (Technology), MK 3 {14}
+Ability Crystal (Magic), MK 3 {14}
 Synergizing Symbiote (Hybrid), MK 3 {14}
-Technopathy Node {1}
-Morphic Skin, Basic {1}
-Velstrac Shackle, Follower {3}
-Psychoactive Eyes, Fascinating {2}
-Galeforce Lungs, Standard {3}
-Gravitational Harness, Mk 1 {2}
-Nimble Soles {4}
-Intercepting Ears, Mk 1 {3}
-Morphic Skin, Advanced {4}
-Psychic Strike Node, Basic {4}
-Force Soles, Mk 1 {4}
-Selective Ears {5}
-Charged Skin {5}
-Dimensional Gland, Experimental {5}
-Rune-Etched Chitin, Mk 1 {5}
-Ley Veins, Apprentice {6}
-Psychoactive Eyes, Charming {6}
-Morphic Skin, Doppelganger {6}
-Resonant Larynx, Standard {6}
-Restless Pineal Gland {7}
-Synchronous Heart {7}
-Ecstasy Mask {7}
-Fluttering Heart {8}
-Deception Node {8}
-Velstrac Shackle, Acolyte {8}
-Rune-Etched Chitin, Mk 2 {8}
-Force Soles, Mk 2 {8}
-Gravitational Harness, Mk 2 {9}
-Galeforce Lungs, Gust {9}
-Psychic Strike Node, Standard {9}
-Intercepting Ears, Mk 2 {9}
-Dispelling Hand {9}
-Personal Stasis Unit {9}
-Cloaking Skin, Standard {10}
-Wing Extensions, Mk 1 {10}
-Holographic Eyes, Mk 1 {10}
-Velstrac Shackle, Penitent {11}
-Rune-Etched Chitin, Mk 3 {11}
-Enchanting Vocal Modulator, Monofrequency {11}
-Resonant Larynx, Advanced {11}
-Arcane Lenses {11}
-Ley Veins, Adept {12}
-Divining Mirror Neurons {12}
-Galeforce Lungs, Storm  {13}
-Dimensional Braces {12}
-Holographic Eyes, Mk 2 {13}
-Aeon Eye {13}
-Dimensional Gland, Immersive  {13}
-Enchanting Vocal Modulator, Duofrequency {14}
-Force Palms {14}
-Psychic Strike Node, Advanced {14}
-Psychokinetic Sleeve {14}
-Sciatic Agonizer {14}
-Rune-Etched Chitin, Mk 4 {14}
-Velstrac Shackle, Ecclesiastic {15}
-Antimagic Skin, Mk 1 {15}
-Gravitational Harness, Mk 3 {15}
-Planar Lenses {15}
-Heart of Darkness {16}
-Anchored Arms {16}
-Antimagic Skin, Mk 2 {16}
-Scuttle Engine, Mk 1 {16}
-Wing Extensions, Mk 2 {16}
-Aeon Gage {16}
-Enchanting Vocal Modulator, Quadfrequency {17}
-Antimagic Skin, Mk 3 {17}
-Rune-Etched Chitin, Mk 5 {17}
-Holographic Eyes, Mk 3 {17}
-Cloaking Skin, Greater {17}
-Ley Veins, Archmage {18}
-Control Mirror Neurons {18}
-Antimagic Skin, Mk 4 {18}
-Velstrac Shackle, Devotional {19}
-Galeforce Lungs, Hurricane {19}
-Psychic Strike Node, Elite {19}
-Antimagic Skin, Mk 5 {19}
-Scuttle Engine, Mk 2 {19}
-Holographic Eyes, Mk 4 {20}
-Antimagic Skin, Mk 6 {20}
-Rune-Etched Chitin, Mk 6 {20}
-Seismic Spine {20}
-Mk4 Black Heart {18}
-Mk1 Black Heart {1}
-Mk1 Bone Blade {1}
+Ability Crystal (Magic), MK 2 {7}
 Mk2 Black Heart {6}
+Mk1 Black Heart {1}
+Mk4 Black Heart {18}
+Mk3 Black Heart {12}
 Mk5 Black Heart {20}
 Mk2 Bone Blade {6}
-Mk4 Bone Blade {18}
-Mk1 Corpseskin {1}
+Mk1 Bone Blade {1}
 Mk3 Bone Blade {12}
-Mk2 Corpseskin {6}
 Mk5 Bone Blade {20}
+Mk1 Corpseskin {1}
+Mk4 Bone Blade {18}
+Mk2 Corpseskin {6}
 Mk4 Corpseskin {18}
+Mk5 Corpseskin {20}
 Mk3 Corpseskin {12}
 Mk1 Crypt Marrow {1}
 Mk2 Crypt Marrow {6}
-Mk5 Corpseskin {20}
-Mk4 Crypt Marrow {18}
-Mk5 Crypt Marrow {20}
-Mk1 Enervating Hand {1}
-Mk3 Enervating Hand {12}
-Mk2 Enervating Hand {6}
-Mk4 Enervating Hand {18}
-Mk5 Enervating Hand {20}
-Mk3 Black Heart {12}
-Mk2 Ghoul Glands {6}
-Mk1 Ghoul Glands {1}
-Mk4 Ghoul Glands {18}
-Mk5 Ghoul Glands {20}
-Mk3 Ghoul Glands {12}
-Mk3 Grave Wind {12}
-Mk1 Grave Wind {1}
 Mk3 Crypt Marrow {12}
-Mk5 Grave Wind {20}
-Mk2 Grave Wind {6}
+Mk5 Crypt Marrow {20}
+Mk4 Crypt Marrow {18}
+Mk2 Enervating Hand {6}
+Mk3 Enervating Hand {12}
+Mk5 Enervating Hand {20}
+Mk4 Enervating Hand {18}
+Mk1 Enervating Hand {1}
+Mk1 Ghoul Glands {1}
+Mk3 Ghoul Glands {12}
+Mk5 Ghoul Glands {20}
+Mk2 Ghoul Glands {6}
+Mk4 Ghoul Glands {18}
 Mk4 Grave Wind {18}
+Mk2 Grave Wind {6}
+Mk3 Grave Wind {12}
+Mk5 Grave Wind {20}
 Mk1 Hollowed Drums {1}
+Mk2 Hollowed Drums {6}
 Mk3 Hollowed Drums {12}
+Mk1 Grave Wind {1}
 Mk4 Hollowed Drums {18}
 Mk5 Hollowed Drums {20}
-Mk1 Keening Larynx {1}
-Mk3 Keening Larynx {12}
-Mk2 Hollowed Drums {6}
 Mk2 Keening Larynx {6}
+Mk3 Keening Larynx {12}
 Mk4 Keening Larynx {18}
-Mk1 Moonlight Fibers {1}
-Mk3 Moonlight Fibers {12}
 Mk5 Keening Larynx {20}
+Mk1 Moonlight Fibers {1}
 Mk2 Moonlight Fibers {6}
+Mk3 Moonlight Fibers {12}
 Mk4 Moonlight Fibers {18}
+Mk1 Keening Larynx {1}
 Mk5 Moonlight Fibers {20}
-Mk3 Necrocortex {12}
 Mk2 Necrocortex {6}
-Mk4 Necrocortex {18}
+Mk3 Necrocortex {12}
 Mk1 Necrocortex {1}
 Mk1 Phantom Basal Ganglia {1}
 Mk3 Phantom Basal Ganglia {12}
 Mk2 Phantom Basal Ganglia {6}
+Mk5 Necrocortex {20}
 Mk4 Phantom Basal Ganglia {18}
 Mk1 Shadow Nerves {1}
 Mk5 Phantom Basal Ganglia {20}
 Mk2 Shadow Nerves {6}
 Mk3 Shadow Nerves {12}
 Mk4 Shadow Nerves {18}
-Mk1 Shuffling Feet {1}
+Mk4 Necrocortex {18}
 Mk2 Shuffling Feet {6}
+Mk1 Shuffling Feet {1}
+Mk3 Shuffling Feet {12}
 Mk5 Shadow Nerves {20}
 Mk4 Shuffling Feet {18}
-Mk3 Shuffling Feet {12}
 Mk1 Squirming Entrails {1}
 Mk2 Squirming Entrails {6}
-Mk5 Necrocortex {20}
-Mk5 Shuffling Feet {20}
 Mk3 Squirming Entrails {12}
+Mk4 Squirming Entrails {18}
 Mk5 Squirming Entrails {20}
+Mk5 Shuffling Feet {20}
+Mk2 Stench Glands {6}
 Mk3 Stench Glands {12}
 Mk1 Stench Glands {1}
-Mk4 Squirming Entrails {18}
 Mk5 Stench Glands {20}
 Mk1 Undead Adrenal Gland {1}
-Mk4 Stench Glands {18}
-Mk2 Stench Glands {6}
 Mk3 Undead Adrenal Gland {12}
-Mk2 Undead Adrenal Gland {6}
-Mk5 Undead Adrenal Gland {20}
+Mk4 Stench Glands {18}
 Mk4 Undead Adrenal Gland {18}
+Mk5 Undead Adrenal Gland {20}
 Mk1 Vampire Voice {1}
+Mk2 Vampire Voice {6}
 Mk3 Vampire Voice {12}
 Mk4 Vampire Voice {18}
-Mk2 Vampire Voice {6}
+Mk2 Undead Adrenal Gland {6}
 Mk1 Whispering Gyrus {1}
 Mk2 Whispering Gyrus {6}
-Mk3 Whispering Gyrus {12}
-Mk4 Whispering Gyrus {18}
-Mk1 Withered Lungs {1}
 Mk5 Whispering Gyrus {20}
+Mk4 Whispering Gyrus {18}
+Mk5 Vampire Voice {20}
+Mk3 Whispering Gyrus {12}
 Mk2 Withered Lungs {6}
 Mk3 Withered Lungs {12}
 Mk4 Withered Lungs {18}
 Mk1 Wraith Motes {1}
 Mk5 Withered Lungs {20}
-Mk2 Wraith Motes {6}
 Mk3 Wraith Motes {12}
+Mk1 Withered Lungs {1}
 Mk4 Wraith Motes {18}
-Mk5 Vampire Voice {20}
 Mk5 Wraith Motes {20}
-Cold Inured Graft {1}
-Hold Breath Graft {1}
-Polymath Graft {1}
+Mk2 Wraith Motes {6}
+Voice Amplifier {1}
+Anosmatic Shunt {1}
+Vocal Modulator {1}
+Prosthetic Limb, Standard {1}
+Weapon Learning Subroutine, Basic {1}
+Hideaway Limb, Standard {1}
+Haptic Database {2}
+Society Subdermal Graft, Single {1}
+Charge Palm {1}
+Lightvision Shades {2}
+Bronchial Valves {2}
+Respiration Compounder {1}
+Spinal Struts, Minimal {3}
+Pheromap, Basic {3}
+Thruster Heels {3}
+Datajack, Standard {2}
+Prosthetic Limb, Storage {3}
+Retinal Reflectors {3}
+Darkvision Capacitors, Standard {3}
+Optical Laser, Azimuth {3}
+Speed Suspension, Minimal {4}
+Threshold Buffer, Mk 1 {4}
+Fortified Feet {4}
+Emotional Regulator {4}
+Voice Encoder, Primal {4}
+Weaponized Prosthesis, Mk 1 {4}
+Inner Gyros {4}
+Solar Overload Conduit, Mk 1 {5}
+Pheromap, Advanced {5}
+Datajack, High-Density {5}
+Wide-Spectrum Ocular Implant {5}
+Dermal Plating, Mk 1 {5}
+Antitoxin Membrane {5}
+Hideaway Limb, Quickdraw {5}
+Detoxifier, Standard {5}
+Force Matrix, Mk 1 {5}
+Cardiac Accelerator {6}
+Weapon Learning Subroutine, Advanced {6}
+Adaptive Fingerprints {6}
+Spinal Struts, Standard {6}
+Bionic Knee {5}
+Biosynthetic Nanites, Mk 1 {6}
+Polarizing Palm {7}
+Echolocators, Reactive {6}
+Nanite Tempograft, Mk 1 {6}
+Limning Palm {7}
+Partitioned Personality Module {7}
+Dermal Plating, Mk 2 {7}
+Illusion Refractor {7}
+Optical Laser, Corona {7}
+Shortwave Receiver-Transmitter {7}
+Datajack, Accelerated {8}
+Recoil Stabilizer {8}
+Speed Suspension, Standard {8}
+Adrenal Booster {8}
+Darkvision Capacitors, Advanced {8}
+Weaponized Prosthesis, Mk 2 {8}
+Disquieting Nanites {8}
+Threshold Buffer, Mk 2 {9}
+Nanite Tempograft, Mk 2 {8}
+Biosynthetic Nanites, Mk 2 {9}
+Echolocators, Active {9}
+Dermal Plating, Mk 3 {9}
+Solar Overload Conduit, Mk 2 {10}
+Starship Neural Link {8}
+X-Legs, Basic {6}
+Artificial Third Eye {10}
+Soft-Light Holoframe {10}
+Cybernetic Arm, Single {11}
+Refraction Shell {11}
+Spinal Struts, Reinforced {10}
+Optical Laser, Aphelion {11}
+Force Matrix, Mk 2 {11}
+Speed Suspension, Complete {12}
+Linguistic Capacitor {12}
+Voice Encoder, Sophisticate {11}
+X-Legs, Climbing {12}
+Tremor Soles {12}
+Nanite Tempograft, Mk 3 {12}
+Detoxifier, Enhanced {12}
+Dermal Plating, Mk 4 {12}
+Darkvision Capacitors, Long-Range {13}
+Echolocators, Enhanced {13}
+Biosynthetic Nanites, Mk 3 {13}
+Conductive Carrier {13}
+Cybernetic Arm, Dual {14}
+Dermal Plating, Mk 5 {14}
+Thorgothrel Armature {11}
+Polyhand {14}
+Threshold Buffer, Mk 3 {15}
+Solar Overload Conduit, Mk 3 {15}
+Optical Laser, Parallax {15}
+Force Matrix, Mk 3 {17}
+Dermal Plating, Mk 7 {19}
+Dermal Plating, Mk 6 {16}
+Detoxifier, Elite {19}
+Optical Laser, Zenith {19}
+Cerebral backup {18}
 Carbonic Respiration Graft {1}
-Balanced Graft {1}
+Polymath Graft {1}
+Cold Inured Graft {1}
 Photosynthesis Graft {1}
+Balanced Graft {1}
 Applied Knowledge Graft {1}
 Skin Mimic Graft {2}
+Hold Breath Graft {1}
 Desert Stride Graft {2}
 Stealthy Swimmer Graft {2}
-Nimble Graft {1}
 Bulwark Graft {2}
 Squirt Blood Graft {2}
-Bolt Graft {2}
-Partner Bond Graft {2}
-Natural Weapons Graft {2}
-Maze Mind Graft {3}
 Electrolocation Graft {2}
-Heat Tracker Graft {3}
-Lurker Graft {3}
+Bolt Graft {2}
+Maze Mind Graft {3}
+Natural Weapons Graft {2}
 Slow Fall Graft {3}
-Stonecunning Graft {3}
-Defensive Ball Graft {3}
+Heat Tracker Graft {3}
+Partner Bond Graft {2}
+Lurker Graft {3}
 Communalism Graft {3}
-Sneaky Graft {3}
+Defensive Ball Graft {3}
+Eternal Hope Graft {3}
 Absorb Force Graft {3}
 Limited Telepathy Graft {3}
 Celestial Radiance Graft {4}
 Fiendish Gloom Graft {4}
-Psychometry Graft {4}
-Beguiling Glow Graft {4}
-Amplify Graft {4}
+Stonecunning Graft {3}
+Sneaky Graft {3}
 Tinker Graft {4}
-Void Flyer Graft {4}
-Eternal Hope Graft {3}
+Beguiling Glow Graft {4}
+Nimble Graft {1}
+Amplify Graft {4}
+Psychometry Graft {4}
 Elven Immunities Graft {4}
-Hyper Graft {4}
+Retract Graft {4}
+Void Flyer Graft {4}
 Upgrade Slot Graft {5}
 Atmospheric Alteration Graft {5}
 Resist Energy Drain Graft {5}
@@ -240,250 +257,233 @@ Gambler's Risk {5}
 Strix Mobility Graft {5}
 Lashunta Magic Graft {5}
 Cheek Pouches Graft {6}
-Kanabo Magic Graft {6}
 Impel Truth Graft {6}
+Kanabo Magic Graft {6}
 Shielded Thoughts Graft {6}
 Ferocious Charge Graft {6}
-Force Bolt Graft {6}
 Rolling Charge Graft {6}
+Force Bolt Graft {6}
 Snag Graft {6}
+Hyper Graft {4}
 Atmospheric Adaptation Graft {6}
-Retract Graft {4}
 Dessamar Magic Graft {7}
-Lithic Graft {8}
 Hardened Mantle Graft {8}
-Psychic Shunt Graft {8}
 Buoy Graft {8}
+Psychic Shunt Graft {8}
+Early Stage Adaptation Graft {9}
 Electrical Affinity Graft {8}
 Grave Touch Graft {10}
 Prehensile Tail Graft {11}
 Phase Graft {10}
-Voice Amplifier {1}
-Prosthetic Limb, Standard {1}
-Anosmatic Shunt {1}
-Vocal Modulator {1}
-Hideaway Limb, Standard {1}
-Society Subdermal Graft, Single {1}
-Weapon Learning Subroutine, Basic {1}
-Early Stage Adaptation Graft {9}
-Charge Palm {1}
-Respiration Compounder {1}
-Haptic Database {2}
-Lightvision Shades {2}
-Datajack, Standard {2}
-Thruster Heels {3}
-Bronchial Valves {2}
-Pheromap, Basic {3}
-Spinal Struts, Minimal {3}
-Retinal Reflectors {3}
-Prosthetic Limb, Storage {3}
-Optical Laser, Azimuth {3}
-Darkvision Capacitors, Standard {3}
-Fortified Feet {4}
-Speed Suspension, Minimal {4}
-Inner Gyros {4}
-Emotional Regulator {4}
-Weaponized Prosthesis, Mk 1 {4}
-Voice Encoder, Primal {4}
-Datajack, High-Density {5}
-Solar Overload Conduit, Mk 1 {5}
-Bionic Knee {5}
-Threshold Buffer, Mk 1 {4}
-Pheromap, Advanced {5}
-Wide-Spectrum Ocular Implant {5}
-Antitoxin Membrane {5}
-Dermal Plating, Mk 1 {5}
-Hideaway Limb, Quickdraw {5}
-Detoxifier, Standard {5}
-Force Matrix, Mk 1 {5}
-Cardiac Accelerator {6}
-Weapon Learning Subroutine, Advanced {6}
-Adaptive Fingerprints {6}
-Spinal Struts, Standard {6}
-Biosynthetic Nanites, Mk 1 {6}
-Echolocators, Reactive {6}
-Nanite Tempograft, Mk 1 {6}
-X-Legs, Basic {6}
-Polarizing Palm {7}
-Limning Palm {7}
-Shortwave Receiver-Transmitter {7}
-Dermal Plating, Mk 2 {7}
-Illusion Refractor {7}
-Optical Laser, Corona {7}
-Starship Neural Link {8}
-Partitioned Personality Module {7}
-Datajack, Accelerated {8}
-Recoil Stabilizer {8}
-Speed Suspension, Standard {8}
-Darkvision Capacitors, Advanced {8}
-Adrenal Booster {8}
-Weaponized Prosthesis, Mk 2 {8}
-Disquieting Nanites {8}
-Nanite Tempograft, Mk 2 {8}
-Threshold Buffer, Mk 2 {9}
-Biosynthetic Nanites, Mk 2 {9}
-Echolocators, Active {9}
-Solar Overload Conduit, Mk 2 {10}
-Artificial Third Eye {10}
-Spinal Struts, Reinforced {10}
-Soft-Light Holoframe {10}
-Cybernetic Arm, Single {11}
-Dermal Plating, Mk 3 {9}
-Refraction Shell {11}
-Thorgothrel Armature {11}
-Force Matrix, Mk 2 {11}
-Optical Laser, Aphelion {11}
-Voice Encoder, Sophisticate {11}
-Linguistic Capacitor {12}
-X-Legs, Climbing {12}
-Tremor Soles {12}
-Nanite Tempograft, Mk 3 {12}
-Detoxifier, Enhanced {12}
-Speed Suspension, Complete {12}
-Dermal Plating, Mk 4 {12}
-Darkvision Capacitors, Long-Range {13}
-Biosynthetic Nanites, Mk 3 {13}
-Conductive Carrier {13}
-Cybernetic Arm, Dual {14}
-Echolocators, Enhanced {13}
-Dermal Plating, Mk 5 {14}
-Polyhand {14}
-Threshold Buffer, Mk 3 {15}
-Optical Laser, Parallax {15}
-Solar Overload Conduit, Mk 3 {15}
-Cerebral backup {18}
-Dermal Plating, Mk 7 {19}
-Detoxifier, Elite {19}
-Optical Laser, Zenith {19}
-Force Matrix, Mk 3 {17}
-Dermal Plating, Mk 6 {16}
+Lithic Graft {8}
+Morphic Skin, Basic {1}
+Gravitational Harness, Mk 1 {2}
+Psychoactive Eyes, Fascinating {2}
+Technopathy Node {1}
+Intercepting Ears, Mk 1 {3}
+Nimble Soles {4}
+Galeforce Lungs, Standard {3}
+Psychic Strike Node, Basic {4}
+Morphic Skin, Advanced {4}
+Selective Ears {5}
+Force Soles, Mk 1 {4}
+Velstrac Shackle, Follower {3}
+Dimensional Gland, Experimental {5}
+Rune-Etched Chitin, Mk 1 {5}
+Psychoactive Eyes, Charming {6}
+Charged Skin {5}
+Ley Veins, Apprentice {6}
+Resonant Larynx, Standard {6}
+Morphic Skin, Doppelganger {6}
+Ecstasy Mask {7}
+Restless Pineal Gland {7}
+Fluttering Heart {8}
+Velstrac Shackle, Acolyte {8}
+Rune-Etched Chitin, Mk 2 {8}
+Synchronous Heart {7}
+Force Soles, Mk 2 {8}
+Gravitational Harness, Mk 2 {9}
+Psychic Strike Node, Standard {9}
+Intercepting Ears, Mk 2 {9}
+Dispelling Hand {9}
+Galeforce Lungs, Gust {9}
+Cloaking Skin, Standard {10}
+Personal Stasis Unit {9}
+Holographic Eyes, Mk 1 {10}
+Velstrac Shackle, Penitent {11}
+Rune-Etched Chitin, Mk 3 {11}
+Enchanting Vocal Modulator, Monofrequency {11}
+Deception Node {8}
+Resonant Larynx, Advanced {11}
+Arcane Lenses {11}
+Ley Veins, Adept {12}
+Divining Mirror Neurons {12}
+Aeon Eye {13}
+Galeforce Lungs, Storm  {13}
+Holographic Eyes, Mk 2 {13}
+Dimensional Braces {12}
+Dimensional Gland, Immersive  {13}
+Enchanting Vocal Modulator, Duofrequency {14}
+Wing Extensions, Mk 1 {10}
+Psychic Strike Node, Advanced {14}
+Psychokinetic Sleeve {14}
+Force Palms {14}
+Sciatic Agonizer {14}
+Velstrac Shackle, Ecclesiastic {15}
+Antimagic Skin, Mk 1 {15}
+Gravitational Harness, Mk 3 {15}
+Heart of Darkness {16}
+Rune-Etched Chitin, Mk 4 {14}
+Scuttle Engine, Mk 1 {16}
+Planar Lenses {15}
+Antimagic Skin, Mk 2 {16}
+Anchored Arms {16}
+Enchanting Vocal Modulator, Quadfrequency {17}
+Antimagic Skin, Mk 3 {17}
+Wing Extensions, Mk 2 {16}
+Aeon Gage {16}
+Rune-Etched Chitin, Mk 5 {17}
+Holographic Eyes, Mk 3 {17}
+Ley Veins, Archmage {18}
+Cloaking Skin, Greater {17}
+Antimagic Skin, Mk 4 {18}
+Velstrac Shackle, Devotional {19}
+Psychic Strike Node, Elite {19}
+Galeforce Lungs, Hurricane {19}
+Scuttle Engine, Mk 2 {19}
+Holographic Eyes, Mk 4 {20}
+Control Mirror Neurons {18}
+Antimagic Skin, Mk 5 {19}
+Rune-Etched Chitin, Mk 6 {20}
+Antimagic Skin, Mk 6 {20}
+Seismic Spine {20}
+Pressurized Lungs {1}
 Bioluminescent Skin {1}
 Pressure Filter {1}
-Pressurized Lungs {1}
 Restraining Spinneret {1}
 Angler’s Light {2}
 Photoenergetic Node {2}
 Gill Sheath {1}
 Resistant Hide, Mk 1 {2}
 Wildwise {2}
-Sonic Vocalizer, Harmonic {2}
-Adaptive Biochains {3}
 Venom Spur {2}
-Climbing Suckers {3}
+Sonic Vocalizer, Harmonic {2}
 Dragon Gland, Wyrmling {2}
-Flip Glands {3}
-Mighty Vocal Cords {3}
+Adaptive Biochains {3}
 Swimming Fins {2}
+Climbing Suckers {3}
+Mighty Vocal Cords {3}
 Healing Tendril, Rescuing {3}
-Clinging Hands {3}
-Slimelashes {4}
+Flip Glands {3}
 Ripcord Siphon {4}
-Focusing Membrane, Mk 1 {4}
-Aqua-Empathic Lobe {4}
+Slimelashes {4}
 Resistant Hide, Mk 2 {4}
-Ink Gland {4}
+Focusing Membrane, Mk 1 {4}
 Glass Skin {4}
+Aqua-Empathic Lobe {4}
+Ink Gland {4}
+Mesoglea Tentacles {4}
 Emotion Enhancement {4}
-Jump Lobes {4}
-Tympanal Cluster {4}
 Rending Talons, Standard {4}
+Jump Lobes {4}
+Clinging Hands {3}
+Tympanal Cluster {4}
 Shotalashu Link Cortex {4}
-Ocucloak Processor {4}
 Machine Telepathy Cluster {5}
 Bone Spines, Bristling {5}
 Ascendance Sac, Drifter {5}
-Mesoglea Tentacles {4}
-Protean Response, Mk 1 {5}
-Flametongue, Salamander {5}
-Regenerative Blood, Mk 1 {5}
-Psychic Chatter, Chittering {5}
-Filament Mesh, Mk 1 {5}
-Stridulation Legs {6}
 Acid Reservoir, Caustic {5}
-Airjet {6}
+Psychic Chatter, Chittering {5}
+Protean Response, Mk 1 {5}
+Regenerative Blood, Mk 1 {5}
+Filament Mesh, Mk 1 {5}
+Flametongue, Salamander {5}
 Quyu Eye {6}
-Eagle Eyes {6}
-Skin of the Chameleon {6}
-Cerebral Countermeasures {6}
 Growth Glands {6}
+Ocucloak Processor {4}
+Eagle Eyes {6}
+Stridulation Legs {6}
+Skin of the Chameleon {6}
 Grasping Tentacle {6}
+Cerebral Countermeasures {6}
+Airjet {6}
+Panoptic Eyes {6}
+Blinding Ink Sac {6}
 Unity Tendril, Mk 1 {6}
 Resistant Hide, Mk 3 {7}
-Blinding Ink Sac {6}
 Probability Tendril, Mk 1 {7}
-Vengeful Ventricles {7}
-Sonic Vocalizer, Resonant {7}
 Ultralight Wings, Strix {7}
-Starhide {7}
-Panoptic Eyes {6}
+Vengeful Ventricles {7}
 Thermal-Sensitive Eyes {7}
+Sonic Vocalizer, Resonant {7}
 Healing Tendril, Rejuvenating {7}
-Ascendance Sac, Wind Rider {8}
-Fungal Breath {8}
-Intensification Antennae {8}
+Starhide {7}
 Moonflower Lightgraft {8}
-Protean Response, Mk 2 {8}
-Rending Talons, Sintered {8}
-Mobility Tentacles {8}
+Ascendance Sac, Wind Rider {8}
 Auxiliary Eyelids {8}
+Intensification Antennae {8}
+Rending Talons, Sintered {8}
+Protean Response, Mk 2 {8}
+Mobility Tentacles {8}
+Neutralizer Lobe {8}
 Regenerative Blood, Mk 2 {8}
-Stasis Gland {9}
+Fungal Breath {8}
 Bone Spines, Warding {9}
 Psychic Chatter, Squealing {9}
+Healing Tendril, Mk 1 melding {9}
 Focusing Membrane, Mk 2 {9}
 Polyphonic Buffer {9}
-Neutralizer Lobe {8}
-Healing Tendril, Mk 1 melding {9}
+Stasis Gland {9}
 Flametongue, Hellhound {9}
-Resistant Hide, Mk 4 {10}
-Shock Fist, Static {9}
 Unity Tendril, Mk 2 {10}
-Prehensile Tail {10}
+Shock Fist, Static {9}
 Filament Mesh, Mk 2 {10}
+Resistant Hide, Mk 4 {10}
+Neuro-sensory Sac {10}
 Electrostatic Spines {10}
+Herbicidal Glands {10}
 Dragon Gland, Standard {10}
 Probability Tendril, Mk 2 {11}
-Herbicidal Glands {10}
-Neuro-sensory Sac {10}
-Stillheart {11}
-Sonic Vocalizer, Anharmonic {11}
 Backup Lobe {11}
+Prehensile Tail {10}
+Sonic Vocalizer, Anharmonic {11}
 Eyes of the Seer {11}
 Protean Response, Mk 3 {11}
-Acid Reservoir, Vitriolic {12}
-Rending Talons, Microserrated {12}
-Pain Modulator {12}
-Regenerative Blood, Mk 3 {12}
-Resistant Hide, Mk 5 {13}
-Shock Fist, Aurora {12}
-Bone Spines, Punishing {13}
+Stillheart {11}
 Ultralight Wings, Angel {11}
+Rending Talons, Microserrated {12}
+Regenerative Blood, Mk 3 {12}
+Pain Modulator {12}
+Acid Reservoir, Vitriolic {12}
+Resistant Hide, Mk 5 {13}
+Bone Spines, Punishing {13}
 Psychic Chatter, Screaming {13}
 Healing Tendril, Mk 2 melding {13}
 Superorgan, Basic {14}
-Unity Tendril, Mk 3 {14}
 Flametongue, Firedrake {13}
+Shock Fist, Aurora {12}
+Unity Tendril, Mk 3 {14}
 Ultralight Wings, Dragon {14}
-Protean Response, Mk 4 {14}
-Probability Tendril, Mk 3 {15}
 Superorgan, Complex {15}
+Protean Response, Mk 4 {14}
 Superorgan, Thorough {16}
 Regenerative Blood, Mk 4 {15}
-Rending Talons, Zero-edge {16}
+Probability Tendril, Mk 3 {15}
 Healing Tendril, Mk 3 melding {16}
+Rending Talons, Zero-edge {16}
+Superorgan, Fluid {17}
 Dragon Gland, Wyrm {16}
 Sonic Vocalizer, Parametric {16}
-Bone Spines, Rebuking {17}
-Superorgan, Fluid {17}
 Psychic Chatter, Shrieking {17}
-Shock Fist, Storm {17}
 Resistant Hide, Mk 6 {17}
 Protean Response, Mk 5 {17}
-Superorgan, Amorphous {19}
-Cleansing Breath {18}
-Acid Reservoir, Disintegrating {19}
-Regenerative Blood, Mk 5 {19}
 Flametongue, Phoenix {18}
+Shock Fist, Storm {17}
+Bone Spines, Rebuking {17}
+Acid Reservoir, Disintegrating {19}
+Superorgan, Amorphous {19}
+Regenerative Blood, Mk 5 {19}
+Cleansing Breath {18}
 Protean Response, Mk 6 {20}
 Sonic Vocalizer, Radial {20}
 Shock Fist, Tempest {20}

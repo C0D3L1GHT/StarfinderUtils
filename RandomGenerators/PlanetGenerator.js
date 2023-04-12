@@ -20,7 +20,7 @@ const settlement_qual_list = ["Academic", "Bureaucratic", "Cultured", "Devout", 
 // Exploration From Orbit is determining one of the following biome, gravity, atmosphere, religion, magic, tech, accord, or anomaly_list
 // World Mapping give you 1 Hex biome plus other features if high enough
 // World Exploration is hex crawl/guided tour if world is advanced and accomodating   
-async function GeneratePlanet(level, diff){
+async function GeneratePlanet(level, diff, biome=[], accord="", magic="", religion="", tech=""){
   var planetInfo = [];
   var biomeAnomalies = await GenBiomeAnomaly();
   var nextbiomeAnomaly = await GenBiomeAnomaly();
@@ -33,23 +33,52 @@ async function GeneratePlanet(level, diff){
   planetInfo.push("Gravity:         " + GenGravity());
   planetInfo.push("Atmosphere:      " + GenAtmopshere());
   
-  var dThree = rollRange(3);
   var biomeList = [];
-  for(let i = 1; i <= dThree; i++){
-	  var biome = GenBiome();
-	  biomeList.push(biome);
-	  planetInfo.push("   Biome: " + biome);
+  console.log(biome.length);
+  if(biome.length > 0){
+	  for(let i = 0; i < biome.length; i++){
+		biomeList.push(biome[i]);
+		planetInfo.push("   Biome: " + biome[i]);
+	  }
+  }else{
+	  var dThree = rollRange(3);
+	  for(let i = 1; i <= dThree; i++){
+		  var new_biome = GenBiome();
+		  biomeList.push(new_biome);
+		  planetInfo.push("   Biome: " + new_biome);
+	  }
   }
   
-  var accord     = await GenTriadAttributes("Accord");
-  var magic      = await GenTriadAttributes("Magic");
-  var religion   = await GenTriadAttributes("Religion");
-  var technology = await GenTriadAttributes("Technology");
   
-  planetInfo.push("Accord:          " + accord);
-  planetInfo.push("Magic Level:     " + magic);
-  planetInfo.push("Religion Level:  " + religion);
-  planetInfo.push("Tech Level:      " + technology);
+  if(accord.length > 0){
+	planetInfo.push("Accord:          " + accord);
+  }else{
+	var new_accord     = await GenTriadAttributes("Accord");
+	planetInfo.push("Accord:          " + new_accord);
+  }
+  
+  if(magic.length > 0){
+	planetInfo.push("Magic Level:     " + magic);
+  }
+  else{
+	var new_magic      = await GenTriadAttributes("Magic");
+    planetInfo.push("Magic Level:     " + new_magic);
+  }
+  
+  if(religion.length > 0){
+	planetInfo.push("Religion Level:  " + religion);  
+  }else{
+	var new_religion   = await GenTriadAttributes("Religion");
+	planetInfo.push("Religion Level:  " + new_religion);
+  }
+  
+  if(tech.length > 0){
+	planetInfo.push("Tech Level:      " + tech);  
+  }else{
+	var new_technology = await GenTriadAttributes("Technology");
+	planetInfo.push("Tech Level:      " + new_technology);
+  }
+  
   planetInfo.push("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
   
   var dThree = rollRange(3);
@@ -57,7 +86,7 @@ async function GeneratePlanet(level, diff){
 	planetInfo.push("   Settlement Info: " + GenSettlementQual() + " " + GenSettlementGov());
   }
   //console.log("\n\n")
-  var hexMap = await randomMap.populateMap(biomeList,level,diff);
+  var hexMap = await randomMap.generateHexMap(biomeList,level,diff);
   planetInfo.push("\n\n");
   for(var i = 0; i < hexMap.length; i++){
 	  //console.log(hexMap[i]);
@@ -215,7 +244,7 @@ async function scrapeList(list){
 }
 
 module.exports = {
-  generatePlanet: async function GeneratePlanet(level, diff){
+  generatePlanet: async function GeneratePlanet(level, diff, biome=[], accord="", magic="", religion="", tech=""){
 	  var planetInfo = [];
 	  var biomeAnomalies = await GenBiomeAnomaly();
 	  var nextbiomeAnomaly = await GenBiomeAnomaly();
@@ -228,23 +257,50 @@ module.exports = {
 	  planetInfo.push("Gravity:         " + GenGravity());
 	  planetInfo.push("Atmosphere:      " + GenAtmopshere());
 	  
-	  var dThree = rollRange(3);
 	  var biomeList = [];
-	  for(let i = 1; i <= dThree; i++){
-		  var biome = GenBiome();
-		  biomeList.push(biome);
-		  planetInfo.push("   Biome: " + biome);
+	  if(biome.length > 0){
+		  for(let i = 0; i < biome.length; i++){
+			biomeList.push(biome[i]);
+			planetInfo.push("   Biome: " + biome[i]);
+		  }
+	  }else{
+		  var dThree = rollRange(3);
+		  for(let i = 1; i <= dThree; i++){
+			  var new_biome = GenBiome();
+			  biomeList.push(new_biome);
+			  planetInfo.push("   Biome: " + new_biome);
+		  }
 	  }
 	  
-	  var accord     = await GenTriadAttributes("Accord");
-	  var magic      = await GenTriadAttributes("Magic");
-	  var religion   = await GenTriadAttributes("Religion");
-	  var technology = await GenTriadAttributes("Technology");
+	  if(accord.length > 0){
+		planetInfo.push("Accord:          " + accord);
+	  }else{
+		var new_accord     = await GenTriadAttributes("Accord");
+		planetInfo.push("Accord:          " + new_accord);
+	  }
 	  
-	  planetInfo.push("Accord:          " + accord);
-	  planetInfo.push("Magic Level:     " + magic);
-	  planetInfo.push("Religion Level:  " + religion);
-	  planetInfo.push("Tech Level:      " + technology);
+	  if(magic.length > 0){
+		planetInfo.push("Magic Level:     " + magic);
+	  }
+	  else{
+		var new_magic      = await GenTriadAttributes("Magic");
+		planetInfo.push("Magic Level:     " + new_magic);
+	  }
+	  
+	  if(religion.length > 0){
+		planetInfo.push("Religion Level:  " + religion);  
+	  }else{
+		var new_religion   = await GenTriadAttributes("Religion");
+		planetInfo.push("Religion Level:  " + new_religion);
+	  }
+	  
+	  if(tech.length > 0){
+		planetInfo.push("Tech Level:      " + tech);  
+	  }else{
+		var new_technology = await GenTriadAttributes("Technology");
+		planetInfo.push("Tech Level:      " + new_technology);
+	  }
+	  
 	  planetInfo.push("Alignment:       " + GenAlignCohesion() + " " + GenAlignMorality());
 	  
 	  var dThree = rollRange(3);
@@ -254,17 +310,18 @@ module.exports = {
 	  //console.log("\n\n")
 	  var hexMap = await randomMap.generateHexMap(biomeList,level,diff);
 	  planetInfo.push("\n\n");
-	  for(var i = 0; i < hexMap.length; i++)
+	  for(var i = 0; i < hexMap.length; i++){
+		  //console.log(hexMap[i]);
 		  planetInfo.push(hexMap[i]);
+	  }
 	  // for(var i = 0; i < planetInfo.length; i++)
 		  // console.log(planetInfo[i]);
 	  return planetInfo;
 	}
-	
 }
 
 function rollRange(r){
   return Math.floor(Math.random() * r) + 1;
 }
 
-//GeneratePlanet(10,10)
+//GeneratePlanet(3,2,["Arctic"])

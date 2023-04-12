@@ -1,0 +1,100 @@
+Energy Ray {0}
+Baleful Polymorph {1}
+Dissonance Strike {1}
+Grease {1}
+Incompetence {1}
+Jolting Surge {1}
+Junk Shards {1}
+Magic Missile {1}
+Overheat {1}
+Polymorph {1}
+Pressurize {1}
+Shrink Object {1}
+Summon Creature {1}
+Tectonic Shift {1}
+Tripartite Beam {1}
+Vedant Code {1}
+Artificial Gyser {2}
+Baleful Polymorph {2}
+Caustic Conversion {2}
+Cavitation Sphere {2}
+Deprive Knowledge {2}
+Directed Denial of Strength Attack {2}
+Hack Wetware {2}
+Inflame {2}
+Inject Nanobots {2}
+Laser Net {2}
+Logic Bomb {2}
+Microbot Assault {2}
+Shrink Object {2}
+Summon Creature {2}
+Tectnonic Shift {2}
+Trifold Explosion {2}
+Wall of Steam {2}
+Acid Puddle {3}
+Arcing Surge {3}
+Baleful Polymorph {3}
+Burning Ash Cloud {3}
+Discharge {3}
+Displacement {3}
+Entropic Grasp {3}
+Explosive Blast {3}
+Flash Boil {3}
+Glimpse of Truth {3}
+Gravity Tether {3}
+Hack Wetware {3}
+Infect Blood {3}
+Irradiate {3}
+Mental Block {3}
+Nightmare {3}
+Plasma Snare {3}
+Polymorph {3}
+Slow {3}
+Smog Bank {3}
+Summon Creature {3}
+Tectnonic Shift {3}
+Trifold Explosion {3}
+Tripartite Beam, Greater {3}
+Baleful Polymorph {4}
+Baleful Polymorph, Mass {4}
+Corrosive Haze {4}
+Crystal Mine {4}
+Destructino Protocol {4}
+Gravity Well {4}
+Hack Wetware {4}
+Overload Systems {4}
+Polymorph, Mass {4}
+Polymorph {4}
+Rewire Flesh {4}
+Summon Creature {4}
+Trifold Explosion {4}
+Wall of Fire {4}
+Wonder Warp {4}
+Baleful Polymorph {5}
+Baleful Polymorph, Mass {5}
+Hack Wetware {5}
+Heat Leech {5}
+Polymorph, Mass {5}
+Polymorph {5}
+Radiation Ray {5}
+Shrink Object {5}
+Summon Creature {5}
+Synapse Overload {5}
+Trifold Explosion {5}
+Unravel Magic {5}
+Baleful Polymorph {6}
+Baleful Polymorph, Mass {6}
+Chain Surge {6}
+Control Gravity {6}
+Discharge, Greater {6}
+Disintegrate {6}
+Forcecage {6}
+Ice Prison {6}
+Polymorph, Mass {6}
+Polymorph {6}
+Rewire Flesh, Mass {6}
+Shadowy Fleet {6}
+Shrink Object {6}
+Summon Creature {6}
+Sympathetic Vibration {6}
+Trifold Explosion {6}
