@@ -26,6 +26,7 @@ const listSix   = ["Chase", "Key", "Arcane", "Maze", "Escape", "Death"]
 
 async function generate5RD(biome, lvl, consumableAmount, tacAmount, tacChance, itemAmount, itemChance){
 		var dungeon = []
+		dungeon.push("Dungeon:");
 		//console.log("\n\n");
 		//dungeon.push("\n");
 		var layout = rollLayout();
@@ -38,8 +39,6 @@ async function generate5RD(biome, lvl, consumableAmount, tacAmount, tacChance, i
 			//console.log(room + " : " + rooms[room]);
 			dungeon.push(room + " : " + rooms[room]);
 		}
-		//console.log("\n\n");
-		dungeon.push("\n");
 		
 		var monsters = await randomMonsters.generateMonsters(biome, lvl);
 		for(m of monsters)
@@ -182,6 +181,7 @@ function rollLayout(){
 module.exports = {
 	generate5RD: async function generate5RD(biome, lvl, consumableAmount, tacAmount, tacChance, itemAmount, itemChance){
 		var dungeon = []
+		dungeon.push("Dungeon:");
 		//console.log("\n\n");
 		//dungeon.push("\n");
 		var layout = rollLayout();
@@ -194,9 +194,6 @@ module.exports = {
 			//console.log(room + " : " + rooms[room]);
 			dungeon.push(room + " : " + rooms[room]);
 		}
-		//console.log("\n\n");
-		
-		dungeon.push("\n");
 		
 		var traps = await randomMonsters.getRandomTrap(lvl);
 		dungeon.push(traps);

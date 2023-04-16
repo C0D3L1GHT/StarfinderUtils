@@ -230,7 +230,7 @@ async function getLandmarkData(coord, landmark){
 	}
 	if(landmark == "%"){
 		//TODO: find a better symbol
-		var trap = await randomMonsters.getRandomTrap(ruinsLevel);
+		var trap = await randomMonsters.getRandomTrap(level);
 		var RT = await randomLoot.rollLootPool(level,0,1,30,2,90);
 		RT.unshift(trap);
 		RT.unshift("\n"+coord);

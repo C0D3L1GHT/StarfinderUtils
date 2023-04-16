@@ -452,6 +452,8 @@ module.exports = {
 		return pool;
 	},
 	getRandomTrap: async function getRandomTrap(lvl){
+		if(lvl < 0.5) lvl = 0.5;
+		if(lvl > 20) lvl = 20;
 		var randType    = TRAP_TYPES[rollRange(TRAP_TYPES.length)-1];
 		var randTrigger = TRAP_TRIGGERS[rollRange(TRAP_TRIGGERS.length)-1];
 		
@@ -522,7 +524,7 @@ module.exports = {
 			effect = spellList[rollRange(spellList.length)-1];
 		}
 		
-		// console.log("Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl));
+		//console.log("Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl));
 		return "Trap: \nCR: " + lvl + " " + randType + "\nTrigger: " + randTrigger + "\nEffect: " + effect + TRAP_TABLE.get(lvl);
 	}
 }
@@ -543,4 +545,4 @@ function rollRange(r){
 // rollMonsterPool("Urban", 3);
 // rollMonsterPool("Weird", 3);
 // getRandomTrap(5);
-scrapeMonsterEquipmentCredits();
+//scrapeMonsterEquipmentCredits();

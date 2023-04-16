@@ -93,8 +93,8 @@ module.exports = {
 		if (!fs.existsSync("./Sectors/"+sector+"/"+systemName))
 			fs.mkdirSync("./Sectors/"+sector+"/"+systemName, { recursive: true });
 		var list = suffixes_list[rollRange(suffixes_list.length)-1];
-		for (var i = 0; i < 1; i++){//for (var i = 0; i < rollRange(10); i++){
-			var planetInfo = await randomPlanet.generatePlanet(level, diff,["Arctic"]);
+		for (var i = 0; i < rollRange(10); i++){//for (var i = 0; i < rollRange(10); i++){
+			var planetInfo = await randomPlanet.generatePlanet(level, diff);
 			var suffix = list[i];
 			planetInfo.unshift("Level:           " + gaussianRandom(level, 1));
 			planetInfo.unshift("Name:            " + systemName + suffix);
